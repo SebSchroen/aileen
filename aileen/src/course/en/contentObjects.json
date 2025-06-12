@@ -1,0 +1,28 @@
+[
+  {
+    "_id": "co-100",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "Introdcution to Artificial Intelligence",
+    "displayTitle": "Introduction to Artifical Intelligence",
+    "body": "This lesson introduces the fundamental concepts of Artificial Intelligence (AI), its history, and its growing importance in various fields. You will learn about the different types of AI and how they are transforming industries and daily life.",
+    "pageBody": "",
+    "instruction": "{{_globals._learnerInfo.firstname}}, please scroll down to start your learning journey.",
+    "_graphic": {
+      "src": "course/en/images/pexels-tara-winstead-8386440.jpg",
+      "alt": "Tara Winstead @ Pexels.com",
+      "attribution": "Tara Winstead @ Pexels.com"
+          
+    },
+    "linkText": "View",
+    "duration": "5 Minutes",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false,
+      "_isCompletionIndicatorEnabled": true
+    }
+  }
+]

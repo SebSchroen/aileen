@@ -1,0 +1,340 @@
+[
+{
+    "_id": "c-100",
+    "_parentId": "b-100",
+    "_type": "component",
+    "_component": "media",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Everyday AI",
+    "displayTitle": "Artificial intelligence in our daily lives",
+    "body": "",
+    "instruction": "",
+    "_comment": "_setCompletionOn = inview | play | ended",
+    "_setCompletionOn": "play",
+    "_useClosedCaptions": true,
+    "_allowFullScreen": true,
+    "_pauseWhenOffScreen": true,
+    "_playsinline": false,
+    "_preventForwardScrubbing": true,
+    "_startLanguage": "en",
+    "_showVolumeControl": true,
+    "_startVolume": "70%",
+    "_aspectRatio": "landscape",
+    "_offsetMediaControls": false,
+    "_media": {
+      "mp4": "course/en/video/introduction_en.mp4",
+      "poster": "course/en/video/introduction_en.png"
+    },
+    "_transcript": {
+      "_setCompletionOnView": true,
+      "_inlineTranscript": false,
+      "_externalTranscript": false,
+      "inlineTranscriptButton": "Transcript",
+      "inlineTranscriptCloseButton": "Close Transcript",
+      "inlineTranscriptBody": "From controlling your smart home devices to asking Siri and Alexa for a quick fact, artificial intelligence is likely already a part of your daily routine. <br> <br> Think about your email inbox. AI-powered spam filters are constantly working behind the scenes, sifting through millions of messages to keep your inbox clean and secure. <br> <br> And when you curl up to watch a movie or listen to music, those personalized recommendations from services like Netflix or Spotify? That's AI learning your preferences to suggest what you might like next. <br> <br> These are just a few everyday examples that demonstrate one crucial truth: Artificial Intelligence isn't science fiction anymore. It's here, integrated into countless aspects of our lives. In this course, we'll dive in and get a better understanding of what AI is, how it works, and its profound impact on our world. Oh and by the way: Of course, this video was AI-generated as well.",
+      "transcriptLinkButton": "Transcript",
+      "transcriptLink": ""
+    },
+    "_playerOptions": {
+      "alwaysShowControls": false,
+      "toggleCaptionsButtonWhenOnlyOne": true,
+      "iPadUseNativeControls": true,
+      "iPhoneUseNativeControls": true,
+      "AndroidUseNativeControls": true,
+      "features": [
+        "playpause",
+        "current",
+        "progress",
+        "duration",
+        "tracks",
+        "volume",
+        "fullscreen"
+      ]
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+ 
+    {
+        "_id": "c-105",
+        "_parentId": "b-105",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Quiz: Everyday AI",
+        "displayTitle": "Test Your Knowledge: Everyday AI",
+        "body": "Which of the following day-to-day interactions with technology are examples of artificial intelligence?",
+        "instruction": "Choose {{#if _isRadio}}one option{{else}}one or more options{{/if}} which apply, then select Submit.",
+        "ariaQuestion": "",
+        "_attempts": 10,
+        "_shouldDisplayAttempts": true,
+        "_isRandom": true,
+        "_hasItemScoring": false,
+        "_questionWeight": 50,
+        "_selectable": 3,
+        "_canShowModelAnswer": true,
+        "_canShowCorrectness": false,
+        "_canShowFeedback": true,
+        "_canShowMarking": true,
+        "_recordInteraction": true,
+        "_items": [
+            {
+                "text": "Content recommendations on movie or music streaming services",
+                "altText": "",
+                "_shouldBeSelected": true,
+                "_isPartlyCorrect": false
+            },
+            {
+                "text": "Interacting with Siri and Alexa",
+                "_shouldBeSelected": true,
+                "_isPartlyCorrect": false
+            },
+            {
+                "text": "Spam filters in your email inbox",
+                "_shouldBeSelected": true,
+                "_isPartlyCorrect": false
+            },
+            {
+                "text": "Calculating 10% tip with your phone calculator",
+                "_shouldBeSelected": false,
+                "_isPartlyCorrect": false
+            }
+        ],
+        "_feedback":{
+            "title": "Feedback",
+            "altTitle": "Alt feedback title text",
+            "correct": "<b> You are correct! </b> All of the options except using a calculator are examples of AI in our daily lives. While calculators perform complex operations, they follow predefined rules and do not learn from data in the way AI systems do.",
+            "_incorrect": {
+                "notFinal": "Not everything you selected was correct. Ask yourself: Which of the examples above really require data to learn from?",
+                "final": "While calculators perform complex operations, they follow predefined rules and do not learn from data in the way AI systems do. The other options are all examples of AI in our daily lives."
+                
+            },
+            "_partlyCorrect": {
+                "notFinal": "Not everything you selected was correct. Ask yourself: Which of the examples above really require data to learn from?",
+                "final": "While calculators perform complex operations, they follow predefined rules and do not learn from data in the way AI systems do. The other options are all examples of AI in our daily lives."
+            }
+        },
+        "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": ""
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": ""
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": ""
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt"
+        },
+        "_pageLevelProgress": {
+          "_isEnabled": true,
+          "_isCompletionIndicatorEnabled": true
+        }
+    },
+ {
+    "_id": "c-110",
+    "_parentId": "b-110",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "left",
+    "title": "What is AI?",
+    "displayTitle": "So what is artificial intelligence?",
+    "body": "Artificial intelligence refers to the capacity of a machine to <b> learn, adapt, and perform tasks that typically require human cognitive abilities </b>. This includes problem-solving, understanding language, recognizing patterns, and ultimately making decisions.  Crucially, true machine intelligence involves a general ability to perform well in a wide range of environments, not just rule based, pre-programmed responses to specific situations.",
+    "instruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-115",
+    "_parentId": "b-110",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "right",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "longdescription": "",
+      "large": "course/en/images/rules_vs_data.png",
+      "small": "course/en/images/rules_vs_data.png",
+      "attribution": "Generated with Google Imagen 4",
+      "_url": "",
+      "_target": ""
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+    {
+    "_id": "c-200",
+    "_parentId": "b-200",
+    "_type": "component",
+    "_component": "narrative",
+    "_classes": "",
+    "_layout": "full",
+    "title": "How do machines learn?",
+    "displayTitle": "And how do machines learn?",
+    "body": "Artificial intelligence is the overarching field that aims to develop intelligent machines.  If we consider AI as the \"brain,\" machine learning can be seen as the process through which the AI acquires the necessary abilities. But how do machines learn?",
+    "instruction": "Use the arrows below to explore different types of machine learning.",
+    "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_isTextBelowImage": false,
+    "_isMobileTextBelowImage": false,
+    "_isStackedOnMobile": false,
+    "_items": [
+        {
+            "title": "Supervised Learning: Learning with a Teacher",
+            "body": "Supervised learning is like learning with a teacher. The AI is given examples with correct answers (labeled data). For instance, it might be shown thousands of pictures of cats, each labeled 'cat', and pictures of dogs, labeled 'dog'. The goal is for the AI to learn the patterns so it can correctly identify cats or dogs in new, unseen pictures. <br><br> Early spam filters are another example of supervised learning. They are trained on emails that are already labeled as 'spam' or 'not spam' to learn how to identify new spam messages.",
+            "_graphic": {
+                "src": "course/en/images/supervised_learning.png",
+                "alt": "Diagram illustrating supervised learning with labeled data leading to a predictive model."
+            },
+            "strapline": "Learning from Labeled Data"
+        },
+        {
+            "title": "Unsupervised Learning: Finding Patterns on Its Own",
+            "body": "Unsupervised learning is like giving the AI a big box of mixed-up items and asking it to sort them without telling it how. The AI looks for similarities and differences on its own to group the items (unlabeled data). It might group them by color, size, or type. This is used to discover hidden patterns or structures in data, such as customer segmentation.  <br><br> The Netflix or Spotify recommendations from the video are another example of unsupervised learning where content is clustered based on similarities.",
+            "_graphic": {
+                "src": "course/en/images/unsupervised_learning.png",
+                "alt": "Diagram illustrating unsupervised learning finding patterns in unlabeled data."
+            },
+            "strapline": "Discovering Hidden Structures"
+        },
+        {
+            "title": "Reinforcement Learning: Learning from Experience",
+            "body": "Reinforcement learning is like teaching a pet a new trick through trial and error. The AI tries different actions in an environment. If it performs an action that leads to a desired outcome, it gets a reward. If it does something undesirable, it might get a penalty or no reward. Over time, the AI learns which actions lead to the best cumulative rewards. This is how AI learns to play complex games or control robotic systems. <br> <br> The quiz above offers a basic analogy here. You (as the AI) make a selection (an action). You then receive feedback ('Correct!' or 'Incorrect'), which acts as a form of reward or penalty. With multiple attempts enabled, you can learn from this feedback to improve your score on subsequent tries, aiming to maximize your 'reward' (achieving a correct answer).",
+            "_graphic": {
+                "src": "course/en/images/reinforcement_learning.jpg",
+                "alt": "Diagram illustrating reinforcement learning with an agent, actions, environment, and rewards."
+            },
+            "strapline": "Learning through Rewards and Penalties"
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+
+{
+    "_id": "c-205",
+    "_parentId": "b-205",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Quiz: Learning Types",
+    "displayTitle": "Test Your Knowledge: Learning Types",
+    "body": "An AI system is tasked with identifying defective products on an assembly line. It is trained using a large dataset where each product image is already labeled as 'defective' or 'not defective'. Which type of machine learning is being used?",
+    "instruction": "Choose {{#if _isRadio}}one option{{else}}one or more options{{/if}} which applies, then select Submit.",
+    "ariaQuestion": "An AI system is trained to identify defective products using images labeled 'defective' or 'not defective'. Which machine learning type is this?",
+    "_attempts": 10,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_hasItemScoring": false,
+    "_questionWeight": 50,
+    "_selectable": 1,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_items": [
+        {
+            "text": "Supervised Learning",
+            "altText": "Option: Supervised Learning",
+            "_shouldBeSelected": true,
+            "_isPartlyCorrect": false
+        },
+        {
+            "text": "Unsupervised Learning",
+            "altText": "Option: Unsupervised Learning",
+            "_shouldBeSelected": false,
+            "_isPartlyCorrect": false
+        },
+        {
+            "text": "Reinforcement Learning",
+            "altText": "Option: Reinforcement Learning",
+            "_shouldBeSelected": false,
+            "_isPartlyCorrect": false
+        },
+        {
+            "text": "Algorithmic Trading",
+            "altText": "Option: Algorithmic Trading",
+            "_shouldBeSelected": false,
+            "_isPartlyCorrect": false
+        }
+    ],
+    "_feedback":{
+        "title": "Learning Type Explanation",
+        "altTitle": "Feedback on your answer about machine learning types.",
+        "correct": "That's right! This scenario describes <strong>Supervised Learning</strong>. The AI is 'supervised' because it learns from a dataset where each example (product image) is already tagged with the correct answer or label ('defective' or 'not defective').",
+        "_incorrect": {
+            "notFinal": "Not quite. Consider which learning type involves being explicitly told the correct answer for each piece of training data.",
+            "final": "The correct answer is <strong>Supervised Learning</strong>. This method is used when you have a dataset with known outcomes or labels. Unsupervised Learning would be used if the AI had to find patterns in unlabeled product images (e.g., group similar-looking defects without knowing what they are). Reinforcement Learning would involve the AI taking actions (like classifying a product) and receiving rewards or penalties to learn the best classification strategy over time. Algorithmic Trading is an application of various techniques, including AI, but isn't a fundamental learning type itself in this context."
+        },
+        "_partlyCorrect": {
+            "notFinal": "This option is for questions with multiple correct answers, which isn't the case here. Please review the feedback for incorrect answers.",
+            "final": "This option is for questions with multiple correct answers, which isn't the case here. The correct answer is <strong>Supervised Learning</strong>. This method is used when you have a dataset with known outcomes or labels."
+        }
+    },
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit",
+            "ariaLabel": "Select here to submit your answer."
+        },
+        "_reset": {
+            "buttonText": "Reset",
+            "ariaLabel": "Select here to reset your answer."
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Show Correct Answer",
+            "ariaLabel": "Select here to show the correct answer."
+        },
+        "_hideCorrectAnswer": {
+            "buttonText": "Show My Answer",
+            "ariaLabel": "Select here to show your answer."
+        },
+        "_showFeedback": {
+            "buttonText": "Show Feedback",
+            "ariaLabel": "Select here to show feedback."
+        },
+        "remainingAttemptsText": "attempts remaining",
+        "remainingAttemptText": "final attempt"
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+}
+
+
+
+]
