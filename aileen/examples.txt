@@ -1,0 +1,795 @@
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "accordion",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Accordion",
+        "displayTitle": "Accordion Title",
+        "body": "This is optional body text.",
+        "instruction": "Select the headings to find out more.",
+        "_shouldCollapseItems": true,
+        "_shouldExpandFirstItem": false,
+        "_comment": "setCompletionOn = inview | allItems",
+        "_setCompletionOn": "allItems",
+        "_isCenterAligned": false,
+        "_items": [
+            {
+              "title": "Heading 1",
+              "body": "This is display text 1 with a full width image.",
+              "_titleIcon": "",
+              "_imageAlignment": "full",
+              "_graphic": {
+                  "src": "course/en/images/example.jpg",
+                  "alt": "",
+                  "attribution": "Copyright © 2019"
+              },
+              "_classes": ""
+            },
+            {
+              "title": "Heading 2",
+              "body": "This is display text 2 with a single width left aligned image.",
+              "_titleIcon": "",
+              "_imageAlignment": "left",
+              "_graphic": {
+                  "src": "course/en/images/example.jpg",
+                  "alt": "",
+                  "attribution": ""
+              },
+              "_classes": ""
+            },
+            {
+              "title": "Heading 3",
+              "body": "This is display text 3 with a single width right aligned image.",
+              "_titleIcon": "",
+              "_imageAlignment": "right",
+              "_graphic": {
+                  "src": "course/en/images/example.jpg",
+                  "alt": "",
+                  "attribution": ""
+              },
+              "_classes": ""
+            },
+            {
+              "title": "Heading 4",
+              "body": "This is display text 4 with no image.",
+              "_titleIcon": "",
+              "_imageAlignment": "",
+              "_graphic": {
+                  "src": "",
+                  "alt": "",
+                  "attribution": ""
+              },
+              "_classes": ""
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
+
+
+
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "gmcq",
+        "_classes": "",
+        "_layout": "full",
+        "title": "GMCQ",
+        "displayTitle": "GMCQ",
+        "body": "Which of the following options would you consider to be correct?",
+        "instruction": "Choose {{#if _isRadio}}one option{{else}}one or more options{{/if}} then select Submit.",
+        "ariaQuestion": "",
+        "_attempts": 1,
+        "_shouldDisplayAttempts": false,
+        "_hasItemScoring": false,
+        "_questionWeight": 1,
+        "_isRandom": false,
+        "_selectable": 1,
+        "_canShowModelAnswer": true,
+        "_canShowCorrectness": false,
+        "_canShowFeedback": true,
+        "_canShowMarking": true,
+        "_recordInteraction": true,
+        "_columns": 3,
+        "_isRound": false,
+        "_items": [
+            {
+                "text": "This is option 1.",
+                "altText": "",
+                "_shouldBeSelected": true,
+                "_isPartlyCorrect": false,
+                "_graphic": {
+                    "alt": "",
+                    "attribution": "Copyright © 2019",
+                    "large": "course/en/images/gqcq-1-large.gif",
+                    "small": "course/en/images/gqcq-1-small.gif"
+                }
+            },
+            {
+                "text": "This is option 2.",
+                "_shouldBeSelected": false,
+                "_isPartlyCorrect": false,
+                "_graphic": {
+                    "alt": "",
+                    "attribution": "",
+                    "large": "course/en/images/gqcq-2-large.gif",
+                    "small": "course/en/images/gqcq-2-small.gif"
+                }
+            }
+        ],
+        "_feedback":{
+            "title": "Feedback title",
+            "altTitle": "Alt feedback text",
+            "correct": "Congratulations, this is the correct feedback.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "Unfortunately this is the incorrect feedback."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This is the partly correct feedback."
+            }
+        },
+        "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": ""
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": ""
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": ""
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
+
+
+
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Here is a graphic object",
+        "displayTitle": "Here is a graphic object",
+        "body": "Hi everybody!",
+        "instruction": "",
+        "_graphic": {
+            "alt": "",
+            "longdescription": "",
+            "large": "https://github.com/adaptlearning/documentation/raw/master/04_wiki_assets/adapt_framework/adapt-logo_208x200.gif",
+            "small": "http://minionslovebananas.com/images/check-in-minion.jpg",
+            "attribution": "Copyright © 2019",
+            "_url": "",
+            "_target": "_blank"
+        },
+        "_isScrollable": false,
+        "_defaultScrollPercent": 0,
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
+
+
+
+    // Standard Hot Graphic
+    // --------------------------------------------------
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "hotgraphic",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Hot graphic",
+        "displayTitle": "Hot graphic",
+        "body": "This is optional body text.",
+        "instruction": "Select the icons to find out more.",
+        "mobileBody": "This is optional body text that will be shown when viewed on mobile.",
+        "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
+        "_comment": "setCompletionOn = inview | allItems",
+        "_setCompletionOn": "allItems",
+        "_canCycleThroughPagination": false,
+        "_hidePagination": false,
+        "_isNarrativeOnMobile": true,
+        "_isMobileTextBelowImage": false,
+        "_isStackedOnMobile": false,
+        "_useNumberedPins": false,
+        "_useGraphicsAsPins": false,
+        "_hasStaticTooltips": false,
+        "_isRound": false,
+        "_pinOffsetOrigin": false,
+        "_graphic": {
+            "src": "course/en/images/background.jpg",
+            "alt": "",
+            "attribution": "Copyright © 2024"
+        },
+        "_items": [
+            {
+                "_top": 25,
+                "_left": 25,
+                "title": "Hotspot 1 title",
+                "body": "This is display text 1.",
+                "strapline": "Hotspot 1 strapline",
+                "_imageAlignment": "right",
+                "_comment": "Supported classes = 'hide-desktop-image' | 'hide-popup-image'. Additional classes can be used but they must be predefined in one of the Less files",
+                "_classes": "",
+                "_graphic": {
+                    "src": "course/en/images/hotgraphic-1.jpg",
+                    "alt": "",
+                    "attribution": "Copyright © 2024",
+                    "_classes": ""
+                },
+                "_tooltip": {
+                    "_isEnabled": false,
+                    "text": "{{ariaLabel}}",
+                    "_classes": "",
+                    "_position": ""
+                }
+            },
+            {
+                "_top": 50,
+                "_left": 50,
+                "title": "Hotspot 2 title",
+                "body": "This is display text 2 with a left aligned image.",
+                "strapline": "Hotspot 2 strapline",
+                "_imageAlignment": "left",
+                "_classes": "",
+                "_graphic": {
+                    "src": "course/en/images/hotgraphic-2.jpg",
+                    "alt": "",
+                    "attribution": "",
+                    "_classes": ""
+                },
+                "_tooltip": {
+                    "_isEnabled": false,
+                    "text": "{{ariaLabel}}",
+                    "_classes": "",
+                    "_position": ""
+                }
+            },
+            {
+                "_top": 75,
+                "_left": 75,
+                "title": "Hotspot 3 title",
+                "body": "This is display text 3 with a right aligned image.",
+                "strapline": "Hotspot 3 strapline",
+                "_imageAlignment": "right",
+                "_classes": "",
+                "_graphic": {
+                    "src": "course/en/images/hotgraphic-3.jpg",
+                    "alt": "",
+                    "attribution": "",
+                    "_classes": ""
+                },
+                "_tooltip": {
+                    "_isEnabled": false,
+                    "text": "{{ariaLabel}}",
+                    "_classes": "",
+                    "_position": ""
+                }
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
+
+    // Tile / grid layout
+    // This layout uses graphics as pin "tiles" and lays out the 
+    // item graphics (_items._graphic) in a 2 column grid.
+    // --------------------------------------------------
+    {
+        "_useGraphicsAsPins": true,
+        "_items": [
+            {
+                "title": "Tile 1 title",
+                "body": "This is display text 1.",
+                "strapline": "Tile 1 strapline",
+                "_classes": "",
+                "_graphic": {
+                    "src": "course/en/images/hotgraphic-1.jpg",
+                    "alt": "",
+                    "attribution": "Copyright © 2024",
+                    "_classes": ""
+                },
+                "_tooltip": {
+                    "_isEnabled": false,
+                    "text": "{{ariaLabel}}"
+                }
+            },
+            {
+                "title": "Tile 2 title",
+                "body": "This is display text 2.",
+                "strapline": "Tile 2 strapline",
+                "_classes": "",
+                "_graphic": {
+                    "src": "course/en/images/hotgraphic-2.jpg",
+                    "alt": "",
+                    "attribution": "",
+                    "_classes": ""
+                },
+                "_tooltip": {
+                    "_isEnabled": false,
+                    "text": "{{ariaLabel}}"
+                }
+            }
+        ]
+    }
+
+    // Graphic pins
+    // This layout uses a background image where each pin item
+    // is an image rather than a pin icon.
+    // --------------------------------------------------
+    {
+        "_useGraphicsAsPins": false,
+        "_items": [
+            {
+                "_left": 25,
+                "_top": 25,
+                "title": "Hotspot 1 title",
+                "body": "This is display text 1.",
+                "strapline": "Hotspot 1 strapline",
+                "_imageAlignment": "right",
+                "_classes": "",
+                "_graphic": {
+                    "src": "course/en/images/hotgraphic-1.jpg",
+                    "alt": "",
+                    "attribution": "Copyright © 2024",
+                    "_classes": ""
+                },
+                "_tooltip": {
+                    "_isEnabled": false,
+                    "text": "{{ariaLabel}}",
+                    "_classes": "",
+                    "_position": ""
+                },
+                "_pin": {
+                    "src": "course/en/images/pin.png",
+                    "srcHover": "course/en/images/pin-hover.png",
+                    "srcVisited": "course/en/images/pin-visited.png",
+                    "alt": ""
+                }
+            },
+            {
+                "_left": 50,
+                "_top": 50,
+                "title": "Hotspot 2 title",
+                "body": "This is display text 2.",
+                "strapline": "Hotspot 2 strapline",
+                "_imageAlignment": "right",
+                "_classes": "",
+                "_graphic": {
+                    "src": "course/en/images/hotgraphic-2.jpg",
+                    "alt": "",
+                    "attribution": "",
+                    "_classes": ""
+                },
+                "_tooltip": {
+                    "_isEnabled": false,
+                    "text": "{{ariaLabel}}",
+                    "_classes": "",
+                    "_position": ""
+                },
+                "_pin": {
+                    "src": "course/en/images/pin.png",
+                    "srcHover": "course/en/images/pin-hover.png",
+                    "srcVisited": "course/en/images/pin-visited.png",
+                    "alt": ""
+                }
+            }
+        ]
+    }
+    
+    
+    
+        {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "matching",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Matching",
+        "displayTitle": "Matching",
+        "body": "Basically what you need to do is match the questions below with the drop down box option.",
+        "instruction": "Choose an option from each dropdown list and select Submit.",
+        "ariaQuestion": "",
+        "_attempts": 1,
+        "_shouldDisplayAttempts": false,
+        "_shouldResetAllAnswers": false,
+        "_isRandom": false,
+        "_isRandomQuestionOrder": false,
+        "_questionWeight": 1,
+        "_canShowModelAnswer": true,
+        "_canShowCorrectness": false,
+        "_canShowFeedback": true,
+        "_canShowMarking": true,
+        "_recordInteraction": true,
+        "placeholder": "Please select an option",
+        "_allowOnlyUniqueAnswers": false,
+        "_hasItemScoring": false,
+        "_items": [
+            {
+                "text": "Pick option two",
+                "_options": [
+                    {
+                        "text": "Option one",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Option two (correct)",
+                        "_isCorrect": true,
+                        "_score": 1
+                    },
+                    {
+                        "text": "Option three",
+                        "_isCorrect": false,
+                        "_score": 0
+                    }
+                ]
+            },
+            {
+                "text": "Pick option three",
+                "_options": [
+                    {
+                        "text": "Option one",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Option two",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Option three (correct)",
+                        "_isCorrect": true,
+                        "_score": 1
+                    }
+                ]
+            },
+            {
+                "text": "Pick option one",
+                "_options": [
+                    {
+                        "text": "Option one (correct)",
+                        "_isCorrect": true,
+                        "_score": 1
+                    },
+                    {
+                        "text": "Option two",
+                        "_isCorrect": false,
+                        "_score": 0
+                    },
+                    {
+                        "text": "Option three",
+                        "_isCorrect": false,
+                        "_score": 0
+                    }
+                ]
+            }
+        ],
+        "_feedback": {
+            "title": "Feedback",
+            "altTitle": "Alt feedback title text",
+            "correct": "This feedback will appear if you answered the question correctly.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question incorrectly."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered part of the question correctly."
+            }
+        },
+        "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": ""
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": ""
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": ""
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
+
+
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "mcq",
+        "_classes": "",
+        "_layout": "left",
+        "title": "MCQ",
+        "displayTitle": "MCQ",
+        "body": "Which of the following options would you consider to be correct?",
+        "instruction": "Choose {{#if _isRadio}}one option{{else}}one or more options{{/if}} then select Submit.",
+        "ariaQuestion": "",
+        "_attempts": 1,
+        "_shouldDisplayAttempts": false,
+        "_isRandom": false,
+        "_hasItemScoring": false,
+        "_questionWeight": 1,
+        "_selectable": 1,
+        "_canShowModelAnswer": true,
+        "_canShowCorrectness": false,
+        "_canShowFeedback": true,
+        "_canShowMarking": true,
+        "_recordInteraction": true,
+        "_items": [
+            {
+                "text": "This is option 1 (Correct)",
+                "altText": "",
+                "_shouldBeSelected": true,
+                "_isPartlyCorrect": false
+            },
+            {
+                "text": "This is option 2",
+                "_shouldBeSelected": false,
+                "feedback": "Option two incorrect feedback",
+                "_isPartlyCorrect": false
+            },
+            {
+                "text": "This is option 3",
+                "_shouldBeSelected": false,
+                "_isPartlyCorrect": false
+            },
+            {
+                "text": "This is option 4",
+                "_shouldBeSelected": false,
+                "_isPartlyCorrect": false
+            }
+        ],
+        "_feedback":{
+            "title": "Feedback",
+            "altTitle": "Alt feedback title text",
+            "correct": "Congratulations, this is the correct feedback.",
+            "_incorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question incorrectly."
+            },
+            "_partlyCorrect": {
+                "notFinal": "",
+                "final": "This feedback will appear if you answered the question correctly."
+            }
+        },
+        "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+        "_buttons": {
+            "_submit": {
+                "buttonText": "Submit",
+                "ariaLabel": "Select here to submit your answer."
+            },
+            "_reset": {
+                "buttonText": "Reset",
+                "ariaLabel": ""
+            },
+            "_showCorrectAnswer": {
+                "buttonText": "Correct Answer",
+                "ariaLabel": ""
+            },
+            "_hideCorrectAnswer": {
+                "buttonText": "My Answer",
+                "ariaLabel": ""
+            },
+            "_showFeedback": {
+                "buttonText": "Show feedback",
+                "ariaLabel": ""
+            },
+            "remainingAttemptsText": "attempts remaining",
+            "remainingAttemptText": "final attempt"
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
+
+
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "media",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Title of the media component",
+        "displayTitle": "Title of the media component",
+        "body": "This is optional body text.",
+        "instruction": "Select the play button to start the video.",
+        "_comment": "_setCompletionOn = inview | play | ended",
+        "_setCompletionOn": "play",
+        "_useClosedCaptions": true,
+        "_allowFullScreen": true,
+        "_pauseWhenOffScreen": false,
+        "_playsinline": false,
+        "_preventForwardScrubbing": false,
+        "_comment": "_startLanguage = none | en | fr | ...",
+        "_startLanguage": "en",
+        "_showVolumeControl": true,
+        "_startVolume": "80%",
+        "_aspectRatio": "landscape",
+        "_offsetMediaControls": false,
+        "_media": {
+            "mp4": "course/assets/big_buck_bunny.mp4",
+            "ogv": "course/assets/big_buck_bunny.ogv",
+            "poster": "course/assets/big-buck-bunny.jpg",
+            "cc": [
+                {
+                    "srclang": "en",
+                    "src": "course/en/video/big_buck_bunny_sub.vtt"
+                },
+                {
+                    "srclang": "pl",
+                    "src": "course/en/video/big_buck_bunny_sub-pl.vtt"
+                }
+            ]
+        },
+        "_transcript": {
+            "_setCompletionOnView": true,
+            "_inlineTranscript": true,
+            "_externalTranscript": false,
+            "inlineTranscriptButton": "Transcript",
+            "inlineTranscriptCloseButton": "Close Transcript",
+            "inlineTranscriptBody": "Transcript body text should go here",
+            "transcriptLinkButton": "Transcript",
+            "transcriptLink": "assets/transcript.pdf"
+        },
+        "_playerOptions": {
+            "poster": "",
+            "showPosterWhenEnded": false,
+            "defaultVideoWidth": 480,
+            "defaultVideoHeight": 270,
+            "videoWidth": -1,
+            "videoHeight": -1,
+            "defaultAudioWidth": 400,
+            "defaultAudioHeight": 30,
+            "defaultSeekBackwardInterval": "(media.duration * 0.05)",
+            "defaultSeekForwardInterval": "(media.duration * 0.05)",
+            "audioWidth": -1,
+            "audioHeight": -1,
+            "startVolume": 0.8,
+            "loop": false,
+            "autoRewind": true,
+            "enableAutosize": true,
+            "alwaysShowHours": false,
+            "showTimecodeFrameCount": false,
+            "framesPerSecond": 25,
+            "autosizeProgress" : true,
+            "alwaysShowControls": true,
+            "hideVideoControlsOnLoad": false,
+            "clickToPlayPause": true,
+            "iPadUseNativeControls": false,
+            "iPhoneUseNativeControls": false,
+            "AndroidUseNativeControls": false,
+            "features": ["playpause","current","progress","duration","tracks","volume","fullscreen"],
+            "isVideo": true,
+            "enableKeyboard": true,
+            "pauseOtherPlayers": true,
+            "tracksText": "mejs.i18n.t('Captions/Subtitles')",
+            "hideCaptionsButtonWhenEmpty": true,
+            "toggleCaptionsButtonWhenOnlyOne": false,
+            "slidesSelector": ""
+        },
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
+
+
+
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "narrative",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Narrative",
+        "displayTitle": "Narrative",
+        "body": "This is optional body text.",
+        "instruction": "Select the next and back arrows to find out more.",
+        "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
+        "_hasNavigationInTextArea": false,
+        "_comment": "setCompletionOn = inview | allItems",
+        "_setCompletionOn": "allItems",
+        "_isTextBelowImage": false,
+        "_isMobileTextBelowImage": false,
+        "_isStackedOnMobile": false,
+        "_items": [
+            {
+                "title": "Narrative item 1 title",
+                "body": "This is display text 1. If viewing on desktop or tablet, this text will appear to the right of the image. On mobile, you’ll need to select the plus icon to reveal this text.",
+                "_graphic": {
+                    "src": "course/en/images/image-slider-1.jpg",
+                    "alt": "",
+                    "attribution": "Copyright © 2019"
+                },
+                "strapline": ""
+            },
+            {
+                "title": "Narrative item 2 title",
+                "body": "This is display text 2.",
+                "_graphic": {
+                    "src": "course/en/images/image-slider-2.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "strapline": ""
+            },
+            {
+                "title": "Narrative item 3 title",
+                "body": "This is display text 3.",
+                "_graphic": {
+                    "src": "course/en/images/image-slider-3.jpg",
+                    "alt": "",
+                    "attribution": ""
+                },
+                "strapline": ""
+            }
+        ],
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
+    
+    
+        {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "text",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Our first look at a component",
+        "displayTitle": "Our first look at a component",
+        "body": "This component you're reading is a text component. All components take this form of a title and body - except a blank component. However it's important to realise that title and body attributes are not needed. <br><br>Take for instance the media component opposite or below on a smaller device - has no body attribute. Instead of the HTML being rendered Adapt simply doesn't render it. The title attribute is simply a break tag to push the media component level with the opposite component.",
+        "instruction": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }
+

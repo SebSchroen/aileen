@@ -5,9 +5,9 @@
     "_type": "page",
     "_classes": "",
     "_htmlClasses": "",
-    "title": "Introdcution to Artificial Intelligence",
-    "displayTitle": "Introduction to Artifical Intelligence",
-    "body": "This lesson introduces the fundamental concepts of Artificial Intelligence (AI), its history, and its growing importance in various fields. You will learn about the different types of AI and how they are transforming industries and daily life.",
+    "title": "Introdcution",
+    "displayTitle": "Introduction",
+    "body": "This model introduces the fundamental concepts of Artificial Intelligence (AI). We will discuss the concept of machine intelligence and how computers learn from data.",
     "pageBody": "",
     "instruction": "{{_globals._learnerInfo.firstname}}, please scroll down to start your learning journey.",
     "_graphic": {
