@@ -328,6 +328,16 @@
         "_isEnabled": true,
         "_isCompletionIndicatorEnabled": true
     }
- }
+ },
+
+     {
+        "_id": "c-210",
+        "_parentId": "b-210",
+        "_type": "component",
+        "_component": "blank",
+        "_classes": "",
+        "_isOptional": true
+    }
+
 
 ]

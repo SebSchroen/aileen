@@ -8,12 +8,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 0,
-    "_onScreen": {
-      "_isEnabled": true,
-      "_classes": "fade-in-bottom",
-      "_percentInviewVertical": 50
-    }
+    "_trackingId": 0
   },
   {
     "_id": "b-102",
@@ -24,10 +19,6 @@
     "displayTitle": "The Turing Test: An early IQ test for computers",
     "body": "Developed by <a href=\"https://en.wikipedia.org/wiki/Alan_Turing\" target=\"_blank\">Alan Turing (1912-1954)</a> a British mathematician and the father of computer science.",
     "instruction": "",
-    "_pageLevelProgress": {
-      "_isEnabled": true,
-      "_isCompletionIndicatorEnabled": true
-    },
     "_trackingId": 3
   },
   {
@@ -54,7 +45,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 53
+    "_trackingId": 5
   },
   {
     "_id": "b-205",
@@ -66,5 +57,16 @@
     "body": "",
     "instruction": "",
     "_trackingId": 6
+  },
+    {
+    "_id": "b-210",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "Thank you",
+    "displayTitle": "That's it, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 7
   }
 ]
