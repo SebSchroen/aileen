@@ -1,0 +1,70 @@
+[
+  {
+    "_id": "b-100",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "b-100",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 0,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "fade-in-bottom",
+      "_percentInviewVertical": 50
+    }
+  },
+  {
+    "_id": "b-102",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "The Turing Test",
+    "displayTitle": "The Turing Test: An early IQ test for computers",
+    "body": "Developed by <a href=\"https://en.wikipedia.org/wiki/Alan_Turing\" target=\"_blank\">Alan Turing (1912-1954)</a> a British mathematician and the father of computer science.",
+    "instruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    },
+    "_trackingId": 3
+  },
+  {
+    "_id": "b-110",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "What is AI?",
+    "displayTitle": "So what exactly is artificial intelligence?",
+    "body": "",
+    "instruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    },
+    "_trackingId": 4
+  },
+  {
+    "_id": "b-200",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "b-200",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 53
+  },
+  {
+    "_id": "b-205",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "b-205",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 6
+  }
+]
