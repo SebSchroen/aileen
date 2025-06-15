@@ -1,0 +1,18 @@
+{
+  "name": "adapt_framework",
+  "description": "Adapt Learning output framework",
+  "main": "",
+  "authors": [
+    "Sebastian Schroen <<your_donotreply_email_id>"
+  ],
+  "license": "GPL-3.0",
+  "homepage": "https://github.com/SebSchroen/aileen",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/plugins",
+    "test",
+    "tests"
+  ]
+}
