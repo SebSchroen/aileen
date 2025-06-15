@@ -22,6 +22,8 @@
     "adapt-contrib-slider": "*",
     "adapt-contrib-spoor": "*",
     "adapt-contrib-bookmarking": "*",
-    "adapt-contrib-languagePicker": "*"
+    "adapt-contrib-languagePicker": "*",
+    "adapt-contrib-triggered": "*",
+    "adapt-talk": "*"
   }
 }

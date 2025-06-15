@@ -188,5 +188,8 @@
     "_favIcon": {
       "_src": ""
     }
+  },
+  "_triggered": {
+    "_isEnabled": true
   }
 }

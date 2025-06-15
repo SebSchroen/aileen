@@ -8,8 +8,8 @@
     "_layout": "full",
     "title": "Can you spot the AI-generated Matterhorn?",
     "displayTitle": "Can you spot the AI-generated Matterhorn?",
-    "body": "Let's start with a little challenge. One of these images has been generated with the image generation model Google Imagen 4, a recent example of generative AI models. Can you tell which one it is?",
-    "instruction": "Choose the image which you think is AI-generated. No worries, <b> you are not under evaluation (just yet) </b>.",
+    "body": "Let's start with a little challenge. One of these images has been generated with the image generation model Google Imagen 4, a recent example of generative AI models. The other one is a photograph taken by a human. Can you tell which one it is?",
+    "instruction": "Choose the image which you think is AI-generated. No worries, <strong> you are not under evaluation (just yet) </strong>.",
     "ariaQuestion": "Which of these is the Matterhorn?",
     "_attempts": 2,
     "_shouldDisplayAttempts": true,
@@ -53,10 +53,10 @@
     "_feedback": {
         "title": "Feedback",
         "altTitle": "Alt feedback text",
-        "correct": "<b> That is correct! </b> Congratulations, you identified the AI-generated Matterhorn! This image is generated with Google Imagen 4, while the other one is a real photo from pexels.com (no personal credits).",
+        "correct": "<strong> That is correct! </strong> Congratulations, you identified the AI-generated Matterhorn! This image is generated with Google Imagen 4, while the other one is a real photo from pexels.com (no personal credits).",
         "_incorrect": {
             "notFinal": "That's not quite right. Try again!",
-            "final": "<b>That's incorrect </b>. Seems like the model fooled you and the image you selected is a real photograph acquired from pexels.com (no personal credits). But I must admit it was quite difficult due to the small size of the images."
+            "final": "<strong>That's incorrect </strong>. Seems like the model fooled you and the image you selected is a real photograph acquired from pexels.com (no personal credits). But I must admit it was quite difficult due to the small size of the images."
         },
         "_partlyCorrect": {
             "notFinal": "",
@@ -93,46 +93,111 @@
     }
 },
 
- {
-    "_id": "c-102",
-    "_parentId": "b-102",
-    "_type": "component",
-    "_component": "text",
-    "_classes": "block",
-    "_layout": "right",
-    "title": "",
-    "displayTitle": "",
-    "body": "The Turing test is one of the earliest benchmarks for machine intelligence.  The basic premise of the Turing Test is that if a computer can engage in dialogue with a human without being detected as a computer, it is deemed to have intelligence. <br> <br> Even though the previous interaction was not a Turing Test per se, it addresses the same question: Does the output of a computer program, model or algorithm resemble human-like intelligence? <br> <br> Recently, more and more often, the answer to this question is yes.",
-    "instruction": ""
-  },
-
-  {
-    "_id": "c-103",
-    "_parentId": "b-102",
-    "_type": "component",
-    "_component": "graphic",
-    "_classes": "",
-    "_layout": "left",
-    "title": "",
-    "displayTitle": "",
-    "body": "",
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "longdescription": "",
-      "large": "course/en/images/christian-lendl-unsplash-enigma.jpg",
-      "small": "course/en/images/christian-lendl-unsplash-enigma.jpg",
-      "attribution": "Christian Lendl for www.unsplash.com",
-      "_url": "",
-      "_target": ""
-    },
-    "_isScrollable": false,
-    "_defaultScrollPercent": 0,
+{
+  "_id": "c-101",
+  "_parentId": "b-102",
+  "_type": "component",
+  "_component": "talk",
+  "_classes": "",
+  "_layout": "full",
+  "displayTitle": "The Turing Test: An early IQ test for computers",
+    "body": "Developed by <a href=\"https://en.wikipedia.org/wiki/Alan_Turing\" target=\"_blank\">Alan Turing (1912-1954)</a> a British mathematician and the father of computer science.",
+  "instruction": "Scroll through the dialogue to learn more.",
     "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    },
+  "_characters": [
+    {
+      "name": "",
+      "_graphic": {
+        "alt": "User Avatar",
+        "src": "course/en/images/user_avatar.jpg"
+      }
+    },
+    {
+      "name": "Alan",
+      "_graphic": {
+        "alt": "Alan Turing Portrait",
+        "src": "course/en/images/alan_avatar.png"
+      }
     }
-  },
+  ],
+  "_items": [
+    {
+      "_character": 1,
+      "text": "So, Dr. Turing, we just tried to distinguish between a real photo and an AI-generated one. What does that have to do with intelligence?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 2,
+      "text": "That's an excellent question! It gets to the heart of what I was exploring in 1950. I wondered: Can a machine be so good at <em>imitating</em> human intelligence that we can't tell the difference?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 1,
+      "text": "So, you created a test for that?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 2,
+      "text": "Indeed. It's now known as the Turing Test. The basic idea is this: if a computer can engage in dialogue with a human without being detected as a computer, we can say it possesses a level of intelligence.",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 1,
+      "text": "So, instead of images, it's about conversation?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 2,
+      "text": "Precisely! In your image test, you were the judge, trying to decide if the 'output' (the image) was human-made or machine-made. The Turing Test simply expands that idea to <em>conversation</em>. Can a computer create <em>conversational output</em> that is indistinguishable from a human's?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 1,
+      "text": "Okay, I think I get it. So, the goal is to create a computer that can convincingly <em>resemble</em> human-like intelligence?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 2,
+      "text": "Exactly! And as AI gets more advanced, the answer to that question is increasingly, yes. It raises fascinating questions about the nature of intelligence itself.",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+        {
+      "_character": 1,
+      "text": "Thank you Dr. Turing!",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    }
+  ]
+},
 
  {
     "_id": "c-110",
@@ -143,7 +208,7 @@
     "_layout": "left",
     "title": "What is AI?",
     "displayTitle": "",
-    "body": "Artificial intelligence refers to the capacity of a machine to <b> learn, adapt, and perform tasks that typically require human cognitive abilities </b>. This includes problem-solving, understanding language, recognizing patterns, and ultimately making decisions.  Crucially, true machine intelligence involves a general ability to perform well in a wide range of environments, not just rule based, pre-programmed responses to specific situations.",
+    "body": "Artificial intelligence refers to the capacity of a machine to <strong> learn, adapt, and perform tasks that typically require human cognitive abilities </strong>. This includes problem-solving, understanding language, recognizing patterns, and ultimately making decisions.  Crucially, true machine intelligence involves a general ability to perform well in a wide range of environments, not just rule based, pre-programmed responses to specific situations.",
     "instruction": ""
   },
   {
@@ -290,10 +355,10 @@
     "_feedback":{
         "title": "Learning Type Explanation",
         "altTitle": "Feedback on your answer about machine learning types.",
-        "correct": "That's right! This scenario describes <strong>Supervised Learning</strong>. The AI is 'supervised' because it learns from a dataset where each example (product image) is already tagged with the correct answer or label ('defective' or 'not defective').",
+"correct": "That's right! This scenario describes <strong>Supervised Learning</strong>. The AI is 'supervised' because it learns from a dataset where each example (product image) is already tagged with the correct answer or label ('defective' or 'not defective').",
         "_incorrect": {
             "notFinal": "Not quite. Consider which learning type involves being explicitly told the correct answer for each piece of training data.",
-            "final": "The correct answer is <strong>Supervised Learning</strong>. This method is used when you have a dataset with known outcomes or labels. Unsupervised Learning would be used if the AI had to find patterns in unlabeled product images (e.g., group similar-looking defects without knowing what they are). Reinforcement Learning would involve the AI taking actions (like classifying a product) and receiving rewards or penalties to learn the best classification strategy over time. Algorithmic Trading is an application of various techniques, including AI, but isn't a fundamental learning type itself in this context."
+"final": "The correct answer is <strong>Supervised Learning</strong>. This method is used when you have a dataset with known outcomes or labels. Unsupervised Learning would be used if the AI had to find patterns in unlabeled product images (e.g., group similar-looking defects without knowing what they are). Reinforcement Learning would involve the AI taking actions (like classifying a product) and receiving rewards or penalties to learn the best classification strategy over time. Algorithmic Trading is an application of various techniques, including AI, but isn't a fundamental learning type itself in this context."
         },
         "_partlyCorrect": {
             "notFinal": "This option is for questions with multiple correct answers, which isn't the case here. Please review the feedback for incorrect answers.",
@@ -338,6 +403,5 @@
         "_classes": "",
         "_isOptional": true
     }
-
 
 ]
