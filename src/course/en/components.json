@@ -95,7 +95,7 @@
 
 {
   "_id": "c-101",
-  "_parentId": "b-102",
+  "_parentId": "b-101",
   "_type": "component",
   "_component": "talk",
   "_classes": "",
@@ -150,7 +150,7 @@
     },
     {
       "_character": 2,
-      "text": "Indeed. It's now known as the Turing Test. The basic idea is this: if a computer can engage in dialogue with a human without being detected as a computer, we can say it possesses a level of intelligence.",
+      "text": "Yes, it's now known as the Turing Test. The basic idea is this: if a computer can engage in dialogue with a human without being detected as a computer, we can say it possesses a level of intelligence.",
       "_graphic": {
         "alt": "",
         "src": ""
@@ -182,7 +182,7 @@
     },
     {
       "_character": 2,
-      "text": "Exactly! And as AI gets more advanced, the answer to that question is increasingly, yes. It raises fascinating questions about the nature of intelligence itself.",
+      "text": "Exactly! And as AI gets more advanced, AI-generated images, text and videos will be harder and harder to identify. Understanding how AI generates new content and makes decisions is therefore incredibly important if we want to use it's full potential.",
       "_graphic": {
         "alt": "",
         "src": ""
@@ -199,48 +199,73 @@
   ]
 },
 
- {
-    "_id": "c-110",
-    "_parentId": "b-110",
-    "_type": "component",
-    "_component": "text",
-    "_classes": "",
-    "_layout": "left",
-    "title": "What is AI?",
-    "displayTitle": "",
-    "body": "Artificial intelligence refers to the capacity of a machine to <strong> learn, adapt, and perform tasks that typically require human cognitive abilities </strong>. This includes problem-solving, understanding language, recognizing patterns, and ultimately making decisions.  Crucially, true machine intelligence involves a general ability to perform well in a wide range of environments, not just rule based, pre-programmed responses to specific situations.",
-    "instruction": ""
-  },
   {
-    "_id": "c-115",
-    "_parentId": "b-110",
-    "_type": "component",
-    "_component": "graphic",
-    "_classes": "",
-    "_layout": "right",
-    "title": "",
-    "displayTitle": "",
-    "body": "",
-    "instruction": "",
-    "_graphic": {
-      "alt": "",
-      "longdescription": "",
-      "large": "course/en/images/rules_vs_data.png",
-      "small": "course/en/images/rules_vs_data.png",
-      "attribution": "Generated with Google Imagen 4",
-      "_url": "",
-      "_target": ""
+        "_id": "c-102",
+        "_parentId": "b-102",
+        "_type": "component",
+        "_component": "list",
+        "_classes": "",
+        "_layout": "full",
+        "title": "What is AI?",
+        "displayTitle": "",
+        "body": "The Turing Test is a very helpful analogy, but Artificial Intelligence is more than just mimicking humans.",
+        "instruction": "",
+        "_columns": 0,
+        "_orderedList": false,
+        "_animateList": true,
+        "_percentInviewVertical": 10,
+        "_itemHorizontalAlignment": "start",
+        "_bulletAlignment": "start",
+        "_items": [
+            {
+                "title": "Deal with different problems and environments",
+                "body": "At its core, AI seeks to create machines that can perform tasks that typically require human intelligence. This includes things like understanding language, recognizing patterns, solving problems, and making decision.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            },
+            {
+                "title": "Learning and adapting",
+                "body": "Modern AI emphasizes enabling machines to learn from data and experience, similar to our brain. This involves writing programs that allow the AI to improve its performance over time through exposure to data and feedback.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            },
+            {
+                "title": "Autonomy",
+                "body": " AI aims to create intelligent systems that can operate with a degree of independence from humans. This means the AI can make decisions and take actions without explicit instructions for every situation.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            },
+                     {
+                "title": "Explainability",
+                "body": "AI models can be so complex that even their creators may not fully understand how they arrive at decisions, creating a \"black-box\" scenario. This lack of understanding about the internal operations of AI systems raises concerns.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            }   
+        ],
+        "bodyAfter": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
     },
-    "_isScrollable": false,
-    "_defaultScrollPercent": 0,
-    "_pageLevelProgress": {
-      "_isEnabled": false,
-      "_isCompletionIndicatorEnabled": false
-    }
-  },
     {
     "_id": "c-200",
-    "_parentId": "b-200",
+    "_parentId": "b-103",
     "_type": "component",
     "_component": "narrative",
     "_classes": "",
@@ -258,7 +283,7 @@
     "_items": [
         {
             "title": "Supervised Learning: Learning with a Teacher",
-            "body": "Supervised learning is like learning with a teacher. The algorithm - the AI -  is given examples with correct answers, also called labeled data. For instance, it might be shown thousands of pictures of apples, each labeled 'apple', and pictures of bananas, labeled 'banana'. The goal is for the AI to learn the patterns so it can correctly identify apples or bananas in new, unseen pictures. <br><br> Early spam filters are another example of supervised learning. They are trained on emails that are already labeled as 'spam' or 'not spam' to learn how to identify new spam messages.",
+            "body": "Supervised learning is like learning with a teacher. The algorithm - the AI -  is given examples with correct answers, also called labeled data. <br> <br> For instance, it might be shown thousands of pictures of apples, each labeled 'apple', and pictures of bananas, labeled 'banana'. The goal is for the AI to learn the patterns so it can correctly identify apples or bananas in new, unseen pictures. Early spam filters are a common example for supervised learning.",
             "_graphic": {
                 "src": "course/en/images/supervised_learning.jpg",
                 "attribution": "Generated with Google Imagen 4",
@@ -268,23 +293,13 @@
         },
         {
             "title": "Unsupervised Learning: Finding Patterns on Its Own",
-            "body": "Unsupervised learning is like giving the AI system a big box of mixed-up items and asking it to sort them without telling it how. The AI looks for similarities and differences on its own to group the items. In this case, the items have no label to draw conclusions from. The AI system might group them by color, size, or shape. This is used to discover hidden patterns or structures in data, such as customer segmentation.  <br><br> The Netflix or Spotify recommendations from the video are another example of unsupervised learning where content is clustered based on similarities.",
+            "body": "Unsupervised learning is like giving the AI system a big box of mixed-up items and asking it to sort them without telling it how. The AI looks for similarities and differences on its own to group the items. In this case, the items have no label to draw conclusions from. <br> <br> The AI system might group them by color, size, or shape. This is used to discover hidden patterns or structures in data, such as customer segmentation. Recommendations on Netflix or Spotify are common examples.",
             "_graphic": {
                 "src": "course/en/images/unsupervised_learning.jpg",
                 "attribution": "Generated with Google Imagen 4",
                 "alt": "Diagram illustrating unsupervised learning finding patterns in unlabeled data."
             },
             "strapline": "Discovering Hidden Structures"
-        },
-        {
-            "title": "Reinforcement Learning: Learning from Experience",
-            "body": "Reinforcement learning is like teaching a pet a new trick through trial and error. The AI tries different actions in an environment. If it performs an action that leads to a desired outcome, it gets a reward. If it does something undesirable, it might get a penalty or no reward. Over time, the AI learns which actions lead to the best cumulative rewards. This is how AI learns to play complex games or control robotic systems. <br> <br> The Matterhorn quiz above offers a basic analogy here. You (as the AI) make a selection (an action). You then receive feedback ('Correct!' or 'Incorrect'), which acts as a form of reward or penalty. With multiple attempts enabled, you can learn from this feedback to improve your score on subsequent tries, aiming to maximize your 'reward' (achieving a correct answer).",
-            "_graphic": {
-                "src": "course/en/images/reinforcement_learning.jpg",
-                "attribution": "Generated with Google Imagen 4",
-                "alt": "Diagram illustrating reinforcement learning with an agent, actions, environment, and rewards."
-            },
-            "strapline": "Learning through Rewards and Penalties"
         },
         {
             "title": "Deep Learning: Adding more Layers",
@@ -305,7 +320,7 @@
 
 {
     "_id": "c-205",
-    "_parentId": "b-205",
+    "_parentId": "b-104",
     "_type": "component",
     "_component": "mcq",
     "_classes": "",
@@ -394,12 +409,71 @@
         "_isCompletionIndicatorEnabled": true
     }
  },
-
+{
+    "_id": "c-206",
+    "_parentId": "b-105",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Training Data",
+    "displayTitle": "Training Data: The fuel for machine learning",
+    "body": "Now you know what artificial intelligence is and how machines may learn from data. However, there is one major part missing: The training data. Real-world data, often produced by humans, then fed to machine learning algorithms.",
+    "instruction": "Open the boxes below to learn more",
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false,
+    "_comment": "setCompletionOn = inview | allItems",
+    "_setCompletionOn": "allItems",
+    "_isCenterAligned": false,
+    "_items": [
+        {
+            "title": "Image Data",
+            "body": "Medical Image Analysis: Detecting diseases like cancer from medical images (X-rays, MRIs, CT scans).\n\nA large dataset of medical images, with labels indicating the presence or absence of disease, and potentially the location and type of abnormality.\n\nDeep learning models are trained to identify subtle patterns and anomalies in the images that may be indicative of disease, often exceeding the capabilities of human radiologists in speed and accuracy.",
+            "_titleIcon": "",
+            "_imageAlignment": "full",
+            "_graphic": {
+                "src": "",
+                "alt": "",
+                "attribution": ""
+            },
+            "_classes": ""
+        },
+        {
+            "title": "Text Data",
+            "body": "Chatbots and Virtual Assistants: Creating conversational AI systems like ChatGPT or Gemini that can understand and respond to human language.\n\nMassive datasets of text conversations, including customer service logs, social media posts, and movie scripts.\n\nNatural Language Processing (NLP) models, such as Transformers, learn to understand the nuances of human language, including grammar, context, and intent, enabling them to generate realistic and helpful responses.",
+            "_titleIcon": "",
+            "_imageAlignment": "left",
+            "_graphic": {
+                "src": "",
+                "alt": "",
+                "attribution": ""
+            },
+            "_classes": ""
+        },
+        {
+            "title": "Tabular Data",
+            "body": "Credit Risk Assessment: Predicting the likelihood that a borrower will default on a loan.\n\nA dataset of loan applications, with information about the borrower (credit score, income, employment history) and whether they defaulted on the loan.\n\nMachine learning algorithms are trained to identify patterns in the data that are associated with loan defaults, allowing lenders to make more informed decisions.",
+            "_titleIcon": "",
+            "_imageAlignment": "right",
+            "_graphic": {
+                "src": "",
+                "alt": "",
+                "attribution": ""
+            },
+            "_classes": ""
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+},
      {
         "_id": "c-210",
-        "_parentId": "b-210",
+        "_parentId": "b-106",
         "_type": "component",
-        "_component": "blank",
+        "_component": "text",
+"body": "Sources: <br> <br> Legg, Shane; Hutter, Marcus (2007): Universal Intelligence: A Definition of Machine Intelligence. DOI: <a href=\"https://doi.org/10.48550/arXiv.0712.3329\" target=\"_blank\">https://doi.org/10.48550/arXiv.0712.3329</a> <br> <br> Sousa Antunes et al. (2024): Multidisciplinary Perspectives on Artificial Intelligence and the Law, DOI: <a href=\"https://doi.org/10.1007/978-3-031-41264-6\" target=\"_blank\">https://doi.org/10.1007/978-3-031-41264-6</a> <br> <br> Huawei Technologies (2023): Artificial Intelligence Technogoly, DOI: <a href=\"https://doi.org/10.1007/978-981-19-2879-6\" target=\"_blank\">https://doi.org/10.1007/978-981-19-2879-6</a> ",
+     
         "_classes": "",
         "_isOptional": true
     }

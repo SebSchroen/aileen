@@ -24,7 +24,7 @@
   }
   },
   {
-    "_id": "b-102",
+    "_id": "b-101",
     "_parentId": "a-100",
     "_type": "block",
     "_classes": "",
@@ -35,7 +35,7 @@
     "_trackingId": 3
   },
   {
-    "_id": "b-110",
+    "_id": "b-102",
     "_parentId": "a-100",
     "_type": "block",
     "_classes": "",
@@ -50,7 +50,7 @@
     "_trackingId": 4
   },
   {
-    "_id": "b-200",
+    "_id": "b-103",
     "_parentId": "a-100",
     "_type": "block",
     "_classes": "",
@@ -61,7 +61,7 @@
     "_trackingId": 5
   },
   {
-    "_id": "b-205",
+    "_id": "b-104",
     "_parentId": "a-100",
     "_type": "block",
     "_classes": "",
@@ -71,8 +71,20 @@
     "instruction": "",
     "_trackingId": 6
   },
+
     {
-    "_id": "b-210",
+    "_id": "b-105",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "b-205",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 7
+  },
+    {
+    "_id": "b-106",
     "_parentId": "a-100",
     "_type": "block",
     "_classes": "",
@@ -80,6 +92,6 @@
     "displayTitle": "That's it, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
     "body": "",
     "instruction": "",
-    "_trackingId": 7
+    "_trackingId": 8
   }
 ]
