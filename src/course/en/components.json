@@ -166,7 +166,7 @@
     },
     {
       "_character": 2,
-      "text": "Precisely! In your image test, you were the judge, trying to decide if the 'output' (the image) was human-made or machine-made. The Turing Test simply expands that idea to <em>conversation</em>. Can a computer create <em>conversational output</em> that is indistinguishable from a human's?",
+      "text": "Yes, in your image test, you were the judge, trying to decide if the 'output' (the image) was human-made or machine-made. The Turing Test simply expands that idea to <em>conversation</em>. Can a computer create <em>conversational output</em> that is indistinguishable from a human's?",
       "_graphic": {
         "alt": "",
         "src": ""
@@ -182,7 +182,7 @@
     },
     {
       "_character": 2,
-      "text": "Exactly! And as AI gets more advanced, AI-generated images, text and videos will be harder and harder to identify. Understanding how AI generates new content and makes decisions is therefore incredibly important if we want to use it's full potential.",
+      "text": "Exactly! And as AI gets more advanced, AI-generated images, text and videos will be harder and harder to identify. Of course you know that this conversation is pre-defined, but new models like ChatGPT are so convincing, that they pass my test with ease.",
       "_graphic": {
         "alt": "",
         "src": ""
@@ -417,7 +417,7 @@
     "_classes": "",
     "_layout": "full",
     "title": "Training Data",
-    "displayTitle": "Training Data: The fuel for machine learning",
+    "displayTitle": "Common applications and their training data",
     "body": "Now you know what artificial intelligence is and how machines may learn from data. However, there is one major part missing: The training data. Real-world data, often produced by humans, then fed to machine learning algorithms.",
     "instruction": "Open the boxes below to learn more",
     "_shouldCollapseItems": true,
@@ -427,8 +427,8 @@
     "_isCenterAligned": false,
     "_items": [
         {
-            "title": "Image Data",
-            "body": "Medical Image Analysis: Detecting diseases like cancer from medical images (X-rays, MRIs, CT scans).\n\nA large dataset of medical images, with labels indicating the presence or absence of disease, and potentially the location and type of abnormality.\n\nDeep learning models are trained to identify subtle patterns and anomalies in the images that may be indicative of disease, often exceeding the capabilities of human radiologists in speed and accuracy.",
+            "title": "Medical Image Analysis",
+            "body": "Detecting diseases like cancer from medical images (X-rays, MRIs, CT scans).\n\nA large dataset of medical images, with labels indicating the presence or absence of disease, and potentially the location and type of abnormality.\n\nDeep learning models are trained to identify subtle patterns and anomalies in the images that may be indicative of disease, often exceeding the capabilities of human radiologists in speed and accuracy.",
             "_titleIcon": "",
             "_imageAlignment": "full",
             "_graphic": {
@@ -439,8 +439,8 @@
             "_classes": ""
         },
         {
-            "title": "Text Data",
-            "body": "Chatbots and Virtual Assistants: Creating conversational AI systems like ChatGPT or Gemini that can understand and respond to human language.\n\nMassive datasets of text conversations, including customer service logs, social media posts, and movie scripts.\n\nNatural Language Processing (NLP) models, such as Transformers, learn to understand the nuances of human language, including grammar, context, and intent, enabling them to generate realistic and helpful responses.",
+            "title": "Chatbots and Virtual Assistants",
+            "body": "Creating conversational AI systems like ChatGPT or Gemini that can understand and respond to human language.\n\nMassive datasets of text conversations, including customer service logs, social media posts, and movie scripts.\n\nNatural Language Processing (NLP) models, such as Transformers, learn to understand the nuances of human language, including grammar, context, and intent, enabling them to generate realistic and helpful responses.",
             "_titleIcon": "",
             "_imageAlignment": "left",
             "_graphic": {
@@ -451,8 +451,8 @@
             "_classes": ""
         },
         {
-            "title": "Tabular Data",
-            "body": "Credit Risk Assessment: Predicting the likelihood that a borrower will default on a loan.\n\nA dataset of loan applications, with information about the borrower (credit score, income, employment history) and whether they defaulted on the loan.\n\nMachine learning algorithms are trained to identify patterns in the data that are associated with loan defaults, allowing lenders to make more informed decisions.",
+            "title": "Credit Risk Assessment",
+            "body": "Predicting the likelihood that a borrower will default on a loan.\n\nA dataset of loan applications, with information about the borrower (credit score, income, employment history) and whether they defaulted on the loan.\n\nMachine learning algorithms are trained to identify patterns in the data that are associated with loan defaults, allowing lenders to make more informed decisions.",
             "_titleIcon": "",
             "_imageAlignment": "right",
             "_graphic": {
@@ -476,6 +476,68 @@
      
         "_classes": "",
         "_isOptional": true
+    },
+{
+  "_id": "c-211",
+  "_parentId": "b-106",
+  "_type": "component",
+  "_component": "trialogue",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Trialogue component",
+  "displayTitle": "Trialogue component",
+  "body": "Developed by <a href=\"https://en.wikipedia.org/wiki/Alan_Turing\" target=\"_blank\">Alan Turing (1912-1954)</a>, a British mathematician and the father of computer science.",
+  "instruction": "Scroll through the dialogue to learn more.",
+  "ariaRegion": "",
+  "_supportedLayout": "full-width",
+
+  "_items": [
+    {
+      "id": "start",
+      "sender": "host",
+      "text": "Welcome! Were you successful in distinguishing between real and AI-generated images in the previous test?",
+     "next": "item",
+      "_options": [
+        { "text": "Yes" },
+        { "text": "No" }
+      ]
+    },
+    {
+      "id": "Yes",
+      "sender": "host",
+      "text": "Great! But still incredible how far we've come in the area of image generation.",
+      "next": "item",
+      "_options": [
+        { "text": "Sure, but what does that have to do with intelligence?" }
+
+      ]
+    },
+    {
+      "id": "No",
+      "sender": "host",
+      "text": "I must say I'm not surprised, it is incredible how good image generation tools are nowadays.",
+      "next": "item",
+       "_options": [
+      { "text": "Sure, but what does that have to do with intelligence?" }
+
+      ]
+    },
+    {
+      "id": "Sure, what does that have to do with intelligence?",
+      "sender": "host",
+      "text": "That's an excellent question! It gets to the heart of what I was exploring in 1950. I wondered: Can a machine be so good at imitating human intelligence that we can't tell the difference?",
+      "next": "feedback",
+       "_options": [
+
+      ]
     }
+
+
+  ],
+
+  "_pageLevelProgress": {
+    "_isEnabled": true
+  }
+}
 
 ]

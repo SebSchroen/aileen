@@ -25,6 +25,7 @@
     "adapt-contrib-languagePicker": "*",
     "adapt-contrib-triggered": "*",
     "adapt-talk": "*",
-    "adapt-list": "*"
+    "adapt-list": "*",
+    "adapt-cards": "*"
   }
 }
