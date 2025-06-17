@@ -1,0 +1,197 @@
+{
+  "_id": "c-101",
+  "_parentId": "b-101",
+  "_type": "component",
+  "_component": "talk",
+  "_classes": "",
+  "_layout": "full",
+  "displayTitle": "The Turing Test: An early IQ test for computers",
+    "body": "Developed by <a href=\"https://en.wikipedia.org/wiki/Alan_Turing\" target=\"_blank\">Alan Turing (1912-1954)</a> a British mathematician and the father of computer science.",
+  "instruction": "Scroll through the dialogue to learn more.",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    },
+  "_characters": [
+    {
+      "name": "",
+      "_graphic": {
+        "alt": "User Avatar",
+        "src": "course/en/images/user_avatar.jpg"
+      }
+    },
+    {
+      "name": "Alan",
+      "_graphic": {
+        "alt": "Alan Turing Portrait",
+        "src": "course/en/images/alan_avatar.png"
+      }
+    }
+  ],
+  "_items": [
+    {
+      "_character": 1,
+      "text": "So, Dr. Turing, we just tried to distinguish between a real photo and an AI-generated one. What does that have to do with intelligence?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 2,
+      "text": "That's an excellent question! It gets to the heart of what I was exploring in 1950. I wondered: Can a machine be so good at <em>imitating</em> human intelligence that we can't tell the difference?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 1,
+      "text": "So, you created a test for that?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 2,
+      "text": "Yes, it's now known as the Turing Test. The basic idea is this: if a computer can engage in dialogue with a human without being detected as a computer, we can say it possesses a level of intelligence.",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 1,
+      "text": "So, instead of images, it's about conversation?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 2,
+      "text": "Yes, in your image test, you were the judge, trying to decide if the 'output' (the image) was human-made or machine-made. The Turing Test simply expands that idea to <em>conversation</em>. Can a computer create <em>conversational output</em> that is indistinguishable from a human's?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 1,
+      "text": "Okay, I think I get it. So, the goal is to create a computer that can convincingly <em>resemble</em> human-like intelligence?",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+    {
+      "_character": 2,
+      "text": "Exactly! And as AI gets more advanced, AI-generated images, text and videos will be harder and harder to identify. Of course you know that this conversation is pre-defined, but new models like ChatGPT are so convincing, that they pass my test with ease.",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    },
+        {
+      "_character": 1,
+      "text": "Thank you Dr. Turing!",
+      "_graphic": {
+        "alt": "",
+        "src": ""
+      }
+    }
+  ]
+},
+
+
+
+{
+  "_id": "c-211",
+  "_parentId": "b-101",
+  "_type": "component",
+  "_component": "trialogue",
+  "_classes": "",
+  "_layout": "full",
+  "title": "",
+  "displayTitle": "",
+  "body": "Developed by <a href=\"https://en.wikipedia.org/wiki/Alan_Turing\" target=\"_blank\">Alan Turing (1912-1954)</a>, a British mathematician and the father of computer science.",
+  "instruction": "Please initiate the dialogue below to learn more.",
+  "ariaRegion": "",
+  "_supportedLayout": "full-width",
+
+  "_items": [
+    {
+      "id": "start",
+      "sender": "host",
+      "text": "Welcome, I'm Alan and happy to answer all your questions! Were you successful in distinguishing between real and AI-generated images in the previous test?",
+      "next": "item",
+      "_options": [
+        { "text": "Yes" },
+        { "text": "No" }
+      ]
+    },
+    {
+      "id": "Yes",
+      "sender": "host",
+      "text": "Great! But still incredible how far we've come in the area of image generation, don't you think?",
+      "next": "item",
+      "_options": [
+        { "text": "Sure, but what does that have to do with intelligence?" }
+      ]
+    },
+    {
+      "id": "No",
+      "sender": "host",
+      "text": "I must say I'm not surprised, it is incredible how good image generation tools are nowadays.",
+      "next": "item",
+      "_options": [
+        { "text": "Sure, but what does that have to do with intelligence?" }
+      ]
+    },
+    {
+      "id": "Sure, but what does that have to do with intelligence?",
+      "sender": "host",
+      "text": "That's an excellent question! It gets to the heart of what Turing wondered in 1950: Can a machine be so good at imitating human intelligence that we can't tell the difference?",
+      "next": "item",
+      "_options": [
+        { "text": "So he created a test for that?" }
+      ]
+    },
+
+    {
+      "id": "So he created a test for that?",
+      "sender": "host",
+      "text": "Yes, it's now known as the Turing Test. The basic idea is this: if a computer can engage in dialogue with a human without being detected as a computer, we can say it possesses a level of intelligence.",
+      "next": "item",
+      "_options": [
+        { "text": "So, instead of images, it's about conversation?" }
+      ]
+    },
+
+      {
+      "id": "So, instead of images, it's about conversation?",
+      "sender": "host",
+      "text": "Exactly! If a human judge can't tell whether they're conversing with a person or a computer, the machine is said to have passed.",
+      "next": "item",
+      "_options": [
+        { "text": "Okay, I think I get it." }
+      ]
+    },
+      {
+      "id": "Okay, I think I get it.",
+      "sender": "host",
+      "text": "So, the goal is to create a computer that can convincingly resemble human-like intelligence. For example, you easily figured out that this interaction is scripted and I am not an artificial intelligence. With our recent advantages like ChatGPT and Gemini, that is not so easy anymore and they pass my test quite easily.",
+      "next": "feedback",
+      "_options": [
+        { "text": "Thank you!" }
+      ]
+    }
+
+    
+  ],
+
+  "_pageLevelProgress": {
+    "_isEnabled": true
+  }
+},
