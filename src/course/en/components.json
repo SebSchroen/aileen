@@ -189,7 +189,7 @@
     },
         {
       "_character": 1,
-      "text": "Thank you Dr. Turing!",
+      "text": "Thank you!",
       "_graphic": {
         "alt": "",
         "src": ""
@@ -263,7 +263,7 @@
         }
     },
     {
-    "_id": "c-200",
+    "_id": "c-104",
     "_parentId": "b-103",
     "_type": "component",
     "_component": "narrative",
@@ -318,7 +318,7 @@
 },
 
 {
-    "_id": "c-205",
+    "_id": "c-105",
     "_parentId": "b-104",
     "_type": "component",
     "_component": "mcq",
@@ -408,67 +408,62 @@
         "_isCompletionIndicatorEnabled": true
     }
  },
-{
-    "_id": "c-206",
-    "_parentId": "b-105",
-    "_type": "component",
-    "_component": "accordion",
-    "_classes": "",
-    "_layout": "full",
-    "title": "Training Data",
-    "displayTitle": "Common applications and their training data",
-    "body": "Now you know what artificial intelligence is and how machines may learn from data. However, there is one major part missing: The training data. Real-world data, often produced by humans, then fed to machine learning algorithms. Let's look at some common applications and what their training data looks like.",
-    "instruction": "Open the boxes below to learn more",
-    "_shouldCollapseItems": true,
-    "_shouldExpandFirstItem": false,
-    "_comment": "setCompletionOn = inview | allItems",
-    "_setCompletionOn": "allItems",
-    "_isCenterAligned": false,
-    "_items": [
-                
-        {
-            "title": "What is Training Data?",
-            "body": "Training data is the input dataset used to teach a machine learning model to make accurate predictions or classifications. It consists of input features and their corresponding correct outputs, enabling the model to learn patterns and relationships. The quality and quantity of training data directly impact the performance of the trained model.", 
-            "_titleIcon": "",
-            "_imageAlignment": "full",
-            "_graphic": {
-                "src": "",
-                "alt": "",
-                "attribution": ""
+ {
+        "_id": "c-106",
+        "_parentId": "b-105",
+        "_type": "component",
+        "_component": "list",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Training Data",
+        "displayTitle": "Training data: The fuel for machine learning",
+        "body": "Now you know what artificial intelligence is and how machines may learn from data. However, there is one major part missing: The training data. Real-world data, often produced by humans, then fed to machine learning algorithms. What are the three main considerations about training data?",
+   "instruction": "",
+        "_columns": 0,
+        "_orderedList": false,
+        "_animateList": true,
+        "_percentInviewVertical": 10,
+        "_itemHorizontalAlignment": "start",
+        "_bulletAlignment": "start",
+        "_items": [
+            {
+                "title": "Quality",
+                "body": "The quality of the training data is crucial. If the data is noisy, incomplete, or biased, the model will learn these imperfections and perform poorly on new data.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
             },
-            "_classes": ""
-        },
-        {
-            "title": "Example 1: Medical Image Analysis with million of images",
-            "body": "Detecting diseases like cancer from medical images (X-rays, MRIs, CT scans).\n\nA large dataset of medical images, with labels indicating the presence or absence of disease, and potentially the location and type of abnormality.\n\nDeep learning models are trained to identify subtle patterns and anomalies in the images that may be indicative of disease, often exceeding the capabilities of human radiologists in speed and accuracy.",
-            "_titleIcon": "",
-            "_imageAlignment": "full",
-            "_graphic": {
-                "src": "",
-                "alt": "",
-                "attribution": ""
+            {
+                "title": "Quantity",
+                "body": "The amount of training data is also important. More data generally leads to a more accurate model, especially for complex tasks.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
             },
-            "_classes": ""
-        },
-        {
-            "title": "Example 2: Chatbots and Virtual Assistants with text data",
-            "body": "Creating conversational AI systems like ChatGPT or Gemini that can understand and respond to human language.\n\nMassive datasets of text conversations, including customer service logs, social media posts, and movie scripts. Recent models even include entire Wikipedia articles. \n\nNatural Language Processing (NLP) models, such as Transformers, learn to understand the nuances of human language, including grammar, context, and intent, enabling them to generate realistic and helpful responses.",
-            "_titleIcon": "",
-            "_imageAlignment": "left",
-            "_graphic": {
-                "src": "",
-                "alt": "",
-                "attribution": ""
-            },
-            "_classes": ""
+            {
+                "title": "Representativeness",
+                "body": "The training data should be representative of the real-world data that the model will be used on. If the training data is significantly different from the real-world data, the model may not generalize well.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            } 
+        ],
+        "bodyAfter": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
         }
-    ],
-    "_pageLevelProgress": {
-        "_isEnabled": true
-    }
-},
+    },
      {
-        "_id": "c-210",
+        "_id": "c-107",
         "_parentId": "b-106",
         "_type": "component",
         "_component": "text",
@@ -476,9 +471,282 @@
      
         "_classes": "",
         "_isOptional": true
+    },
+{
+        "_id": "c-201",
+        "_parentId": "b-201",
+        "_type": "component",
+        "_component": "list",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Quick Recap",
+        "displayTitle": "A quick recap on training data...",
+        "body": "The training data used in machine learning is very important for this module, so let us briefly recap the main characteristics it should satisfy.",
+   "instruction": "",
+        "_columns": 0,
+        "_orderedList": false,
+        "_animateList": true,
+        "_percentInviewVertical": 10,
+        "_itemHorizontalAlignment": "start",
+        "_bulletAlignment": "start",
+        "_items": [
+            {
+                "title": "Quality",
+                "body": "The quality of the training data is crucial. If the data is noisy, incomplete, or biased, the model will learn these imperfections and perform poorly on new data.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            },
+            {
+                "title": "Quantity",
+                "body": "The amount of training data is also important. More data generally leads to a more accurate model, especially for complex tasks.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            },
+            {
+                "title": "Representativeness",
+                "body": "The training data should be representative of the real-world data that the model will be used on. If the training data is significantly different from the real-world data, the model may not generalize well.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            } 
+        ],
+        "bodyAfter": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+{
+  "_id": "c-202",
+  "_parentId": "b-201",
+  "_type": "component",
+  "_component": "memory",
+  "_classes": "",
+  "_layout": "full",
+  "title": "A quick memory game",
+  "displayTitle": "A quick memory game",
+  "body": "I bet it has been a while since you played memory for the last time (without children). How about a quick game to illustrate gender biases?",
+  "instruction": "",
+  "status": "You found {{guesses}} matches out of {{total}}.",
+  "_items": [
+    {
+      "type": "0",
+      "_graphic": {
+        "src": "course/en/images/pilot_1.png",
+        "alt": "Placeholder graphic"
+      }
+    },
+    {
+      "type": "0",
+      "_graphic": {
+        "src": "course/en/images/pilot_1.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "type": "1",
+      "_graphic": {
+        "src": "course/en/images/pilot_2.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "type": "1",
+      "_graphic": {
+        "src": "course/en/images/pilot_2.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+        {
+      "type": "2",
+      "_graphic": {
+        "src": "course/en/images/pilot_3.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "type": "2",
+      "_graphic": {
+        "src": "course/en/images/pilot_3.png",
+        "alt": ""
+      },
+      "_classes": ""
     }
-
-
-
+  ],
+  "feedback": "Nice, you found all the matching cards.",
+  "_pageLevelProgress": {
+    "_isEnabled": true
+  }
+},
+{
+  "_id": "c-203",
+  "_parentId": "b-201",
+  "_type": "component",
+  "_component": "flowItems",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Example Cases of Biases",
+  "displayTitle": "Discrimination due to biases: Real examples",
+  "body": "",
+  "instruction": "Click to learn the details about real examples of biases in AI training data",
+  "_setCompletionOn": "allItems",
+  "_isSequential": true,
+  "_isAutoScroll": true,
+  "_scrollDuration": 400,
+  "_scrollOffsetTop": 60,
+  "_buttons": {
+    "_next": {
+      "text": "View more",
+      "ariaLabel": "Select here to move to the next.",
+      "_icon": {
+        "src": "",
+        "_classes": "",
+        "alt": ""
+      }
+    },
+    "_end": {
+      "text": "Restart",
+      "ariaLabel": "Select here to restart.",
+      "_icon": {
+        "src": "",
+        "_classes": "",
+        "alt": ""
+      }
+    }
+  },
+  "_items": [
+    {
+      "title": "<b>Gender Bias in Recruitment Tools</b>",
+      "body": "",
+      "_graphic": {
+        "alt": "",
+        "large": "",
+        "small": ""
+      },
+      "_classes": "",
+      "_items": [
+        {
+          "title": "<b>Example</b>",
+          "body": "Amazon's AI recruitment tool penalized female candidates due to biased training data.",
+          "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": ""
+          }
+        },
+        {
+          "title": "<b>Bias</b>",
+          "body": "Historical hiring data with a higher proportion of successful male applicants.",
+          "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": ""
+          }
+        },
+        {
+          "title": "<b>Consequences</b>",
+          "body": "Discrimination against qualified female applicants, perpetuating gender imbalance.",
+          "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": ""
+          }
+        }
+      ]
+    },
+    {
+      "title": "<b>Predictive Policing</b>",
+      "body": "",
+      "_graphic": {
+        "alt": "",
+        "large": "",
+        "small": ""
+      },
+      "_classes": "",
+      "_items": [
+        {
+          "title": "<b>Example</b>",
+          "body": "Predictive policing algorithms target areas based on historical crime data.",
+          "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": ""
+          }
+        },
+        {
+          "title": "<b>Bias</b>",
+          "body": "Historical crime data reflects existing biases in policing, targeting low-income and minority neighborhoods.",
+          "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": ""
+          }
+        },
+        {
+          "title": "<b>Consequences</b>",
+          "body": "Increased arrests in targeted areas, reinforcing the perception of high crime and perpetuating a cycle of discrimination.",
+          "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": ""
+          }
+        }
+      ]
+    },
+    {
+      "title": "<b>Discrimination on the Basis of Skin Color</b>",
+      "body": "",
+      "_graphic": {
+        "alt": "",
+        "large": "",
+        "small": ""
+      },
+      "_classes": "",
+      "_items": [
+        {
+          "title": "<b>Example</b>",
+          "body": "Facial recognition systems perform less accurately for individuals with darker skin tones.",
+          "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": ""
+          }
+        },
+        {
+          "title": "<b>Bias</b>",
+          "body": "Training datasets contain a disproportionately high number of images from specific ethnic groups or regions.",
+          "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": ""
+          }
+        },
+        {
+          "title": "<b>Consequences</b>",
+          "body": "Misidentification and unfair treatment in law enforcement and other applications of AI, perpetuating ethnicity-based discrimination.",
+          "_graphic": {
+            "alt": "",
+            "large": "",
+            "small": ""
+          }
+        }
+      ]
+    }
+  ]
+}
 
 ]

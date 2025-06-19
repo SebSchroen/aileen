@@ -195,3 +195,151 @@
     "_isEnabled": true
   }
 },
+{
+    "_id": "c-106",
+    "_parentId": "b-105",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Training Data",
+    "displayTitle": "Common applications and their training data",
+    "body": "Now you know what artificial intelligence is and how machines may learn from data. However, there is one major part missing: The training data. Real-world data, often produced by humans, then fed to machine learning algorithms. Let's look at some common applications and what their training data looks like.",
+    "instruction": "Open the boxes below to learn more",
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false,
+    "_comment": "setCompletionOn = inview | allItems",
+    "_setCompletionOn": "allItems",
+    "_isCenterAligned": false,
+    "_items": [
+                
+        {
+            "title": "What is Training Data?",
+            "body": "Training data is the input dataset used to teach a machine learning model to make accurate predictions or classifications. It consists of input features and their corresponding correct outputs, enabling the model to learn patterns and relationships. The quality and quantity of training data directly impact the performance of the trained model.", 
+            "_titleIcon": "",
+            "_imageAlignment": "full",
+            "_graphic": {
+                "src": "",
+                "alt": "",
+                "attribution": ""
+            },
+            "_classes": ""
+        },
+        {
+            "title": "Example 1: Medical Image Analysis with million of images",
+            "body": "Detecting diseases like cancer from medical images (X-rays, MRIs, CT scans).\n\nA large dataset of medical images, with labels indicating the presence or absence of disease, and potentially the location and type of abnormality.\n\nDeep learning models are trained to identify subtle patterns and anomalies in the images that may be indicative of disease, often exceeding the capabilities of human radiologists in speed and accuracy.",
+            "_titleIcon": "",
+            "_imageAlignment": "full",
+            "_graphic": {
+                "src": "",
+                "alt": "",
+                "attribution": ""
+            },
+            "_classes": ""
+        },
+        {
+            "title": "Example 2: Chatbots and Virtual Assistants with text data",
+            "body": "Creating conversational AI systems like ChatGPT or Gemini that can understand and respond to human language.\n\nMassive datasets of text conversations, including customer service logs, social media posts, and movie scripts. Recent models even include entire Wikipedia articles. \n\nNatural Language Processing (NLP) models, such as Transformers, learn to understand the nuances of human language, including grammar, context, and intent, enabling them to generate realistic and helpful responses.",
+            "_titleIcon": "",
+            "_imageAlignment": "left",
+            "_graphic": {
+                "src": "",
+                "alt": "",
+                "attribution": ""
+            },
+            "_classes": ""
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+},
+
+
+    {
+    "_id": "c-201",
+    "_parentId": "b-201",
+    "_type": "component",
+    "_component": "matching",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Training Data Characteristics Check",
+    "displayTitle": "",
+    "body": "At the end of the previous session, we introduced the concept of training data as well as three major conditions it should satisfy: Quality, Quantity and Representativeness. Match each statement below to its corresponding characteristic.",
+    "instruction": "For each description, choose the best characteristic (Quality, Quantity, or Representativeness) from the dropdown list.",
+    "ariaQuestion": "Match descriptions to training data characteristics.",
+    "_attempts": 3,
+    "_shouldDisplayAttempts": true,
+    "_shouldResetAllAnswers": false,
+    "_isRandom": true,
+    "_isRandomQuestionOrder": true,
+    "_questionWeight": 50,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "placeholder": "Select a characteristic",
+    "_allowOnlyUniqueAnswers": true,
+    "_hasItemScoring": false,
+    "_items": [
+        {
+            "text": "If the data is noisy, incomplete, or biased, a model will learn these imperfections and perform poorly on new data.",
+            "_options": [
+                { "text": "Quality", "_isCorrect": true, "_score": 1 },
+                { "text": "Quantity", "_isCorrect": false, "_score": 0 },
+                { "text": "Representativeness", "_isCorrect": false, "_score": 0 }
+            ]
+        },
+        {
+            "text": "More data generally leads to a more accurate model, especially for complex tasks.",
+            "_options": [
+                { "text": "Quality", "_isCorrect": false, "_score": 0 },
+                { "text": "Quantity", "_isCorrect": true, "_score": 1 },
+                { "text": "Representativeness", "_isCorrect": false, "_score": 0 }
+            ]
+        },
+        {
+            "text": "The training data should reflect the real-world data that the model will be used on. If the training data is significantly different from the real-world data, the model may not generalize well.",
+            "_options": [
+                { "text": "Quality", "_isCorrect": false, "_score": 0 },
+                { "text": "Quantity", "_isCorrect": false, "_score": 0 },
+                { "text": "Representativeness", "_isCorrect": true, "_score": 1 }
+            ]
+        }
+    ],
+    "_feedback": {
+        "title": "Feedback",
+        "altTitle": "Result of your matching activity",
+        "correct": "Perfect! You've correctly matched each statement to its training data characteristic.",
+        "_incorrect": {
+            "notFinal": "Not quite. Review the definitions of Quality, Quantity, and Representativeness before trying again.",
+            "final": "Incorrect. Take some time to revisit the core concepts of training data characteristics."
+        },
+        "_partlyCorrect": {
+            "notFinal": "Partially correct. You're on the right track, but some matches need adjustment.",
+            "final": "Partially correct. You've identified some correctly, but not all. Consider reviewing the topic."
+        }
+    },
+    "_buttons": {
+        "_submit": {
+            "buttonText": "Submit Answers",
+            "ariaLabel": "Select here to submit your chosen matches."
+        },
+        "_reset": {
+            "buttonText": "Reset Choices",
+            "ariaLabel": "Clear all your selections and start over."
+        },
+        "_showFeedback": {
+            "buttonText": "Show Feedback",
+            "ariaLabel": "Select here to show feedback."
+        },
+        "_showCorrectAnswer": {
+            "buttonText": "Show Correct",
+            "ariaLabel": "Reveal the correct answers for this activity."
+        }
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true
+    }
+},
