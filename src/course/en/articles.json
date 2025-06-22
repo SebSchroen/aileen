@@ -91,7 +91,7 @@
         }
     },
     "_trickle": {
-      "_isEnabled": false,
+      "_isEnabled": true,
       "_onChildren": true,
       "_completionAttribute": "_isComplete",
       "_button": {

@@ -764,7 +764,7 @@
         "_layout": "full",
         "title": "Main takeaway",
         "displayTitle": "Does that mean <em>all</em> AI is biased & discriminatory?",
-        "body": "Of course not! The previous examples show that the output of AI systems strongly rely on their training data. Most importantly, any biases or systematic pattern in the results are not intentional, they are usually embedded in the training data. AI systems are only as good as the data they’re trained on and the humans that build them.",
+        "body": "Of course not! Here, “bias” doesn’t mean the training data is prejudiced. It means the training data is not representative of the broader data the model is applied to. The previous examples show that the output of AI systems strongly rely on their training data. Most importantly, any biases or systematic pattern in the results are not intentional, they are usually embedded in the training data. AI systems are only as good as the data they’re trained on and the humans that build them.",
         "instruction": "So where do the biases come from? Click on the panels below to learn more.",
         "_columns" : 3,
         "_animationType": "shrink",
@@ -829,6 +829,72 @@
         "_isEnabled": true,
         "_isCompletionIndicatorEnabled": true
     }
-}
+},
+
+ {
+    "_id": "c-210",
+    "_parentId": "b-206",
+    "_type": "component",
+    "_component": "narrative",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Possible solutions",
+    "displayTitle": "What are the solutions?",
+    "body": "The previous example draw a fairly dire picture of AI and machine learning. In reality, things are much better for several reasons.",
+    "instruction": "Use the arrows below to explore different solutions to the problems we discussed so far.",
+    "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_isTextBelowImage": false,
+    "_isMobileTextBelowImage": false,
+    "_isStackedOnMobile": false,
+    "_items": [
+      {
+          "title": "Guardrails",
+          "body": "The previous examples highlighted how flawed training data can lead to biased or harmful outcomes, a concern for developers and regulators alike. In response, model creators implement safety filters and 'guardrails' to prevent unwanted behavior. <br> <br> These guardrails can range from output moderation and bias mitigation to mechanisms that ensure responses align with societal norms or a specific corporate identity. <br> <br> To ensure the line between acceptable and unacceptable behavior isn't drawn solely by large tech companies, initiatives like Guardrails.AI provide open-source, community-driven standards for AI models.",
+          "_graphic": {
+              "src": "course/en/images/guardrails_1.jpg",
+              "attribution": "Generated with Google Imagen 4",
+              "alt": ""
+          },
+          "strapline": "Learning from Labeled Data"
+      },
+        {
+            "title": "Stay critical",
+            "body": "You may have noticed that this course intentionally uses materials from different AI models, such as Google's Imagen 3 and 4 for images and an older language model for the gender bias chart. This is by design. <br> <br> These choices demonstrate key points in the history of machine learning and serve as a reminder to remain critical of two things: the output of AI systems in sensitive applications and, just as importantly, the motivations of the organizations that provide them. <br> <br> When implementing any sort of AI system, it is helpful to keep the examples above in mind to avoid unwanted outcomes. ",
+            "_graphic": {
+                "src": "course/en/images/pexels-lilartsy-8730085.jpg",
+                "attribution": "<a href=\"https://www.pexels.com/photo/woman-blindfolded-8730085/\" target=\"_blank\" style=\"color: white;\">Lil Artsy on www.pexels.com</a>",
+                "alt": ""
+            },
+            "strapline": ""
+        },
+                {
+            "title": "New models do much better",
+            "body": "Modern AI models tend to exhibit a reduction in bias, which can be attributed to two main factors: the implementation of explicit guardrails and a more sophisticated linguistic comprehension that moves beyond the simplified gender-role correlations of previous models. <br> <br> For example, the language embeddings integral to ChatGPT yield significantly more equitable associations between gender and professions in contrast to the chart above.  <br> <br> Likewise, Google's Imagen 4 demonstrates this advancement by producing greater demographic variety; a prompt for a 'realistic photo of a nurse' results in images that feature men and women in approximately equal measure.",
+            "_graphic": {
+                "src": "course/en/images/nurse_2.png",
+                "attribution": "Generated with Google Imagen 4",
+                "alt": ""
+            },
+            "strapline": ""
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+
+     {
+        "_id": "c-211",
+        "_parentId": "b-207",
+        "_type": "component",
+        "_component": "text",
+        "body": "Sources: <br> <br> Stahl, Bernd; Schroeder, Doris & Rodrigues, Rowena (2023):  Ethics of Artificial Intelligence. DOI: <a href=\"https://doi.org/10.1007/978-3-031-17040-9\" target=\"_blank\">https://doi.org/10.1007/978-3-031-17040-9</a> <br> <br> Bolukbasi et al. (2016): Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings, DOI: <a href=\"https://doi.org/10.48550/arXiv.1607.06520\" target=\"_blank\">https://doi.org/10.48550/arXiv.1607.06520</a> <br> <br> Huawei Technologies (2023): Artificial Intelligence Technogoly, DOI: <a href=\"https://doi.org/10.1007/978-981-19-2879-6\" target=\"_blank\">https://doi.org/10.1007/978-981-19-2879-6</a> ",
+     
+        "_classes": "",
+        "_isOptional": true
+    }
 
 ]

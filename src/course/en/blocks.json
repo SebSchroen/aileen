@@ -152,5 +152,27 @@
     "body": "",
     "instruction": "",
     "_trackingId": 13
+  },
+      {
+    "_id": "b-206",
+    "_parentId": "a-101",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 14
+  },
+      {
+    "_id": "b-207",
+    "_parentId": "a-101",
+    "_type": "block",
+    "_classes": "",
+    "title": "Thank you",
+    "displayTitle": "That's it, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 15
   }
 ]
