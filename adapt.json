@@ -26,6 +26,10 @@
     "adapt-contrib-triggered": "*",
     "adapt-talk": "*",
     "adapt-list": "*",
-    "adapt-cards": "*"
+    "adapt-cards": "*",
+    "adapt-flipper": "*",
+    "adapt-expose": "*",
+    "adapt-tabs": "*",
+    "adapt-counters": "*"
   }
 }

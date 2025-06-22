@@ -458,9 +458,10 @@
             } 
         ],
         "bodyAfter": "",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
+      "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
     },
      {
         "_id": "c-107",
@@ -472,71 +473,18 @@
         "_classes": "",
         "_isOptional": true
     },
+
 {
-        "_id": "c-201",
-        "_parentId": "b-201",
-        "_type": "component",
-        "_component": "list",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Quick Recap",
-        "displayTitle": "A quick recap on training data...",
-        "body": "The training data used in machine learning is very important for this module, so let us briefly recap the main characteristics it should satisfy.",
-   "instruction": "",
-        "_columns": 0,
-        "_orderedList": false,
-        "_animateList": true,
-        "_percentInviewVertical": 10,
-        "_itemHorizontalAlignment": "start",
-        "_bulletAlignment": "start",
-        "_items": [
-            {
-                "title": "Quality",
-                "body": "The quality of the training data is crucial. If the data is noisy, incomplete, or biased, the model will learn these imperfections and perform poorly on new data.",
-                "_classes": "",
-                "_graphic": {
-                    "src": "",
-                    "alt": "",
-                    "attribution": ""
-                }
-            },
-            {
-                "title": "Quantity",
-                "body": "The amount of training data is also important. More data generally leads to a more accurate model, especially for complex tasks.",
-                "_classes": "",
-                "_graphic": {
-                    "src": "",
-                    "alt": "",
-                    "attribution": ""
-                }
-            },
-            {
-                "title": "Representativeness",
-                "body": "The training data should be representative of the real-world data that the model will be used on. If the training data is significantly different from the real-world data, the model may not generalize well.",
-                "_classes": "",
-                "_graphic": {
-                    "src": "",
-                    "alt": "",
-                    "attribution": ""
-                }
-            } 
-        ],
-        "bodyAfter": "",
-        "_pageLevelProgress": {
-            "_isEnabled": true
-        }
-    },
-{
-  "_id": "c-202",
+  "_id": "c-201",
   "_parentId": "b-201",
   "_type": "component",
   "_component": "memory",
   "_classes": "",
   "_layout": "full",
   "title": "A quick memory game",
-  "displayTitle": "A quick memory game",
-  "body": "I bet it has been a while since you played memory for the last time (without children). How about a quick game to illustrate gender biases?",
-  "instruction": "",
+  "displayTitle": "Let's start with a quick game of Memory...",
+  "body": "",
+  "instruction": "Turn the cards to find the matching pairs.",
   "status": "You found {{guesses}} matches out of {{total}}.",
   "_items": [
     {
@@ -587,166 +535,300 @@
       "_classes": ""
     }
   ],
-  "feedback": "Nice, you found all the matching cards.",
-  "_pageLevelProgress": {
-    "_isEnabled": true
-  }
+  "feedback": "Nice, you found all the matching cards, is there anything the images have in common?",
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+  "_id": "c-202",
+  "_parentId": "b-202",
+  "_type": "component",
+  "_component": "text",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Gender Stereotypes in Image Generation",
+  "displayTitle": "...but that was just by chance, right?",
+  "body": "",
+  "typingSpeed": 100,
+  "erasingSpeed": 50,
+  "delayBetweenWords": 1000,
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
 },
 {
   "_id": "c-203",
-  "_parentId": "b-201",
+  "_parentId": "b-202",
   "_type": "component",
-  "_component": "flowItems",
+  "_component": "text",
+  "_classes": "",
+  "_layout": "left",
+  "title": "",
+  "displayTitle": "",
+  "body": "We don't need Sherlock Holmes to see that all of the images above depict white men. Artificial Intelligence <em> can  </em> perpetuate structural patterns in the training data when creating new predictions or new content. <br> <br> To illustrate this, I did a little experiment with the image generation model Google Imagen 3 and four professions. I generated 30 images for each profession with the prompt on the right...",
+  "typingSpeed": 100,
+  "erasingSpeed": 50,
+  "delayBetweenWords": 1000,
+    "_pageLevelProgress": {
+        "_isEnabled": false,
+        "_isCompletionIndicatorEnabled": false
+    }
+},
+{
+  "_id": "c-204",
+  "_parentId": "b-202",
+  "_type": "component",
+  "_component": "typewriter",
+  "_classes": "",
+  "_layout": "right",
+  "title": "",
+  "displayTitle": "",
+  "body": " <br> <br> <br> <b> Realistic photo of a ... </b>",
+  "instruction": "",
+  "words": ["nurse", "plumber", "pilot", "flight attendant"],
+  "typingSpeed": 75,
+  "erasingSpeed": 25,
+  "delayBetweenWords": 1000,
+    "_pageLevelProgress": {
+        "_isEnabled": false,
+        "_isCompletionIndicatorEnabled": false
+    }
+},
+{
+  "_id": "c-205",
+  "_parentId": "b-202",
+  "_type": "component",
+  "_component": "counters",
   "_classes": "",
   "_layout": "full",
-  "title": "Example Cases of Biases",
-  "displayTitle": "Discrimination due to biases: Real examples",
+  "title": "",
+  "displayTitle": "Unfortunately it's a pattern...",
   "body": "",
-  "instruction": "Click to learn the details about real examples of biases in AI training data",
+  "instruction": "",
   "_setCompletionOn": "allItems",
-  "_isSequential": true,
-  "_isAutoScroll": true,
-  "_scrollDuration": 400,
-  "_scrollOffsetTop": 60,
-  "_buttons": {
-    "_next": {
-      "text": "View more",
-      "ariaLabel": "Select here to move to the next.",
-      "_icon": {
-        "src": "",
-        "_classes": "",
-        "alt": ""
-      }
-    },
-    "_end": {
-      "text": "Restart",
-      "ariaLabel": "Select here to restart.",
-      "_icon": {
-        "src": "",
-        "_classes": "",
-        "alt": ""
-      }
-    }
+  "_transitionSpeed": 1000000,
+  "_columns": {
+    "small": 0,
+    "medium": 2,
+    "large": 4,
+    "xlarge": 4
   },
   "_items": [
     {
-      "title": "<b>Gender Bias in Recruitment Tools</b>",
+      "title": "<p> of the 30 generated images exhibit male features.</p>",
       "body": "",
       "_graphic": {
-        "alt": "",
-        "large": "",
-        "small": ""
+        "src": "course/en/images/pilot_1.png",
+        "alt": "graphic 1"
       },
-      "_classes": "",
-      "_items": [
-        {
-          "title": "<b>Example</b>",
-          "body": "Amazon's AI recruitment tool penalized female candidates due to biased training data.",
-          "_graphic": {
-            "alt": "",
-            "large": "",
-            "small": ""
-          }
-        },
-        {
-          "title": "<b>Bias</b>",
-          "body": "Historical hiring data with a higher proportion of successful male applicants.",
-          "_graphic": {
-            "alt": "",
-            "large": "",
-            "small": ""
-          }
-        },
-        {
-          "title": "<b>Consequences</b>",
-          "body": "Discrimination against qualified female applicants, perpetuating gender imbalance.",
-          "_graphic": {
-            "alt": "",
-            "large": "",
-            "small": ""
-          }
-        }
-      ]
+      "_countStart": 0,
+      "_countEnd": 100,
+      "counterLabel": "%",
+      "_classes": ""
     },
     {
-      "title": "<b>Predictive Policing</b>",
+      "title": "<p> out of the 30 generated pilot images are women with very similar characeristics.</p>",
       "body": "",
       "_graphic": {
-        "alt": "",
-        "large": "",
-        "small": ""
+        "src": "course/en/images/flight_attendant_1.png",
+        "alt": "graphic 2"
       },
-      "_classes": "",
-      "_items": [
-        {
-          "title": "<b>Example</b>",
-          "body": "Predictive policing algorithms target areas based on historical crime data.",
-          "_graphic": {
-            "alt": "",
-            "large": "",
-            "small": ""
-          }
-        },
-        {
-          "title": "<b>Bias</b>",
-          "body": "Historical crime data reflects existing biases in policing, targeting low-income and minority neighborhoods.",
-          "_graphic": {
-            "alt": "",
-            "large": "",
-            "small": ""
-          }
-        },
-        {
-          "title": "<b>Consequences</b>",
-          "body": "Increased arrests in targeted areas, reinforcing the perception of high crime and perpetuating a cycle of discrimination.",
-          "_graphic": {
-            "alt": "",
-            "large": "",
-            "small": ""
-          }
-        }
-      ]
+      "_countStart": 0,
+      "_countEnd": 100,
+      "counterLabel": "%",
+      "_classes": ""
     },
     {
-      "title": "<b>Discrimination on the Basis of Skin Color</b>",
+      "title": "<p> of the generated plumber images are men, some of them even resemble a famous video game character.</p>",
       "body": "",
       "_graphic": {
-        "alt": "",
-        "large": "",
-        "small": ""
+        "src": "course/en/images/plumber_1.png",
+        "alt": "graphic 3"
       },
-      "_classes": "",
-      "_items": [
-        {
-          "title": "<b>Example</b>",
-          "body": "Facial recognition systems perform less accurately for individuals with darker skin tones.",
-          "_graphic": {
-            "alt": "",
-            "large": "",
-            "small": ""
-          }
-        },
-        {
-          "title": "<b>Bias</b>",
-          "body": "Training datasets contain a disproportionately high number of images from specific ethnic groups or regions.",
-          "_graphic": {
-            "alt": "",
-            "large": "",
-            "small": ""
-          }
-        },
-        {
-          "title": "<b>Consequences</b>",
-          "body": "Misidentification and unfair treatment in law enforcement and other applications of AI, perpetuating ethnicity-based discrimination.",
-          "_graphic": {
-            "alt": "",
-            "large": "",
-            "small": ""
-          }
-        }
-      ]
+      "_countStart": 0,
+      "_countEnd": 100,
+      "counterLabel": "%",
+      "_classes": ""
+    },
+    {
+      "title": "<p> of the generated nurse images are women of a very similar phenotype.</p>",
+      "body": "",
+      "_graphic": {
+        "src": "course/en/images/nurse_1.png",
+        "alt": "graphic 3"
+      },
+      "_countStart": 0,
+      "_countEnd": 100,
+      "counterLabel": "%",
+      "_classes": ""
     }
-  ]
+  ],
+      "_pageLevelProgress": {
+        "_isEnabled": false,
+        "_isCompletionIndicatorEnabled": false
+    }
+},
+
+
+    {
+        "_id": "c-206",
+        "_parentId": "b-203",
+        "_type": "component",
+        "_component": "graphic",
+        "_classes": "",
+        "_layout": "left",
+        "title": "Biases in Text Data",
+        "displayTitle": "",
+        "body": "",
+        "instruction": "",
+        "_graphic": {
+            "alt": "",
+            "longdescription": "",
+            "large": "course/en/images/embeddings_and_gender.png",
+            "small": "course/en/images/embeddings_and_gender.png",
+
+            "_url": "",
+            "_target": "_blank"
+        },
+        "_isScrollable": false,
+        "_defaultScrollPercent": 0,
+        "_pageLevelProgress": {
+          "_isEnabled": false,
+        "_isCompletionIndicatorEnabled": false
+        }
+    },
+
+	{
+    "_id": "c-207",
+    "_parentId": "b-203",
+    "_type": "component",
+    "_component": "flipper",
+    "_classes": "",
+    "_layout": "right",
+    "title": "Uncovering AI's Hidden Biases",
+    "displayTitle": "",
+    "body": "",
+    "width": 320,
+"_items": [
+        {
+            "title": "",
+            "body": "This chart reveals the hidden stereotypes a real-life language model has learned about jobs and gender. Click to see learn mode...",
+            "instruction": "Next »"
+        },
+        {
+            "title": "How to Read the Chart",
+            "body": "Each bar shows a job's gender association. The light blue section shows the 'Male' association, and the dark blue shows the 'Female' association. Together, they always add up to 100%.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "What 'Associated With' Means",
+            "body": "The language model noticed that words are used in similar ways in the text it digested. If a word often appears near 'she' or 'he', the model links them close to each other. This reflects patterns in data, not necessarily the objective truth.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "A Look at 'Nurse'",
+            "body": "Let's start in the middle. The language model associates 'nurse' with 'Female' 57% of the time. This shows a common stereotype that the model has learned from text.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Now, Let's Look at 'Plumber'",
+            "body": "In contrast, the model associates 'plumber' with 'Male' 52% of the time. Even though it's a slight bias, the pattern consistently reflects societal stereotypes.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "An Extreme Example",
+            "body": "Now look at an extreme case like 'financier'. The language model shows a very strong 77% male association. In contrast, the model links 'stylist' to female with a 70% chance.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Why This Matters",
+            "body": "When language models inherit these biases, they can produce unfair or skewed outcomes in real-world applications, like resume screening or content generation.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "The Takeaway",
+            "body": "By visualizing these biases, we can better understand them and work towards creating fairer and more responsible language models.",
+            "instruction": "Complete ✔"
+        }
+    ]
+},
+    {
+          "_id": "c-208",
+    "_parentId": "b-204",
+        "_type": "component",
+        "_component": "expose",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Main takeaway",
+        "displayTitle": "Does that mean <em>all</em> AI is biased & discriminatory?",
+        "body": "Of course not! The previous examples show that the output of AI systems strongly rely on their training data. Most importantly, any biases or systematic pattern in the results are not intentional, they are usually embedded in the training data. AI systems are only as good as the data they’re trained on and the humans that build them.",
+        "instruction": "So where do the biases come from? Click on the panels below to learn more.",
+        "_columns" : 3,
+        "_animationType": "shrink",
+        "_items": [
+            {
+                "front": "Data was collected for other purposes",
+                "back": {
+                    "body": "AI systems often analyze existing data that was collected for purposes different from those the AI system is pursuing. This means the data wasn't gathered with the intention of being used for, say, predictive policing or recruitment, so properties of the data that may facilitate unfair outcomes are not considered."
+                }
+            },
+            {
+                "front": "Data is historical",
+                "back": {
+                    "body": "Historical data often reflects past societal biases and discriminatory practices. When AI systems are trained on this data, they can perpetuate and amplify these biases."
+                }
+            },
+            {
+                "front": "Data is non-representative",
+                "back": {
+                    "body": "This issue arises when a machine-learning system is trained on data that does not fully represent the population that the system is meant to be applied to. AI systems can then reflect this representation bias when exposed to real-world data that differs significantly from the data they were trained on, leading to skewed or unfair outcomes."
+                }
+            }
+        ]
+    },
+
+
+{
+    "_id": "c-209",
+    "_parentId": "b-205",
+    "_type": "component",
+    "_component": "tabs",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Real-life impact",
+    "displayTitle": "Real-life impact of biased training data",
+    "body": "The previous thought experiments are mostly academic, so let's look at real examples where biases in training data led to sub-optimal and discriminatory in real-life applications.",
+    "instruction": "Select the tabs to find out more.",
+    "_tabLayout": "horizontal",
+    "_minHeight": "250px",
+    "_comment": "Only set min height if you want to uniform the content container size across tab items. By default, the container will display at the height of each item's content",
+    "_items": [
+        {
+            "tabTitle": "Case 1: Recruitment Bias",
+            "title": "Case 1: Gender Bias in Recruitment",
+            "body": "Amazon created an AI program to automate the shortlisting of job applicants by reviewing résumés. The tool was trained on CVs from a previous ten-year period, a dataset in which most successful applicants had been men. As a result, the AI learned to be biased against female applicants, penalizing résumés that contained phrases like \"women's chess club captain.\" Despite attempts to correct the gender bias, Amazon ultimately abandoned the program as it did not align with the company's commitment to workplace diversity and equality <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(see Stahl et al. 2023).</a>",
+            "_classes": ""
+        },
+        {
+            "tabTitle": "Case 2: Parole Decisions",
+            "title": "Case 2: AI Bias in Parole Decisions",
+            "body": "A prisoner named Glenn Rodríguez, who had a model rehabilitation record, applied for early release but was denied. The parole board's decision was based on a \"high risk\" prediction from an AI system called COMPAS. The board did not know how the AI's algorithm worked, as it was a trade secret. Rodríguez later discovered his high score was due to subjective and potentially racially prejudiced views from prison guards. Although he was eventually released, the inability to contest the AI's flawed and opaque logic meant he might have been released much sooner <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(see Stahl et al. 2023).</a>",
+            "_classes": ""
+        },
+        {
+            "tabTitle": "Case 3: Facial Recognition",
+            "title": "Case 3: Bias in Facial Recognition",
+            "body": "An engineering student of Asian descent in New Zealand had his passport photo rejected by an automated system because it incorrectly claimed his eyes were closed. This incident points to a wider problem of ethnicity-based errors in facial recognition technology. Similar systems have shown bias against other groups; for instance, photos of dark-skinned women in the UK were four times more likely to be graded as poor quality, with one black student's photo being rejected because the system inaccurately detected her mouth was open <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(see Stahl et al. 2023)</a>.",
+            "_classes": ""
+        }
+    ],
+        "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
 }
 
 ]

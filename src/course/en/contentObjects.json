@@ -32,19 +32,19 @@
     "_type": "page",
     "_classes": "",
     "_htmlClasses": "",
-    "title": "Ethical and Legal Considerations ",
-    "displayTitle": "Ethical and Legal Considerations",
-    "body": "Tis module presents some ethical and legal challenges in the development and usage of Artificial Intelligence. We will discuss biases and potential discrimination, as well as legal aspects such as copyright and data protection.",
+    "title": "Biases & Ethical Considerations ",
+    "displayTitle": "Biases & Ethical Considerations",
+    "body": "This module presents major ethical challenges in the development and usage of Artificial Intelligence. We will discuss biases in training data and potential discrimination.",
     "pageBody": "",
     "instruction": "{{_globals._learnerInfo.firstname}}, please scroll down to start your learning journey.",
     "_graphic": {
-      "src": "course/en/images/pexels-ekaterina-bolovtsova-6077797.jpg",
-      "alt": "Ekaterina Bolovtsova @ Pexels.com",
+      "src": "course/en/images/pexels-markus-winkler-1430818-18498317.jpg",
+      "alt": "Markus Winkler @ Pexels.com",
       "attribution": "Ekaterina Bolovtsova @ Pexels.com"
           
     },
     "linkText": "View",
-    "duration": "10 Minutes",
+    "duration": "5 Minutes",
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_showPageCompletion": true,
