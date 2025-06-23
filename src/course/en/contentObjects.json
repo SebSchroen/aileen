@@ -51,5 +51,31 @@
       "_excludeAssessments": false,
       "_isCompletionIndicatorEnabled": true
     }
+  },
+      {
+    "_id": "co-103",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "Artificial Intelligence & Copyright Law",
+    "displayTitle": "Artificial Intelligence & Copyright Law",
+    "body": "This module explores the complex intersection of Artificial Intelligence and copyright law. We will discuss issues of ownership for AI-generated content, potential copyright infringement by AI models, and the evolving legal frameworks surrounding the new technology.",
+    "pageBody": "",
+    "instruction": "{{_globals._learnerInfo.firstname}}, please scroll down to start your learning journey.",
+    "_graphic": {
+      "src": "course/en/images/pexels-ekaterina-bolovtsova-6077797.jpg",
+      "alt": "Ekaterina Bolovtsova @ Pexels.com",
+      "attribution": "Ekaterina Bolovtsova @ Pexels.com"
+          
+    },
+    "linkText": "View",
+    "duration": "5 Minutes",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false,
+      "_isCompletionIndicatorEnabled": true
+    }
   }
 ]

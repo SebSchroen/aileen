@@ -21,7 +21,7 @@
         "startText": "Continue",
         "_showEndOfPage": true
       }
-  }
+    }
   },
   {
     "_id": "b-101",
@@ -71,8 +71,7 @@
     "instruction": "",
     "_trackingId": 6
   },
-
-    {
+  {
     "_id": "b-105",
     "_parentId": "a-100",
     "_type": "block",
@@ -83,7 +82,7 @@
     "instruction": "",
     "_trackingId": 7
   },
-    {
+  {
     "_id": "b-106",
     "_parentId": "a-100",
     "_type": "block",
@@ -94,7 +93,7 @@
     "instruction": "",
     "_trackingId": 8
   },
-    {
+  {
     "_id": "b-201",
     "_parentId": "a-101",
     "_type": "block",
@@ -105,7 +104,7 @@
     "instruction": "",
     "_trackingId": 9
   },
-      {
+  {
     "_id": "b-202",
     "_parentId": "a-101",
     "_type": "block",
@@ -116,17 +115,17 @@
     "instruction": "",
     "_trackingId": 10
   },
-      {
+  {
     "_id": "b-203",
     "_parentId": "a-101",
     "_type": "block",
     "_classes": "",
     "title": "Biases in Text Data",
     "displayTitle": "...and it's not only image data.",
-    "body": "We can extend this example to text data which is used to train famous lanugage models like ChatGPT. The data below is from an older language model which was used to learn the relationship between words based on how often they appear close to each other. The model, called GloVe, was trained on Wikipedia and public text data.",
+    "body": "The principle of inherited bias extends from image generation to text data, which forms the training foundation for large language models like ChatGPT.  <br> <br> The following data illustrates this with GloVe, a foundational model trained on Wikipedia and public web text, for example Twitter. The model was designed to map the relationships between words based on their proximity and co-occurrence within this data.",
     "instruction": "Flip the cards on the right to learn more about the chart on the left.",
     "_trackingId": 11,
-        "_pageLevelProgress": {
+    "_pageLevelProgress": {
       "_isEnabled": true,
       "_isCompletionIndicatorEnabled": true
     }
@@ -142,7 +141,7 @@
     "instruction": "",
     "_trackingId": 12
   },
-    {
+  {
     "_id": "b-205",
     "_parentId": "a-101",
     "_type": "block",
@@ -153,7 +152,7 @@
     "instruction": "",
     "_trackingId": 13
   },
-      {
+  {
     "_id": "b-206",
     "_parentId": "a-101",
     "_type": "block",
@@ -164,7 +163,7 @@
     "instruction": "",
     "_trackingId": 14
   },
-      {
+  {
     "_id": "b-207",
     "_parentId": "a-101",
     "_type": "block",
@@ -174,5 +173,71 @@
     "body": "",
     "instruction": "",
     "_trackingId": 15
+  },
+  {
+    "_id": "b-301",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 31
+  },
+  {
+    "_id": "b-302",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 32
+  },
+  {
+    "_id": "b-303",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 57
+  },
+  {
+    "_id": "b-304",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 58
+  },
+  {
+    "_id": "b-305",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 100
+  },
+  {
+    "_id": "b-306",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "Thank you",
+    "displayTitle": "That's it, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 99
   }
 ]

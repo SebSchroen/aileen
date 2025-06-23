@@ -343,3 +343,57 @@
         "_isEnabled": true
     }
 },
+
+
+{
+    "_id": "c-301",
+    "_parentId": "b-301",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Turing Test Quiz",
+    "displayTitle": "Quick Recap: The Turing Test",
+    "body": "What is the main purpose of the Turing Test, as developed by Alan Turing?",
+    "instruction": "Choose the best option.",
+    "_attempts": 3,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_items": [
+        {
+            "text": "To test a machine's ability to perform complex calculations faster than a human.",
+            "_shouldBeSelected": false
+        },
+        {
+            "text": "To assess a machine's ability to exhibit intelligent behavior equivalent to, or indistinguishable from, that of a human.",
+            "_shouldBeSelected": true
+        },
+        {
+            "text": "To evaluate a machine's ability to physically imitate human actions.",
+            "_shouldBeSelected": false
+        },
+        {
+            "text": "To measure the processing speed of a computer's CPU.",
+            "_shouldBeSelected": false
+        }
+    ],
+    "_feedback": {
+        "title": "Feedback",
+        "correct": "Correct! The Turing Test is designed to assess a machine's ability to mimic human-like intelligence in conversation, making it indistinguishable from a human.",
+        "_incorrect": {
+            "final": "Not quite. The primary goal of the Turing Test is to evaluate a machine's ability to exhibit intelligent behavior that is indistinguishable from a human's, specifically in the context of conversation."
+        }
+    },
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},

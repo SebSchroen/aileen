@@ -181,7 +181,7 @@
     },
     {
       "_character": 2,
-      "text": "Exactly! And as AI gets more advanced, AI-generated images, text and videos will be harder and harder to identify. Of course you know that this conversation is pre-scripted, but new models like ChatGPT are so convincing, that they pass my test with ease.",
+      "text": "Exactly! And as AI gets more advanced, AI-generated images, text and videos will be harder and harder to identify. Of course you know that this conversation is pre-scripted, but new models like ChatGPT are so convincing, that they pass the Turing test with ease.",
       "_graphic": {
         "alt": "",
         "src": ""
@@ -568,10 +568,7 @@
   "_layout": "left",
   "title": "",
   "displayTitle": "",
-  "body": "We don't need Sherlock Holmes to see that all of the images above depict white men. Artificial Intelligence <em> can  </em> perpetuate structural patterns in the training data when creating new predictions or new content. <br> <br> To illustrate this, I did a little experiment with the image generation model Google Imagen 3 and four professions. I generated 30 images for each profession with the prompt on the right...",
-  "typingSpeed": 100,
-  "erasingSpeed": 50,
-  "delayBetweenWords": 1000,
+  "body": "You don't need to be a detective to spot the pattern in the images above—they're all of white men. This happens because AI models learn from our world, and they can absorb and replicate the structural biases within their training data. <br> <br> To put this to the test, I ran a simple experiment with Google's Imagen 3 model. For four different professions, I generated 30 images each using the prompts you see on the right.",
     "_pageLevelProgress": {
         "_isEnabled": false,
         "_isCompletionIndicatorEnabled": false
@@ -605,7 +602,7 @@
   "_classes": "",
   "_layout": "full",
   "title": "",
-  "displayTitle": "Unfortunately it's a pattern...",
+  "displayTitle": "No, there is a pattern...",
   "body": "",
   "instruction": "",
   "_setCompletionOn": "allItems",
@@ -715,7 +712,7 @@
 "_items": [
         {
             "title": "",
-            "body": "This chart reveals the hidden stereotypes a real-life language model has learned about jobs and gender. Click to see learn mode...",
+            "body": "This chart reveals the hidden stereotypes a real-life language model has learned about jobs and gender. Click to learn more...",
             "instruction": "Next »"
         },
         {
@@ -725,7 +722,7 @@
         },
         {
             "title": "What 'Associated With' Means",
-            "body": "The language model noticed that words are used in similar ways in the text it digested. If a word often appears near 'she' or 'he', the model links them close to each other. This reflects patterns in data, not necessarily the objective truth.",
+            "body": "The language model noticed that certain words often occur together. If a word often appears near 'she' or 'he', the model links them close to each other. This reflects patterns in data, not necessarily the objective truth.",
             "instruction": "Next »"
         },
         {
@@ -764,7 +761,7 @@
         "_layout": "full",
         "title": "Main takeaway",
         "displayTitle": "Does that mean <em>all</em> AI is biased & discriminatory?",
-        "body": "Of course not! Here, “bias” doesn’t mean the training data is prejudiced. It means the training data is not representative of the broader data the model is applied to. The previous examples show that the output of AI systems strongly rely on their training data. Most importantly, any biases or systematic pattern in the results are not intentional, they are usually embedded in the training data. AI systems are only as good as the data they’re trained on and the humans that build them.",
+        "body": "It's a common misconception that AI bias implies prejudice from the model itself. In this context, 'bias' simply refers to systemic patterns the AI learns and reproduces from its training data. As the previous examples show, an AI's output is a direct reflection of the information it was trained on. The results aren't intentional, they are an echo of the societal biases embedded in the source data. Ultimately, AI systems are only as good as the data they are given and the humans who build and guide them.",
         "instruction": "So where do the biases come from? Click on the panels below to learn more.",
         "_columns" : 3,
         "_animationType": "shrink",
@@ -831,53 +828,57 @@
     }
 },
 
- {
+{
     "_id": "c-210",
     "_parentId": "b-206",
     "_type": "component",
-    "_component": "narrative",
+    "_component": "accordion",
     "_classes": "",
     "_layout": "full",
-    "title": "Possible solutions",
-    "displayTitle": "What are the solutions?",
-    "body": "The previous example draw a fairly dire picture of AI and machine learning. In reality, things are much better for several reasons.",
-    "instruction": "Use the arrows below to explore different solutions to the problems we discussed so far.",
-    "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
-    "_hasNavigationInTextArea": false,
+    "title": "AI Solutions",
+    "displayTitle": "Addressing the challenges",
+    "body": "While previous discussions may have highlighted the more concerning aspects of AI and machine learning, this section explores the proactive solutions and advancements that are effectively addressing these issues.",
+    "instruction": "Select the headings to find out more.",
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false,
     "_setCompletionOn": "allItems",
-    "_isTextBelowImage": false,
-    "_isMobileTextBelowImage": false,
-    "_isStackedOnMobile": false,
+    "_isCenterAligned": false,
     "_items": [
-      {
-          "title": "Guardrails",
-          "body": "The previous examples highlighted how flawed training data can lead to biased or harmful outcomes, a concern for developers and regulators alike. In response, model creators implement safety filters and 'guardrails' to prevent unwanted behavior. <br> <br> These guardrails can range from output moderation and bias mitigation to mechanisms that ensure responses align with societal norms or a specific corporate identity. <br> <br> To ensure the line between acceptable and unacceptable behavior isn't drawn solely by large tech companies, initiatives like Guardrails.AI provide open-source, community-driven standards for AI models.",
-          "_graphic": {
-              "src": "course/en/images/guardrails_1.jpg",
-              "attribution": "Generated with Google Imagen 4",
-              "alt": ""
-          },
-          "strapline": "Learning from Labeled Data"
-      },
         {
             "title": "Stay critical",
             "body": "You may have noticed that this course intentionally uses materials from different AI models, such as Google's Imagen 3 and 4 for images and an older language model for the gender bias chart. This is by design. <br> <br> These choices demonstrate key points in the history of machine learning and serve as a reminder to remain critical of two things: the output of AI systems in sensitive applications and, just as importantly, the motivations of the organizations that provide them. <br> <br> When implementing any sort of AI system, it is helpful to keep the examples above in mind to avoid unwanted outcomes. ",
+            "_titleIcon": "",
+            "_imageAlignment": "left",
             "_graphic": {
                 "src": "course/en/images/pexels-lilartsy-8730085.jpg",
                 "attribution": "<a href=\"https://www.pexels.com/photo/woman-blindfolded-8730085/\" target=\"_blank\" style=\"color: white;\">Lil Artsy on www.pexels.com</a>",
                 "alt": ""
             },
-            "strapline": ""
+            "_classes": ""
         },
-                {
+        {
+            "title": "Guardrails",
+            "body": "The previous examples highlighted how flawed training data can lead to biased or harmful outcomes, a concern for developers and regulators alike. In response, model creators implement safety filters and 'guardrails' to prevent unwanted behavior. <br> <br> These guardrails can range from output moderation and bias mitigation to mechanisms that ensure responses align with societal norms or a specific corporate identity. <br> <br> To ensure the line between acceptable and unacceptable behavior isn't drawn solely by large tech companies, initiatives like Guardrails.AI provide open-source, community-driven standards for AI models.",
+            "_titleIcon": "",
+            "_imageAlignment": "right",
+            "_graphic": {
+                "src": "course/en/images/guardrails_1.jpg",
+                "attribution": "Generated with Google Imagen 4",
+                "alt": ""
+            },
+            "_classes": ""
+        },
+        {
             "title": "New models do much better",
-            "body": "Modern AI models tend to exhibit a reduction in bias, which can be attributed to two main factors: the implementation of explicit guardrails and a more sophisticated linguistic comprehension that moves beyond the simplified gender-role correlations of previous models. <br> <br> For example, the language embeddings integral to ChatGPT yield significantly more equitable associations between gender and professions in contrast to the chart above.  <br> <br> Likewise, Google's Imagen 4 demonstrates this advancement by producing greater demographic variety; a prompt for a 'realistic photo of a nurse' results in images that feature men and women in approximately equal measure.",
+            "body": "Modern AI models tend to exhibit a reduction in bias, which can be attributed to two main factors: the implementation of explicit guardrails and a more sophisticated linguistic comprehension that moves beyond the simplified gender-role correlations of previous models. <br> <br> For example, the language embeddings integral to ChatGPT yield significantly more equitable associations between gender and professions in contrast to the chart above.  <br> <br> Likewise, Google's Imagen 4 demonstrates this advancement by producing greater demographic variety; a prompt for a 'realistic photo of a nurse' results in images that feature men and women in approximately equal measure. Consider the image on the left.",
+            "_titleIcon": "",
+            "_imageAlignment": "left",
             "_graphic": {
                 "src": "course/en/images/nurse_2.png",
                 "attribution": "Generated with Google Imagen 4",
                 "alt": ""
             },
-            "strapline": ""
+            "_classes": ""
         }
     ],
     "_pageLevelProgress": {
@@ -895,6 +896,311 @@
      
         "_classes": "",
         "_isOptional": true
+    },
+
+{
+    "_id": "c-301",
+    "_parentId": "b-301",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Copyright in general",
+    "displayTitle": "What is Copyright?",
+    "body": "Copyright is a legal right granting creators exclusive control over their original literary and artistic works. As part of Intellectual Property (IP) law, it safeguards 'works of authorship' by empowering creators to manage how their creations are used and distributed.",
+    "instruction": "Click on the panels below to learn more about copyright.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+        {
+            "front": "What is protected?",
+            "back": {
+                "body": "Copyright protects the <em>concrete expression</em> of an idea, not the idea itself. It applies to tangible literary and artistic works like novels, songs, paintings, and software, giving creators control over their specific manifestations."
+            }
+        },
+        {
+            "front": "What are the conditions?",
+            "back": {
+                "body": "To be copyrighted, a work must be expressed in a <em>concrete way</em> (not abstract ideas) and be <em>original</em>. Originality means it's an intellectual creation by a human author, reflecting their personality and creative choices. This human authorship is fundamental, especially in German and EU law."
+            }
+        },
+        {
+            "front": "What are the rights of the owner?",
+            "back": {
+                "body": "Owners gain exclusive rights to reproduce, distribute, and publicly communicate their work. They also hold moral rights, including disclosure, integrity, and attribution, ensuring control. Copyright generally lasts for the author's lifetime plus 70 years in EU Member States."
+            }
+        }
+    ],
+        "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
     }
+},
+ {
+        "_id": "c-302",
+        "_parentId": "b-301",
+        "_type": "component",
+        "_component": "list",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Copyright and AI",
+        "displayTitle": "Why is this important for AI?",
+         "body": "Recall the Turing Test from the first part of this course: The output of AI systems has gotten so good, that much of is is hard to distinguish from human content. And much of the human content out there on the internet is protected by copyright laws. In this lesson, we will address three questions:",
+        "instruction": "",
+        "_columns": 0,
+        "_orderedList": true,
+        "_animateList": true,
+        "_percentInviewVertical": 10,
+        "_itemHorizontalAlignment": "start",
+        "_bulletAlignment": "start",
+        "_items": [
+            {
+                "title": "Does the training of AI violate copyright law?",
+                "body": "",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            },
+            {
+                "title": "Can the output of AI systems infringe copyright work?",
+                "body": "",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            },
+            {
+                "title": "Is the output copyrightable?",
+                "body": "",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            }
+        ],
+        "bodyAfter": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+
+{
+    "_id": "c-303",
+    "_parentId": "b-302",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "AI training and copyright",
+    "displayTitle": "AI training <em> might </em> violate copyright law",
+    "body": "The question of whether training AI models on copyrighted material constitutes infringement is a central and highly debated legal issue. It involves complex interpretations of existing copyright laws and the emergence of new regulations, particularly in the EU. Understanding this area requires examining both the technical nature of AI models and the legal frameworks governing data use.",
+    "instruction": "Click on the panels below to learn more about this complex issue.",
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false,
+    "_setCompletionOn": "allItems",
+    "_isCenterAligned": false,
+    "_items": [
+        {
+            "title": "Models do not <em>store</em> copyright data",
+            "body": "AI models typically do not store exact copies of copyrighted works. Instead, they learn by extracting and encoding abstract concepts into numerical representations. This process of decomposition and abstraction means the trained model itself is not a direct copy, and thus typically does not violate copyright."
+        },
+        {
+            "title": "During training, this is an ongoing debate",
+            "body": "AI models are trained on vast amounts of data, often including copyrighted materials scraped from the internet. Using this data without explicit authorization can be considered copyright infringement. In the US, proponents often argue this falls under 'fair use.' In Germany and the EU, specific 'Text and Data Mining' (TDM) exceptions exist, which allow TDM under certain conditions like scientific research."
+        }
+    ],
+        "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+    "_id": "c-304",
+    "_parentId": "b-302",
+    "_type": "component",
+    "_component": "tabs",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Ongoing copyright cases",
+    "displayTitle": "Especially according to copyright holders",
+    "body": "Let's explore key ongoing court cases that are shaping the intersection of AI training and copyright law.",
+    "instruction": "Select the tabs to find out more.",
+    "_tabLayout": "horizontal",
+    "_minHeight": "200px",
+    "_comment": "Only set min height if you want to uniform the content container size across tab items. By default, the container will display at the height of each item's content",
+    "_items": [
+        {
+            "tabTitle": "NYT vs. OpenAI",
+            "title": "NYT vs. OpenAI & Microsoft",
+            "body": "The New York Times sued OpenAI and Microsoft, alleging that OpenAI copied millions of its articles without permission or payment to train its large language models. OpenAI's defense relies on the fair use doctrine. A federal judge recently allowed the main copyright infringement claims to proceed, rejecting OpenAI's dismissal request. This high-profile case is crucial for defining the relationship between generative AI and copyright law.",
+            "_classes": ""
+        },
+        {
+            "tabTitle": "Getty vs. Stability AI",
+            "title": "Getty Images vs. Stability AI",
+            "body": "Getty Images sued Stability AI, creator of the Stable Diffusion text-to-image AI model. Getty alleges Stability AI used millions of its copyrighted images without permission to train its model. The lawsuit claims copyright and trademark infringement, noting the AI sometimes reproduces Getty's watermarks or visually similar content.",
+            "_classes": ""
+        },
+        {
+            "tabTitle": "Kneschke vs. LAION",
+            "title": "Kneschke vs. LAION",
+            "body": "Artist Christopher Kneschke (and others in a related class-action suit) sued LAION, a non-profit that compiles vast image-text datasets from the internet. These datasets are used to train large AI models. The lawsuit alleges LAION's datasets include copyrighted images without artists' consent, thereby facilitating copyright infringement by models trained on them.",
+            "_classes": ""
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+    "_id": "c-305",
+    "_parentId": "b-303",
+    "_type": "component",
+    "_component": "narrative",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Infringement by AI Output",
+    "displayTitle": "Yes, AI output can infringe copyrights",
+    "body": "Even if an AI model is trained legally, the content it generates can still lead to copyright infringement. This occurs when the AI's output is too similar to an existing copyrighted work, infringing upon the rights of the original creator.",
+    "instruction": "Use the arrows below to explore the ways AI-generated content can infringe copyright.",
+    "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_isTextBelowImage": false,
+    "_isMobileTextBelowImage": false,
+    "_isStackedOnMobile": false,
+    "_items": [
+        {
+            "title": "Substantial Similarity",
+            "body": "If AI-generated content (like an image, text, or music) is so close to an existing copyrighted work that an average person would recognize it as copied, it can be deemed infringing. This means the AI output has captured enough of the original's creative elements to cross a legal threshold.",
+            "strapline": "Too Close for Comfort",
+                "_graphic": {
+               "src": "course/en/images/getty.png",
+                  "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
+                 "alt": "Diagram illustrating supervised learning with labeled data leading to a predictive model."
+            }
+ 
+        },
+        {
+            "title": "Unauthorized Derivative Works",
+            "body": "Copyright holders have the exclusive right to create 'derivative works'—new works based on their original creations. If a user prompts an AI to generate content that clearly builds upon a copyrighted character, setting, or specific artistic style without permission (e.g., a new story featuring a famous cartoon character), the AI's output could be considered an unauthorized derivative work.",
+            "strapline": "Building on Others' Creations",
+                "_graphic": {
+                "src": "course/en/images/banksy.png",
+                "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
+                "alt": "Diagram illustrating supervised learning with labeled data leading to a predictive model."
+            }
+        },
+        {
+            "title": "The Snoopy Problem",
+            "body": "This highlights how AI can 'memorize' elements from its training data and then reproduce them in its output. The more distinctive and frequently represented a character or visual identifier is in the training data, the more likely the AI is to reproduce it when prompted. For example, AI can generate highly similar depictions of well-known characters like Snoopy or Mickey Mouse, or reproduce distinctive artistic styles. This happens because the AI learns consistent characteristics, making it easy to evoke an infringing output, even if it's not an exact copy of a single original work.",
+            "strapline": "When AI 'Remembers'",
+                "_graphic": {
+                "src": "course/en/images/snoopy_problem.png",
+                  "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
+              "alt": "Diagram illustrating supervised learning with labeled data leading to a predictive model."
+            }
+ 
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+    "_id": "c-306",
+    "_parentId": "b-304",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "AI output is not copyrightable",
+    "displayTitle": "No, AI results are not directly copyrightable",
+    "body": "The current understanding and framework of copyright law generally do not permit the copyrighting of output directly by AI models, because AI systems themselves cannot be considered authors or legal entities.",
+    "instruction": "Click on the panels below to explore the nuances of copyright for content created with AI.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+        {
+            "front": "Human authorship is required",
+            "back": {
+                "body": "Copyright law fundamentally requires a <b>human author</b>. This involves a '<b>personal stamp</b>' and '<b>free, deliberate choices</b>' reflecting human personality and creativity. AI systems, lacking <b>legal entity status</b>, cannot express personality or hold rights, thus disqualifying them as authors."
+            }
+        },
+        {
+            "front": "AI as a tool, not an author",
+            "back": {
+                "body": "While AI can produce works that <em>could</em> be protected, copyright depends on <b>sufficient human intervention</b>. Humans programming, training, modifying, or selecting AI output may claim copyright, as the AI is considered a <b>tool</b>, like a paintbrush or word processor."
+            }
+        },
+        {
+            "front": "Insufficient human input",
+            "back": {
+                "body": "If human input is '<b>insufficient</b>' in '<b>free and creative choices</b>', AI-generated content may lack the necessary '<b>authorship</b>' for copyright. Protection hinges entirely on the degree and nature of <b>human creative input</b> involved."
+            }
+        }
+    ],
+        "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+    "_id": "c-307",
+    "_parentId": "b-305",
+    "_type": "component",
+    "_component": "list",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Key Recommendations",
+    "displayTitle": "Key recommendations",
+    "body": "To conclude this module, here are three key recommendations for navigating the complex landscape of copyright law and Artificial Intelligence:",
+    "instruction": "",
+    "_columns": 0,
+    "_orderedList": true,
+    "_animateList": true,
+    "_percentInviewVertical": 10,
+    "_itemHorizontalAlignment": "start",
+    "_bulletAlignment": "start",
+    "_items": [
+        {
+            "title": "Exercise caution regarding AI training data",
+            "body": "Be aware of the source and legality of training data for AI models you develop, deploy, or procure, as legal risks exist if models were trained on unauthorized copyrighted works."
+        },
+        {
+            "title": "Diligently review all AI-generated outputs for potential infringement",
+            "body": "Scrutinize AI-generated content for resemblances to existing copyrighted works and perform due diligence before publishing or commercializing it, as AI outputs can infringe copyright."
+        },
+        {
+            "title": "Ensure sufficient human creative input for copyright protection of AI-assisted works",
+            "body": "To secure copyright for AI-assisted works, ensure significant human intervention, creative direction, or modification of the AI's output, as AI alone cannot be an author."
+        }
+    ],
+    "bodyAfter": "",
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+        "_id": "c-399",
+        "_parentId": "b-306",
+        "_type": "component",
+        "_component": "text",
+        "body": "Sources: <br> <br> Guadamuz, Andres (2025):  The EU's Artificial Intelligence Act and copyright, The Journal of World Intellectual Property Vol. 28(1), DOI: <a href=\"https://doi.org/10.1111/jwip.12330\" target=\"_blank\">https://doi.org/10.1111/jwip.12330</a> <br> <br> Sag, Matthew (2023): Copyright Safety for Generative AI, Houston Law Review, Vol. 61(2),  DOI (pre-print): <a href=\"https://dx.doi.org/10.2139/ssrn.4438593\" target=\"_blank\">https://dx.doi.org/10.2139/ssrn.4438593</a> <br> <br> Smuha, Nathalie A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence, DOI: <a href=\"https://doi.org/10.1017/9781009367783\" target=\"_blank\">https://doi.org/10.1017/9781009367783</a> ",
+     
+        "_classes": "",
+        "_isOptional": true
+    }
+
 
 ]
