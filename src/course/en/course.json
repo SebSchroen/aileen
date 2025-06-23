@@ -35,7 +35,7 @@
   },
   "_globals": {
     "_learnerInfo": {
-      "id": "student.name@example.org",
+      "id": "student.name@example.org", 
       "name": "Name, Student",
       "firstname": "Student",
       "lastname": "Name"

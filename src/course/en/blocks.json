@@ -235,7 +235,7 @@
     "_type": "block",
     "_classes": "",
     "title": "Thank you",
-    "displayTitle": "That's it, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
+    "displayTitle": "That's it for now, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
     "body": "",
     "instruction": "",
     "_trackingId": 99
