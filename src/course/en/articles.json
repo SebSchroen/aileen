@@ -61,7 +61,7 @@
     "instruction": "",
     "_assessment": {
         "_isEnabled": true,
-        "_id": "Assessment 1",
+        "_id": "Assessment 2",
         "_suppressMarking": false,
         "_scoreToPass" : 1,
         "_correctToPass": 1,
@@ -112,7 +112,7 @@
     "instruction": "",
     "_assessment": {
         "_isEnabled": true,
-        "_id": "Assessment 1",
+        "_id": "Assessment 3",
         "_suppressMarking": false,
         "_scoreToPass" : 1,
         "_correctToPass": 1,
