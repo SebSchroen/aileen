@@ -601,7 +601,7 @@
   "_component": "counters",
   "_classes": "",
   "_layout": "full",
-  "title": "",
+  "title": "Revealing patterns in image generation",
   "displayTitle": "No, there is a pattern...",
   "body": "",
   "instruction": "",
@@ -664,8 +664,8 @@
     }
   ],
       "_pageLevelProgress": {
-        "_isEnabled": false,
-        "_isCompletionIndicatorEnabled": false
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
     }
 },
 
@@ -693,9 +693,9 @@
         "_isScrollable": false,
         "_defaultScrollPercent": 0,
         "_pageLevelProgress": {
-          "_isEnabled": false,
+        "_isEnabled": false,
         "_isCompletionIndicatorEnabled": false
-        }
+    }
     },
 
 	{
@@ -750,7 +750,11 @@
             "body": "By visualizing these biases, we can better understand them and work towards creating fairer and more responsible language models.",
             "instruction": "Complete ✔"
         }
-    ]
+    ],
+        "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
 },
     {
           "_id": "c-208",
@@ -784,7 +788,11 @@
                     "body": "This issue arises when a machine-learning system is trained on data that does not fully represent the population that the system is meant to be applied to. AI systems can then reflect this representation bias when exposed to real-world data that differs significantly from the data they were trained on, leading to skewed or unfair outcomes."
                 }
             }
-        ]
+        ],
+              "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
     },
 
 
@@ -1029,7 +1037,7 @@
     "_classes": "",
     "_layout": "full",
     "title": "Ongoing copyright cases",
-    "displayTitle": "Especially according to copyright holders",
+    "displayTitle": "...especially according to copyright holders",
     "body": "Let's explore key ongoing court cases that are shaping the intersection of AI training and copyright law.",
     "instruction": "Select the tabs to find out more.",
     "_tabLayout": "horizontal",
@@ -1173,8 +1181,8 @@
     "_bulletAlignment": "start",
     "_items": [
         {
-            "title": "Exercise caution regarding AI training data",
-            "body": "Be aware of the source and legality of training data for AI models you develop, deploy, or procure, as legal risks exist if models were trained on unauthorized copyrighted works."
+            "title": "Do not upload any copyright-protected information",
+            "body": "Make sure that you own the right of any material you supply to any AI system for training or context-enhancement."
         },
         {
             "title": "Diligently review all AI-generated outputs for potential infringement",
@@ -1200,7 +1208,169 @@
      
         "_classes": "",
         "_isOptional": true
+    },
+
+   {
+    "_id": "c-401",
+    "_parentId": "b-401",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Key GDPR Definitions",
+    "displayTitle": "Fundamental GDPR Definitions",
+    "body": "Before examining the application of the General Data Protection Regulation (GDPR) to AI, it is necessary to understand its fundamental terminology. The GDPR establishes its regulatory framework through precise definitions. The following three concepts are central to discussions about AI:",
+    "instruction": "Explore each term below to understand its meaning.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+        {
+            "front": "Personal Data",
+            "back": {
+                "body": "Personal data refers to <b>any information that can identify a living person</b>, either directly or indirectly. Examples include <em>names, identification numbers, location data, or any data that can be used to ascertain an individual's identity.</em>"
+            }
+        },
+        {
+            "front": "Processing",
+            "back": {
+                "body": "Data processing means <b> any </b> action performed on personal data. This includes <em>collecting it, storing it, using it, sharing it, changing it, or even deleting it.</em> Such processing can be carried out manually or through automated systems."
+            }
+        },
+        {
+            "front": "Consent",
+            "back": {
+                "body": "Consent means <b>clear, voluntary, specific, and informed permission</b> from an individual for their personal data to be used. It requires an <em>unambiguous affirmative action</em> and cannot be implied."
+            }
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
     }
+},
+{
+    "_id": "c-402",
+    "_parentId": "b-402",
+    "_type": "component",
+    "_component": "tabs",
+    "_classes": "",
+    "_layout": "full",
+    "title": "How AI processes personal data",
+    "displayTitle": "How AI processes personal data",
+    "body": "Artificial Intelligence systems heavily rely on data for their functionality. Understanding how personal data is handled at different stages of AI development and deployment is crucial for navigating GDPR compliance. Select the tabs to explore each stage.",
+    "instruction": "Select the tabs to learn more.",
+    "_tabLayout": "horizontal",
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    },
+    "_items": [
+        {
+            "tabTitle": "Data Collection & Training",
+            "title": "Stage 1: Data Collection & Initial Training",
+            "body": "AI systems are built on an <b>'enormous appetite for data'</b>. This initial stage involves collecting vast quantities of data to train algorithms to detect patterns and make predictions. If the data is sufficiently granular, it can allow <b>re-identification of individuals</b>, meaning personal data is involved from the very outset. This accumulation of relevant data is a key factor for AI-related issues, as it is often used to create <em>personality profiles or for individualized services.</em>",
+            "_classes": ""
+        },
+        {
+            "tabTitle": "Model Development & Risks",
+            "title": "Stage 2: AI Model Development & Data Leakage",
+            "body": "During the development phase, AI models are created from the collected training data. Even after a model is trained, it might inadvertently <b>'leak'</b> some of the personal data it was trained on through methods like <em>model inversion or membership inference attacks.</em> This means the trained model itself can contain personal information, and its sharing or transfer to third parties is considered <b>'processing' under GDPR</b>, regardless of whether the original data was raw or pseudonymized.",
+            "_classes": ""
+        },
+        {
+            "tabTitle": "Application",
+            "title": "Stage 3: AI Applications",
+            "body": "The final stage involves deploying the trained AI model to make real-world predictions and decisions. This <b>'inference stage'</b> processes personal data to derive new information, for example, a bank using an AI to predict loan default risk. This application of AI to personal data constitutes <b>'further processing'</b> and must adhere to GDPR principles, as it directly impacts individuals through <em>automated decisions and recommendations.</em>",
+            "_classes": ""
+        }
+    ]
+},{
+    "_id": "c-403",
+    "_parentId": "b-403",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Frictions between AI and GDPR",
+    "displayTitle": "Frictions between AI and GDPR",
+    "body": "When companies use Artificial Intelligence, it often relies on your personal information. While the GDPR aims to protect you, AI's unique characteristics can create specific challenges for individuals interacting with these systems within a company.",
+    "instruction": "Click on the panels below to learn more.",
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false,
+    "_setCompletionOn": "allItems",
+    "_isCenterAligned": false,
+    "_items": [
+        {
+            "title": "Purpose limitation",
+            "body": "AI systems often use your information in ways that <b>weren't initially explained or agreed upon.</b>"
+        },
+        {
+            "title": "Transparency",
+            "body": "Decisions made by AI can be hard to understand. It's difficult for a company to explain <em> why </em> an AI reached a particular conclusion about you, making it challenging to know how its decisions are reached."
+        },
+        {
+            "title": "Data minimization and storage limitation",
+            "body": "AI thrives on large amounts of data, which often means <b>more of your information is collected than strictly necessary.</b> This also makes it difficult to know when or if your data will ever be deleted."
+        },
+       {
+            "title": "Accuracy",
+            "body": "Data must be accurate and up-to-date. However, AI's <b>'black box' nature</b> makes it challenging to detect and correct inaccurate information. A key nuance is that while input data must be accurate, AI's outputs are often <b>probabilistic prognoses</b>, which complicates the application of this principle."
+        }
+ 
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+    "_id": "c-404",
+    "_parentId": "b-404",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Key recommendations",
+    "displayTitle": "Recommendations for users",
+    "body": "As an end-user, your actions can significantly impact data protection within company AI systems. Here's what you need to know:",
+    "instruction": "Explore these recommendations to understand how to protect personal data.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+        {
+            "front": "No personal data without consent",
+            "back": {
+                "body": "As an end-user, <b>never input personal data belonging to others</b> into an AI system without confirming a clear, explicit legal basis, such as their <em>specific and informed consent.</em>"
+            }
+        },
+        {
+            "front": "Anonymize data",
+            "back": {
+                "body": "If your role involves handling or inputting data that contributes to AI systems, <b>prioritize using anonymization or pseudonymization techniques</b> to remove or obscure personal identifiers. These methods are vital for reducing the risk of <em>re-identification and align with the principle of data minimization.</em>"
+            }
+        },
+        {
+            "front": "Review your consent",
+            "back": {
+                "body": "As an individual providing your own data, <b>carefully scrutinize requests for your consent,</b> especially if they are vague, implicit, or presented as a default opt-out. GDPR requires consent to be <b>'freely given, specific, informed, and unambiguous,'</b> highlighting that <em>broad or implied agreements often fall short.</em>"
+            }
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+    "_id": "c-405",
+    "_parentId": "b-405",
+    "_type": "component",
+    "_component": "text",
+    "body": "Sources: <br> <br> Paal, Boris P. (2022): Artificial Intelligence as a Challenge for Data Protection Law And Vice Versa. In: The Cambridge Handbook of Responsible Artificial Intelligence, <a href=\"https://doi.org/10.1017/9781009207898.023\" target=\"_blank\">https://doi.org/10.1017/9781009207898.023</a> <br> <br> Dewitte, Pierre (2025): AI Meets the GDPR. In: Smuha, N. A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence. DOI: <a href=\"https://doi.org/10.1017/9781009367783.010\" target=\"_blank\">https://doi.org/10.1017/9781009367783.010</a>",
+    "_classes": "",
+    "_isOptional": true
+}
+
 
 
 ]

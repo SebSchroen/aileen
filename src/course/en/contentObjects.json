@@ -77,5 +77,31 @@
       "_excludeAssessments": false,
       "_isCompletionIndicatorEnabled": true
     }
+  },
+      {
+    "_id": "co-104",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "Artificial Intelligence & GDPR",
+    "displayTitle": "Artificial Intelligence & GDPR",
+    "body": "This module explores the critical relationship between Artificial Intelligence and data protection. We will examine how AI systems collect, process, and utilize personal data, the privacy risks involved, and the legal frameworks like GDPR that govern data usage in AI.",
+    "pageBody": "",
+    "instruction": "{{_globals._learnerInfo.firstname}}, please scroll down to start your learning journey.",
+    "_graphic": {
+      "src": "course/en/images/pexels-marco-288924445-13153479.jpg",
+      "alt": "Marco @ Pexels.com",
+      "attribution": "Marco @ Pexels.com"
+          
+    },
+    "linkText": "View",
+    "duration": "5 Minutes",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false,
+      "_isCompletionIndicatorEnabled": true
+    }
   }
 ]
