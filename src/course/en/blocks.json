@@ -294,5 +294,16 @@
     "body": "",
     "instruction": "",
     "_trackingId": 25
+  },
+    {
+    "_id": "b-501",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "Thank you",
+    "displayTitle": "That's it for now, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 26
   }
 ]

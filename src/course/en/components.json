@@ -1369,7 +1369,17 @@
     "body": "Sources: <br> <br> Paal, Boris P. (2022): Artificial Intelligence as a Challenge for Data Protection Law And Vice Versa. In: The Cambridge Handbook of Responsible Artificial Intelligence, <a href=\"https://doi.org/10.1017/9781009207898.023\" target=\"_blank\">https://doi.org/10.1017/9781009207898.023</a> <br> <br> Dewitte, Pierre (2025): AI Meets the GDPR. In: Smuha, N. A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence. DOI: <a href=\"https://doi.org/10.1017/9781009367783.010\" target=\"_blank\">https://doi.org/10.1017/9781009367783.010</a>",
     "_classes": "",
     "_isOptional": true
+},
+{
+    "_id": "c-501",
+    "_parentId": "b-501",
+    "_type": "component",
+    "_component": "text",
+    "body": "Sources: <br> <br> Paal, Boris P. (2022): Artificial Intelligence as a Challenge for Data Protection Law And Vice Versa. In: The Cambridge Handbook of Responsible Artificial Intelligence, <a href=\"https://doi.org/10.1017/9781009207898.023\" target=\"_blank\">https://doi.org/10.1017/9781009207898.023</a> <br> <br> Dewitte, Pierre (2025): AI Meets the GDPR. In: Smuha, N. A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence. DOI: <a href=\"https://doi.org/10.1017/9781009367783.010\" target=\"_blank\">https://doi.org/10.1017/9781009367783.010</a>",
+    "_classes": "is-warning",
+    "_isOptional": true
 }
+
 
 
 

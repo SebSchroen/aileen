@@ -103,5 +103,31 @@
       "_excludeAssessments": false,
       "_isCompletionIndicatorEnabled": true
     }
+  },
+        {
+    "_id": "co-105",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "The EU AI Act",
+    "displayTitle": "The EU AI Act",
+    "body": "In this module, we will deep dive into the requirements of the EU AI Act and discuss important pitfalls as well as recommendations for users.",
+    "pageBody": "",
+    "instruction": "{{_globals._learnerInfo.firstname}}, please scroll down to start your learning journey.",
+    "_graphic": {
+      "src": "course/en/images/christian-lue-MZWBMNP7Nro-unsplash.jpg",
+      "alt": "Christian Lue @ Unsplash.com",
+      "attribution": "Christian Lue @ Unsplash.com"
+          
+    },
+    "linkText": "View",
+    "duration": "5 Minutes",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false,
+      "_isCompletionIndicatorEnabled": true
+    }
   }
 ]

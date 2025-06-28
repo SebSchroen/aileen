@@ -109,5 +109,25 @@
         "_showEndOfPage": true
       }
   }
+},
+ {
+    "_id": "a-104",
+    "_parentId": "co-105",
+    "_type": "article",
+    "_classes": "",
+    "title": "a-104",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trickle": {
+      "_isEnabled": false,
+      "_onChildren": false,
+      "_completionAttribute": "_isComplete",
+      "_button": {
+        "_isEnabled": true,
+        "startText": "Continue",
+        "_showEndOfPage": true
+      }
+  }
 }
 ]
