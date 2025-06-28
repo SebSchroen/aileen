@@ -234,6 +234,17 @@
     "_parentId": "a-102",
     "_type": "block",
     "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 28
+  },
+  {
+    "_id": "b-307",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
     "title": "Thank you",
     "displayTitle": "That's it for now, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
     "body": "",
@@ -295,8 +306,45 @@
     "instruction": "",
     "_trackingId": 25
   },
-    {
+  {
     "_id": "b-501",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 26
+  },
+  {
+    "_id": "b-502",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 27
+  },
+    {
+    "_id": "b-503",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "Prohibited uses",
+    "displayTitle": "Unacceptable risk: Prohibited uses",
+    "body": "The EU AI Act strictly prohibits certain AI systems and practices that pose an unacceptable risk to fundamental rights and safety.",
+    "instruction": "Flip the cards on the right to learn more about the chart on the left.",
+    "_trackingId": 29,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "b-599",
     "_parentId": "a-104",
     "_type": "block",
     "_classes": "",
@@ -304,6 +352,6 @@
     "displayTitle": "That's it for now, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
     "body": "",
     "instruction": "",
-    "_trackingId": 26
+    "_trackingId": 30
   }
 ]

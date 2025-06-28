@@ -1,3 +1,3 @@
-# AILEEN: AI Literacy & Education for Everyone, Now
+# AILEEN: AI Literacy & Education (for) Everyone, Now
 
 

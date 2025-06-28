@@ -946,13 +946,13 @@
 },
  {
         "_id": "c-302",
-        "_parentId": "b-301",
+        "_parentId": "b-302",
         "_type": "component",
         "_component": "list",
         "_classes": "",
         "_layout": "full",
         "title": "Copyright and AI",
-        "displayTitle": "Why is this important for AI?",
+        "displayTitle": "And why is this important for AI?",
          "body": "Recall the Turing Test from the first part of this course: The output of AI systems has gotten so good, that much of is is hard to distinguish from human content. And much of the human content out there on the internet is protected by copyright laws. In this lesson, we will address three questions:",
         "instruction": "",
         "_columns": 0,
@@ -1001,7 +1001,7 @@
 
 {
     "_id": "c-303",
-    "_parentId": "b-302",
+    "_parentId": "b-303",
     "_type": "component",
     "_component": "accordion",
     "_classes": "",
@@ -1031,7 +1031,7 @@
 },
 {
     "_id": "c-304",
-    "_parentId": "b-302",
+    "_parentId": "b-303",
     "_type": "component",
     "_component": "tabs",
     "_classes": "",
@@ -1070,7 +1070,7 @@
 },
 {
     "_id": "c-305",
-    "_parentId": "b-303",
+    "_parentId": "b-304",
     "_type": "component",
     "_component": "narrative",
     "_classes": "",
@@ -1126,7 +1126,7 @@
 },
 {
     "_id": "c-306",
-    "_parentId": "b-304",
+    "_parentId": "b-305",
     "_type": "component",
     "_component": "expose",
     "_classes": "",
@@ -1164,7 +1164,7 @@
 },
 {
     "_id": "c-307",
-    "_parentId": "b-305",
+    "_parentId": "b-306",
     "_type": "component",
     "_component": "list",
     "_classes": "",
@@ -1201,7 +1201,7 @@
 },
 {
         "_id": "c-399",
-        "_parentId": "b-306",
+        "_parentId": "b-307",
         "_type": "component",
         "_component": "text",
         "body": "Sources: <br> <br> Guadamuz, Andres (2025):  The EU's Artificial Intelligence Act and copyright, The Journal of World Intellectual Property Vol. 28(1), DOI: <a href=\"https://doi.org/10.1111/jwip.12330\" target=\"_blank\">https://doi.org/10.1111/jwip.12330</a> <br> <br> Sag, Matthew (2023): Copyright Safety for Generative AI, Houston Law Review, Vol. 61(2),  DOI (pre-print): <a href=\"https://dx.doi.org/10.2139/ssrn.4438593\" target=\"_blank\">https://dx.doi.org/10.2139/ssrn.4438593</a> <br> <br> Smuha, Nathalie A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence, DOI: <a href=\"https://doi.org/10.1017/9781009367783\" target=\"_blank\">https://doi.org/10.1017/9781009367783</a> ",
@@ -1374,9 +1374,242 @@
     "_id": "c-501",
     "_parentId": "b-501",
     "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Introduction to the EU AI Act",
+    "displayTitle": "Meet the EU AI Act",
+    "body": "Before we start with the major regulatory requirements, let's start with a brief introduction of the EU AI Act.",
+    "instruction": "Click on the panels below to explore the fundamental questions about the EU AI Act.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+        {
+            "front": "Why regulate AI?",
+            "back": {
+                "body": "The EU AI Act aims to ensure AI development and use are safe, trustworthy, and respect fundamental rights. It seeks to balance innovation with citizen protection, building trust in AI."
+            }
+        },
+        {
+            "front": "What is regulated?",
+            "back": {
+                "body": "Any machine-based system placed on the EU market operating with varying autonomy and potential adaptiveness that infers from input to generate virtual or physical outputs (predictions, content, recommendations, or decisions)."
+            }
+        },
+        {
+            "front": "Who is affected?",
+            "back": {
+                "body": "The EU AI Act impacts a wide range of entities and individuals, each with specific roles and responsibilities in ensuring compliance and responsibility. We will discuss the roles in more detail next."
+            }
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+    "_id": "c-502",
+    "_parentId": "b-501",
+    "_type": "component",
+    "_component": "sliderItems",
+    "_classes": "is-vertical has-markers",
+    "_layout": "full",
+    "title": "The EU AI Act: Key Milestones",
+    "displayTitle": "The AI Act Timeline",
+    "body": "Now that the now the why, the what and the who, the remaining quesiton is: 'When?'",
+    "instruction": "Swipe or click to view the timeline of the most important milestones.",
+    "_setCompletionOn": "allItems",
+    "_startValue": 0,
+    "_label": "",
+    "_items": [
+        {
+            "title": "February 2025",
+            "body": "The strictest rules come into play, banning certain AI systems with unacceptable risks, such as social scoring by public authorities and real-time remote biometric identification in public spaces.",
+            "_graphic": {
+                "large": "",
+                "small": "",
+                "alt": ""
+            },
+            "_classes": ""
+        },
+        {
+            "title": "August 2025",
+            "body": "Rules for General Purpose AI (GPAI) models, which are broad AI systems like large language models, become active. Additionally, member states must have set up their national authorities to enforce the Act and established penalties for non-compliance.",
+            "_graphic": {
+                "large": "",
+                "small": "",
+                "alt": ""
+            },
+            "_classes": ""
+        },
+        {
+            "title": "August  2026",
+            "body": "The majority of the AI Act's provisions begin to apply. This includes requirements for high-risk AI systems.",
+            "_graphic": {
+                "large": "",
+                "small": "",
+                "alt": ""
+            },
+            "_classes": ""
+        },
+        {
+            "title": "August 2027",
+            "body": "Specific obligations for all new high-risk AI systems (like those used in critical infrastructure or medical devices) come into full effect. Also, providers of GPAI models that were introduced before August 2025 must be fully compliant by this date.",
+            "_graphic": {
+                "large": "",
+                "small": "",
+                "alt": ""
+            },
+            "_classes": ""
+        }
+    ],
+        "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+ {
+        "_id": "c-503",
+        "_parentId": "b-502",
+        "_type": "component",
+        "_component": "list",
+        "_classes": "",
+        "_layout": "full",
+        "title": "Copyright and AI",
+        "displayTitle": "What are my responsibilities?",
+         "body": "As stated above, the AI affects a broad range of individuals and authorities. Your responsibilities depend on two main questions:",
+        "instruction": "",
+        "_columns": 0,
+        "_orderedList": true,
+        "_animateList": true,
+        "_percentInviewVertical": 10,
+        "_itemHorizontalAlignment": "start",
+        "_bulletAlignment": "start",
+        "_items": [
+            {
+                "title": "What is your role?",
+                "body": "",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            },
+            {
+                "title": "What is the risk of the AI system?",
+                "body": "",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            }
+        ],
+        "bodyAfter": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    },
+
+
+
+{
+    "_id": "c-505",
+    "_parentId": "b-503",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "left",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+        "alt": "",
+        "longdescription": "",
+        "large": "course/en/images/joshua-hoehne-WPrTKRw8KRQ-unsplash.jpg",
+        "small": "course/en/images/joshua-hoehne-WPrTKRw8KRQ-unsplash.jpg",
+        "_url": "",
+        "_target": "_blank",
+        "attribution": "<a href=\"https://unsplash.com/photos/selective-photography-of-stop-signage-WPrTKRw8KRQ/\" target=\"_blank\" style=\"color: white;\">Joshua Hoehne on www.unsplash.com</a>"
+            
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0,
+    "_pageLevelProgress": {
+        "_isEnabled": false,
+        "_isCompletionIndicatorEnabled": false
+    }
+},
+
+{
+    "_id": "c-506",
+    "_parentId": "b-503",
+    "_type": "component",
+    "_component": "flipper",
+    "_classes": "",
+    "_layout": "right",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "width": 320,
+    "_items": [
+        {
+            "title": "Harmful Manipulation",
+            "body": "AI systems that use subliminal, manipulative, or deceptive techniques with the objective or effect of distorting behavior, causing or likely to cause significant harm.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Exploitation of Vulnerabilities",
+            "body": "AI systems that take advantage of vulnerabilities related to age, disability, or specific social/economic situations, with the objective or effect of distorting behavior, causing or likely to cause significant harm.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Social Scoring",
+            "body": "Systems that evaluate or classify individuals based on their social behavior, leading to detrimental or unfavorable treatment in social contexts unrelated to the original data collection, or that is unjustified or disproportionate.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Predictive Policing",
+            "body": "AI systems designed to predict a person's risk of committing a criminal offense.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Untargeted Scraping for Facial Recognition",
+            "body": "Untargeted scraping of the internet or CCTV material for the purpose of creating or expanding facial recognition databases.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Emotion Recognition in Specific Contexts",
+            "body": "AI systems used for inferring emotions in workplaces and educational institutions.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Biometric Categorisation of Protected Characteristics",
+            "body": "Biometric categorisation used to deduce certain protected characteristics (e.g., political opinions, sexual orientation, race, religious beliefs).",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Real-time Remote Biometric ID",
+            "body": "Real-time remote biometric identification for law enforcement purposes in publicly accessible spaces (with limited, strict exceptions for serious crimes).",
+            "instruction": "Complete ✔"
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+    "_id": "c-599",
+    "_parentId": "b-599",
+    "_type": "component",
     "_component": "text",
     "body": "Sources: <br> <br> Paal, Boris P. (2022): Artificial Intelligence as a Challenge for Data Protection Law And Vice Versa. In: The Cambridge Handbook of Responsible Artificial Intelligence, <a href=\"https://doi.org/10.1017/9781009207898.023\" target=\"_blank\">https://doi.org/10.1017/9781009207898.023</a> <br> <br> Dewitte, Pierre (2025): AI Meets the GDPR. In: Smuha, N. A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence. DOI: <a href=\"https://doi.org/10.1017/9781009367783.010\" target=\"_blank\">https://doi.org/10.1017/9781009367783.010</a>",
-    "_classes": "is-warning",
+    "_classes": "",
     "_isOptional": true
 }
 

@@ -30,6 +30,8 @@
     "adapt-flipper": "*",
     "adapt-expose": "*",
     "adapt-tabs": "*",
-    "adapt-counters": "*"
+    "adapt-counters": "*",
+    "adapt-verticalItems": "*",
+    "adapt-sliderItems": "*"
   }
 }
