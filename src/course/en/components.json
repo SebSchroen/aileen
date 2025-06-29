@@ -1410,7 +1410,7 @@
 },
 {
     "_id": "c-502",
-    "_parentId": "b-501",
+    "_parentId": "b-502",
     "_type": "component",
     "_component": "sliderItems",
     "_classes": "is-vertical has-markers",
@@ -1471,7 +1471,7 @@
 },
  {
         "_id": "c-503",
-        "_parentId": "b-502",
+        "_parentId": "b-503",
         "_type": "component",
         "_component": "list",
         "_classes": "",
@@ -1514,11 +1514,60 @@
         }
     },
 
-
-
 {
     "_id": "c-505",
-    "_parentId": "b-503",
+    "_parentId": "b-504",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Key Roles in the EU AI Act Ecosystem",
+    "displayTitle": "Knowing your role",
+    "body": "Article 3 (2-8) of the AI Act defines several key roles, each with specific responsibilities related to AI systems and general-purpose AI models. Understanding these roles is crucial for navigating compliance.",
+    "instruction": "Click on each panel to learn more about each key role.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+        {
+            "front": "Provider",
+            "back": {
+                "body": "This is the company or person who <b>creates</b> an AI system or a general-purpose AI model (or has it made for them) and then <b>sells it or makes it available</b> for others to use, under their own brand, whether it's paid or free."
+            }
+        },
+        {
+            "front": "Deployer",
+            "back": {
+                "body": "This is anyone (a person, company, or government body) who <b>uses</b> an AI system for their own operations or services. This <i>doesn't include</i> people using AI for purely personal, non-work-related activities."
+            }
+        },
+        {
+            "front": "Distributor & Importer",
+            "back": {
+                "body": "A <b>Distributor</b> is a business or person in the supply chain (like a reseller) who makes an AI system available for sale in the EU, but they aren't the original creator. If the system is brought in from outside the EU, the business or person acts as an <b>Importer</b>."
+            }
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+    "_id": "c-506",
+    "_parentId": "b-505",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "text-warning",
+    "_layout": "full",
+    "title": "",
+    "displayTitle": "",
+    "body": "To maintain the status of Deployer, avoid rebranding the AI system you plan on using. Also, make sure to use the system only for the purpose it is originally intended for. If you are unsure about your role, use the EU AI Act Compliance Checker which is linked in the sources at the end of this lesson.",
+    "instruction": ""
+},
+
+{
+    "_id": "c-507",
+    "_parentId": "b-506",
     "_type": "component",
     "_component": "graphic",
     "_classes": "",
@@ -1530,11 +1579,11 @@
     "_graphic": {
         "alt": "",
         "longdescription": "",
-        "large": "course/en/images/joshua-hoehne-WPrTKRw8KRQ-unsplash.jpg",
-        "small": "course/en/images/joshua-hoehne-WPrTKRw8KRQ-unsplash.jpg",
+        "large": "course/en/images/erwan-hesry-IqB5MPcQp6k-unsplash.jpg",
+        "small": "course/en/images/erwan-hesry-IqB5MPcQp6k-unsplash.jpg",
         "_url": "",
         "_target": "_blank",
-        "attribution": "<a href=\"https://unsplash.com/photos/selective-photography-of-stop-signage-WPrTKRw8KRQ/\" target=\"_blank\" style=\"color: white;\">Joshua Hoehne on www.unsplash.com</a>"
+        "attribution": "<a href=\"https://unsplash.com/photos/traffic-light-in-red-IqB5MPcQp6k\" target=\"_blank\" style=\"color: white;\">Erwan Hesry on www.unsplash.com</a>"
             
     },
     "_isScrollable": false,
@@ -1546,8 +1595,8 @@
 },
 
 {
-    "_id": "c-506",
-    "_parentId": "b-503",
+    "_id": "c-508",
+    "_parentId": "b-506",
     "_type": "component",
     "_component": "flipper",
     "_classes": "",
@@ -1555,7 +1604,7 @@
     "title": "",
     "displayTitle": "",
     "body": "",
-    "width": 320,
+    "width": 400,
     "_items": [
         {
             "title": "Harmful Manipulation",
@@ -1603,12 +1652,156 @@
         "_isCompletionIndicatorEnabled": true
     }
 },
+
 {
-    "_id": "c-599",
-    "_parentId": "b-599",
+    "_id": "c-509",
+    "_parentId": "b-507",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "right",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+        "alt": "",
+        "longdescription": "",
+        "large": "course/en/images/yellow_light_imagen.jpg",
+        "small": "course/en/images/yellow_light_imagen.jpg",
+        "_url": "",
+        "_target": "_blank",
+        "attribution": "Generated with Google Imagen 4"
+            
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0,
+    "_pageLevelProgress": {
+        "_isEnabled": false,
+        "_isCompletionIndicatorEnabled": false
+    }
+},
+{
+    "_id": "c-510",
+    "_parentId": "b-507",
+    "_type": "component",
+    "_component": "flipper",
+    "_classes": "",
+    "_layout": "left",
+    "title": "High-Risk AI Systems",
+    "displayTitle": "",
+    "body": "",
+    "width": 400,
+    "_items": [
+        {
+            "title": "Safety Components of Products",
+            "body": "AI systems used as safety components in products already subject to EU safety regulations (e.g., medical devices, aviation, cars).",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Biometric Identification Systems",
+            "body": "AI used for remote biometric identification of natural persons (excluding real-time use by law enforcement in public, which is generally prohibited).",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Critical Infrastructure Management",
+            "body": "AI systems acting as safety components in managing essential services like water, gas, electricity, or traffic control.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Education & Vocational Training",
+            "body": "AI used for determining access to educational institutions, assigning individuals, or assessing learning outcomes (e.g., scoring exams).",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Employment & Worker Management",
+            "body": "AI systems used for recruitment, applicant screening, evaluation of candidates, task allocation, monitoring, or performance evaluation of workers.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Access to Essential Services",
+            "body": "AI used for evaluating creditworthiness, dispatching emergency services, or assessing eligibility for public assistance benefits (e.g., welfare, healthcare).",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Law Enforcement Applications",
+            "body": "AI systems used by law enforcement for purposes such as assessing crime risk, polygraphs, or evaluating the reliability of evidence.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Migration, Asylum & Border Control",
+            "body": "AI systems used to assess eligibility for asylum, visa, or residence permits, or for verifying travel document authenticity.",
+            "instruction": "Next »"
+        },
+        {
+            "title": "Administration of Justice & Democracy",
+            "body": "AI systems intended to assist judicial authorities or to influence the outcome of elections or referendums.",
+            "instruction": "Complete ✔"
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+{
+    "_id": "c-511",
+    "_parentId": "b-508",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Legal requirements for high-risk systems",
+    "displayTitle": "Legal requirements for high-risk systems",
+    "body": "Before implementing a high-risk system, for example an automated resumé screening in recruiting, make sure to address the following legal requirements.",
+    "instruction": "Select the headings to find out more.",
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false,
+    "_setCompletionOn": "allItems",
+    "_isCenterAligned": false,
+    "_items": [
+        {
+            "title": "Governance and data management",
+            "body": "Deployers must ensure the AI system is used according to instructions. If they control input data, it must be <strong>relevant and sufficiently representative</strong> for the system's intended use. Applicable <strong>Data Protection Impact Assessments (DPIAs)</strong> must be carried out, and <strong>registration in the EU database</strong> is required if specified.",
+            "_titleIcon": "",
+            "_imageAlignment": "left",
+            "_classes": ""
+        },
+        {
+            "title": "Transparency and notification",
+            "body": "Before using or putting high-risk AI systems into service in the workplace, deployers must <strong>inform affected workers and their representatives</strong>. Additionally, natural persons must be <strong>informed of the use of high-risk AI in decisions</strong> to which they are subject.",
+            "_titleIcon": "",
+            "_imageAlignment": "left",
+            "_classes": ""
+        },
+        {
+            "title": "Risk management and human oversight",
+            "body": "Deployers are required to <strong>monitor the high-risk AI system</strong> and the level of risk it poses. They must promptly <strong>inform the provider, distributor, and relevant market surveillance authority</strong> if the use may result in risk to health and safety or fundamental rights, and <strong>suspend use of the system</strong> in such cases. <strong>Human oversight</strong> must be ensured by individuals with the necessary training and support. Deployers must also <strong>keep automatically generated logs</strong> of system use (where under their control) for a minimum of six months and <strong>cooperate with relevant competent authorities</strong>.",
+            "_titleIcon": "",
+            "_imageAlignment": "left",
+            "_classes": ""
+        },
+        {
+            "title": "Right to an explanation",
+            "body": "Upon an individual's request, deployers must provide a <strong>detailed explanation of the role of AI</strong> in any decision-making process that has a <strong>legal or similarly significant effect</strong> on that individual, particularly if it has an <strong>adverse impact on their health and safety or fundamental rights</strong>. The explanation must also set out the main elements of the decision.",
+            "_titleIcon": "",
+            "_imageAlignment": "left",
+            "_classes": ""
+        }
+    ],
+    "_pageLevelProgress": {
+        "_isEnabled": true,
+        "_isCompletionIndicatorEnabled": true
+    }
+},
+
+
+{
+    "_id": "c-512",
+    "_parentId": "b-509",
     "_type": "component",
     "_component": "text",
-    "body": "Sources: <br> <br> Paal, Boris P. (2022): Artificial Intelligence as a Challenge for Data Protection Law And Vice Versa. In: The Cambridge Handbook of Responsible Artificial Intelligence, <a href=\"https://doi.org/10.1017/9781009207898.023\" target=\"_blank\">https://doi.org/10.1017/9781009207898.023</a> <br> <br> Dewitte, Pierre (2025): AI Meets the GDPR. In: Smuha, N. A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence. DOI: <a href=\"https://doi.org/10.1017/9781009367783.010\" target=\"_blank\">https://doi.org/10.1017/9781009367783.010</a>",
+    "body": "Sources: <br> <br> High-level summary of the EU AI Act, last accessed on 29.06.2025, URL:  <a href=\"https://artificialintelligenceact.eu/high-level-summary/\" target=\"_blank\">https://artificialintelligenceact.eu/high-level-summary/</a> <br> <br> EU AI Act Compliance Checker, last accessed on 29.06.2025, URL:  <a href=\"https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/\" target=\"_blank\">https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/</a> <br> <br> The AI Act Explorer, last accessed on 29.06.2025, URL:  <a href=\"https://artificialintelligenceact.eu/ai-act-explorer/\" target=\"_blank\">https://artificialintelligenceact.eu/ai-act-explorer/</a>",
     "_classes": "",
     "_isOptional": true
 }

@@ -120,8 +120,8 @@
     "body": "",
     "instruction": "",
     "_trickle": {
-      "_isEnabled": false,
-      "_onChildren": false,
+      "_isEnabled": true,
+      "_onChildren": true,
       "_completionAttribute": "_isComplete",
       "_button": {
         "_isEnabled": true,

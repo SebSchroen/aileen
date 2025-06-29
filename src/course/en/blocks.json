@@ -238,7 +238,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 28
+    "_trackingId": 19
   },
   {
     "_id": "b-307",
@@ -249,7 +249,7 @@
     "displayTitle": "That's it for now, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
     "body": "",
     "instruction": "",
-    "_trackingId": 19
+    "_trackingId": 20
   },
   {
     "_id": "b-401",
@@ -260,7 +260,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 20
+    "_trackingId": 21
   },
   {
     "_id": "b-402",
@@ -328,15 +328,67 @@
     "instruction": "",
     "_trackingId": 27
   },
-    {
+  {
     "_id": "b-503",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 32
+  },
+  {
+    "_id": "b-504",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 33
+  },
+  {
+    "_id": "b-505",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "Target audience of this lesson",
+    "body": "The requirements in this training focus on Deployers according to Article 3 (4) of the EU AI Act. If you or your company fulfill the criteria of developers or distributors, additional requirements apply.",
+    "instruction": "",
+    "_trackingId": 28,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "b-506",
     "_parentId": "a-104",
     "_type": "block",
     "_classes": "",
     "title": "Prohibited uses",
     "displayTitle": "Unacceptable risk: Prohibited uses",
-    "body": "The EU AI Act strictly prohibits certain AI systems and practices that pose an unacceptable risk to fundamental rights and safety.",
+    "body": "Article 5 of the EU AI Act strictly prohibits certain AI systems and practices that pose an unacceptable risk to fundamental rights and safety.",
     "instruction": "Flip the cards on the right to learn more about the chart on the left.",
+    "_trackingId": 30,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "b-507",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "High-risk AI systems ",
+    "displayTitle": "High risk: Regulated uses",
+    "body": "Unlike prohibited AI systems, which are banned outright due to their unacceptable risk, High-Risk AI systems, as discussed in Article 6 of the Act, are not forbidden. Instead, they are subject to very strict legal requirements and obligations before they can be placed on the market or put into service in the EU. ",
+    "instruction": "Flip the cards on the left to learn more about the chart on the left.",
     "_trackingId": 29,
     "_pageLevelProgress": {
       "_isEnabled": true,
@@ -344,7 +396,18 @@
     }
   },
   {
-    "_id": "b-599",
+    "_id": "b-508",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 34
+  },
+  {
+    "_id": "b-509",
     "_parentId": "a-104",
     "_type": "block",
     "_classes": "",
@@ -352,6 +415,6 @@
     "displayTitle": "That's it for now, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
     "body": "",
     "instruction": "",
-    "_trackingId": 30
+    "_trackingId": 31
   }
 ]

@@ -23,7 +23,6 @@
     "adapt-contrib-spoor": "*",
     "adapt-contrib-bookmarking": "*",
     "adapt-contrib-languagePicker": "*",
-    "adapt-contrib-triggered": "*",
     "adapt-talk": "*",
     "adapt-list": "*",
     "adapt-cards": "*",
@@ -32,6 +31,7 @@
     "adapt-tabs": "*",
     "adapt-counters": "*",
     "adapt-verticalItems": "*",
-    "adapt-sliderItems": "*"
+    "adapt-sliderItems": "*",
+    "adapt-contrib-triggered": "*"
   }
 }
