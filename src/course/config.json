@@ -4,7 +4,7 @@
   "_defaultDirection": "ltr",
   "_questionWeight": 1,
   "_theme": "adapt-contrib-vanilla",
-  "_menu": "adapt-contrib-boxMenu",
+  "_menu": "adapt-gridMenu",
   "_logging": {
     "_isEnabled": true,
     "_level": "debug",
