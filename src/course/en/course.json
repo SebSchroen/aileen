@@ -7,7 +7,7 @@
   "displayTitle": "Artificial Intelligence",
   "description": "This course will introduce you to the fundamental concepts of Artificial Intelligence (AI) and its applications, equipping you with the knowledge to understand and engage with AI technologies.",
   "body": "This course will introduce you to the fundamental concepts of Artificial Intelligence (AI) and its applications, equipping you with the knowledge to understand and engage with AI technologies.",
-  "instruction": "",
+  "instruction": "To get started, select the modules below.",
   "_buttons": {
     "_submit": {
       "buttonText": "Submit",
@@ -97,7 +97,7 @@
     "_showAtCourseLevel": true
   },
   "_resources": {
-    "_isEnabled": true,
+    "_isEnabled": false,
     "_drawerOrder": 1,
     "title": "Resources",
     "description": "View resources for this course by clicking here.",
@@ -189,7 +189,10 @@
       "_src": ""
     }
   },
-  "_triggered": {
-    "_isEnabled": true
-  }
+
+"_notifyOnComplete": {
+    "_isEnabled": true,
+    "title": "Course Complete",
+    "body": "Well done, {{_globals._learnerInfo.firstname}}! You have completed the course and may now close this window."
+}
 }

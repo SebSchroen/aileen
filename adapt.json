@@ -32,6 +32,7 @@
     "adapt-counters": "*",
     "adapt-verticalItems": "*",
     "adapt-sliderItems": "*",
-    "adapt-contrib-triggered": "*"
+    "adapt-contrib-triggered": "*",
+    "adapt-notifyOnComplete": "*"
   }
 }

@@ -207,7 +207,7 @@
         "_layout": "full",
         "title": "What is AI?",
         "displayTitle": "",
-        "body": "The Turing Test is a very helpful analogy, but Artificial Intelligence is more than just mimicking humans.",
+        "body": "The Turing Test is a very helpful analogy, but <strong>Artificial Intelligence</strong> is more than just <strong>mimicking humans</strong>.",
         "instruction": "",
         "_columns": 0,
         "_orderedList": false,
@@ -218,7 +218,7 @@
         "_items": [
             {
                 "title": "Deal with different problems and environments",
-                "body": "At its core, AI seeks to create machines that can perform tasks that typically require human intelligence. This includes things like understanding language, recognizing patterns, solving problems, and making decision.",
+                "body": "At its core, AI seeks to create machines that can perform tasks that typically require human intelligence. This includes things like <strong>understanding language, recognizing patterns, solving problems, and making decision.</strong>",
                 "_classes": "",
                 "_graphic": {
                     "src": "",
@@ -228,7 +228,7 @@
             },
             {
                 "title": "Learning and adapting",
-                "body": "Modern AI emphasizes enabling machines to learn from data and experience, similar to our brain. This involves writing programs that allow the AI to improve its performance over time through exposure to data and feedback.",
+                "body": "Modern AI emphasizes enabling machines to <strong>learn from data and experience</strong>, similar to our brain. This involves writing programs that allow the AI to improve its performance over time through exposure to data and feedback.",
                 "_classes": "",
                 "_graphic": {
                     "src": "",
@@ -238,24 +238,14 @@
             },
             {
                 "title": "Autonomy",
-                "body": " AI aims to create intelligent systems that can operate with a degree of independence from humans. This means the AI can make decisions and take actions without explicit instructions for every situation.",
+                "body": " AI aims to create intelligent systems that can operate with a degree of <strong>independence from humans</strong>. This means the AI can make decisions and take actions without explicit instructions for every situation.",
                 "_classes": "",
                 "_graphic": {
                     "src": "",
                     "alt": "",
                     "attribution": ""
                 }
-            },
-                     {
-                "title": "Explainability",
-                "body": "AI models can be so complex that even their creators may not fully understand how they arrive at decisions, creating a \"black-box\" scenario. This lack of understanding about the internal operations of AI systems raises concerns.",
-                "_classes": "",
-                "_graphic": {
-                    "src": "",
-                    "alt": "",
-                    "attribution": ""
-                }
-            }   
+            } 
         ],
         "bodyAfter": "",
         "_pageLevelProgress": {
@@ -271,7 +261,7 @@
     "_layout": "full",
     "title": "How do machines learn?",
     "displayTitle": "And how do machines learn?",
-    "body": "Artificial intelligence is the overarching field that aims to develop intelligent machines.  If we consider AI as the \"brain\", machine learning can be seen as the process through which the AI acquires the necessary abilities. But how do machines learn?",
+    "body": "<strong>Artificial intelligence</strong> is the overarching field that aims to develop intelligent machines.  If we consider AI as the \"brain\", <strong>machine learning</strong> can be seen as the process through which the AI acquires the <strong>necessary abilities</strong>. But how do machines learn?",
     "instruction": "Use the arrows below to explore different types of machine learning.",
     "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
     "_hasNavigationInTextArea": false,
@@ -282,7 +272,7 @@
     "_items": [
         {
             "title": "Supervised Learning: Learning with a Teacher",
-            "body": "Supervised learning is like learning with a teacher. The algorithm - the AI -  is given examples with correct answers, also called labeled data. <br> <br> For instance, it might be shown thousands of pictures of apples, each labeled 'apple', and pictures of bananas, labeled 'banana'. The goal is for the AI to learn the patterns so it can correctly identify apples or bananas in new, unseen pictures. Early spam filters are a common example for supervised learning.",
+            "body": "Supervised learning is like learning with a teacher. The algorithm - the AI -  is given examples with correct answers, also called <strong>labeled data</strong>. <br> <br> For instance, it might be shown thousands of pictures of apples, each labeled 'apple', and pictures of bananas, labeled 'banana'. The goal is for the AI to learn the patterns so it can correctly identify apples or bananas in new, unseen pictures. Early spam filters are a common example for supervised learning.",
             "_graphic": {
                 "src": "course/en/images/supervised_learning.jpg",
                 "attribution": "Generated with Google Imagen 4",
@@ -292,7 +282,7 @@
         },
         {
             "title": "Unsupervised Learning: Finding Patterns on Its Own",
-            "body": "Unsupervised learning is like giving the AI system a big box of mixed-up items and asking it to sort them without telling it how. The AI looks for similarities and differences on its own to group the items. In this case, the items have no label to draw conclusions from. <br> <br> The AI system might group them by color, size, or shape. This is used to discover hidden patterns or structures in data, such as customer segmentation. Recommendations on Netflix or Spotify are common examples.",
+            "body": "Unsupervised learning is like giving the AI system a big box of mixed-up items and asking it to sort them without telling it how. The AI looks for similarities and differences on its own to group the items. In this case, the items have no label to draw conclusions from. <br> <br> The AI system might group them by color, size, or shape. This is used to discover <strong>hidden patterns or structures</strong> in data, such as <strong>customer segmentation</strong>. Recommendations on Netflix or Spotify are common examples.",
             "_graphic": {
                 "src": "course/en/images/unsupervised_learning.jpg",
                 "attribution": "Generated with Google Imagen 4",
@@ -302,7 +292,7 @@
         },
         {
             "title": "Deep Learning: Adding more Layers",
-            "body": "Deep learning is a more advanced version that unlocks more complex tasks and higher performance. Imagine trying to teach a computer to recognize a cat in a picture. With regular machine learning, you might have to manually tell the computer what to look for – pointy ears, whiskers and a tail. Deep learning, on the other hand, learns those features automatically by detecting them throughout several layers. <br> <br> Deep learning is often used for image recognition. Consider the layers in the image: In the first layer, the network might just detect edges and corners. The next layer combines those edges to form shapes. And the next layer combines the shapes to recognize cat features. Finally, the last layer puts it all together and says, 'That's a cat!",
+            "body": "Deep learning is a more advanced version that unlocks more complex tasks and higher performance. Imagine trying to teach a computer to recognize a cat in a picture. With regular machine learning, you might have to manually tell the computer what to look for – pointy ears, whiskers and a tail. Deep learning, on the other hand, learns those features automatically by detecting them throughout several layers. <br> <br> <strong>Deep learning</strong> is often used for <strong>image recognition</strong>. Consider the layers in the image: In the first layer, the network might just detect edges and corners. The next layer combines those edges to form shapes. And the next layer combines the shapes to recognize cat features. Finally, the last layer puts it all together and says, 'That's a cat!",
             "_graphic": {
                 "src": "course/en/images/deep_learning.jpg",
                 "attribution": "Generated with Google Imagen 4",
@@ -412,50 +402,39 @@
         "_id": "c-106",
         "_parentId": "b-105",
         "_type": "component",
-        "_component": "list",
+        "_component": "expose",
         "_classes": "",
         "_layout": "full",
         "title": "Training Data",
         "displayTitle": "Training data: The fuel for machine learning",
-        "body": "Now you know what artificial intelligence is and how machines may learn from data. However, there is one major part missing: The training data. Real-world data, often produced by humans, then fed to machine learning algorithms. What are the three main considerations about training data?",
-   "instruction": "",
-        "_columns": 0,
-        "_orderedList": false,
-        "_animateList": true,
+        "body": "Now you know what artificial intelligence is and how machines may learn from data. However, there is one major part missing: The <strong>training data</strong>. Real-world data, often produced by humans, then fed to machine learning algorithms. What are the three main considerations about training data?",
+      "instruction": "",
+        "_columns": 3,
+      "_animationType": "shrink",
         "_percentInviewVertical": 10,
         "_itemHorizontalAlignment": "start",
-        "_bulletAlignment": "start",
         "_items": [
-            {
-                "title": "Quality",
-                "body": "The quality of the training data is crucial. If the data is noisy, incomplete, or biased, the model will learn these imperfections and perform poorly on new data.",
-                "_classes": "",
-                "_graphic": {
-                    "src": "",
-                    "alt": "",
-                    "attribution": ""
-                }
+        {
+            "front": "Data Quality",
+            "back": {
+            "body": "The quality of the training data is crucial. If the data is <strong>noisy, incomplete, or biased</strong>, the model will learn these imperfections and perform poorly on new data."
             },
-            {
-                "title": "Quantity",
-                "body": "The amount of training data is also important. More data generally leads to a more accurate model, especially for complex tasks.",
-                "_classes": "",
-                "_graphic": {
-                    "src": "",
-                    "alt": "",
-                    "attribution": ""
-                }
+            "_classes": ""
+        },
+        {
+            "front": "Data Quantity",
+            "back": {
+            "body": "The amount of training data is also important. <strong>More data</strong> generally leads to a more accurate model, especially for complex tasks."
             },
-            {
-                "title": "Representativeness",
-                "body": "The training data should be representative of the real-world data that the model will be used on. If the training data is significantly different from the real-world data, the model may not generalize well.",
-                "_classes": "",
-                "_graphic": {
-                    "src": "",
-                    "alt": "",
-                    "attribution": ""
-                }
-            } 
+            "_classes": ""
+        },
+        {
+            "front": "Data Representativeness",
+            "back": {
+            "body": "The training data should be <strong>representative</strong> of the real-world data that the model will be used on. If the training data is significantly different from the real-world data, the model may not generalize well."
+            },
+            "_classes": ""
+        }
         ],
         "bodyAfter": "",
       "_pageLevelProgress": {
@@ -568,7 +547,7 @@
   "_layout": "left",
   "title": "",
   "displayTitle": "",
-  "body": "You don't need to be a detective to spot the pattern in the images above—they're all of white men. This happens because AI models learn from our world, and they can absorb and replicate the structural biases within their training data. <br> <br> To put this to the test, I ran a simple experiment with Google's Imagen 3 model. For four different professions, I generated 30 images each using the prompts you see on the right.",
+  "body": "You don't need to be a detective to spot the pattern in the images above—they're all of white men. This happens because AI models learn from our world, and they can <b> absorb and replicate the structural biases </b> within their training data. <br> <br> To put this to the test, I ran a simple experiment with Google's Imagen 3 model. For four different professions, I generated 30 images each using the prompts you see on the right.",
     "_pageLevelProgress": {
         "_isEnabled": false,
         "_isCompletionIndicatorEnabled": false
@@ -756,44 +735,44 @@
         "_isCompletionIndicatorEnabled": true
     }
 },
-    {
-          "_id": "c-208",
-    "_parentId": "b-204",
-        "_type": "component",
-        "_component": "expose",
-        "_classes": "",
-        "_layout": "full",
-        "title": "Main takeaway",
-        "displayTitle": "Does that mean <em>all</em> AI is biased & discriminatory?",
-        "body": "It's a common misconception that AI bias implies prejudice from the model itself. In this context, 'bias' simply refers to systemic patterns the AI learns and reproduces from its training data. As the previous examples show, an AI's output is a direct reflection of the information it was trained on. The results aren't intentional, they are an echo of the societal biases embedded in the source data. Ultimately, AI systems are only as good as the data they are given and the humans who build and guide them.",
-        "instruction": "So where do the biases come from? Click on the panels below to learn more.",
-        "_columns" : 3,
-        "_animationType": "shrink",
-        "_items": [
-            {
-                "front": "Data was collected for other purposes",
-                "back": {
-                    "body": "AI systems often analyze existing data that was collected for purposes different from those the AI system is pursuing. This means the data wasn't gathered with the intention of being used for, say, predictive policing or recruitment, so properties of the data that may facilitate unfair outcomes are not considered."
-                }
-            },
-            {
-                "front": "Data is historical",
-                "back": {
-                    "body": "Historical data often reflects past societal biases and discriminatory practices. When AI systems are trained on this data, they can perpetuate and amplify these biases."
-                }
-            },
-            {
-                "front": "Data is non-representative",
-                "back": {
-                    "body": "This issue arises when a machine-learning system is trained on data that does not fully represent the population that the system is meant to be applied to. AI systems can then reflect this representation bias when exposed to real-world data that differs significantly from the data they were trained on, leading to skewed or unfair outcomes."
-                }
-            }
-        ],
-              "_pageLevelProgress": {
-        "_isEnabled": true,
-        "_isCompletionIndicatorEnabled": true
-    }
-    },
+  {
+      "_id": "c-208",
+      "_parentId": "b-204",
+      "_type": "component",
+      "_component": "expose",
+      "_classes": "",
+      "_layout": "full",
+            "title": "Where biases come from",
+      "displayTitle": "Does that mean <em>all</em> AI is biased & discriminatory?",
+      "body": "It's a common misconception that AI bias implies <b>prejudice from the model itself</b>. In this context, 'bias' simply refers to systemic patterns the AI learns and reproduces from its training data. As the previous examples show, an AI's output is a <b>direct reflection of the information it was trained on</b>. The results aren't intentional, they are an echo of the societal biases embedded in the source data. Ultimately, AI systems are <b>only as good as the data they are given</b> and the humans who build and guide them.",
+      "instruction": "<b>So where do the biases come from?</b> Click on the panels below to learn more.",
+      "_columns" : 3,
+      "_animationType": "shrink",
+      "_items": [
+          {
+              "front": "Data was collected for other purposes",
+              "back": {
+                  "body": "AI systems often analyze existing data that was <b>collected for purposes different</b> from those the AI system is pursuing. This means the data wasn't gathered with the intention of being used for, say, predictive policing or recruitment, so properties of the data that may <b>facilitate unfair outcomes are not considered</b>."
+              }
+          },
+          {
+              "front": "Data is historical",
+              "back": {
+                  "body": "Historical data often <b>reflects past societal biases</b> and discriminatory practices. When AI systems are trained on this data, they can <b>perpetuate and amplify these biases</b>."
+              }
+          },
+          {
+              "front": "Data is non-representative",
+              "back": {
+                  "body": "This issue arises when a machine-learning system is trained on data that <b>does not fully represent the population</b> that the system is meant to be applied to. AI systems can then reflect this representation bias when exposed to real-world data that differs significantly from the data they were trained on, <b>leading to skewed or unfair outcomes</b>."
+              }
+          }
+      ],
+      "_pageLevelProgress": {
+          "_isEnabled": true,
+          "_isCompletionIndicatorEnabled": true
+      }
+},
 
 
 {
@@ -805,7 +784,7 @@
     "_layout": "full",
     "title": "Real-life impact",
     "displayTitle": "Real-life impact of biased training data",
-    "body": "The previous thought experiments are mostly academic, so let's look at real examples where biases in training data led to sub-optimal and discriminatory in real-life applications.",
+    "body": "The previous thought experiments are mostly academic, so let's look at <b>real examples</b> where biases in training data led to <b>sub-optimal and discriminatory</b> in real-life applications.",
     "instruction": "Select the tabs to find out more.",
     "_tabLayout": "horizontal",
     "_minHeight": "250px",
@@ -814,23 +793,23 @@
         {
             "tabTitle": "Case 1: Recruitment Bias",
             "title": "Case 1: Gender Bias in Recruitment",
-            "body": "Amazon created an AI program to automate the shortlisting of job applicants by reviewing résumés. The tool was trained on CVs from a previous ten-year period, a dataset in which most successful applicants had been men. As a result, the AI learned to be biased against female applicants, penalizing résumés that contained phrases like \"women's chess club captain.\" Despite attempts to correct the gender bias, Amazon ultimately abandoned the program as it did not align with the company's commitment to workplace diversity and equality <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(see Stahl et al. 2023).</a>",
+            "body": "Amazon created an AI program to <b>automate the shortlisting</b> of job applicants by reviewing résumés. The tool was trained on CVs from a previous ten-year period, a dataset in which <b>most successful applicants had been men</b>. As a result, the AI learned to be <b>biased against female applicants</b>, penalizing résumés that contained phrases like \"women's chess club captain.\" Despite attempts to correct the gender bias, Amazon <b>ultimately abandoned the program</b> as it did not align with the company's commitment to workplace diversity and equality <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(see Stahl et al. 2023).</a>",
             "_classes": ""
         },
         {
             "tabTitle": "Case 2: Parole Decisions",
             "title": "Case 2: AI Bias in Parole Decisions",
-            "body": "A prisoner named Glenn Rodríguez, who had a model rehabilitation record, applied for early release but was denied. The parole board's decision was based on a \"high risk\" prediction from an AI system called COMPAS. The board did not know how the AI's algorithm worked, as it was a trade secret. Rodríguez later discovered his high score was due to subjective and potentially racially prejudiced views from prison guards. Although he was eventually released, the inability to contest the AI's flawed and opaque logic meant he might have been released much sooner <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(see Stahl et al. 2023).</a>",
+            "body": "A prisoner named Glenn Rodríguez, who had a <b>model rehabilitation record</b>, applied for early release but was denied. The parole board's decision was based on a <b>\"high risk\" prediction</b> from an AI system called COMPAS. The board <b>did not know how the AI's algorithm worked</b>, as it was a trade secret. Rodríguez later discovered his high score was due to <b>subjective and potentially racially prejudiced views</b> from prison guards. Although he was eventually released, the <b>inability to contest the AI's flawed and opaque logic</b> meant he might have been released much sooner <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(see Stahl et al. 2023).</a>",
             "_classes": ""
         },
         {
             "tabTitle": "Case 3: Facial Recognition",
             "title": "Case 3: Bias in Facial Recognition",
-            "body": "An engineering student of Asian descent in New Zealand had his passport photo rejected by an automated system because it incorrectly claimed his eyes were closed. This incident points to a wider problem of ethnicity-based errors in facial recognition technology. Similar systems have shown bias against other groups; for instance, photos of dark-skinned women in the UK were four times more likely to be graded as poor quality, with one black student's photo being rejected because the system inaccurately detected her mouth was open <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(see Stahl et al. 2023)</a>.",
+            "body": "An engineering student of Asian descent in New Zealand had his <b>passport photo rejected</b> by an automated system because it <b>incorrectly claimed his eyes were closed</b>. This incident points to a wider problem of <b>ethnicity-based errors</b> in facial recognition technology. Similar systems have shown <b>bias against other groups</b>; for instance, photos of dark-skinned women in the UK were <b>four times more likely to be graded as poor quality</b>, with one black student's photo being rejected because the system inaccurately detected her mouth was open <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(see Stahl et al. 2023)</a>.",
             "_classes": ""
         }
     ],
-        "_pageLevelProgress": {
+    "_pageLevelProgress": {
         "_isEnabled": true,
         "_isCompletionIndicatorEnabled": true
     }
@@ -845,7 +824,7 @@
     "_layout": "full",
     "title": "AI Solutions",
     "displayTitle": "Addressing the challenges",
-    "body": "While previous discussions may have highlighted the more concerning aspects of AI and machine learning, this section explores the proactive solutions and advancements that are effectively addressing these issues.",
+    "body": "While previous discussions may have highlighted the more concerning aspects of AI and machine learning, this section explores the <b>proactive solutions and advancements</b> that are <b>effectively addressing these issues</b>.",
     "instruction": "Select the headings to find out more.",
     "_shouldCollapseItems": true,
     "_shouldExpandFirstItem": false,
@@ -854,7 +833,7 @@
     "_items": [
         {
             "title": "Stay critical",
-            "body": "You may have noticed that this course intentionally uses materials from different AI models, such as Google's Imagen 3 and 4 for images and an older language model for the gender bias chart. This is by design. <br> <br> These choices demonstrate key points in the history of machine learning and serve as a reminder to remain critical of two things: the output of AI systems in sensitive applications and, just as importantly, the motivations of the organizations that provide them. <br> <br> When implementing any sort of AI system, it is helpful to keep the examples above in mind to avoid unwanted outcomes. ",
+            "body": "You may have noticed that this course <b>intentionally uses materials from different AI models</b>, such as Google's Imagen 3 and 4 for images and an older language model for the gender bias chart. This is by design. <br> <br> These choices demonstrate key points in the history of machine learning and serve as a reminder to <b>remain critical of two things: the output of AI systems</b> in sensitive applications and, just as importantly, the <b>motivations of the organizations</b> that provide them. <br> <br> When implementing any sort of AI system, it is helpful to keep the examples above in mind to <b>avoid unwanted outcomes</b>.",
             "_titleIcon": "",
             "_imageAlignment": "left",
             "_graphic": {
@@ -866,7 +845,7 @@
         },
         {
             "title": "Guardrails",
-            "body": "The previous examples highlighted how flawed training data can lead to biased or harmful outcomes, a concern for developers and regulators alike. In response, model creators implement safety filters and 'guardrails' to prevent unwanted behavior. <br> <br> These guardrails can range from output moderation and bias mitigation to mechanisms that ensure responses align with societal norms or a specific corporate identity. <br> <br> To ensure the line between acceptable and unacceptable behavior isn't drawn solely by large tech companies, initiatives like Guardrails.AI provide open-source, community-driven standards for AI models.",
+            "body": "The previous examples highlighted how <b>flawed training data can lead to biased or harmful outcomes</b>, a concern for developers and regulators alike. In response, model creators implement <b>safety filters and 'guardrails' to prevent unwanted behavior</b>. <br> <br> These guardrails can range from output moderation and bias mitigation to mechanisms that ensure responses align with societal norms or a specific corporate identity. <br> <br> To ensure the line between acceptable and unacceptable behavior isn't drawn solely by large tech companies, initiatives like Guardrails.AI provide <b>open-source, community-driven standards</b> for AI models.",
             "_titleIcon": "",
             "_imageAlignment": "right",
             "_graphic": {
@@ -878,7 +857,7 @@
         },
         {
             "title": "New models do much better",
-            "body": "Modern AI models tend to exhibit a reduction in bias, which can be attributed to two main factors: the implementation of explicit guardrails and a more sophisticated linguistic comprehension that moves beyond the simplified gender-role correlations of previous models. <br> <br> For example, the language embeddings integral to ChatGPT yield significantly more equitable associations between gender and professions in contrast to the chart above.  <br> <br> Likewise, Google's Imagen 4 demonstrates this advancement by producing greater demographic variety; a prompt for a 'realistic photo of a nurse' results in images that feature men and women in approximately equal measure. Consider the image on the left.",
+            "body": "Modern AI models tend to exhibit a <b>reduction in bias</b>, which can be attributed to two main factors: the <b>implementation of explicit guardrails</b> and a more <b>sophisticated linguistic comprehension</b> that moves beyond the simplified gender-role correlations of previous models. <br> <br> For example, the language embeddings integral to ChatGPT yield <b>significantly more equitable associations</b> between gender and professions in contrast to the chart above. <br> <br> Likewise, Google's Imagen 4 demonstrates this advancement by producing <b>greater demographic variety</b>; a prompt for a 'realistic photo of a nurse' results in images that feature men and women in approximately equal measure. Consider the image on the left.",
             "_titleIcon": "",
             "_imageAlignment": "left",
             "_graphic": {
@@ -915,7 +894,7 @@
     "_layout": "full",
     "title": "Copyright in general",
     "displayTitle": "What is Copyright?",
-    "body": "Copyright is a legal right granting creators exclusive control over their original literary and artistic works. As part of Intellectual Property (IP) law, it safeguards 'works of authorship' by empowering creators to manage how their creations are used and distributed.",
+    "body": "Copyright is a <b>legal right</b> granting creators <b>exclusive control</b> over their original literary and artistic works. As part of Intellectual Property (IP) law, it safeguards 'works of authorship' by empowering creators to manage how their creations are <b>used and distributed</b>.",
     "instruction": "Click on the panels below to learn more about copyright.",
     "_columns": 3,
     "_animationType": "shrink",
@@ -923,23 +902,23 @@
         {
             "front": "What is protected?",
             "back": {
-                "body": "Copyright protects the <em>concrete expression</em> of an idea, not the idea itself. It applies to tangible literary and artistic works like novels, songs, paintings, and software, giving creators control over their specific manifestations."
+                "body": "Copyright protects the <b><em>concrete expression</em> of an idea</b>, not the idea itself. It applies to tangible literary and artistic works like novels, songs, paintings, and software, giving creators <b>control over their specific manifestations</b>."
             }
         },
         {
             "front": "What are the conditions?",
             "back": {
-                "body": "To be copyrighted, a work must be expressed in a <em>concrete way</em> (not abstract ideas) and be <em>original</em>. Originality means it's an intellectual creation by a human author, reflecting their personality and creative choices. This human authorship is fundamental, especially in German and EU law."
+                "body": "To be copyrighted, a work must be expressed in a <b><em>concrete way</em></b> (not abstract ideas) and be <b><em>original</em></b>. Originality means it's an <b>intellectual creation by a human author</b>, reflecting their personality and creative choices. This <b>human authorship is fundamental</b>, especially in German and EU law."
             }
         },
         {
-            "front": "What are the rights of the owner?",
+            "front": "What are the rights of the owner?</b>",
             "back": {
-                "body": "Owners gain exclusive rights to reproduce, distribute, and publicly communicate their work. They also hold moral rights, including disclosure, integrity, and attribution, ensuring control. Copyright generally lasts for the author's lifetime plus 70 years in EU Member States."
+                "body": "Owners gain <b>exclusive rights to reproduce, distribute, and publicly communicate</b> their work. They also hold <b>moral rights</b>, including disclosure, integrity, and attribution, ensuring control. Copyright generally lasts for the <b>author's lifetime plus 70 years</b> in EU Member States."
             }
         }
     ],
-        "_pageLevelProgress": {
+    "_pageLevelProgress": {
         "_isEnabled": true,
         "_isCompletionIndicatorEnabled": true
     }
@@ -1077,7 +1056,7 @@
     "_layout": "full",
     "title": "Infringement by AI Output",
     "displayTitle": "Yes, AI output can infringe copyrights",
-    "body": "Even if an AI model is trained legally, the content it generates can still lead to copyright infringement. This occurs when the AI's output is too similar to an existing copyrighted work, infringing upon the rights of the original creator.",
+    "body": "Even if an AI model is trained legally, the <b>content it generates can still lead to copyright infringement</b>. This occurs when the AI's output is <b>too similar to an existing copyrighted work</b>, infringing upon the rights of the original creator.",
     "instruction": "Use the arrows below to explore the ways AI-generated content can infringe copyright.",
     "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
     "_hasNavigationInTextArea": false,
@@ -1088,20 +1067,19 @@
     "_items": [
         {
             "title": "Substantial Similarity",
-            "body": "If AI-generated content (like an image, text, or music) is so close to an existing copyrighted work that an average person would recognize it as copied, it can be deemed infringing. This means the AI output has captured enough of the original's creative elements to cross a legal threshold.",
+            "body": "If AI-generated content (like an image, text, or music) is <b>so close to an existing copyrighted work</b> that an average person would recognize it as copied, it can be <b>deemed infringing</b>. This means the AI output has <b>captured enough of the original's creative elements</b> to cross a legal threshold.",
             "strapline": "Too Close for Comfort",
-                "_graphic": {
-               "src": "course/en/images/getty.png",
-                  "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
-                 "alt": "Diagram illustrating supervised learning with labeled data leading to a predictive model."
+            "_graphic": {
+                "src": "course/en/images/getty.png",
+                "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
+                "alt": "Diagram illustrating supervised learning with labeled data leading to a predictive model."
             }
- 
         },
         {
             "title": "Unauthorized Derivative Works",
-            "body": "Copyright holders have the exclusive right to create 'derivative works'—new works based on their original creations. If a user prompts an AI to generate content that clearly builds upon a copyrighted character, setting, or specific artistic style without permission (e.g., a new story featuring a famous cartoon character), the AI's output could be considered an unauthorized derivative work.",
+            "body": "Copyright holders have the <b>exclusive right to create 'derivative works'</b>—new works based on their original creations. If a user prompts an AI to generate content that clearly <b>builds upon a copyrighted character, setting, or specific artistic style without permission</b> (e.g., a new story featuring a famous cartoon character), the AI's output could be considered an <b>unauthorized derivative work</b>.",
             "strapline": "Building on Others' Creations",
-                "_graphic": {
+            "_graphic": {
                 "src": "course/en/images/banksy.png",
                 "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
                 "alt": "Diagram illustrating supervised learning with labeled data leading to a predictive model."
@@ -1109,14 +1087,13 @@
         },
         {
             "title": "The Snoopy Problem",
-            "body": "This highlights how AI can 'memorize' elements from its training data and then reproduce them in its output. The more distinctive and frequently represented a character or visual identifier is in the training data, the more likely the AI is to reproduce it when prompted. For example, AI can generate highly similar depictions of well-known characters like Snoopy or Mickey Mouse, or reproduce distinctive artistic styles. This happens because the AI learns consistent characteristics, making it easy to evoke an infringing output, even if it's not an exact copy of a single original work.",
+            "body": "This highlights how AI can <b>'memorize' elements from its training data</b> and then reproduce them in its output. The more distinctive and frequently represented a character or visual identifier is in the training data, the <b>more likely the AI is to reproduce it</b> when prompted. For example, AI can generate <b>highly similar depictions</b> of well-known characters like Snoopy or Mickey Mouse, or reproduce distinctive artistic styles. This happens because the AI learns consistent characteristics, making it easy to <b>evoke an infringing output</b>, even if it's not an exact copy of a single original work.",
             "strapline": "When AI 'Remembers'",
-                "_graphic": {
+            "_graphic": {
                 "src": "course/en/images/snoopy_problem.png",
-                  "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
-              "alt": "Diagram illustrating supervised learning with labeled data leading to a predictive model."
+                "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
+                "alt": "Diagram illustrating supervised learning with labeled data leading to a predictive model."
             }
- 
         }
     ],
     "_pageLevelProgress": {
@@ -1477,8 +1454,8 @@
         "_classes": "",
         "_layout": "full",
         "title": "Copyright and AI",
-        "displayTitle": "What are my responsibilities?",
-         "body": "As stated above, the AI affects a broad range of individuals and authorities. Your responsibilities depend on two main questions:",
+        "displayTitle": "What are the regulatory requirements?",
+         "body": "As stated above, the AI affects a broad range of individuals and authorities. The regulatory responsibilities depend on two main questions:",
         "instruction": "",
         "_columns": 0,
         "_orderedList": true,
@@ -1559,10 +1536,15 @@
     "_component": "text",
     "_classes": "text-warning",
     "_layout": "full",
-    "title": "",
+    "title": "Target audience",
     "displayTitle": "",
     "body": "To maintain the status of Deployer, avoid rebranding the AI system you plan on using. Also, make sure to use the system only for the purpose it is originally intended for. If you are unsure about your role, use the EU AI Act Compliance Checker which is linked in the sources at the end of this lesson.",
-    "instruction": ""
+    "instruction": "",
+        "_pageLevelProgress": {
+        "_isEnabled": false,
+        "_isCompletionIndicatorEnabled": false
+    },
+        "_isOptional": true
 },
 
 {
@@ -1601,49 +1583,49 @@
     "_component": "flipper",
     "_classes": "",
     "_layout": "right",
-    "title": "",
+    "title": "Examples for prohibited uses",
     "displayTitle": "",
     "body": "",
     "width": 400,
     "_items": [
         {
             "title": "Harmful Manipulation",
-            "body": "AI systems that use subliminal, manipulative, or deceptive techniques with the objective or effect of distorting behavior, causing or likely to cause significant harm.",
+            "body": "AI systems that use <b>subliminal, manipulative, or deceptive techniques</b> with the objective or effect of <b>distorting behavior</b>, causing or likely to cause <b>significant harm</b>.",
             "instruction": "Next »"
         },
         {
             "title": "Exploitation of Vulnerabilities",
-            "body": "AI systems that take advantage of vulnerabilities related to age, disability, or specific social/economic situations, with the objective or effect of distorting behavior, causing or likely to cause significant harm.",
+            "body": "AI systems that <b>take advantage of vulnerabilities</b> related to <b>age, disability, or specific social/economic situations</b>, with the objective or effect of <b>distorting behavior</b>, causing or likely to cause <b>significant harm</b>.",
             "instruction": "Next »"
         },
         {
             "title": "Social Scoring",
-            "body": "Systems that evaluate or classify individuals based on their social behavior, leading to detrimental or unfavorable treatment in social contexts unrelated to the original data collection, or that is unjustified or disproportionate.",
+            "body": "Systems that <b>evaluate or classify individuals based on their social behavior</b>, leading to <b>detrimental or unfavorable treatment</b> in social contexts unrelated to the original data collection, or that is <b>unjustified or disproportionate</b>.",
             "instruction": "Next »"
         },
         {
             "title": "Predictive Policing",
-            "body": "AI systems designed to predict a person's risk of committing a criminal offense.",
+            "body": "AI systems designed to <b>predict a person's risk</b> of committing a <b>criminal offense</b>.",
             "instruction": "Next »"
         },
         {
             "title": "Untargeted Scraping for Facial Recognition",
-            "body": "Untargeted scraping of the internet or CCTV material for the purpose of creating or expanding facial recognition databases.",
+            "body": "<b>Untargeted scraping</b> of the internet or CCTV material for the purpose of <b>creating or expanding facial recognition databases</b>.",
             "instruction": "Next »"
         },
         {
             "title": "Emotion Recognition in Specific Contexts",
-            "body": "AI systems used for inferring emotions in workplaces and educational institutions.",
+            "body": "AI systems used for <b>inferring emotions</b> in <b>workplaces and educational institutions</b>.",
             "instruction": "Next »"
         },
         {
             "title": "Biometric Categorisation of Protected Characteristics",
-            "body": "Biometric categorisation used to deduce certain protected characteristics (e.g., political opinions, sexual orientation, race, religious beliefs).",
+            "body": "<b>Biometric categorisation</b> used to <b>deduce certain protected characteristics</b> (e.g., political opinions, sexual orientation, race, religious beliefs).",
             "instruction": "Next »"
         },
         {
             "title": "Real-time Remote Biometric ID",
-            "body": "Real-time remote biometric identification for law enforcement purposes in publicly accessible spaces (with limited, strict exceptions for serious crimes).",
+            "body": "<b>Real-time remote biometric identification</b> for <b>law enforcement purposes</b> in <b>publicly accessible spaces</b> (with limited, strict exceptions for serious crimes).",
             "instruction": "Complete ✔"
         }
     ],
@@ -1688,54 +1670,54 @@
     "_component": "flipper",
     "_classes": "",
     "_layout": "left",
-    "title": "High-Risk AI Systems",
+    "title": "Examples for high-risk systems",
     "displayTitle": "",
     "body": "",
     "width": 400,
     "_items": [
         {
             "title": "Safety Components of Products",
-            "body": "AI systems used as safety components in products already subject to EU safety regulations (e.g., medical devices, aviation, cars).",
+            "body": "AI systems used as <b>safety components in products</b> already subject to <b>EU safety regulations</b> (e.g., medical devices, aviation, cars).",
             "instruction": "Next »"
         },
         {
             "title": "Biometric Identification Systems",
-            "body": "AI used for remote biometric identification of natural persons (excluding real-time use by law enforcement in public, which is generally prohibited).",
+            "body": "AI used for <b>remote biometric identification</b> of natural persons (excluding real-time use by law enforcement in public, which is <b>generally prohibited</b>).",
             "instruction": "Next »"
         },
         {
             "title": "Critical Infrastructure Management",
-            "body": "AI systems acting as safety components in managing essential services like water, gas, electricity, or traffic control.",
+            "body": "AI systems acting as <b>safety components</b> in <b>managing essential services</b> like water, gas, electricity, or traffic control.",
             "instruction": "Next »"
         },
         {
             "title": "Education & Vocational Training",
-            "body": "AI used for determining access to educational institutions, assigning individuals, or assessing learning outcomes (e.g., scoring exams).",
+            "body": "AI used for <b>determining access</b> to educational institutions, <b>assigning individuals</b>, or <b>assessing learning outcomes</b> (e.g., scoring exams).",
             "instruction": "Next »"
         },
         {
             "title": "Employment & Worker Management",
-            "body": "AI systems used for recruitment, applicant screening, evaluation of candidates, task allocation, monitoring, or performance evaluation of workers.",
+            "body": "AI systems used for <b>recruitment, applicant screening, evaluation</b> of candidates, <b>task allocation, monitoring, or performance evaluation</b> of workers.",
             "instruction": "Next »"
         },
         {
             "title": "Access to Essential Services",
-            "body": "AI used for evaluating creditworthiness, dispatching emergency services, or assessing eligibility for public assistance benefits (e.g., welfare, healthcare).",
+            "body": "AI used for <b>evaluating creditworthiness</b>, <b>dispatching emergency services</b>, or <b>assessing eligibility for public assistance benefits</b> (e.g., welfare, healthcare).",
             "instruction": "Next »"
         },
         {
             "title": "Law Enforcement Applications",
-            "body": "AI systems used by law enforcement for purposes such as assessing crime risk, polygraphs, or evaluating the reliability of evidence.",
+            "body": "AI systems used by law enforcement for purposes such as <b>assessing crime risk</b>, <b>polygraphs</b>, or <b>evaluating the reliability of evidence</b>.",
             "instruction": "Next »"
         },
         {
             "title": "Migration, Asylum & Border Control",
-            "body": "AI systems used to assess eligibility for asylum, visa, or residence permits, or for verifying travel document authenticity.",
+            "body": "AI systems used to <b>assess eligibility for asylum, visa, or residence permits</b>, or for <b>verifying travel document authenticity</b>.",
             "instruction": "Next »"
         },
         {
             "title": "Administration of Justice & Democracy",
-            "body": "AI systems intended to assist judicial authorities or to influence the outcome of elections or referendums.",
+            "body": "AI systems intended to <b>assist judicial authorities</b> or to <b>influence the outcome of elections</b> or referendums.",
             "instruction": "Complete ✔"
         }
     ],
