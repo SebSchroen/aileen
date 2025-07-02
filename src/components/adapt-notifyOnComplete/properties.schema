@@ -1,0 +1,82 @@
+{
+    "type":"object",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "id": "http://jsonschema.net",
+    "required":false,
+    "properties":{
+        "pluginLocations": {
+            "type":"object",
+            "required":true,
+            "properties":{
+                "config": {
+                    "type":"object"
+                },
+                "course": {
+                    "type":"object",
+                    "properties": {
+                        "_isEnabled": {
+                            "type":"boolean",
+                            "required":false,
+                            "title": "Enable on Course",
+                            "inputType": { "type": "Boolean", "options": [false, true]},
+                            "validators": []
+                        },
+                        "title": {
+                            "type": "string",
+                            "required": false,
+                            "title": "Title",
+                            "inputType": "Text",
+                            "validators": [],
+                            "help": "The title for the notification popup"
+                        },
+                        "body": {
+                            "type": "string",
+                            "required": false,
+                            "title": "Body",
+                            "inputType": "TextArea",
+                            "validators": [],
+                            "help": "The body text for the notification popup"
+                        }
+                    }
+                },
+                "contentobject": {
+                    "type":"object",
+                    "properties": {
+                        "_isEnabled": {
+                            "type":"boolean",
+                            "required":false,
+                            "title": "Enable on Page",
+                            "inputType": { "type": "Boolean", "options": [false, true]},
+                            "validators": []
+                        },
+                        "title": {
+                            "type": "string",
+                            "required": true,
+                            "title": "Text",
+                            "inputType": "Text",
+                            "validators": [],
+                            "help": "The title for the push notification"
+                        },
+                        "body": {
+                            "type": "string",
+                            "required": false,
+                            "title": "Body",
+                            "inputType": "TextArea",
+                            "validators": [],
+                            "help": "The body text for the push notification"
+                        }
+                    }
+                },
+                "article": {
+                    "type":"object"
+                },
+                "block": {
+                    "type":"object"
+                },
+                "component": {
+                    "type":"object"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "adapt-memory",
+  "version": "1.0.0",
+  "framework": ">=5.19.1",
+  "homepage": "https://github.com/nachocinalli/adapt-memory",
+  "bugs": "https://github.com/nachocinalli/adapt-memory/issues",
+  "component": "memory",
+  "targetAttribute": "_memory",
+  "displayName": "Memory",
+  "description": "A memmory component",
+  "main": "/js/adapt-memory.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0"
+}

@@ -1,0 +1,29 @@
+.typewriter {
+  &__inner {
+    display: flex;
+    align-items: top;
+    justify-content: top;
+    min-width: 100%;
+    flex-direction: column;
+    text-align: center;
+    min-height: 250px;
+    overflow: hidden;
+  }
+
+  &__text {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    text-wrap: nowrap;
+    background: linear-gradient(239deg, @blue 43.51%, @greyDark 93.82%);
+    background-clip: border-box;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-right: 0.03em solid @blue;
+    animation: blinking 1s linear infinite;
+  }
+}

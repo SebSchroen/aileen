@@ -1,0 +1,98 @@
+{
+  "_id": "c-05",
+  "_parentId": "b-05",
+  "_type": "component",
+  "_component": "memory",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Memory title",
+  "displayTitle": "Memory title",
+  "body": "This component you're reading is a memory component.",
+  "instruction": "",
+  "status": "You found {{guesses}} matches out of {{total}}.",
+  "_items": [
+    {
+      "type": "0",
+      "_graphic": {
+        "src": "course/en/images/a-05.png",
+        "alt": "Placeholder graphic"
+      }
+    },
+    {
+      "type": "0",
+      "_graphic": {
+        "src": "course/en/images/a-05.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "type": "1",
+      "_graphic": {
+        "src": "course/en/images/a-10.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "type": "1",
+      "_graphic": {
+        "src": "course/en/images/a-10.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "type": "2",
+      "_graphic": {
+        "src": "course/en/images/a-15.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "type": "2",
+      "_graphic": {
+        "src": "course/en/images/a-15.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "type": "3",
+      "_graphic": {
+        "src": "course/en/images/a-20.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "type": "3",
+      "_graphic": {
+        "src": "course/en/images/a-20.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "type": "4",
+      "_graphic": {
+        "src": "course/en/images/a-25.png",
+        "alt": ""
+      },
+      "_classes": ""
+    },
+    {
+      "type": "4",
+      "_graphic": {
+        "src": "course/en/images/a-25.png",
+        "alt": ""
+      },
+      "_classes": ""
+    }
+  ],
+  "feedback": "Congratulations! You have completed the activity.",
+  "_pageLevelProgress": {
+    "_isEnabled": true
+  }
+}

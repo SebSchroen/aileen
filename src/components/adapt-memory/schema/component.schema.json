@@ -1,0 +1,81 @@
+{
+  "$anchor": "memory-component",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "$merge": {
+    "source": {
+      "$ref": "component"
+    },
+    "with": {
+      "properties": {
+        "_supportedLayout": {
+          "type": "string",
+          "title": "Supported layout",
+          "default": "both",
+          "enum": ["full-width", "half-width", "both"],
+          "_adapt": {
+            "editorOnly": true
+          }
+        },
+        "instruction": {
+          "type": "string",
+          "title": "Instruction",
+          "default": "",
+          "_adapt": {
+            "translatable": true
+          }
+        },
+        "status": {
+          "type": "string",
+          "title": "Status",
+          "default": "You found {{guesses}} matches out of {{total}}.",
+          "_adapt": {
+            "translatable": true
+          }
+        },
+        "_items": {
+          "type": "array",
+          "title": "Items",
+          "items": {
+            "type": "object",
+            "properties": {
+              "type": {
+                "type": "string",
+                "title": "Type",
+                "default": ""
+              },
+              "_graphic": {
+                "type": "object",
+                "properties": {
+                  "src": {
+                    "type": "string",
+                    "title": "Source",
+                    "default": "course/en/images/a-05.png"
+                  },
+                  "alt": {
+                    "type": "string",
+                    "title": "Alt",
+                    "default": "Placeholder graphic"
+                  }
+                }
+              },
+              "_classes": {
+                "type": "string",
+                "title": "Classes",
+                "default": ""
+              }
+            }
+          }
+        },
+        "feedback": {
+          "type": "string",
+          "title": "Feedback",
+          "default": "Congratulations! You have completed the activity.",
+          "_adapt": {
+            "translatable": true
+          }
+        }
+      }
+    }
+  }
+}

@@ -323,7 +323,7 @@
     "_shouldDisplayAttempts": true,
     "_isRandom": false,
     "_hasItemScoring": false,
-    "_questionWeight": 50,
+    "_questionWeight": 20,
     "_selectable": 1,
     "_canShowModelAnswer": true,
     "_canShowCorrectness": true,
@@ -735,8 +735,88 @@
         "_isCompletionIndicatorEnabled": true
     }
 },
+
+{
+  "_id": "c-208",
+  "_parentId": "b-203",
+  "_type": "component",
+  "_component": "mcq",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Quiz: Understanding AI Associations",
+  "displayTitle": "",
+  "body": "According to the provided chart, the language model associates 'receptionist' with 'Female' 66% of the time. What does this 'association' primarily indicate about the model?",
+  "instruction": "Choose one option which applies, then select Submit.",
+  "ariaQuestion": "What does the language model's association of 'receptionist' with 'Female' primarily indicate?",
+  "_attempts": 2,
+  "_shouldDisplayAttempts": true,
+  "_isRandom": false,
+  "_hasItemScoring": false,
+  "_questionWeight": 20,
+  "_selectable": 1,
+  "_canShowModelAnswer": true,
+  "_canShowCorrectness": true,
+  "_canShowFeedback": true,
+  "_canShowMarking": true,
+  "_recordInteraction": true,
+  "_items": [
+    {
+      "text": "The model believes that women are inherently more suitable for the job of a receptionist.",
+      "altText": "Option: Model believes women are more suitable for receptionists.",
+      "_shouldBeSelected": false,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "The model has noticed that the word 'receptionist' frequently appears near female-associated pronouns or contexts in its training data.",
+      "altText": "Option: Word 'receptionist' frequently appears with female pronouns/contexts.",
+      "_shouldBeSelected": true,
+      "_isPartlyCorrect": false
+    }
+  ],
+  "_feedback": {
+    "title": "Understanding AI Associations",
+    "altTitle": "Feedback on your answer about AI's gender associations.",
+    "correct": "That's correct! The model's 'associations' reflect patterns in the vast amounts of text data it was trained on. It doesn't 'believe' anything; it simply identifies statistical relationships between words like 'receptionist' and pronouns like 'she' or 'her' based on how frequently they co-occur in the data.",
+    "_incorrect": {
+      "notFinal": "Not quite. Revisit the 'Uncovering AI's Hidden Biases' section, specifically the explanation of 'What 'Associated With' Means'. Consider how language models learn.",
+      "final": "The correct answer is: The model has noticed that the word 'receptionist' frequently appears near female-associated pronouns or contexts in its training data. AI models learn by finding statistical patterns in their training data. Their 'associations' are a reflection of these patterns, not a judgment or belief about suitability. If 'receptionist' often appeared in sentences with 'she' or 'her' in the training data, the model will associate it more strongly with female."
+    },
+    "_partlyCorrect": {
+      "notFinal": "This option is for questions with multiple correct answers, which isn't the case here. Please review the feedback for incorrect answers.",
+      "final": "This option is for questions with multiple correct answers, which isn't the case here. The correct answer is that the model has noticed statistical patterns in its training data, linking 'receptionist' with female-associated terms."
+    }
+  },
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Select here to submit your answer."
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Select here to reset your answer."
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show Correct Answer",
+      "ariaLabel": "Select here to show the correct answer."
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Show My Answer",
+      "ariaLabel": "Select here to show your answer."
+    },
+    "_showFeedback": {
+      "buttonText": "Show Feedback",
+      "ariaLabel": "Select here to show feedback."
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt"
+  },
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_isCompletionIndicatorEnabled": true
+  }
+},
   {
-      "_id": "c-208",
+      "_id": "c-209",
       "_parentId": "b-204",
       "_type": "component",
       "_component": "expose",
@@ -776,7 +856,7 @@
 
 
 {
-    "_id": "c-209",
+    "_id": "c-210",
     "_parentId": "b-205",
     "_type": "component",
     "_component": "tabs",
@@ -816,7 +896,7 @@
 },
 
 {
-    "_id": "c-210",
+    "_id": "c-211",
     "_parentId": "b-206",
     "_type": "component",
     "_component": "accordion",
@@ -873,10 +953,101 @@
         "_isCompletionIndicatorEnabled": true
     }
 },
-
+ 
+  {
+    "_id": "c-213",
+    "_parentId": "b-207",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Quiz: Amazon Recruitment Bias",
+    "displayTitle": "Test your knowledge: Amazon's AI",
+    "body": "In the Amazon recruitment case study, what was the primary reason the AI system developed a bias against female applicants?",
+    "instruction": "Choose one option which applies, then select Submit.",
+    "ariaQuestion": "What was the primary reason the Amazon AI system developed a bias against female applicants?",
+    "_attempts": 3,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_hasItemScoring": false,
+    "_questionWeight": 20,
+    "_selectable": 1,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_items": [
+      {
+        "text": "It was trained on résumés from a period where most successful applicants were men, leading it to penalize female-associated terms.",
+        "altText": "Option: Training data biased towards men.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Amazon developers deliberately programmed the AI to favor male candidates for specific roles.",
+        "altText": "Option: Deliberate programming bias.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "The AI system lacked the ability to process gender-neutral language, causing errors.",
+        "altText": "Option: Lack of gender-neutral language processing.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Female applicants frequently provided incomplete résumés, which the AI flagged as lower quality.",
+        "altText": "Option: Incomplete female résumés.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      }
+    ],
+    "_feedback": {
+      "title": "Amazon Recruitment Bias Explanation",
+      "altTitle": "Feedback on your answer about Amazon's AI recruitment bias.",
+      "correct": "That's correct! The AI learned from historical data that predominantly featured men in successful roles. As a result, it unfortunately learned to associate certain terms common in women's résumés (like 'women's chess club captain') with lower desirability, leading to bias.",
+      "_incorrect": {
+        "notFinal": "Not quite. Review Case 1 in the 'Real-life impact' section. Focus on how the training data influenced the AI's outcomes.",
+        "final": "The correct answer is: It was trained on résumés from a period where most successful applicants were men, leading it to penalize female-associated terms. The AI mirrored the biases present in its training data, which reflected past hiring patterns at Amazon, rather than being intentionally programmed for bias or due to language processing issues."
+      },
+      "_partlyCorrect": {
+        "notFinal": "This option is for questions with multiple correct answers, which isn't the case here. Please review the feedback for incorrect answers.",
+        "final": "This option is for questions with multiple correct answers, which isn't the case here. The correct answer is that the AI was trained on historical data biased towards male applicants."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Select here to submit your answer."
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": "Select here to reset your answer."
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Show Correct Answer",
+        "ariaLabel": "Select here to show the correct answer."
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Show My Answer",
+        "ariaLabel": "Select here to show your answer."
+      },
+      "_showFeedback": {
+        "buttonText": "Show Feedback",
+        "ariaLabel": "Select here to show feedback."
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
      {
-        "_id": "c-211",
-        "_parentId": "b-207",
+        "_id": "c-214",
+        "_parentId": "b-208",
         "_type": "component",
         "_component": "text",
         "body": "Sources: <br> <br> Stahl, Bernd; Schroeder, Doris & Rodrigues, Rowena (2023):  Ethics of Artificial Intelligence. DOI: <a href=\"https://doi.org/10.1007/978-3-031-17040-9\" target=\"_blank\">https://doi.org/10.1007/978-3-031-17040-9</a> <br> <br> Bolukbasi et al. (2016): Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings, DOI: <a href=\"https://doi.org/10.48550/arXiv.1607.06520\" target=\"_blank\">https://doi.org/10.48550/arXiv.1607.06520</a> <br> <br> Huawei Technologies (2023): Artificial Intelligence Technogoly, DOI: <a href=\"https://doi.org/10.1007/978-981-19-2879-6\" target=\"_blank\">https://doi.org/10.1007/978-981-19-2879-6</a> ",
@@ -1177,8 +1348,99 @@
     }
 },
 {
+  "_id": "c-308",
+  "_parentId": "b-307",
+  "_type": "component",
+  "_component": "mcq",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Quiz: Copyright Fundamentals",
+  "displayTitle": "Test your knowledge: Copyright",
+  "body": "What is a fundamental condition for a work to be copyrighted, especially emphasized in German and EU law?",
+  "instruction": "Choose one option which applies, then select Submit.",
+  "ariaQuestion": "What is a fundamental condition for a work to be copyrighted according to the text?",
+  "_attempts": 3,
+  "_shouldDisplayAttempts": true,
+  "_isRandom": false,
+  "_hasItemScoring": false,
+  "_questionWeight": 20,
+  "_selectable": 1,
+  "_canShowModelAnswer": true,
+  "_canShowCorrectness": true,
+  "_canShowFeedback": true,
+  "_canShowMarking": true,
+  "_recordInteraction": true,
+  "_items": [
+    {
+      "text": "It must be published commercially.",
+      "altText": "Option: Commercial publication required.",
+      "_shouldBeSelected": false,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "It must be a concrete expression of an idea and an intellectual creation by a human author.",
+      "altText": "Option: Concrete expression and human authorship.",
+      "_shouldBeSelected": true,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "It must be registered with a government copyright office.",
+      "altText": "Option: Government registration required.",
+      "_shouldBeSelected": false,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "It must be a completely novel idea never conceived before.",
+      "altText": "Option: Completely novel idea required.",
+      "_shouldBeSelected": false,
+      "_isPartlyCorrect": false
+    }
+  ],
+  "_feedback": {
+    "title": "Copyright Conditions Explained",
+    "altTitle": "Feedback on your answer about copyright conditions.",
+    "correct": "That's correct! The 'What are the conditions?' panel explicitly states that a work must be a 'concrete expression' and an 'intellectual creation by a human author' to be copyrighted, particularly highlighting human authorship as fundamental in German and EU law.",
+    "_incorrect": {
+      "notFinal": "Not quite. Review the 'What are the conditions?' panel in the 'Copyright in general' section. Pay close attention to what is considered 'original'.",
+      "final": "The correct answer is: It must be a concrete expression of an idea and an intellectual creation by a human author. Copyright protects the expression of an idea, not the idea itself, and requires human creativity and 'personal stamp' for protection under many legal frameworks."
+    },
+    "_partlyCorrect": {
+      "notFinal": "This question has only one correct answer. Please re-evaluate your choice based on the content.",
+      "final": "This question has only one correct answer. The correct answer is that a work must be a concrete expression of an idea and an intellectual creation by a human author to be copyrighted."
+    }
+  },
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Select here to submit your answer."
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Select here to reset your answer."
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show Correct Answer",
+      "ariaLabel": "Select here to show the correct answer."
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Show My Answer",
+      "ariaLabel": "Select here to show your answer."
+    },
+    "_showFeedback": {
+      "buttonText": "Show Feedback",
+      "ariaLabel": "Select here to show feedback."
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt"
+  },
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_isCompletionIndicatorEnabled": true
+  }
+},
+{
         "_id": "c-399",
-        "_parentId": "b-307",
+        "_parentId": "b-308",
         "_type": "component",
         "_component": "text",
         "body": "Sources: <br> <br> Guadamuz, Andres (2025):  The EU's Artificial Intelligence Act and copyright, The Journal of World Intellectual Property Vol. 28(1), DOI: <a href=\"https://doi.org/10.1111/jwip.12330\" target=\"_blank\">https://doi.org/10.1111/jwip.12330</a> <br> <br> Sag, Matthew (2023): Copyright Safety for Generative AI, Houston Law Review, Vol. 61(2),  DOI (pre-print): <a href=\"https://dx.doi.org/10.2139/ssrn.4438593\" target=\"_blank\">https://dx.doi.org/10.2139/ssrn.4438593</a> <br> <br> Smuha, Nathalie A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence, DOI: <a href=\"https://doi.org/10.1017/9781009367783\" target=\"_blank\">https://doi.org/10.1017/9781009367783</a> ",
@@ -1339,8 +1601,99 @@
     }
 },
 {
-    "_id": "c-405",
-    "_parentId": "b-405",
+  "_id": "c-405",
+  "_parentId": "b-405",
+  "_type": "component",
+  "_component": "mcq",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Quiz: GDPR Definitions",
+  "displayTitle": "Test your knowledge: GDPR terminology",
+  "body": "According to the 'Key GDPR Definitions', what type of information is categorized as 'Personal Data'?",
+  "instruction": "Choose one option which applies, then select Submit.",
+  "ariaQuestion": "What is categorized as 'Personal Data' under GDPR definitions?",
+  "_attempts": 3,
+  "_shouldDisplayAttempts": true,
+  "_isRandom": false,
+  "_hasItemScoring": false,
+  "_questionWeight": 20,
+  "_selectable": 1,
+  "_canShowModelAnswer": true,
+  "_canShowCorrectness": true,
+  "_canShowFeedback": true,
+  "_canShowMarking": true,
+  "_recordInteraction": true,
+  "_items": [
+    {
+      "text": "Any information about a company's financial performance.",
+      "altText": "Option: Company financial data.",
+      "_shouldBeSelected": false,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "Information that has been fully anonymized and cannot be linked to an individual.",
+      "altText": "Option: Fully anonymized data.",
+      "_shouldBeSelected": false,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "Any information that can identify a living person, either directly or indirectly.",
+      "altText": "Option: Identifiable living person information.",
+      "_shouldBeSelected": true,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "Data related only to an individual's online browsing history.",
+      "altText": "Option: Online browsing history data.",
+      "_shouldBeSelected": false,
+      "_isPartlyCorrect": false
+    }
+  ],
+  "_feedback": {
+    "title": "Personal Data Definition Explained",
+    "altTitle": "Feedback on your answer about Personal Data.",
+    "correct": "That's correct! The 'Key GDPR Definitions' section clearly states that Personal Data refers to 'any information that can identify a living person, either directly or indirectly.' This is a core concept of GDPR.",
+    "_incorrect": {
+      "notFinal": "Not quite. Review the 'Personal Data' panel in the 'Key GDPR Definitions' section. Think about what makes information truly 'personal' in the context of GDPR.",
+      "final": "The correct answer is: Any information that can identify a living person, either directly or indirectly. This broad definition ensures that various types of data, even if not immediately obvious, are protected under GDPR if they can be linked back to an individual."
+    },
+    "_partlyCorrect": {
+      "notFinal": "This question has only one correct answer. Please re-evaluate your choice based on the content.",
+      "final": "This question has only one correct answer. The correct answer is that Personal Data includes any information that can identify a living person, either directly or indirectly."
+    }
+  },
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Select here to submit your answer."
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Select here to reset your answer."
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show Correct Answer",
+      "ariaLabel": "Select here to show the correct answer."
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Show My Answer",
+      "ariaLabel": "Select here to show your answer."
+    },
+    "_showFeedback": {
+      "buttonText": "Show Feedback",
+      "ariaLabel": "Select here to show feedback."
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt"
+  },
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_isCompletionIndicatorEnabled": true
+  }
+},
+{
+    "_id": "c-406",
+    "_parentId": "b-406",
     "_type": "component",
     "_component": "text",
     "body": "Sources: <br> <br> Paal, Boris P. (2022): Artificial Intelligence as a Challenge for Data Protection Law And Vice Versa. In: The Cambridge Handbook of Responsible Artificial Intelligence, <a href=\"https://doi.org/10.1017/9781009207898.023\" target=\"_blank\">https://doi.org/10.1017/9781009207898.023</a> <br> <br> Dewitte, Pierre (2025): AI Meets the GDPR. In: Smuha, N. A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence. DOI: <a href=\"https://doi.org/10.1017/9781009367783.010\" target=\"_blank\">https://doi.org/10.1017/9781009367783.010</a>",

@@ -1,0 +1,17 @@
+{
+  "name": "adapt-typewriter",
+  "version": "1.0.0",
+  "framework": ">=5.19.1",
+  "homepage": "https://github.com/nachocinalli/adapt-typewriter",
+  "bugs": "https://github.com/nachocinalli/adapt-typewriter/issues",
+  "component": "typewriter",
+  "targetAttribute": "_typewriter",
+  "displayName": "Typewriter",
+  "description": "A component that simulates a typewriter effect",
+  "main": "/js/adapt-typewriter.js",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPL-3.0"
+}

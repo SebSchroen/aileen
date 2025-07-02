@@ -168,11 +168,22 @@
     "_parentId": "a-101",
     "_type": "block",
     "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 13
+  },
+  {
+    "_id": "b-208",
+    "_parentId": "a-101",
+    "_type": "block",
+    "_classes": "",
     "title": "Thank you",
     "displayTitle": "That's it, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
     "body": "",
     "instruction": "",
-    "_trackingId": 13
+    "_trackingId": 14
   },
   {
     "_id": "b-301",
@@ -183,7 +194,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 14
+    "_trackingId": 15
   },
   {
     "_id": "b-302",
@@ -194,7 +205,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 15
+    "_trackingId": 16
   },
   {
     "_id": "b-303",
@@ -205,7 +216,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 16
+    "_trackingId": 17
   },
   {
     "_id": "b-304",
@@ -216,7 +227,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 17
+    "_trackingId": 18
   },
   {
     "_id": "b-305",
@@ -227,7 +238,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 18
+    "_trackingId": 19
   },
   {
     "_id": "b-306",
@@ -238,10 +249,21 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 19
+    "_trackingId": 20
+  },
+    {
+    "_id": "b-307",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 21
   },
   {
-    "_id": "b-307",
+    "_id": "b-308",
     "_parentId": "a-102",
     "_type": "block",
     "_classes": "",
@@ -249,7 +271,7 @@
     "displayTitle": "That's it for now, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
     "body": "",
     "instruction": "",
-    "_trackingId": 20
+    "_trackingId": 22
   },
   {
     "_id": "b-401",
@@ -260,7 +282,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 21
+    "_trackingId": 23
   },
   {
     "_id": "b-402",
@@ -271,7 +293,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 22
+    "_trackingId": 24
   },
   {
     "_id": "b-403",
@@ -282,7 +304,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 23
+    "_trackingId": 25
   },
   {
     "_id": "b-404",
@@ -293,10 +315,21 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 24
+    "_trackingId": 26
+  },
+    {
+    "_id": "b-405",
+    "_parentId": "a-103",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 27
   },
   {
-    "_id": "b-405",
+    "_id": "b-406",
     "_parentId": "a-103",
     "_type": "block",
     "_classes": "",
@@ -304,7 +337,7 @@
     "displayTitle": "That's it for now, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
     "body": "",
     "instruction": "",
-    "_trackingId": 25
+    "_trackingId": 28
   },
   {
     "_id": "b-501",
@@ -315,7 +348,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 26
+    "_trackingId": 29
   },
   {
     "_id": "b-502",
@@ -326,7 +359,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 27
+    "_trackingId": 30
   },
   {
     "_id": "b-503",
@@ -337,7 +370,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 32
+    "_trackingId": 31
   },
   {
     "_id": "b-504",
@@ -348,7 +381,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 33
+    "_trackingId": 32
   },
   {
     "_id": "b-505",
@@ -359,7 +392,7 @@
     "displayTitle": "Target audience of this lesson",
     "body": "The requirements in this training focus on Deployers according to Article 3 (4) of the EU AI Act. If you or your company fulfill the criteria of developers or distributors, additional requirements apply.",
     "instruction": "",
-    "_trackingId": 28,
+    "_trackingId": 33,
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_isCompletionIndicatorEnabled": true
@@ -374,7 +407,7 @@
     "displayTitle": "Unacceptable risk: Prohibited uses",
     "body": "Article 5 of the EU AI Act strictly prohibits certain AI systems and practices that pose an unacceptable risk to fundamental rights and safety.",
     "instruction": "Flip the cards on the right to learn more about the chart on the left.",
-    "_trackingId": 30,
+    "_trackingId": 34,
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_isCompletionIndicatorEnabled": true
@@ -389,7 +422,7 @@
     "displayTitle": "High risk: Regulated uses",
     "body": "Unlike prohibited AI systems, which are banned outright due to their unacceptable risk, High-Risk AI systems, as discussed in Article 6 of the Act, are not forbidden. Instead, they are subject to very strict legal requirements and obligations before they can be placed on the market or put into service in the EU. ",
     "instruction": "Flip the cards on the left to learn more about the chart on the left.",
-    "_trackingId": 29,
+    "_trackingId": 35,
     "_pageLevelProgress": {
       "_isEnabled": true,
       "_isCompletionIndicatorEnabled": true
@@ -404,7 +437,7 @@
     "displayTitle": "",
     "body": "",
     "instruction": "",
-    "_trackingId": 34
+    "_trackingId": 36
   },
   {
     "_id": "b-509",
@@ -415,6 +448,6 @@
     "displayTitle": "That's it for now, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
     "body": "",
     "instruction": "",
-    "_trackingId": 31
+    "_trackingId": 37
   }
 ]

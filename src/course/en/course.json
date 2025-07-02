@@ -88,7 +88,7 @@
       }
     }
   },
-  "_latestTrackingId": 34,
+  "_latestTrackingId": 57,
   "_pageLevelProgress": {
     "_isEnabled": true,
     "_showPageCompletion": true,
@@ -189,10 +189,9 @@
       "_src": ""
     }
   },
-
-"_notifyOnComplete": {
+  "_notifyOnComplete": {
     "_isEnabled": true,
     "title": "Course Complete",
     "body": "Well done, {{_globals._learnerInfo.firstname}}! You have completed the course and may now close this window."
-}
+  }
 }

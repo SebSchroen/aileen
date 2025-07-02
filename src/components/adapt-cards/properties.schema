@@ -1,0 +1,355 @@
+{
+	"type": "object",
+	"$schema": "http://json-schema.org/draft-04/schema",
+	"id": "http://jsonschema.net",
+	"$ref": "http://localhost/plugins/content/component/model.schema",
+	"globals": {
+		"ariaRegion": {
+			"type": "string",
+			"required": true,
+			"default": "Cards. Select open button to expand the content.",
+			"inputType": "Text",
+			"validators": [],
+			"translatable": true
+		}
+	},
+	"properties": {
+		"_supportedLayout": {
+			"type": "string",
+			"required": true,
+			"enum": [
+				"full-width",
+				"half-width",
+				"both"
+			],
+			"default": "half-width",
+			"editorOnly": true
+		},
+		"instruction": {
+			"type": "string",
+			"required": false,
+			"default": "",
+			"inputType": "Text",
+			"validators": [],
+			"help": "This is the instruction text",
+			"translatable": true
+		},
+		"_setCompletionOn": {
+			"type": "string",
+			"required": false,
+			"default": "allItems",
+			"title": "Set completion on:",
+			"enum": [
+				"inview",
+				"allItems"
+			],
+			"inputType": {
+				"type": "Select",
+				"options": [
+					"inview",
+					"allItems"
+				]
+			},
+			"validators": [],
+			"help": "Whether completion is based on the learner having viewed all the cards items - or just having viewed the component"
+		},
+		"_animateItems": {
+			"type": "boolean",
+			"required": false,
+			"title": "Animate Items",
+			"inputType": "Checkbox",
+			"validators": [],
+			"help": "Animate the items into view",
+			"translatable": false
+		},
+		"_hasClickButton": {
+			"type": "boolean",
+			"required": false,
+			"default": true,
+			"title": "Click on button",
+			"inputType": "Checkbox",
+			"validators": [],
+			"help": "Assigns the click event to the button or to the whole card",
+			"translatable": false
+		},
+		"_percentInviewVertical": {
+			"type": "number",
+			"required": false,
+			"default": 20,
+			"isSetting": true,
+			"title": "Percent in view",
+			"inputType": "Number",
+			"validators": [
+				"number"
+			],
+			"help": "Controls what percentage of the card items height needs to be in the viewport in order for the items to animate"
+		},
+		"_transitionSpeed": {
+			"type": "number",
+			"required": false,
+			"default": 200,
+			"isSetting": true,
+			"title": "Transition speed",
+			"inputType": "Number",
+			"validators": [
+				"number"
+			],
+			"help": ""
+		},
+		"_columns": {
+			"type": "object",
+			"required": false,
+
+			"title": "Columns",
+			"properties": {
+				"small": {
+					"type": "number",
+					"required": false,
+					"default": 0,
+					"title": "Small",
+					"inputType": "Number",
+					"validators": ["number"],
+					"help": "Number of columns on small screens"
+				},
+				"medium": {
+					"type": "number",
+					"required": false,
+					"default": 0,
+					"title": "Medium",
+					"inputType": "Number",
+					"validators": ["number"],
+					"help": "Number of columns on medium screens"
+				},
+				"large": {
+					"type": "number",
+					"required": false,
+					"default": 0,
+					"title": "Large",
+					"inputType": "Number",
+					"validators": ["number"],
+					"help": "Number of columns on large screens"
+				},
+				"xlarge": {
+					"type": "number",
+					"required": false,
+					"default": 0,
+					"title": "Xlarge",
+					"inputType": "Number",
+					"validators": ["number"],
+					"help": "Number of columns on xlarge screens"
+				}
+			}
+		},
+		"_itemMinHeight": {
+			"type": "number",
+			"required": false,
+			"default": 0,
+			"title": "Item min height",
+			"inputType": "Number",
+			"validators": ["number"],
+			"help": "Set the minimum height of the items. If value is '0', component uses the default layout."
+		},
+		"_autoSetHeight": {
+			"type": "boolean",
+			"required": false,
+			"default": false,
+			"title": "Auto set height",
+			"inputType": "Checkbox",
+			"validators": [],
+			"help": "Automatically set the height of the items using the scrollHeight value of the item description"
+		},
+		"_scrollPadding": {
+			"type": "number",
+			"required": false,
+			"default": 0,
+			"title": "Scroll padding",
+			"inputType": "Number",
+			"validators": ["number"],
+			"help": "Set the padding of the scroll container"
+		},
+		"_items": {
+			"type": "array",
+			"required": true,
+			"title": "Items",
+			"items": {
+				"type": "object",
+				"required": true,
+				"properties": {
+					"title": {
+						"type": "string",
+						"required": false,
+						"inputType": "Text",
+						"title": "Item title",
+						"default": "",
+						"validators": [],
+						"help": "This is the item text",
+						"translatable": true
+					},
+					"body": {
+						"type": "string",
+						"required": false,
+						"inputType": "TextArea",
+						"title": "Item body",
+						"default": "",
+						"validators": [],
+						"help": "This is the item body",
+						"translatable": true
+					},
+					"_graphic": {
+						"type": "object",
+						"required": false,
+						"title": "Graphic",
+						"properties": {
+							"src": {
+								"type": "string",
+								"required": false,
+								"default": "",
+								"inputType": "Asset:image",
+								"validators": [],
+								"help": "Image which will be rendered with the item"
+							},
+							"alt": {
+								"type": "string",
+								"required": false,
+								"default": "",
+								"title": "Alternative text",
+								"inputType": "Text",
+								"validators": [],
+								"help": "A description of the image",
+								"translatable": true
+							}
+						}
+					},
+					"_hasAction": {
+						"type": "boolean",
+						"required": true,
+						"default": true,
+						"title": "Has action",
+						"inputType": "Checkbox",
+						"validators": [],
+						"help": "If enabled, the action event is generated by the card"
+					},
+					"_buttons": {
+						"type": "object",
+						"title": "Buttons",
+						"required": false,
+						"properties": {
+							"_open": {
+								"type": "object",
+								"title": "Open",
+								"properties": {
+									"buttonText": {
+										"type": "string",
+										"required": false,
+										"default": "Open",
+										"title": "",
+										"inputType": "Text",
+										"validators": [],
+										"help": "Button label text for the open button",
+										"translatable": true
+									},
+									"ariaLabel": {
+										"type": "string",
+										"required": false,
+										"default": "",
+										"title": "",
+										"inputType": "Text",
+										"validators": [],
+										"help": "Aria label for the open button",
+										"translatable": true
+									}
+								}
+							},
+							"_close": {
+								"type": "object",
+								"title": "Reset",
+								"properties": {
+									"buttonText": {
+										"type": "string",
+										"required": false,
+										"default": "close",
+										"title": "",
+										"inputType": "Text",
+										"validators": [],
+										"help": "Button label text for the text button",
+										"translatable": true
+									},
+									"ariaLabel": {
+										"type": "string",
+										"required": false,
+										"default": "",
+										"title": "",
+										"inputType": "Text",
+										"validators": [],
+										"help": "Aria label for the close button",
+										"translatable": true
+									}
+								}
+							}
+						}
+					},
+					"description": {
+						"type": "object",
+						"required": false,
+						"properties": {
+							"title": {
+								"type": "string",
+								"required": false,
+								"inputType": "Text",
+								"title": "Description Item title",
+								"default": "",
+								"validators": [],
+								"help": "This is the description item title",
+								"translatable": true
+							},
+							"body": {
+								"type": "string",
+								"required": false,
+								"inputType": "TextArea",
+								"title": "Description Item body",
+								"default": "",
+								"validators": [],
+								"help": "This is the description item body",
+								"translatable": true
+							},
+							"_graphic": {
+								"type": "object",
+								"required": false,
+								"title": "Description Graphic",
+								"properties": {
+									"src": {
+										"type": "string",
+										"required": false,
+										"default": "",
+										"inputType": "Asset:image",
+										"validators": [],
+										"help": "Image which will be rendered with the description item"
+									},
+									"alt": {
+										"type": "string",
+										"required": false,
+										"default": "",
+										"title": "Alternative text",
+										"inputType": "Text",
+										"validators": [],
+										"help": "A description of the image",
+										"translatable": true
+									}
+								}
+							}
+						}
+					},
+					"_classes": {
+						"type": "string",
+						"required": false,
+						"default": "",
+						"title": "Classes",
+						"inputType": "Text",
+						"validators": [],
+						"help": "Classes that are applied to the item"
+					}
+				}
+			}
+		}
+	}
+}

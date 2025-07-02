@@ -1,0 +1,53 @@
+.memory {
+  &__widget {
+    margin-bottom: 1rem;
+  }
+  &__items {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+    gap: 1rem;
+  }
+  &-item {
+    background: @grey;
+    font-size: 0;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 2px 20px 0 rgba(255, 255, 255, 0.02);
+  }
+  &-item img {
+    opacity: 0;
+  }
+  &-item .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    .icon-question;
+  }
+  &-item.is-active {
+    cursor: default;
+    transform: rotateY(0);
+  }
+  &-item.is-active .icon,
+  &-item.is-visited .icon {
+    opacity: 0;
+  }
+  &-item.is-active img {
+    opacity: 1;
+  }
+  &-item.is-visited {
+    cursor: default;
+    img {
+      opacity: 0.75;
+    }
+
+  }
+
+}
+

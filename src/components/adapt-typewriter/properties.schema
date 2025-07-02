@@ -1,0 +1,78 @@
+{
+    "type": "object",
+    "$schema": "http://json-schema.org/draft-04/schema",
+    "id": "http://jsonschema.net",
+    "$ref": "http://localhost/plugins/content/component/model.schema",
+    "globals": {
+        "ariaRegion": {
+            "type": "string",
+            "required": true,
+            "default": "",
+            "inputType": "Text",
+            "validators": [],
+            "translatable": true
+        }
+    },
+    "properties": {
+        "_supportedLayout": {
+            "type": "string",
+            "required": true,
+            "enum": [
+                "full-width",
+                "half-width",
+                "both"
+            ],
+            "default": "both",
+            "editorOnly": true
+        },
+        "instruction": {
+            "type": "string",
+            "required": false,
+            "default": "",
+            "inputType": "Text",
+            "validators": [],
+            "help": "This is the instruction text",
+            "translatable": true
+        },
+        "words": {
+            "type": "array",
+            "required": true,
+            "title": "Words",
+            "default": ["Hello", "World"],
+            "help": "This is the list of words that will be typed",
+
+            "items": {
+                "type": "string",
+                "required": true,
+                "default": "",
+                "title": "Word",
+                "inputType": "Text",
+                "translatable": true
+            }
+        },
+        "typingSpeed": {
+            "type": "number",
+            "required": true,
+            "default": 100,
+            "inputType": "Number",
+            "validators": [],
+            "help": "This is the speed at which the words are typed"
+        },
+        "erasingSpeed": {
+            "type": "number",
+            "required": true,
+            "default": 50,
+            "inputType": "Number",
+            "validators": [],
+            "help": "This is the speed at which the words are erased"
+        },
+        "delayBetweenWords": {
+            "type": "number",
+            "required": true,
+            "default": 1000,
+            "inputType": "Number",
+            "validators": [],
+            "help": "This is the delay between words"
+        }
+    }
+}

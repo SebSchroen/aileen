@@ -396,4 +396,155 @@
         "_isEnabled": true,
         "_isCompletionIndicatorEnabled": true
     }
+
+},
+
+
+
+{
+    "_id": "c-212",
+    "_parentId": "b-207",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Quiz: Sources of AI Bias",
+    "displayTitle": "Test your knowledge: Sources of biases",
+    "body": "Based on the previous explanations for biases , which of the following are identified as primary sources of AI bias?",
+    "instruction": "Choose one or more options which applies, then select Submit.",
+    "ariaQuestion": "Which of the following are primary sources of AI bias?",
+    "_attempts": 3,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_hasItemScoring": false,
+    "_questionWeight": 50,
+    "_selectable": "multiple",
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_items": [
+      {
+        "text": "Data collected for purposes different from those the AI system is pursuing.",
+        "altText": "Option: Data collected for different purposes.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Historical data reflecting past societal biases and discriminatory practices.",
+        "altText": "Option: Historical data with biases.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Training data that is non-representative of the population the system applies to.",
+        "altText": "Option: Non-representative training data.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "The AI model's inherent ability to develop prejudice and discriminatory intent.",
+        "altText": "Option: AI model's inherent prejudice.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      }
+    ],
+    "_feedback": {
+      "title": "Sources of AI Bias Explanation",
+      "altTitle": "Feedback on your answer about the sources of AI bias.",
+      "correct": "That's right! All three of these factors—data collected for other purposes, historical data, and non-representative data—contribute significantly to AI bias. AI systems learn from existing data, and if that data contains inherent biases, the AI will absorb and reproduce them.",
+      "_incorrect": {
+        "notFinal": "Not quite. Review the 'Where biases come from' section again. Remember that AI bias usually stems from issues with the training data itself, not intentional prejudice from the model.",
+        "final": "The primary sources of AI bias are related to the nature and collection of the training data. Data collected for other purposes, historical data reflecting past biases, and non-representative data all contribute to biased AI outcomes. AI bias is typically a reflection of data biases, not intentional prejudice from the model itself."
+      },
+      "_partlyCorrect": {
+        "notFinal": "You've identified some correct sources of bias, but not all. Keep reviewing the content to find all the primary sources mentioned.",
+        "final": "You've identified some correct sources of bias, but not all. The primary sources of AI bias are related to the nature and collection of the training data. Data collected for other purposes, historical data reflecting past biases, and non-representative data all contribute to biased AI outcomes. AI bias is typically a reflection of data biases, not intentional prejudice from the model itself."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Select here to submit your answer."
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": "Select here to reset your answer."
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Show Correct Answer",
+        "ariaLabel": "Select here to show the correct answer."
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Show My Answer",
+        "ariaLabel": "Select here to show your answer."
+      },
+      "_showFeedback": {
+        "buttonText": "Show Feedback",
+        "ariaLabel": "Select here to show feedback."
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+
+
+
+  ### Backup for article 1 with assessment:
+
+   {
+    "_id": "a-100",
+    "_parentId": "co-100",
+    "_type": "article",
+    "_classes": "",
+    "title": "a-100",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_assessment": {
+        "_isEnabled": true,
+        "_id": "Assessment 1",
+        "_suppressMarking": false,
+        "_scoreToPass" : 1,
+        "_correctToPass": 1,
+        "_isPercentageBased" : false,
+        "_includeInTotalScore": true,
+        "_assessmentWeight": 1,
+        "_isResetOnRevisit": false,
+        "_attempts": -1,
+        "_allowResetIfPassed": false,
+        "_scrollToOnReset": false,
+        "_banks": {
+            "_isEnabled": false,
+            "_split": "2,1",
+            "_randomisation": false
+        },
+        "_randomisation": {
+            "_isEnabled": false,
+            "_blockCount": 1
+        },
+        "_questions": {
+            "_resetIncorrectOnly": true,
+            "_resetType": "hard",
+            "_comment": "For 'soft', when using trickle, please set the trickle Completion Attribute to `_isInteractionComplete'.",
+            "_canShowFeedback": true,
+            "_canShowMarking": true,
+            "_canShowModelAnswer": false
+        }
+    },
+    "_trickle": {
+      "_isEnabled": true,
+      "_onChildren": true,
+      "_completionAttribute": "_isComplete",
+      "_button": {
+        "_isEnabled": true,
+        "startText": "Continue",
+        "_showEndOfPage": true
+      }
+  }
 },

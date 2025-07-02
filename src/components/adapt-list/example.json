@@ -1,0 +1,54 @@
+    {
+        "_id": "c-05",
+        "_parentId": "b-05",
+        "_type": "component",
+        "_component": "list",
+        "_classes": "",
+        "_layout": "full",
+        "title": "List component",
+        "displayTitle": "List component",
+        "body": "<b>List</b> is a presentation component which displays text in a list. The list items can be displayed with or without an image. If no image is defined, either a plain bullet (unordered) or numerical bullet that counts upwards per item (ordered) will display.",
+        "instruction": "",
+        "_columns": 0,
+        "_orderedList": false,
+        "_animateList": false,
+        "_percentInviewVertical": 70,
+        "_itemHorizontalAlignment": "start",
+        "_bulletAlignment": "start",
+        "_items": [
+            {
+                "title": "Lorem ipsum dolor sit amet",
+                "body": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            },
+            {
+                "title": "Adipisicing Lorem aliqua officia laborum",
+                "body": "Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            },
+            {
+                "title": "Amet eu deserunt exercitation mollit",
+                "body": "Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim.",
+                "_classes": "",
+                "_graphic": {
+                    "src": "",
+                    "alt": "",
+                    "attribution": ""
+                }
+            }
+        ],
+        "bodyAfter": "",
+        "_pageLevelProgress": {
+            "_isEnabled": true
+        }
+    }

@@ -1,0 +1,19 @@
+{
+  "_id": "c-05",
+  "_parentId": "b-05",
+  "_type": "component",
+  "_component": "typewriter",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Typewriter component",
+  "displayTitle": "Typewriter component",
+  "body": "",
+  "instruction": "",
+  "words": ["learning", "thinking", "adaptlearning", "creating", "brainstorming"],
+  "typingSpeed": 100,
+  "erasingSpeed": 50,
+  "delayBetweenWords": 1000,
+  "_pageLevelProgress": {
+    "_isEnabled": true
+  }
+}
