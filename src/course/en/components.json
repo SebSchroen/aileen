@@ -323,7 +323,7 @@
     "_shouldDisplayAttempts": true,
     "_isRandom": false,
     "_hasItemScoring": false,
-    "_questionWeight": 20,
+    "_questionWeight": 1,
     "_selectable": 1,
     "_canShowModelAnswer": true,
     "_canShowCorrectness": true,
@@ -752,7 +752,7 @@
   "_shouldDisplayAttempts": true,
   "_isRandom": false,
   "_hasItemScoring": false,
-  "_questionWeight": 20,
+  "_questionWeight": 1,
   "_selectable": 1,
   "_canShowModelAnswer": true,
   "_canShowCorrectness": true,
@@ -970,7 +970,7 @@
     "_shouldDisplayAttempts": true,
     "_isRandom": false,
     "_hasItemScoring": false,
-    "_questionWeight": 20,
+    "_questionWeight": 1,
     "_selectable": 1,
     "_canShowModelAnswer": true,
     "_canShowCorrectness": true,
@@ -1339,6 +1339,10 @@
         {
             "title": "Ensure sufficient human creative input for copyright protection of AI-assisted works",
             "body": "To secure copyright for AI-assisted works, ensure significant human intervention, creative direction, or modification of the AI's output, as AI alone cannot be an author."
+        },
+                {
+            "title": "If in doubt, involve legal experts",
+            "body": "If you are not sure whether your new content violates copyright law, always involve legal experts, e.g. your company's legal team."
         }
     ],
     "bodyAfter": "",
@@ -1354,7 +1358,7 @@
   "_component": "mcq",
   "_classes": "",
   "_layout": "full",
-  "title": "Quiz: Copyright Fundamentals",
+  "title": "Quiz: Copyright conditions",
   "displayTitle": "Test your knowledge: Copyright",
   "body": "What is a fundamental condition for a work to be copyrighted, especially emphasized in German and EU law?",
   "instruction": "Choose one option which applies, then select Submit.",
@@ -1363,7 +1367,7 @@
   "_shouldDisplayAttempts": true,
   "_isRandom": false,
   "_hasItemScoring": false,
-  "_questionWeight": 20,
+  "_questionWeight": 1,
   "_selectable": 1,
   "_canShowModelAnswer": true,
   "_canShowCorrectness": true,
@@ -1438,6 +1442,98 @@
     "_isCompletionIndicatorEnabled": true
   }
 },
+{
+  "_id": "c-309",
+  "_parentId": "b-307",
+  "_type": "component",
+  "_component": "mcq",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Quiz: Copyright Checklist",
+  "displayTitle": "To do’s before releasing AI-assisted work",
+  "body": "You have used an AI tool to assist in the creation of a new product (e.g., generating design elements, marketing text, or part of a software code). Before publicly releasing this product, what crucial checks should you perform to address copyright concerns, according to the recommendations in this module? (Select all that apply)",
+  "instruction": "Choose one or more options which applies, then select Submit.",
+  "ariaQuestion": "What crucial checks should you perform before releasing AI-assisted work?",
+  "_attempts": 3,
+  "_shouldDisplayAttempts": true,
+  "_isRandom": false,
+  "_hasItemScoring": false,
+  "_questionWeight": 1,
+  "_selectable": "multiple",
+  "_canShowModelAnswer": true,
+  "_canShowCorrectness": true,
+  "_canShowFeedback": true,
+  "_canShowMarking": true,
+  "_recordInteraction": true,
+  "_items": [
+    {
+      "text": "Verify that any information you supplied to the AI system for training or context-enhancement was copyright-free or that you had the necessary rights to use it.",
+      "altText": "Option: Check input data copyright.",
+      "_shouldBeSelected": true,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "Diligently review all AI-generated outputs incorporated into the product for any potential resemblances to existing copyrighted works.",
+      "altText": "Option: Review AI output for infringement.",
+      "_shouldBeSelected": true,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "Ensure that there was sufficient human creative input in the final product to establish human authorship for copyright protection.",
+      "altText": "Option: Ensure sufficient human input.",
+      "_shouldBeSelected": true,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "Check if the AI model itself has been registered for copyright protection with the relevant authorities.",
+      "altText": "Option: Check AI model copyright registration.",
+      "_shouldBeSelected": false,
+      "_isPartlyCorrect": false
+    }
+  ],
+  "_feedback": {
+    "title": "Copyright Checklist Explanation",
+    "altTitle": "Feedback on your answer about AI product release.",
+    "correct": "Excellent! All three points (A, B, and C) are critical steps from the module's recommendations. Ensuring your input data is clear, scrutinizing AI-generated output for potential infringement, and maintaining sufficient human creative control are essential for navigating copyright law with AI-assisted products.",
+    "_incorrect": {
+      "notFinal": "Not quite. Review the 'Key Recommendations' section. Remember, copyright concerns apply to both the input to the AI and its generated output, as well as the overall human contribution.",
+      "final": "The correct answers are A, B, and C. The recommendations highlight the importance of: 1) ensuring you have the rights to any data you provide to the AI; 2) diligently checking AI-generated content for resemblances to existing copyrighted works; and 3) making sure there's enough human creative input to claim copyright on the final work. The copyright of the AI model itself is not a primary concern for product release checks by a user."
+    },
+    "_partlyCorrect": {
+      "notFinal": "You've identified some crucial steps, but there are others. Review the 'Key Recommendations' section to ensure you've covered all the important checks for releasing an AI-assisted product.",
+      "final": "You've identified some crucial steps, but not all of them. The correct answers are A, B, and C. The recommendations highlight the importance of: 1) ensuring you have the rights to any data you provide to the AI; 2) diligently checking AI-generated content for resemblances to existing copyrighted works; and 3) making sure there's enough human creative input to claim copyright on the final work. The copyright of the AI model itself is not a primary concern for product release checks by a user."
+    }
+  },
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Select here to submit your answer."
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Select here to reset your answer."
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show Correct Answer",
+      "ariaLabel": "Select here to show the correct answer."
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Show My Answer",
+      "ariaLabel": "Select here to show your answer."
+    },
+    "_showFeedback": {
+      "buttonText": "Show Feedback",
+      "ariaLabel": "Select here to show feedback."
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt"
+  },
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_isCompletionIndicatorEnabled": true
+  }
+},
+
 {
         "_id": "c-399",
         "_parentId": "b-308",
@@ -1616,7 +1712,7 @@
   "_shouldDisplayAttempts": true,
   "_isRandom": false,
   "_hasItemScoring": false,
-  "_questionWeight": 20,
+  "_questionWeight": 1,
   "_selectable": 1,
   "_canShowModelAnswer": true,
   "_canShowCorrectness": true,
@@ -1882,6 +1978,7 @@
         "_isCompletionIndicatorEnabled": true
     }
 },
+
 {
     "_id": "c-506",
     "_parentId": "b-505",
@@ -1897,7 +1994,7 @@
         "_isEnabled": false,
         "_isCompletionIndicatorEnabled": false
     },
-        "_isOptional": true
+        "_isOptional": false
 },
 
 {
@@ -2129,11 +2226,227 @@
         "_isCompletionIndicatorEnabled": true
     }
 },
-
-
 {
-    "_id": "c-512",
-    "_parentId": "b-509",
+  "_id": "c-513",
+  "_parentId": "b-509",
+  "_type": "component",
+  "_component": "matching",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Categorize AI Practices in the Workplace",
+  "displayTitle": "Test your knowledge: Risk Classification",
+  "body": "Select the correct risk category from the dropdown for each AI practice, based on typical company and workplace scenarios.",
+  "instruction": "Choose an option from each dropdown list and select Submit.",
+  "ariaQuestion": "Select the risk category for each AI practice.",
+  "_attempts": 3,
+  "_shouldDisplayAttempts": true,
+  "_shouldResetAllAnswers": false,
+  "_isRandom": false,
+  "_isRandomQuestionOrder": true,
+  "_questionWeight": 1,
+  "_canShowModelAnswer": true,
+  "_canShowCorrectness": true,
+  "_canShowFeedback": true,
+  "_canShowMarking": true,
+  "_recordInteraction": true,
+  "placeholder": "Select category...",
+  "_allowOnlyUniqueAnswers": false,
+  "_hasItemScoring": true,
+  "_items": [
+    {
+      "text": "Using an AI tool to analyze employee video feeds and report on their emotional state during internal meetings.",
+      "_options": [
+        {
+          "text": "Prohibited AI Practice",
+          "_isCorrect": true,
+          "_score": 1
+        },
+        {
+          "text": "High-Risk AI Practice",
+          "_isCorrect": false,
+          "_score": 0
+        }
+      ]
+    },
+    {
+      "text": "Implementing an AI-powered platform to automatically screen job applications and rank candidates for interviews based on their skills and experience.",
+      "_options": [
+        {
+          "text": "Prohibited AI Practice",
+          "_isCorrect": false,
+          "_score": 0
+        },
+        {
+          "text": "High-Risk AI Practice",
+          "_isCorrect": true,
+          "_score": 1
+        }
+      ]
+    },
+    {
+      "text": "Automatically scanning employees' personal social media posts to build a 'behavioral score' that influences promotions or disciplinary actions within the company.",
+      "_options": [
+        {
+          "text": "Prohibited AI Practice",
+          "_isCorrect": true,
+          "_score": 1
+        },
+        {
+          "text": "High-Risk AI Practice",
+          "_isCorrect": false,
+          "_score": 0
+        }
+      ]
+    }
+  ],
+  "_groups": [
+    {
+      "title": "Prohibited AI Practice",
+      "altTitle": "Prohibited AI Practice category.",
+      "_id": "prohibited"
+    },
+    {
+      "title": "High-Risk AI Practice",
+      "altTitle": "High-Risk AI Practice category.",
+      "_id": "high-risk"
+    }
+  ],
+  "_feedback": {
+    "title": "Risk Classification Explained",
+    "altTitle": "Feedback on your risk classification.",
+    "correct": "Excellent! You've correctly classified these AI practices according to their risk levels under the EU AI Act in a company/workplace context. This understanding is crucial for compliance.",
+    "_incorrect": {
+      "notFinal": "Not quite. Review the 'Prohibited uses' and 'Examples for high-risk systems' sections again, paying close attention to how these apply to specific actions in the workplace.",
+      "final": "Let's review the correct classifications for AI practices: 'Prohibited AI Practices' are those deemed to have an unacceptable risk to fundamental rights, such as using AI for inferring employee emotions or building behavioral scores from social media. 'High-Risk AI Practices' are those that pose significant risks but are not outright banned, such as using AI in recruitment or worker performance evaluation."
+    },
+    "_partlyCorrect": {
+      "notFinal": "You've correctly identified some of the categories, but not all. Review the relevant sections for the ones you missed.",
+      "final": "You've correctly identified some of the categories, but not all. Review the relevant sections for the ones you missed. 'Prohibited AI Practices' are those deemed to have an unacceptable risk to fundamental rights. 'High-Risk AI Practices' are those that pose significant risks but are not outright banned."
+    }
+  },
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Select here to submit your answer."
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Select here to reset your answer."
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show Correct Answer",
+      "ariaLabel": "Select here to show the correct answer."
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Show My Answer",
+      "ariaLabel": "Select here to show your answer."
+    },
+    "_showFeedback": {
+      "buttonText": "Show Feedback",
+      "ariaLabel": "Select here to show feedback."
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt"
+  },
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_isCompletionIndicatorEnabled": true
+  }
+},
+{
+  "_id": "c-514",
+  "_parentId": "b-510",
+  "_type": "component",
+  "_component": "mcq",
+  "_classes": "",
+  "_layout": "full",
+  "title": "Quiz: Understanding EU AI Act Roles",
+  "displayTitle": "Test your knowledge: Who's Who?",
+  "body": "Company JellyF!sh, an EU-based enterprise, integrates an AI-powered customer sentiment analysis tool, developed by a third-party vendor, into its internal customer support operations to better understand customer feedback.",
+  "instruction": "Choose the one option that best describes Company X's primary role.",
+  "ariaQuestion": "What primary role does Company X assume by using this AI tool?",
+  "_attempts": 3,
+  "_shouldDisplayAttempts": true,
+  "_isRandom": false,
+  "_hasItemScoring": false,
+  "_questionWeight": 1,
+  "_selectable": 1,
+  "_canShowModelAnswer": true,
+  "_canShowCorrectness": true,
+  "_canShowFeedback": true,
+  "_canShowMarking": true,
+  "_recordInteraction": true,
+  "_items": [
+    {
+      "text": "Provider",
+      "altText": "Option: Provider role.",
+      "_shouldBeSelected": false,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "Deployer",
+      "altText": "Option: Deployer role.",
+      "_shouldBeSelected": true,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "Distributor",
+      "altText": "Option: Distributor role.",
+      "_shouldBeSelected": false,
+      "_isPartlyCorrect": false
+    },
+    {
+      "text": "Importer",
+      "altText": "Option: Importer role.",
+      "_shouldBeSelected": false,
+      "_isPartlyCorrect": false
+    }
+  ],
+  "_feedback": {
+    "title": "Understanding Roles in the EU AI Act",
+    "altTitle": "Feedback on your answer about EU AI Act roles.",
+    "correct": "That's correct! Company X is acting as a **Deployer** because it is using the AI system for its own operations and services, rather than creating, selling, or importing it for commercial distribution.",
+    "_incorrect": {
+      "notFinal": "Not quite. Revisit the 'Key Roles in the EU AI Act Ecosystem' section. Consider whether Company X is creating, selling, or simply using the AI tool.",
+      "final": "The correct answer is **Deployer**. A Provider creates or makes an AI system available under their own brand. A Distributor makes an AI system available for sale without being the original creator. An Importer brings a system from outside the EU for sale within the EU. Company X is simply *using* the AI tool for its own internal business purposes, which defines the Deployer role."
+    },
+    "_partlyCorrect": {
+      "notFinal": "This question has only one correct answer. Please re-evaluate your choice based on the content.",
+      "final": "This question has only one correct answer. The correct answer is **Deployer**, as Company X is using the AI system for its own operations."
+    }
+  },
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Submit",
+      "ariaLabel": "Select here to submit your answer."
+    },
+    "_reset": {
+      "buttonText": "Reset",
+      "ariaLabel": "Select here to reset your answer."
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Show Correct Answer",
+      "ariaLabel": "Select here to show the correct answer."
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Show My Answer",
+      "ariaLabel": "Select here to show your answer."
+    },
+    "_showFeedback": {
+      "buttonText": "Show Feedback",
+      "ariaLabel": "Select here to show feedback."
+    },
+    "remainingAttemptsText": "attempts remaining",
+    "remainingAttemptText": "final attempt"
+  },
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_isCompletionIndicatorEnabled": true
+  }
+},
+{
+    "_id": "c-515",
+    "_parentId": "b-511",
     "_type": "component",
     "_component": "text",
     "body": "Sources: <br> <br> High-level summary of the EU AI Act, last accessed on 29.06.2025, URL:  <a href=\"https://artificialintelligenceact.eu/high-level-summary/\" target=\"_blank\">https://artificialintelligenceact.eu/high-level-summary/</a> <br> <br> EU AI Act Compliance Checker, last accessed on 29.06.2025, URL:  <a href=\"https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/\" target=\"_blank\">https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/</a> <br> <br> The AI Act Explorer, last accessed on 29.06.2025, URL:  <a href=\"https://artificialintelligenceact.eu/ai-act-explorer/\" target=\"_blank\">https://artificialintelligenceact.eu/ai-act-explorer/</a>",

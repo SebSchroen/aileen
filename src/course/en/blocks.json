@@ -439,8 +439,30 @@
     "instruction": "",
     "_trackingId": 36
   },
-  {
+    {
     "_id": "b-509",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 37
+  },
+      {
+    "_id": "b-510",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 38
+  },
+  {
+    "_id": "b-511",
     "_parentId": "a-104",
     "_type": "block",
     "_classes": "",
@@ -448,6 +470,6 @@
     "displayTitle": "That's it for now, {{_globals._learnerInfo.firstname}}! You can now navigate back to the main menu.",
     "body": "",
     "instruction": "",
-    "_trackingId": 37
+    "_trackingId": 39
   }
 ]

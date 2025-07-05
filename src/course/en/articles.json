@@ -17,7 +17,40 @@
         "startText": "Continue",
         "_showEndOfPage": true
       }
-  }
+  },
+  "_assessment": {
+    "_isEnabled": true,
+    "_id": "Assessment 1",
+    "_suppressMarking": false,
+    "_scoreToPass": 1,
+    "_correctToPass": 1,
+    "_isPercentageBased": false,
+    "_includeInTotalScore": true,
+    "_assessmentWeight": 1,
+    "_isResetOnRevisit": false,
+    "_attempts": -1,
+    "_allowResetIfPassed": false,
+    "_scrollToOnReset": false,
+    "_banks": {
+      "_isEnabled": false,
+      "_split": "2,1",
+      "_randomisation": false
+    },
+    "_randomisation": {
+      "_isEnabled": false,
+      "_blockCount": 1
+    },
+    "_questions": {
+      "_resetIncorrectOnly": true,
+      "_resetType": "hard",
+      "_comment": "For 'soft', when using trickle, please set the trickle Completion Attribute to `_isInteractionComplete`.",
+      "_canShowFeedback": true,
+      "_canShowMarking": true,
+      "_canShowModelAnswer": false
+    }
+
+}
+  
 },
   {
     "_id": "a-101",
@@ -37,7 +70,39 @@
         "startText": "Continue",
         "_showEndOfPage": true
       }
-  }
+  },
+    "_assessment": {
+    "_isEnabled": true,
+    "_id": "Assessment 2",
+    "_suppressMarking": false,
+    "_scoreToPass": 1,
+    "_correctToPass": 1,
+    "_isPercentageBased": false,
+    "_includeInTotalScore": true,
+    "_assessmentWeight": 1,
+    "_isResetOnRevisit": false,
+    "_attempts": -1,
+    "_allowResetIfPassed": false,
+    "_scrollToOnReset": false,
+    "_banks": {
+      "_isEnabled": false,
+      "_split": "2,1",
+      "_randomisation": false
+    },
+    "_randomisation": {
+      "_isEnabled": false,
+      "_blockCount": 1
+    },
+    "_questions": {
+      "_resetIncorrectOnly": true,
+      "_resetType": "hard",
+      "_comment": "For 'soft', when using trickle, please set the trickle Completion Attribute to `_isInteractionComplete`.",
+      "_canShowFeedback": true,
+      "_canShowMarking": true,
+      "_canShowModelAnswer": false
+    }
+
+}
 },
   {
     "_id": "a-102",
@@ -57,7 +122,39 @@
         "startText": "Continue",
         "_showEndOfPage": true
       }
-  }
+  },
+    "_assessment": {
+    "_isEnabled": true,
+    "_id": "Assessment 3",
+    "_suppressMarking": false,
+    "_scoreToPass": 1,
+    "_correctToPass": 1,
+    "_isPercentageBased": false,
+    "_includeInTotalScore": true,
+    "_assessmentWeight": 1,
+    "_isResetOnRevisit": false,
+    "_attempts": -1,
+    "_allowResetIfPassed": false,
+    "_scrollToOnReset": false,
+    "_banks": {
+      "_isEnabled": false,
+      "_split": "2,1",
+      "_randomisation": false
+    },
+    "_randomisation": {
+      "_isEnabled": false,
+      "_blockCount": 1
+    },
+    "_questions": {
+      "_resetIncorrectOnly": true,
+      "_resetType": "hard",
+      "_comment": "For 'soft', when using trickle, please set the trickle Completion Attribute to `_isInteractionComplete`.",
+      "_canShowFeedback": true,
+      "_canShowMarking": true,
+      "_canShowModelAnswer": false
+    }
+
+}
 },
  {
     "_id": "a-103",
@@ -77,7 +174,39 @@
         "startText": "Continue",
         "_showEndOfPage": true
       }
-  }
+  },
+    "_assessment": {
+    "_isEnabled": true,
+    "_id": "Assessment 4",
+    "_suppressMarking": false,
+    "_scoreToPass": 1,
+    "_correctToPass": 1,
+    "_isPercentageBased": false,
+    "_includeInTotalScore": true,
+    "_assessmentWeight": 1,
+    "_isResetOnRevisit": false,
+    "_attempts": -1,
+    "_allowResetIfPassed": false,
+    "_scrollToOnReset": false,
+    "_banks": {
+      "_isEnabled": false,
+      "_split": "2,1",
+      "_randomisation": false
+    },
+    "_randomisation": {
+      "_isEnabled": false,
+      "_blockCount": 1
+    },
+    "_questions": {
+      "_resetIncorrectOnly": true,
+      "_resetType": "hard",
+      "_comment": "For 'soft', when using trickle, please set the trickle Completion Attribute to `_isInteractionComplete`.",
+      "_canShowFeedback": true,
+      "_canShowMarking": true,
+      "_canShowModelAnswer": false
+    }
+
+}
 },
  {
     "_id": "a-104",
@@ -97,6 +226,38 @@
         "startText": "Continue",
         "_showEndOfPage": true
       }
-  }
+  },
+    "_assessment": {
+    "_isEnabled": true,
+    "_id": "Assessment 5",
+    "_suppressMarking": false,
+    "_scoreToPass": 1,
+    "_correctToPass": 1,
+    "_isPercentageBased": false,
+    "_includeInTotalScore": true,
+    "_assessmentWeight": 1,
+    "_isResetOnRevisit": false,
+    "_attempts": -1,
+    "_allowResetIfPassed": false,
+    "_scrollToOnReset": false,
+    "_banks": {
+      "_isEnabled": false,
+      "_split": "2,1",
+      "_randomisation": false
+    },
+    "_randomisation": {
+      "_isEnabled": false,
+      "_blockCount": 1
+    },
+    "_questions": {
+      "_resetIncorrectOnly": true,
+      "_resetType": "hard",
+      "_comment": "For 'soft', when using trickle, please set the trickle Completion Attribute to `_isInteractionComplete`.",
+      "_canShowFeedback": true,
+      "_canShowMarking": true,
+      "_canShowModelAnswer": false
+    }
+
+}
 }
 ]

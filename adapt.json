@@ -33,6 +33,8 @@
     "adapt-verticalItems": "*",
     "adapt-sliderItems": "*",
     "adapt-contrib-triggered": "*",
-    "adapt-notifyOnComplete": "*"
+    "adapt-notifyOnComplete": "*",
+    "adapt-pageIncompletePrompt": "*",
+    "adapt-aboutUs": "*"
   }
 }
