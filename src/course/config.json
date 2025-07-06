@@ -100,7 +100,7 @@
   },
   
  "_languagePicker": {
-        "_isEnabled": false,
+        "_isEnabled": true,
         "title": "Language selection",
         "displayTitle": "Please select a language",
         "body": "This course is available in the following languages:",

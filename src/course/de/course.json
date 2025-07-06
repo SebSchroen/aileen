@@ -1,0 +1,212 @@
+{
+  "_id": "course",
+  "_type": "course",
+  "_classes": "",
+  "_htmlClasses": "",
+  "title": "Künstliche Intelligenz",
+  "displayTitle": "Künstliche Intelligenz",
+  "description": "Dieser Kurs führt dich in die grundlegenden Konzepte der Künstlichen Intelligenz (KI) und ihre Anwendungen ein und vermittelt dir das Wissen, um KI-Technologien zu verstehen und dich mit ihnen auseinanderzusetzen.",
+  "body": "Dieser Kurs führt dich in die grundlegenden Konzepte der Künstlichen Intelligenz (KI) und ihre Anwendungen ein und vermittelt dir das Wissen, um KI-Technologien zu verstehen und dich mit ihnen auseinanderzusetzen.",
+  "instruction": "Wähle zum Start die Module unten aus.",
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Senden",
+      "ariaLabel": "Senden"
+    },
+    "_reset": {
+      "buttonText": "Zurücksetzen",
+      "ariaLabel": "Zurücksetzen"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Richtige Antwort anzeigen",
+      "ariaLabel": "Richtige Antwort anzeigen"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Deine Antwort anzeigen",
+      "ariaLabel": "Deine Antwort anzeigen"
+    },
+    "_showFeedback": {
+      "buttonText": "Feedback anzeigen",
+      "ariaLabel": "Feedback anzeigen"
+    },
+    "remainingAttemptsText": "Versuche verbleibend",
+    "remainingAttemptText": "letzter Versuch",
+    "disabledAriaLabel": "Dieser Button ist momentan deaktiviert"
+  },
+  "_globals": {
+    "_learnerInfo": {
+      "id": "student.name@example.org",
+      "name": "Name, Student",
+      "firstname": "Student",
+      "lastname": "Name"
+    },
+    "_accessibility": {
+      "skipNavigationText": "Navigation überspringen",
+      "_ariaLabels": {
+        "answeredIncorrectly": "Du hast falsch geantwortet",
+        "answeredPartlyCorrect": "You answered partly correct",
+        "answeredCorrectly": "Du hast richtig geantwortet",
+        "selectedAnswer": "ausgewählt",
+        "unselectedAnswer": "nicht ausgewählt",
+        "skipNavigation": "Navigation überspringen",
+        "previous": "Zurück",
+        "navigationDrawer": "Kursressourcen öffnen.",
+        "close": "Schließen",
+        "closeDrawer": "Seitenleiste schließen",
+        "closeResources": "Ressourcen schließen",
+        "drawer": "Oberseite der Seitenleiste",
+        "closePopup": "Popup schließen",
+        "next": "Weiter",
+        "done": "Fertig",
+        "complete": "Abgeschlossen",
+        "incomplete": "Unvollständig",
+        "incorrect": "Falsch",
+        "partlyCorrect": "Partly correct",
+        "correct": "Richtig",
+        "locked": "Gesperrt",
+        "visited": "Besucht",
+        "required": "Erforderlich",
+        "optional": "Optional"
+      }
+    },
+    "_extensions": {
+      "_drawer": {
+        "_navOrder": 100
+      },
+      "_navigation": {
+        "_skipButton": {
+          "_navOrder": -100
+        },
+        "_backButton": {
+          "_navOrder": 0
+        },
+        "_spacers": [
+          {
+            "_navOrder": 0
+          }
+        ]
+      }
+    },
+    "_menu": {
+      "_gridMenu": {
+        "durationLabel": "Dauer:"
+      }
+    }
+  },
+  "_latestTrackingId": 57,
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": true,
+    "_isCompletionIndicatorEnabled": true,
+    "_isShownInNavigationBar": true,
+    "_showAtCourseLevel": true
+  },
+  "_resources": {
+    "_isEnabled": false,
+    "_drawerOrder": 1,
+    "title": "Ressourcen",
+    "description": "Ressourcen für diesen Kurs anzeigen, indem du hier klickst.",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_filterButtons": {
+      "all": "Alle",
+      "document": "Dokument",
+      "media": "Medien",
+      "link": "Link"
+    },
+    "_filterAria": {
+      "allAria": "Alle Ressourcen anzeigen",
+      "documentAria": "Dokumentressourcen anzeigen",
+      "mediaAria": "Medienressourcen anzeigen",
+      "linkAria": "Ressourcenlinks anzeigen"
+    },
+    "_resourcesItems": [
+      {
+        "_type": "document",
+        "title": "Vanilla Theme Farbmuster",
+        "description": "Sehen Sie sich das Farbmuster für das Vanilla-Theme an, indem du hier klickst.",
+        "_link": "course/en/images/vanilla-swatch.jpg",
+        "filename": "adapt-vanilla.jpg",
+        "_forceDownload": true
+      },
+      {
+        "_type": "media",
+        "title": "Adapt Learning YouTube Kanal",
+        "description": "Möchtest du dich über Adapt-Materialien informieren? Klicke hier.",
+        "_link": "https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ"
+      },
+      {
+        "_type": "link",
+        "title": "Adapt Projektseite",
+        "description": "Sehen Sie sich die Webseite des Projekts an, indem du hier klickst.",
+        "_link": "https://www.adaptlearning.org/"
+      },
+      {
+        "_type": "link",
+        "title": "Framework Chat",
+        "description": "Trete dem Framework-Chatroom bei, indem du hier klickst.",
+        "_link": "https://gitter.im/adaptlearning/adapt_framework"
+      }
+    ]
+  },
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [
+      {
+        "_id": "co-05",
+        "_skipIfComplete": true,
+        "_className": ""
+      }
+    ],
+    "_force": false,
+    "_isMenuDisabled": true
+  },
+  "_assessment": {
+    "_isPercentageBased": true,
+    "_scoreToPass": 50,
+    "_correctToPass": 50
+  },
+  "_bookmarking": {
+    "_isEnabled": true,
+    "_level": "component",
+    "_showPrompt": true,
+    "title": "Fortsetzen?",
+    "body": "Möchtest du den Kurs an der Stelle fortsetzen, an der du zuletzt warst?",
+    "_buttons": {
+      "yes": "Ja",
+      "no": "Nein"
+    }
+  },
+  "_navigation": {
+    "_isDefaultNavigationDisabled": false,
+    "_navigationAlignment": "top",
+    "_isBottomOnTouchDevices": false,
+    "_showLabel": false,
+    "_showLabelAtWidth": "medium",
+    "_labelPosition": "auto"
+  },
+  "_tooltips": {
+    "_isEnabled": true
+  },
+  "_vanilla": {
+    "_favIcon": {
+      "_src": ""
+    }
+  },
+  "_notifyOnComplete": {
+    "_isEnabled": true,
+    "title": "Course Complete",
+    "body": "Well done, {{_globals._learnerInfo.firstname}}! You have completed the course and may now close this window."
+  },
+  "_pageIncompletePrompt": {
+    "_isEnabled": true,
+    "_buttons": {
+      "yes": "Ja",
+      "no": "Nein"
+    },
+    "title": "Seite unvollständig",
+    "message": "{{_globals._learnerInfo.firstname}}, es scheint, als hättest du diese Seite nicht beendet. Möchtest du wirklich gehen?",
+    "_classes": ""
+  }
+}
