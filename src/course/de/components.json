@@ -100,7 +100,7 @@
     "_classes": "",
     "_layout": "full",
     "displayTitle": "Der Turing-Test: Ein früher IQ-Test für Computer",
-    "body": "Entwickelt von <a href=\"https://en.wikipedia.org/wiki/Alan_Turing\" target=\"_blank\">Alan Turing (1912-1954)</a>, einem britischen Mathematiker und dem Vater der Computerwissenschaft.",
+    "body": "Entwickelt von <a href=\"https://de.wikipedia.org/wiki/Alan_Turing\" target=\"_blank\">Alan Turing (1912-1954)</a>, einem britischen Mathematiker und dem Vater der Computerwissenschaft.",
     "instruction": "Scrolle durch den Dialog, um mehr zu erfahren.",
     "_pageLevelProgress": {
       "_isEnabled": true,
@@ -216,7 +216,7 @@
     "_bulletAlignment": "start",
     "_items": [
       {
-        "title": "Umgang mit verschiedenen Problemen und Umgebungen",
+        "title": "Flexibel anwendbar auf verschiedene Probleme",
         "body": "Im Kern zielt KI darauf ab, Maschinen zu schaffen, die Aufgaben ausführen können, die typischerweise menschliche Intelligenz erfordern. Dazu gehören Dinge wie <strong>Sprachverständnis, Mustererkennung, Problemlösung und Entscheidungsfindung.</strong>",
         "_classes": "",
         "_graphic": {
@@ -226,8 +226,8 @@
         }
       },
       {
-        "title": "Lernen und Anpassen",
-        "body": "Moderne KI legt den Schwerpunkt darauf, Maschinen zu befähigen, <strong>aus Daten und Erfahrungen zu lernen</strong>, ähnlich unserem Gehirn. Dies beinhaltet das Schreiben von Programmen, die es der KI ermöglichen, ihre Leistung im Laufe der Zeit durch den Kontakt mit Daten und Feedback zu verbessern.",
+        "title": "Lernen und Weiterentwickeln",
+        "body": "Moderne KI legt den Schwerpunkt darauf, Maschinen zu befähigen, <strong>aus Daten und Erfahrungen zu lernen</strong>, ähnlich unserem Gehirn. Dies beinhaltet das Schreiben von Algorithmen, die es der KI ermöglichen, ihre Leistung im Laufe der Zeit durch den Kontakt mit Daten und Feedback zu verbessern.",
         "_classes": "",
         "_graphic": {
           "src": "",
@@ -270,8 +270,8 @@
     "_isStackedOnMobile": false,
     "_items": [
       {
-        "title": "Überwachtes Lernen: Lernen mit einem Lehrer",
-        "body": "Überwachtes Lernen ist wie das Lernen mit einem Lehrer. Dem Algorithmus – der KI – werden Beispiele mit richtigen Antworten gegeben, auch <strong>gelabelte Daten</strong> genannt. <br> <br> Zum Beispiel könnten ihm Tausende von Bildern von Äpfeln gezeigt werden, jedes mit 'Apfel' beschriftet, und Bilder von Bananen, mit 'Banane' beschriftet. Das Ziel ist, dass die KI die Muster lernt, damit sie Äpfel oder Bananen in neuen, ungesehenen Bildern korrekt identifizieren kann. Frühe Spamfilter sind ein gängiges Beispiel für überwachtes Lernen.",
+        "title": "Überwachtes Lernen: Lernen mit einer Lehrperson",
+        "body": "Überwachtes Lernen ist wie das Lernen mit einem Lehrer oder einer Lehrerin. Dem Algorithmus – der KI – werden Beispiele mit richtigen Antworten gegeben, auch <strong>gelabelte Daten</strong> genannt. <br> <br> Zum Beispiel könnten ihm Tausende von Bildern von Äpfeln gezeigt werden, jedes mit 'Apfel' beschriftet, und Bilder von Bananen, mit 'Banane' beschriftet. Das Ziel ist, dass die KI die Muster lernt, damit sie Äpfel oder Bananen in neuen, ungesehenen Bildern korrekt identifizieren kann. Frühe Spamfilter sind ein gängiges Beispiel für überwachtes Lernen.",
         "_graphic": {
           "src": "course/en/images/supervised_learning.jpg",
           "attribution": "Generiert mit Google Imagen 4",
@@ -281,7 +281,7 @@
       },
       {
         "title": "Unüberwachtes Lernen: Muster selbst finden",
-        "body": "Unüberwachtes Lernen ist, als würde man dem KI-System eine große Kiste mit durcheinandergewürfelten Gegenständen geben und es bitten, diese zu sortieren, ohne ihm zu sagen, wie. Die KI sucht selbst nach Ähnlichkeiten und Unterschieden, um die Gegenstände zu gruppieren. In diesem Fall haben die Gegenstände keine Beschriftung, aus der Schlüsse gezogen werden könnten. <br> <br> Das KI-System könnte sie nach Farbe, Größe oder Form gruppieren. Dies wird verwendet, um <strong>verborgene Muster oder Strukturen</strong> in Daten zu entdecken, wie zum Beispiel die <strong>Kundensegmentierung</strong>. Empfehlungen auf Netflix oder Spotify sind gängige Beispiele.",
+        "body": "Unüberwachtes Lernen ist, als würde man dem KI-System eine große Kiste mit durcheinandergewürfelten Gegenständen geben und es bitten, diese zu sortieren, ohne ihm zu sagen, wie. Die KI sucht selbst nach Ähnlichkeiten und Unterschieden, um die Gegenstände zu gruppieren. In diesem Fall haben die Gegenstände keine Beschriftung, aus der Schlüsse gezogen werden könnten. <br> <br> Das KI-System könnte sie nach Farbe, Größe oder Form gruppieren. Dies wird verwendet, um <strong>verborgene Muster oder Strukturen</strong> in Daten zu entdecken, wie zum Beispiel die Kundensegmentierung. Empfehlungen auf Netflix oder Spotify sind gängige Beispiele.",
         "_graphic": {
           "src": "course/en/images/unsupervised_learning.jpg",
           "attribution": "Generiert mit Google Imagen 4",
@@ -291,7 +291,7 @@
       },
       {
         "title": "Deep Learning: Mehr Schichten hinzufügen",
-        "body": "Deep Learning ist eine fortgeschrittenere Version, die komplexere Aufgaben und höhere Leistung ermöglicht. Stell dir vor, du versuchst, einem Computer beizubringen, eine Katze auf einem Bild zu erkennen. Beim regulären maschinellen Lernen müsstest du dem Computer möglicherweise manuell sagen, wonach er suchen soll – spitze Ohren, Schnurrhaare und ein Schwanz. Deep Learning hingegen lernt diese Merkmale automatisch, indem es sie über mehrere Schichten hinweg erkennt. <br> <br> <strong>Deep Learning</strong> wird oft für die <strong>Bilderkennung</strong> verwendet. Betrachte die Schichten im Bild: In der ersten Schicht erkennt das Netzwerk möglicherweise nur Kanten und Ecken. Die nächste Schicht kombiniert diese Kanten, um Formen zu bilden. Und die nächste Schicht kombiniert die Formen, um Katzenmerkmale zu erkennen. Schließlich fügt die letzte Schicht alles zusammen und sagt: 'Das ist eine Katze!'",
+        "body": "Deep Learning ist eine fortgeschrittenere Version, die komplexere Aufgaben und höhere Leistung ermöglicht. Stell dir vor, du versuchst, einem Computer beizubringen, eine Katze auf einem Bild zu erkennen. Beim regulären maschinellen Lernen müsstest du dem Computer möglicherweise manuell sagen, wonach er suchen soll – spitze Ohren und Schnurrhaare. Deep Learning lernt diese Merkmale von allein, indem es sie über mehrere Schichten hinweg erkennt. <br> <br> <strong>Deep Learning</strong> wird oft für die <strong>Bilderkennung</strong> verwendet. Betrachte die Schichten im Bild: In der ersten Schicht erkennt das Netzwerk möglicherweise nur Kanten und Ecken. Die nächste Schicht kombiniert diese Kanten, um Formen zu bilden. Und die nächste Schicht kombiniert die Formen, um Katzenmerkmale zu erkennen. Schließlich fügt die letzte Schicht alles zusammen und sagt: 'Das ist eine Katze!'",
         "_graphic": {
           "src": "course/en/images/deep_learning.jpg",
           "attribution": "Generiert mit Google Imagen 4",
@@ -314,7 +314,7 @@
     "_layout": "full",
     "title": "Quiz: Lerntypen",
     "displayTitle": "Teste dein Wissen: Lerntypen",
-    "body": "Ein KI-System hat die Aufgabe, fehlerhafte Produkte an einer Montagelinie zu identifizieren. Es wird mit einem großen Datensatz trainiert, bei dem jedes Produktbild bereits als 'fehlerhaft' oder 'nicht fehlerhaft' gekennzeichnet ist. Welche Art des maschinellen Lernens wird hier verwendet?",
+    "body": "Ein KI-System hat die Aufgabe, fehlerhafte Produkte an einer Produktionslinie zu identifizieren. Es wird mit einem großen Datensatz trainiert, bei dem jedes Produktbild bereits als 'fehlerhaft' oder 'nicht fehlerhaft' gekennzeichnet ist. Welche Art des maschinellen Lernens wird hier verwendet?",
     "instruction": "Wähle {{#if _isRadio}}eine Option{{else}}eine oder mehrere Optionen{{/if}} aus, die zutrifft, und klicke dann auf Senden.",
     "ariaQuestion": "Ein KI-System wird trainiert, fehlerhafte Produkte anhand von Bildern zu identifizieren, die als 'fehlerhaft' oder 'nicht fehlerhaft' gekennzeichnet sind. Welcher Maschineller Lerntyp ist das?",
     "_attempts": 3,
@@ -456,8 +456,8 @@
     "_component": "memory",
     "_classes": "",
     "_layout": "full",
-    "title": "Ein schnelles Memory-Spiel",
-    "displayTitle": "Beginnen wir mit einem schnellen Memory-Spiel...",
+    "title": "Eine Runde schnelles Memory",
+    "displayTitle": "Beginnen wir mit einer kleinen Runde Memory...",
     "body": "",
     "instruction": "Dreh die Karten um, um die passenden Paare zu finden.",
     "status": "Du hast {{guesses}} von {{total}} Übereinstimmungen gefunden.",
@@ -543,7 +543,7 @@
     "_layout": "left",
     "title": "",
     "displayTitle": "",
-    "body": "Man muss kein Detektiv sein, um das Muster in den obigen Bildern zu erkennen – es sind alles weiße Männer. Dies geschieht, weil KI-Modelle aus unserer Welt lernen und die <b>strukturellen Verzerrungen</b> in ihren Trainingsdaten <b>aufnehmen und reproduzieren können</b>. <br> <br> Um dies zu testen, habe ich ein einfaches Experiment mit Googles Imagen 3-Modell durchgeführt. Für vier verschiedene Berufe habe ich jeweils 30 Bilder mit den Prompts generiert, die du rechts siehst.",
+    "body": "Man muss kein Detektiv sein, um das Muster in den obigen Bildern zu erkennen – es sind alles weiße Männer. Dies geschieht, weil KI-Modelle aus unserer Welt lernen und die <b>strukturellen Verzerrungen</b> in ihren Trainingsdaten <b>aufnehmen und reproduzieren können</b>. <br> <br> Um dies zu testen, habe ich ein einfaches Experiment mit Googles Imagen 3-Modell durchgeführt. Für vier verschiedene Berufe habe ich jeweils 30 Bilder mit den Prompts generiert, die du rechts siehst. Die Prompts waren ursprünglich auf englisch, wo die Berufe kein grammatikalisches Geschlecht haben.",
     "_pageLevelProgress": {
       "_isEnabled": false,
       "_isCompletionIndicatorEnabled": false
@@ -595,7 +595,7 @@
     },
     "_items": [
       {
-        "title": "<p> der 30 generierten Bilder zeigen männliche Merkmale.</p>",
+        "title": "<p> der 30 generierten Bilder von Piloten zeigen männliche Merkmale.</p>",
         "body": "",
         "_graphic": {
           "src": "course/en/images/pilot_1.png",
@@ -681,7 +681,7 @@
     "_component": "flipper",
     "_classes": "",
     "_layout": "right",
-    "title": "KIs verborgene Verzerrungen aufdecken",
+    "title": "Verborgene Verzerrungen aufdecken",
     "displayTitle": "",
     "body": "",
     "width": 320,
@@ -703,12 +703,12 @@
       },
       {
         "title": "Ein Blick auf 'Krankenpfleger'",
-        "body": "Beginnen wir in der Mitte. Das Sprachmodell assoziiert 'Krankenpfleger' zu 57% der Zeit mit 'weiblich'. Dies zeigt ein gängiges Stereotyp, das das Modell aus Text gelernt hat.",
+        "body": "Beginnen wir in der Mitte. Das Sprachmodell assoziiert 'Krankenpfleger' in 57% der Fälle mit 'weiblich'. Dies zeigt ein gängiges Stereotyp, das das Modell aus Text gelernt hat.",
         "instruction": "Weiter »"
       },
       {
         "title": "Nun, schauen wir uns 'Klempner' an",
-        "body": "Im Gegensatz dazu assoziiert das Modell 'Klempner' zu 52% der Zeit mit 'männlich'. Obwohl es eine leichte Verzerrung ist, spiegelt das Muster konsequent gesellschaftliche Stereotypen wider.",
+        "body": "Im Gegensatz dazu assoziiert das Modell 'Klempner' in 52% aller Fälle mit 'männlich'. Obwohl es eine leichte Verzerrung ist, spiegelt das Muster konsequent gesellschaftliche Stereotypen wider.",
         "instruction": "Weiter »"
       },
       {
@@ -724,7 +724,7 @@
       {
         "title": "Die Quintessenz",
         "body": "Indem wir diese Verzerrungen visualisieren, können wir sie besser verstehen und daran arbeiten, fairere und verantwortungsvollere Sprachmodelle zu schaffen.",
-        "instruction": "Abschließen ✔"
+        "instruction": "Abgeschlossen ✔"
       }
     ],
     "_pageLevelProgress": {
@@ -741,7 +741,7 @@
     "_layout": "full",
     "title": "Quiz: KI-Assoziationen verstehen",
     "displayTitle": "",
-    "body": "Gemäß der bereitgestellten Grafik assoziiert das Sprachmodell 'Rezeptionist' zu 66% der Zeit mit 'weiblich'. Was sagt diese 'Assoziation' primär über das Modell aus?",
+    "body": "Gemäß der bereitgestellten Grafik assoziiert das Sprachmodell 'Rezeptionist' mit einer Häufigkeit 66% zu 'weiblich'. Was sagt diese 'Assoziation' primär über das Modell aus?",
     "instruction": "Wähle eine Option aus, die zutrifft, und klicke dann auf Senden.",
     "ariaQuestion": "Was sagt die Assoziation des Sprachmodells von 'Rezeptionist' mit 'weiblich' primär aus?",
     "_attempts": 2,
@@ -820,7 +820,7 @@
     "_layout": "full",
     "title": "Woher kommen Verzerrungen?",
     "displayTitle": "Bedeutet das, dass <em>jede</em> KI voreingenommen & diskriminierend ist?",
-    "body": "Es ist ein häufiges Missverständnis, dass KI-Voreingenommenheit eine <b>Voreingenommenheit des Modells selbst</b> impliziert. In diesem Kontext bezieht sich 'Voreingenommenheit' einfach auf systemische Muster, die die KI aus ihren Trainingsdaten lernt und reproduziert. Wie die vorherigen Beispiele zeigen, ist die Ausgabe einer KI eine <b>direkte Widerspiegelung der Informationen, auf denen sie trainiert wurde</b>. Die Ergebnisse sind nicht beabsichtigt, sie sind ein Echo der gesellschaftlichen Voreingenommenheiten, die in den Quelldaten eingebettet sind. Letztendlich sind KI-Systeme <b>nur so gut wie die Daten, die ihnen gegeben werden</b> und die Menschen, die sie bauen und leiten.",
+    "body": "Es ist ein häufiges Missverständnis, dass KI-Voreingenommenheit eine <b>Voreingenommenheit des Modells selbst</b> impliziert. In diesem Kontext bezieht sich 'Voreingenommenheit' einfach auf systemische Muster, die die KI aus ihren Trainingsdaten lernt und reproduziert. Wie die vorherigen Beispiele zeigen, ist die Ausgabe einer KI eine <b>direkte Reflektion der Informationen, auf denen sie trainiert wurde</b>. Die Ergebnisse sind nicht beabsichtigt, sie sind ein Echo der gesellschaftlichen Voreingenommenheiten, die in den Quelldaten eingebettet sind. Letztendlich sind KI-Systeme <b>nur so gut wie die Daten, die ihnen gegeben werden</b> und die Menschen, die sie bauen und leiten.",
     "instruction": "<b>Woher kommen also die Verzerrungen?</b> Klicke auf die Felder unten, um mehr zu erfahren.",
     "_columns": 3,
     "_animationType": "shrink",
@@ -828,7 +828,7 @@
       {
         "front": "Daten wurden für andere Zwecke gesammelt",
         "back": {
-          "body": "KI-Systeme analysieren oft vorhandene Daten, die <b>für andere Zwecke gesammelt wurden</b> als die, die das KI-System verfolgt. Das bedeutet, die Daten wurden nicht mit der Absicht gesammelt, beispielsweise für vorausschauende Polizeiarbeit oder Personalbeschaffung verwendet zu werden, sodass Eigenschaften der Daten, die <b>unfaire Ergebnisse begünstigen könnten, nicht berücksichtigt werden</b>."
+          "body": "KI-Systeme analysieren oft vorhandene Daten, die <b>für andere Zwecke gesammelt wurden</b> als die, die das KI-System verfolgt. Das bedeutet, die Daten wurden nicht mit der Absicht gesammelt, beispielsweise für die Personalbeschaffung verwendet zu werden, sodass Eigenschaften der Daten, die <b>unfaire Ergebnisse begünstigen könnten, nicht berücksichtigt werden</b>."
         }
       },
       {
@@ -840,7 +840,7 @@
       {
         "front": "Daten sind nicht repräsentativ",
         "back": {
-          "body": "Dieses Problem tritt auf, wenn ein maschinelles Lernsystem auf Daten trainiert wird, die die Population, auf die das System angewendet werden soll, <b>nicht vollständig repräsentieren</b>. KI-Systeme können dann diese Repräsentationsverzerrung widerspiegeln, wenn sie realen Daten ausgesetzt sind, die sich erheblich von den Daten unterscheiden, auf denen sie trainiert wurden, was zu <b>verzerrten oder unfairen Ergebnissen</b> führt."
+          "body": "Dieses Problem tritt auf, wenn ein maschinelles Lernsystem auf Daten trainiert wird, die die Population, auf die das System angewendet werden soll, <b>nicht vollständig repräsentieren</b>. KI-Systeme können dann diese Repräsentationsverzerrung widerspiegeln, wenn sie realen Daten ausgesetzt sind, die sich erheblich von den Trainingsdaten unterscheiden, was zu <b>verzerrten oder unfairen Ergebnissen</b> führt."
         }
       }
     ],
@@ -857,8 +857,8 @@
     "_classes": "",
     "_layout": "full",
     "title": "Auswirkungen im realen Leben",
-    "displayTitle": "Auswirkungen voreingenommener Trainingsdaten im realen Leben",
-    "body": "Die vorherigen Gedankenexperimente sind größtenteils akademisch, also schauen wir uns <b>reale Beispiele</b> an, bei denen Verzerrungen in den Trainingsdaten zu <b>suboptimalen und diskriminierenden</b> Ergebnissen in realen Anwendungen führten.",
+    "displayTitle": "Reale Auswirkungen verzerrter Trainingsdaten",
+    "body": "Die vorherigen Gedankenexperimente sind größtenteils theoretischer Natur, also schauen wir uns <b>reale Beispiele</b> an, bei denen Verzerrungen in den Trainingsdaten zu <b>suboptimalen und diskriminierenden</b> Ergebnissen in realen Anwendungen führten.",
     "instruction": "Wähle die Tabs aus, um mehr zu erfahren.",
     "_tabLayout": "horizontal",
     "_minHeight": "250px",
@@ -867,19 +867,19 @@
       {
         "tabTitle": "Fall 1: Rekrutierungsverzerrung",
         "title": "Fall 1: Geschlechterverzerrung bei der Rekrutierung",
-        "body": "Amazon entwickelte ein KI-Programm zur <b>Automatisierung der Vorauswahl</b> von Bewerbern durch die Überprüfung von Lebensläufen. Das Tool wurde mit Lebensläufen aus einem Zeitraum von zehn Jahren trainiert, einem Datensatz, in dem <b>die meisten erfolgreichen Bewerber Männer gewesen waren</b>. Infolgedessen lernte die KI, <b>gegen weibliche Bewerber voreingenommen zu sein</b>, indem sie Lebensläufe, die Formulierungen wie \"Kapitänin des Frauenschachclubs\" enthielten, benachteiligte. Trotz Versuchen, die Geschlechterverzerrung zu korrigieren, <b>gab Amazon das Programm letztendlich auf</b>, da es nicht mit dem Engagement des Unternehmens für Vielfalt und Gleichberechtigung am Arbeitsplatz übereinstimmte <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(siehe Stahl et al. 2023).</a>",
+        "body": "Amazon entwickelte ein KI-Programm zur <b>Automatisierung der Vorauswahl</b> von Bewerber*innen durch die Überprüfung von Lebensläufen. Das Tool wurde mit Lebensläufen aus einem Zeitraum von zehn Jahren trainiert, einem Datensatz, in dem <b>die meisten erfolgreichen Bewerber Männer gewesen waren</b>. Infolgedessen lernte die KI, <b>gegen weibliche Bewerberinnen voreingenommen zu sein</b>, indem sie Lebensläufe, die Formulierungen wie \"Vorsitzende des Frauenschachclubs\" enthielten, benachteiligte. Trotz Versuchen, die Geschlechterverzerrung zu korrigieren, <b>gab Amazon das Programm letztendlich auf</b>, da es nicht mit dem Engagement des Unternehmens für Vielfalt und Gleichberechtigung am Arbeitsplatz übereinstimmte <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(siehe Stahl et al. 2023).</a>",
         "_classes": ""
       },
       {
         "tabTitle": "Fall 2: Bewährungsentscheidungen",
         "title": "Fall 2: KI-Verzerrung bei Bewährungsentscheidungen",
-        "body": "Ein Gefangener namens Glenn Rodríguez, der eine <b>vorbildliche Rehabilitationsakte</b> hatte, beantragte eine vorzeitige Entlassung, die jedoch abgelehnt wurde. Die Entscheidung des Bewährungsausschusses basierte auf einer <b>\"Hochrisiko\"-Prognose</b> eines KI-Systems namens COMPAS. Der Ausschuss <b>wusste nicht, wie der Algorithmus der KI funktionierte</b>, da es sich um ein Geschäftsgeheimnis handelte. Rodríguez entdeckte später, dass seine hohe Punktzahl auf <b>subjektiven und potenziell rassistisch voreingenommenen Ansichten</b> von Gefängniswärtern beruhte. Obwohl er schließlich freigelassen wurde, bedeutete die <b>Unfähigkeit, die fehlerhafte und undurchsichtige Logik der KI anzufechten</b>, dass er viel früher hätte freigelassen werden können <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(siehe Stahl et al. 2023).</a>",
+        "body": "Ein Gefangener namens Glenn Rodríguez, der eine <b>vorbildliche Rehabilitationsakte</b> hatte, beantragte eine vorzeitige Entlassung, die jedoch abgelehnt wurde. Die Entscheidung des Bewährungsausschusses basierte auf einer <b>\"Hochrisiko\"-Prognose</b> eines KI-Systems namens COMPAS. Der Ausschuss <b>wusste nicht, wie der Algorithmus der KI funktionierte</b>, da es sich um ein Geschäftsgeheimnis handelte. Rodríguez entdeckte später, dass seine hohe Punktzahl auf <b>subjektiven und potenziell rassistisch voreingenommenen Ansichten</b> von Gefängniswärtern beruhte. Obwohl er schließlich freigelassen wurde, wurde seine Freilassung doch stark verzägert <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(siehe Stahl et al. 2023).</a>",
         "_classes": ""
       },
       {
         "tabTitle": "Fall 3: Gesichtserkennung",
         "title": "Fall 3: Verzerrung bei der Gesichtserkennung",
-        "body": "Ein Ingenieurstudent asiatischer Abstammung in Neuseeland bekam sein <b>Passfoto abgelehnt</b> von einem automatisierten System, weil es <b>fälschlicherweise behauptete, seine Augen seien geschlossen</b>. Dieser Vorfall weist auf ein größeres Problem von <b>ethnisch bedingten Fehlern</b> in der Gesichtserkennungstechnologie hin. Ähnliche Systeme haben <b>Voreingenommenheit gegenüber anderen Gruppen</b> gezeigt; zum Beispiel wurden Fotos von dunkelhäutigen Frauen in Großbritannien <b>viermal häufiger als von schlechter Qualität eingestuft</b>, wobei das Foto einer schwarzen Studentin abgelehnt wurde, weil das System fälschlicherweise ihren Mund als offen erkannte <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(siehe Stahl et al. 2023)</a>.",
+        "body": "Das Passfoto eines Ingenieurstudents asiatischer Abstammung in Neuseeland wurde von einem automatisierten System abgelehnt, weil es <b>fälschlicherweise behauptete, seine Augen seien geschlossen</b>. Dieser Vorfall weist auf ein größeres Problem von <b>ethnisch bedingten Fehlern</b> in der Gesichtserkennungstechnologie hin. Ähnliche Systeme haben <b>Voreingenommenheit gegenüber anderen Gruppen</b> gezeigt; zum Beispiel wurden Fotos von dunkelhäutigen Frauen in Großbritannien <b>viermal häufiger als von schlechter Qualität eingestuft</b>, wobei das Foto einer schwarzen Studentin abgelehnt wurde, weil das System fälschlicherweise ihren Mund als offen erkannte <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(siehe Stahl et al. 2023)</a>.",
         "_classes": ""
       }
     ],
@@ -895,7 +895,7 @@
     "_component": "accordion",
     "_classes": "",
     "_layout": "full",
-    "title": "KI-Lösungen",
+    "title": "Mögliche Lösungswege",
     "displayTitle": "Herausforderungen angehen",
     "body": "Während frühere Diskussionen die besorgniserregenderen Aspekte von KI und maschinellem Lernen hervorgehoben haben mögen, untersucht dieser Abschnitt die <b>proaktiven Lösungen und Fortschritte</b>, die diese <b>Probleme effektiv angehen</b>.",
     "instruction": "Wähle die Überschriften aus, um mehr zu erfahren.",
@@ -917,8 +917,8 @@
         "_classes": ""
       },
       {
-        "title": "Leitplanken",
-        "body": "Die vorherigen Beispiele zeigten, wie <b>fehlerhafte Trainingsdaten zu voreingenommenen oder schädlichen Ergebnissen führen können</b>, ein Anliegen für Entwickler und Regulierungsbehörden gleichermaßen. Als Reaktion darauf implementieren Modellentwickler <b>Sicherheitsfilter und 'Leitplanken', um unerwünschtes Verhalten zu verhindern</b>. <br> <br> Diese Leitplanken können von der Moderation der Ausgabe und der Minderung von Verzerrungen bis hin zu Mechanismen reichen, die sicherstellen, dass die Antworten den gesellschaftlichen Normen oder einer spezifischen Unternehmensidentität entsprechen. <br> <br> Um sicherzustellen, dass die Grenze zwischen akzeptablem und inakzeptablem Verhalten nicht ausschließlich von großen Technologieunternehmen gezogen wird, bieten Initiativen wie Guardrails.AI <b>Open-Source, gemeinschaftsgetriebene Standards</b> für KI-Modelle.",
+        "title": "Sicherheitsmechanishmen",
+        "body": "Die vorherigen Beispiele zeigten, wie <b>fehlerhafte Trainingsdaten zu voreingenommenen oder schädlichen Ergebnissen führen können</b>, ein Anliegen für Entwickler und Regulierungsbehörden gleichermaßen. Als Reaktion darauf implementieren Modellentwickler <b>Sicherheitsfilter und 'Leitplanken', um unerwünschtes Verhalten zu verhindern</b>. <br> <br> Diese Leitplanken können von der Moderation der Ausgabe und der Minderung von Verzerrungen bis hin zu Mechanismen reichen, die sicherstellen, dass die Antworten den gesellschaftlichen Normen oder einer spezifischen Unternehmensidentität entsprechen. <br> <br> Um sicherzustellen, dass die Grenze zwischen akzeptablem und inakzeptablem Verhalten nicht ausschließlich von großen Technologieunternehmen gezogen wird, bieten Initiativen wie Guardrails.AI offene und gemeinschaftsgetriebene Standards für KI-Modelle.",
         "_titleIcon": "",
         "_imageAlignment": "right",
         "_graphic": {
@@ -929,8 +929,8 @@
         "_classes": ""
       },
       {
-        "title": "Neue Modelle sind viel besser",
-        "body": "Moderne KI-Modelle zeigen tendenziell eine <b>Reduzierung der Voreingenommenheit</b>, was auf zwei Hauptfaktoren zurückzuführen ist: die <b>Implementierung expliziter Leitplanken</b> und ein <b>ausgefeilteres sprachliches Verständnis</b>, das über die vereinfachten Geschlechterrollen-Korrelationen früherer Modelle hinausgeht. <br> <br> Zum Beispiel führen die in ChatGPT integrierten Spracheinbettungen zu <b>deutlich gerechteren Assoziationen</b> zwischen Geschlecht und Berufen im Gegensatz zur obigen Grafik. <br> <br> Ebenso demonstriert Googles Imagen 4 diesen Fortschritt, indem es eine <b>größere demografische Vielfalt</b> erzeugt; eine Aufforderung für ein 'realistisches Foto eines Krankenpflegers' führt zu Bildern, die Männer und Frauen in etwa gleichem Maße zeigen. Betrachte das Bild links.",
+        "title": "Neue Modelle sind tendenziell besser",
+        "body": "Moderne KI-Modelle zeigen tendenziell eine <b>Reduzierung der Voreingenommenheit</b>, was auf zwei Hauptfaktoren zurückzuführen ist: die <b>Implementierung expliziter Sicherheitsmechanishmen</b> und ein <b>ausgefeilteres sprachliches Verständnis</b>, das über die vereinfachten Geschlechterrollen-Korrelationen früherer Modelle hinausgeht. <br> <br> Zum Beispiel führen die in ChatGPT integrierten Spracheinbettungen zu <b>deutlich gerechteren Assoziationen</b> zwischen Geschlecht und Berufen im Gegensatz zur obigen Grafik. <br> <br> Ebenso demonstriert Googles Imagen 4 diesen Fortschritt, indem es eine <b>größere demografische Vielfalt</b> erzeugt; eine Aufforderung für ein 'realistisches Foto eines Krankenpflegers' führt zu Bildern, die Männer und Frauen in etwa gleichem Maße zeigen. Betrachte das Bild links.",
         "_titleIcon": "",
         "_imageAlignment": "left",
         "_graphic": {
@@ -953,7 +953,7 @@
     "_component": "mcq",
     "_classes": "",
     "_layout": "full",
-    "title": "Quiz: Amazon Rekrutierungsverzerrung",
+    "title": "Quiz: Amazon Recruiting",
     "displayTitle": "Teste dein Wissen: Amazons KI",
     "body": "Was war im Fallbeispiel zur Amazon-Rekrutierung der Hauptgrund, warum das KI-System eine Voreingenommenheit gegenüber weiblichen Bewerbern entwickelte?",
     "instruction": "Wähle eine Option aus, die zutrifft, und klicke dann auf Senden.",
@@ -998,7 +998,7 @@
     "_feedback": {
       "title": "Erklärung der Amazon Rekrutierungsverzerrung",
       "altTitle": "Feedback on your answer about Amazon's AI recruitment bias.",
-      "correct": "Das ist richtig! Die KI lernte aus historischen Daten, die überwiegend Männer in erfolgreichen Rollen zeigten. Infolgedessen lernte sie leider, bestimmte Begriffe, die in Lebensläufen von Frauen üblich sind (wie 'Kapitänin des Frauenschachclubs'), mit geringerer Attraktivität zu assoziieren, was zu Voreingenommenheit führte.",
+      "correct": "Das ist richtig! Die KI lernte aus historischen Daten, die überwiegend Männer in erfolgreichen Rollen zeigten. Infolgedessen lernte sie leider, bestimmte Begriffe, die in Lebensläufen von Frauen üblich sind (wie 'Vorsitzende des Frauenschachclubs'), mit geringerer Attraktivität zu assoziieren, was zu Voreingenommenheit führte.",
       "_incorrect": {
         "notFinal": "Nicht ganz. Überprüfe Fall 1 im Abschnitt 'Auswirkungen im realen Leben'. Konzentriere dich darauf, wie die Trainingsdaten die Ergebnisse der KI beeinflussten.",
         "final": "Die richtige Antwort ist: Es wurde auf Lebensläufe aus einer Zeit trainiert, in der die meisten erfolgreichen Bewerber Männer waren, was dazu führte, dass es weiblich-assoziierte Begriffe benachteiligte. Die KI spiegelte die in ihren Trainingsdaten vorhandenen Verzerrungen wider, die vergangene Einstellungsmuster bei Amazon widerspiegelten, anstatt absichtlich für Voreingenommenheit programmiert zu werden oder aufgrund von Sprachverarbeitungsproblemen."
@@ -1067,15 +1067,15 @@
         }
       },
       {
-        "front": "Was sind die Bedingungen?",
+        "front": "Unter welchen Bedingungen?",
         "back": {
-          "body": "Um urheberrechtlich geschützt zu sein, muss ein Werk in einer <b><em>konkreten Weise</em></b> (nicht abstrakte Ideen) ausgedrückt und <b><em>originell</em></b> sein. Originalität bedeutet, dass es eine <b>intellektuelle Schöpfung eines menschlichen Urhebers</b> ist, die dessen Persönlichkeit und kreative Entscheidungen widerspiegelt. Diese <b>menschliche Urheberschaft ist grundlegend</b>, insbesondere im deutschen und EU-Recht."
+          "body": "Um urheberrechtlich geschützt zu sein, muss ein Werk in einer <b><em>konkreten Weise</em></b> (nicht abstrakte Ideen) ausgedrückt und <b><em>originell</em></b> sein. Originalität bedeutet, dass es eine <b>intellektuelle Schöpfung durch einen Menschen</b> ist, die dessen Persönlichkeit und kreative Entscheidungen widerspiegelt. Diese <b>menschliche Urheberschaft ist grundlegend</b>, insbesondere im deutschen und EU-Recht."
         }
       },
       {
         "front": "Was sind die Rechte des Eigentümers?</b>",
         "back": {
-          "body": "Eigentümer erhalten <b>ausschließliche Rechte zur Vervielfältigung, Verbreitung und öffentlichen Wiedergabe</b> ihres Werkes. Sie besitzen auch <b>Urheberpersönlichkeitsrechte</b>, einschließlich Offenlegung, Integrität und Namensnennung, die die Kontrolle gewährleisten. Das Urheberrecht dauert in den EU-Mitgliedstaaten in der Regel für die <b>Lebenszeit des Urhebers plus 70 Jahre</b>."
+          "body": "Eigentümer erhalten <b>ausschließliche Rechte zur Vervielfältigung, Verbreitung und öffentlichen Wiedergabe</b> ihres Werkes. Sie besitzen auch <b>Urheberpersönlichkeitsrechte</b>, einschließlich Offenlegung, Integrität und Namensnennung, die die Kontrolle gewährleisten. Das Urheberrecht dauert in den EU-Mitgliedstaaten in der Regel für die <b>Lebenszeit der Urheber*innen plus 70 Jahre</b>."
         }
       }
     ],
@@ -1113,7 +1113,7 @@
         }
       },
       {
-        "title": "Können die Ausgaben von KI-Systemen Urheberrechte verletzen?",
+        "title": "Können die Ergebnisse von KI-Systemen Urheberrechte verletzen?",
         "body": "",
         "_classes": "",
         "_graphic": {
@@ -1123,7 +1123,7 @@
         }
       },
       {
-        "title": "Ist die Ausgabe urheberrechtlich schützbar?",
+        "title": "Sind KI-Ergebnisse urheberrechtlich schützbar?",
         "body": "",
         "_classes": "",
         "_graphic": {
@@ -1217,7 +1217,7 @@
     "title": "Verletzung durch KI-Ausgabe",
     "displayTitle": "Ja, KI-Ausgabe kann Urheberrechte verletzen",
     "body": "Auch wenn ein KI-Modell legal trainiert wird, kann der <b>von ihm generierte Inhalt dennoch zu Urheberrechtsverletzungen führen</b>. Dies geschieht, wenn die Ausgabe der KI einem bestehenden urheberrechtlich geschützten Werk <b>zu ähnlich ist</b> und somit die Rechte des ursprünglichen Urhebers verletzt.",
-    "instruction": "Verwende die Pfeile unten, um die Wege zu erkunden, wie KI-generierte Inhalte Urheberrechte verletzen können.",
+    "instruction": "Verwende die Pfeile unten, um zu erkunden, wie KI-generierte Inhalte Urheberrechte verletzen können.",
     "mobileInstruction": "Wähle das Plus-Symbol und dann den nächsten Pfeil, um mehr zu erfahren.",
     "_hasNavigationInTextArea": false,
     "_setCompletionOn": "allItems",
@@ -1247,7 +1247,7 @@
       },
       {
         "title": "Das Snoopy-Problem",
-        "body": "Dies zeigt, wie KI Elemente aus ihren Trainingsdaten <b>'memorieren'</b> und dann in ihrer Ausgabe reproduzieren kann. Je unverwechselbarer und häufiger ein Charakter oder visueller Identifikator in den Trainingsdaten dargestellt wird, <b>desto wahrscheinlicher ist es, dass die KI ihn reproduziert</b>, wenn sie dazu aufgefordert wird. Zum Beispiel kann KI <b>sehr ähnliche Darstellungen</b> bekannter Charaktere wie Snoopy oder Mickey Mouse generieren oder unverwechselbare künstlerische Stile reproduzieren. Dies geschieht, weil die KI konsistente Merkmale lernt, was es leicht macht, eine <b>verletzende Ausgabe hervorzurufen</b>, auch wenn es keine exakte Kopie eines einzelnen Originalwerks ist.",
+        "body": "Dies zeigt, wie KI Elemente aus ihren Trainingsdaten erlernen und dann in ihrer Ausgabe reproduzieren kann. Je unverwechselbarer und häufiger ein Charakter oder visueller Identifikator in den Trainingsdaten dargestellt wird, <b>desto wahrscheinlicher ist es, dass die KI ihn reproduziert</b>, wenn sie dazu aufgefordert wird. Zum Beispiel kann KI <b>sehr ähnliche Darstellungen</b> bekannter Charaktere wie Snoopy oder Mickey Mouse generieren oder unverwechselbare künstlerische Stile reproduzieren. Dies geschieht, weil die KI konsistente Merkmale lernt, was es leicht macht, eine <b>verletzende Ausgabe hervorzurufen</b>, auch wenn es keine exakte Kopie eines einzelnen Originalwerks ist.",
         "strapline": "Wenn KI 'sich erinnert'",
         "_graphic": {
           "src": "course/en/images/snoopy_problem.png",
@@ -1278,11 +1278,11 @@
       {
         "front": "Menschliche Urheberschaft ist erforderlich",
         "back": {
-          "body": "Das Urheberrecht erfordert grundsätzlich einen <b>menschlichen Urheber</b>. Dies beinhaltet einen '<b>persönlichen Stempel</b>' und '<b>freie, bewusste Entscheidungen</b>', die menschliche Persönlichkeit und Kreativität widerspiegeln. KI-Systeme, denen der <b>Status einer juristischen Person</b> fehlt, können keine Persönlichkeit ausdrücken oder Rechte innehaben, wodurch sie als Urheber disqualifiziert werden."
+          "body": "Das Urheberrecht erfordert grundsätzlich <b>menschlichen Urheber*innen</b>. Dies beinhaltet einen '<b>persönlichen Stempel</b>' und '<b>freie, bewusste Entscheidungen</b>', die menschliche Persönlichkeit und Kreativität widerspiegeln. KI-Systeme, denen der <b>Status einer juristischen Person</b> fehlt, können keine Persönlichkeit ausdrücken oder Rechte innehaben, wodurch sie als Urheber*innen disqualifiziert werden."
         }
       },
       {
-        "front": "KI als Werkzeug, nicht als Urheber",
+        "front": "KI als Werkzeug, nicht als Urheberin",
         "back": {
           "body": "Während KI Werke produzieren kann, die <em>geschützt werden könnten</em>, hängt der Urheberrechtsschutz von <b>ausreichender menschlicher Intervention</b> ab. Menschen, die KI programmieren, trainieren, modifizieren oder die KI-Ausgabe auswählen, können Urheberrechte beanspruchen, da die KI als <b>Werkzeug</b> betrachtet wird, wie ein Pinsel oder eine Textverarbeitung."
         }
@@ -1327,7 +1327,7 @@
       },
       {
         "title": "Stelle ausreichenden menschlichen kreativen Input für den Urheberrechtsschutz von KI-unterstützten Werken sicher",
-        "body": "Um das Urheberrecht für KI-unterstützte Werke zu sichern, stelle eine signifikante menschliche Intervention, kreative Leitung oder Modifikation der KI-Ausgabe sicher, da KI allein kein Urheber sein kann."
+        "body": "Um das Urheberrecht für KI-unterstützte Werke zu sichern, stelle eine signifikante menschliche Intervention, kreative Leitung oder Modifikation der KI-Ausgabe sicher, da KI allein keine Urheberin sein kann."
       },
       {
         "title": "Im Zweifelsfall Rechtsberater hinzuziehen",
@@ -1371,7 +1371,7 @@
         "_isPartlyCorrect": false
       },
       {
-        "text": "Es muss ein konkreter Ausdruck einer Idee und eine intellektuelle Schöpfung eines menschlichen Urhebers sein.",
+        "text": "Es muss ein konkreter Ausdruck einer Idee und eine intellektuelle Schöpfung menschlicher Urheber*innen sein.",
         "altText": "Option: Konkreter Ausdruck und menschliche Urheberschaft.",
         "_shouldBeSelected": true,
         "_isPartlyCorrect": false
@@ -1440,7 +1440,7 @@
     "_layout": "full",
     "title": "Quiz: Urheberrechts-Checkliste",
     "displayTitle": "To-Do's vor der Veröffentlichung KI-unterstützter Werke",
-    "body": "Du hast ein KI-Tool verwendet, um bei der Erstellung eines neuen Produkts zu helfen (z. B. Generierung von Designelementen, Marketingtext oder Teilen eines Softwarecodes). Welche entscheidenden Überprüfungen solltest du vor der öffentlichen Veröffentlichung dieses Produkts durchführen, um Urheberrechtsbedenken gemäß den Empfehlungen in diesem Modul zu berücksichtigen? (Wähle alle zutreffenden Optionen aus)",
+    "body": "Du hast ein KI-Tool verwendet, um bei der Erstellung eines neuen Produkts zu helfen (z. B. Generierung von Designelementen, Marketingtext oder Teilen eines Softwarecodes). Welche entscheidenden Überprüfungen solltest du vor der öffentlichen Veröffentlichung dieses Produkts durchführen, um Urheberrechtsbedenken gemäß den Empfehlungen in diesem Modul zu berücksichtigen?",
     "instruction": "Wähle eine oder mehrere Optionen aus, die zutrifft, und klicke dann auf Senden.",
     "ariaQuestion": "Welche entscheidenden Überprüfungen solltest du vor der Veröffentlichung KI-unterstützter Werke durchführen?",
     "_attempts": 3,
@@ -1578,7 +1578,7 @@
     "_layout": "full",
     "title": "Wie KI personenbezogene Daten verarbeitet",
     "displayTitle": "Wie KI personenbezogene Daten verarbeitet",
-    "body": "Künstliche Intelligenz-Systeme sind stark auf Daten für ihre Funktionalität angewiesen. Das Verständnis, wie personenbezogene Daten in verschiedenen Phasen der KI-Entwicklung und -Bereitstellung gehandhabt werden, ist entscheidend für die Einhaltung der DSGVO. Wähle die Tabs aus, um jede Phase zu erkunden.",
+    "body": "Künstliche Intelligenz-Systeme sind stark auf Daten für ihre Funktionalität angewiesen. Das Verständnis, wie personenbezogene Daten in verschiedenen Phasen der KI-Entwicklung und -Bereitstellung gehandhabt werden, ist entscheidend für die Einhaltung der DSGVO.",
     "instruction": "Wähle die Tabs aus, um mehr zu erfahren.",
     "_tabLayout": "horizontal",
     "_pageLevelProgress": {
@@ -1595,7 +1595,7 @@
       {
         "tabTitle": "Modellentwicklung & Risiken",
         "title": "Phase 2: KI-Modellentwicklung & Datenlecks",
-        "body": "Während der Entwicklungsphase werden KI-Modelle aus den gesammelten Trainingsdaten erstellt. Selbst nachdem ein Modell trainiert wurde, könnte es unbeabsichtigt einige der personenbezogenen Daten, auf denen es trainiert wurde, durch Methoden wie <em>Modellinversion oder Mitgliedschafts-Inferenz-Angriffe</em> '<b>lecken</b>'. Das bedeutet, dass das trainierte Modell selbst personenbezogene Informationen enthalten kann, und seine Weitergabe oder Übertragung an Dritte wird als <b>'Verarbeitung' gemäß DSGVO</b> angesehen, unabhängig davon, ob die Originaldaten roh oder pseudonymisiert waren.",
+        "body": "Während der Entwicklungsphase werden KI-Modelle aus den gesammelten Trainingsdaten erstellt. Selbst nachdem ein Modell trainiert wurde, könnte es unbeabsichtigt einige der personenbezogenen Daten, auf denen es trainiert wurde, durch Methoden wie <em>Modellinversion oder Mitgliedschafts-Inferenz-Angriffe</em> '<b>leaken</b>'. Das bedeutet, dass das trainierte Modell selbst personenbezogene Informationen enthalten kann, und seine Weitergabe oder Übertragung an Dritte wird als <b>'Verarbeitung' gemäß DSGVO</b> angesehen, unabhängig davon, ob die Originaldaten roh oder pseudonymisiert waren.",
         "_classes": ""
       },
       {
@@ -1624,7 +1624,7 @@
     "_items": [
       {
         "title": "Zweckbindung",
-        "body": "KI-Systeme verwenden deine Informationen oft auf Weisen, die <b>ursprünglich nicht erklärt oder vereinbart wurden.</b>"
+        "body": "KI-Systeme verwenden deine Informationen oft auf eine Art und Weise, die <b>ursprünglich nicht erklärt oder vereinbart wurde.</b>"
       },
       {
         "title": "Transparenz",
@@ -1653,7 +1653,7 @@
     "_layout": "full",
     "title": "Wichtige Empfehlungen",
     "displayTitle": "Empfehlungen für Benutzer",
-    "body": "Als Endbenutzer können deine Handlungen den Datenschutz innerhalb von Unternehmens-KI-Systemen erheblich beeinflussen. Hier ist, was du wissen musst:",
+    "body": "Als Endbenutzer*in können deine Handlungen den Datenschutz innerhalb von Unternehmens-KI-Systemen erheblich beeinflussen.",
     "instruction": "Erkunde diese Empfehlungen, um zu verstehen, wie du personenbezogene Daten schützen kannst.",
     "_columns": 3,
     "_animationType": "shrink",
@@ -1661,7 +1661,7 @@
       {
         "front": "Keine personenbezogenen Daten ohne Einwilligung",
         "back": {
-          "body": "Als Endbenutzer <b>gib niemals personenbezogene Daten anderer</b> in ein KI-System ein, ohne eine klare, explizite Rechtsgrundlage zu bestätigen, wie z. B. deren <em>spezifische und informierte Einwilligung.</em>"
+          "body": "<b>Gib niemals personenbezogene Daten anderer</b> in ein KI-System ein, ohne eine klare, explizite Rechtsgrundlage, wie z. B. deren <em>spezifische und informierte Einwilligung.</em>"
         }
       },
       {
@@ -1691,7 +1691,7 @@
     "_layout": "full",
     "title": "Quiz: DSGVO-Definitionen",
     "displayTitle": "Teste dein Wissen: DSGVO-Terminologie",
-    "body": "Gemäß den 'Wichtigen DSGVO-Definitionen', welche Art von Informationen wird als 'Personenbezogene Daten' kategorisiert?",
+    "body": "Gemäß den 'DSGVO-Definitionen' oben, welche Art von Informationen wird als 'Personenbezogene Daten' kategorisiert?",
     "instruction": "Wähle eine Option aus, die zutrifft, und klicke dann auf Senden.",
     "ariaQuestion": "Was wird gemäß den DSGVO-Definitionen als 'Personenbezogene Daten' kategorisiert?",
     "_attempts": 3,
@@ -1789,17 +1789,17 @@
     "_component": "expose",
     "_classes": "",
     "_layout": "full",
-    "title": "Einführung in die EU-KI-Verordnung",
-    "displayTitle": "Lerne die EU-KI-Verordnung kennen",
-    "body": "Bevor wir mit den wichtigsten regulatorischen Anforderungen beginnen, möchten wir dir eine kurze Einführung in die EU-KI-Verordnung geben.",
-    "instruction": "Klicke auf die Felder unten, um die grundlegenden Fragen zur EU-KI-Verordnung zu erkunden.",
+    "title": "Einführung in die EU KI-Verordnung",
+    "displayTitle": "Lerne die EU KI-Verordnung kennen",
+    "body": "Bevor wir mit den wichtigsten regulatorischen Anforderungen beginnen, möchten wir dir eine kurze Einführung in die EU KI-Verordnung (EU KI-VO) geben.",
+    "instruction": "Klicke auf die Felder unten, um die grundlegenden Fragen zur EU KI-VO zu erkunden.",
     "_columns": 3,
     "_animationType": "shrink",
     "_items": [
       {
         "front": "Warum KI regulieren?",
         "back": {
-          "body": "Die EU-KI-Verordnung zielt darauf ab, sicherzustellen, dass die Entwicklung und Nutzung von KI sicher und vertrauenswürdig sind und Grundrechte respektieren. Sie versucht, Innovation mit dem Schutz der Bürger in Einklang zu bringen und Vertrauen in KI aufzubauen."
+          "body": "Die EU KI-VO zielt darauf ab, sicherzustellen, dass die Entwicklung und Nutzung von KI sicher und vertrauenswürdig sind und Grundrechte respektieren. Sie versucht, Innovation mit dem Schutz der Bürger in Einklang zu bringen und Vertrauen in KI aufzubauen."
         }
       },
       {
@@ -1811,7 +1811,7 @@
       {
         "front": "Wer ist betroffen?",
         "back": {
-          "body": "Die EU-KI-Verordnung betrifft eine Vielzahl von Entitäten und Einzelpersonen, jede mit spezifischen Rollen und Verantwortlichkeiten zur Sicherstellung der Einhaltung und Verantwortung. Wir werden die Rollen im Detail als Nächstes besprechen."
+          "body": "Die EU KI-VO betrifft eine Vielzahl von Entitäten und Einzelpersonen, jede mit spezifischen Rollen und Verantwortlichkeiten zur Sicherstellung der Einhaltung und Verantwortung. Wir werden die Rollen im Detail als Nächstes besprechen."
         }
       }
     ],
@@ -1827,7 +1827,7 @@
     "_component": "sliderItems",
     "_classes": "is-vertical has-markers",
     "_layout": "full",
-    "title": "Die EU-KI-Verordnung: Wichtige Meilensteine",
+    "title": "Die EU KI-VO: Wichtige Meilensteine",
     "displayTitle": "Der Zeitplan der KI-Verordnung",
     "body": "Nachdem wir nun das Warum, das Was und das Wer geklärt haben, bleibt die Frage: 'Wann?'",
     "instruction": "Wische oder klicke, um den Zeitplan der wichtigsten Meilensteine anzuzeigen.",
@@ -1932,8 +1932,8 @@
     "_component": "expose",
     "_classes": "",
     "_layout": "full",
-    "title": "Schlüsselrollen im Ökosystem der EU-KI-Verordnung",
-    "displayTitle": "Deine Rolle kennen",
+    "title": "Schlüsselrollen im Ökosystem der EU KI-VO",
+    "displayTitle": "Kenne deine Rolle",
     "body": "Artikel 3 (2-8) der KI-Verordnung definiert mehrere Schlüsselrollen, jede mit spezifischen Verantwortlichkeiten in Bezug auf KI-Systeme und KI-Modelle für allgemeine Zwecke. Das Verständnis dieser Rollen ist entscheidend für die Einhaltung der Vorschriften.",
     "instruction": "Klicke auf jedes Feld, um mehr über jede Schlüsselrolle zu erfahren.",
     "_columns": 3,
@@ -1948,7 +1948,7 @@
       {
         "front": "Anwender",
         "back": {
-          "body": "Dies ist jede Person (eine Person, ein Unternehmen oder eine Regierungsbehörde), die ein KI-System für ihre eigenen Operationen oder Dienste <b>nutzt</b>. Dies <i>schließt Personen nicht ein</i>, die KI ausschließlich für persönliche, nicht arbeitsbezogene Aktivitäten nutzen."
+          "body": "Dies ist jede Person (eine Person, ein Unternehmen oder eine Regierungsbehörde), die ein KI-System für ihre eigenen Operationen oder Dienste <b>nutzt</b>. Dies <i>schließt Personen nicht ein</i>, die KI ausschließlich für persönliche Aktivitäten nutzen."
         }
       },
       {
@@ -2057,7 +2057,7 @@
       {
         "title": "Biometrische Fernidentifizierung in Echtzeit",
         "body": "<b>Biometrische Fernidentifizierung in Echtzeit</b> für <b>Strafverfolgungszwecke</b> in <b>öffentlich zugänglichen Räumen</b> (mit begrenzten, strengen Ausnahmen für schwere Straftaten).",
-        "instruction": "Abschließen ✔"
+        "instruction": "Abgeschlossen ✔"
       }
     ],
     "_pageLevelProgress": {
@@ -2293,9 +2293,9 @@
     "_feedback": {
       "title": "Risikoklassifizierung erklärt",
       "altTitle": "Feedback on your risk classification.",
-      "correct": "Ausgezeichnet! Du hast diese KI-Praktiken gemäß ihren Risikostufen unter der EU-KI-Verordnung im Unternehmens-/Arbeitsplatzkontext korrekt klassifiziert. Dieses Verständnis ist entscheidend für die Einhaltung der Vorschriften.",
+      "correct": "Ausgezeichnet! Du hast diese KI-Praktiken gemäß ihren Risikostufen unter der EU KI-VO im Unternehmens-/Arbeitsplatzkontext korrekt klassifiziert. Dieses Verständnis ist entscheidend für die Einhaltung der Vorschriften.",
       "_incorrect": {
-        "notFinal": "Nicht ganz. Überprüfe die Abschnitte 'Verbotene Verwendungen' und 'Beispiele für Hochrisiko-Systeme' erneut und achte genau darauf, wie diese auf spezifische Aktionen am Arbeitsplatz zutreffen.",
+        "notFinal": "Nicht ganz. Überprüfe die Abschnitte 'Verbotene Anwendungen' und 'Beispiele für Hochrisiko-Systeme' erneut und achte genau darauf, wie diese auf spezifische Aktionen am Arbeitsplatz zutreffen.",
         "final": "Lassen wir uns die korrekten Klassifizierungen für KI-Praktiken überprüfen: 'Verbotene KI-Praktiken' sind solche, die ein inakzeptables Risiko für Grundrechte darstellen, wie die Verwendung von KI zur Ableitung von Emotionen von Mitarbeitern oder zur Erstellung von Verhaltens-Scores aus sozialen Medien. 'Hochrisiko-KI-Praktiken' sind solche, die erhebliche Risiken bergen, aber nicht gänzlich verboten sind, wie die Verwendung von KI bei der Personalbeschaffung oder der Leistungsbewertung von Arbeitnehmern."
       },
       "_partlyCorrect": {
@@ -2339,7 +2339,7 @@
     "_component": "mcq",
     "_classes": "",
     "_layout": "full",
-    "title": "Quiz: Rollen der EU-KI-Verordnung verstehen",
+    "title": "Quiz: Rollen der EU KI-VO verstehen",
     "displayTitle": "Teste dein Wissen: Wer ist wer?",
     "body": "Unternehmen X, ein in der EU ansässiges Unternehmen, integriert ein KI-gestütztes Tool zur Analyse der Kundenstimmung, das von einem Drittanbieter entwickelt wurde, in seine internen Kundensupport-Operationen, um das Kundenfeedback besser zu verstehen.",
     "instruction": "Wähle die Option, die die primäre Rolle von Unternehmen X am besten beschreibt.",
@@ -2382,11 +2382,11 @@
       }
     ],
     "_feedback": {
-      "title": "Rollen in der EU-KI-Verordnung verstehen",
+      "title": "Rollen in der EU KI-VO verstehen",
       "altTitle": "Feedback on your answer about EU AI Act roles.",
       "correct": "Das ist richtig! Unternehmen X agiert als Anwender, da es das KI-System für seine eigenen Operationen und Dienste nutzt, anstatt es für den kommerziellen Vertrieb zu erstellen, zu verkaufen oder zu importieren.",
       "_incorrect": {
-        "notFinal": "Nicht ganz. Überprüfe den Abschnitt 'Schlüsselrollen im Ökosystem der EU-KI-Verordnung'. Überlege, ob Unternehmen X das KI-Tool erstellt, verkauft oder einfach nur nutzt.",
+        "notFinal": "Nicht ganz. Überprüfe den Abschnitt 'Schlüsselrollen im Ökosystem der EU KI-VO'. Überlege, ob Unternehmen X das KI-Tool erstellt, verkauft oder einfach nur nutzt.",
         "final": "Die richtige Antwort ist Anwender. Ein Anbieter erstellt oder stellt ein KI-System unter eigenem Namen zur Verfügung. Ein Händler bietet ein KI-System zum Verkauf an, ohne der ursprüngliche Hersteller zu sein. Ein Importeur bringt ein System von außerhalb der EU zum Verkauf innerhalb der EU ein. Unternehmen X nutzt das KI-Tool lediglich für seine eigenen internen Geschäftszwecke, was die Rolle des Anwenders definiert."
       },
       "_partlyCorrect": {
