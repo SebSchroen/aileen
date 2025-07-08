@@ -11,7 +11,7 @@
     "pageBody": "",
     "instruction": "{{_globals._learnerInfo.firstname}}, bitte scrolle nach unten, um zu beginnen.",
     "_graphic": {
-      "src": "course/en/images/pexels-tara-winstead-8386440.jpg",
+      "src": "course/de/images/pexels-tara-winstead-8386440.jpg",
       "alt": "Tara Winstead @ Pexels.com",
       "attribution": "Tara Winstead @ Pexels.com"
     },
@@ -36,7 +36,7 @@
     "pageBody": "",
     "instruction": "{{_globals._learnerInfo.firstname}}, bitte scrolle nach unten, um zu beginnen.",
     "_graphic": {
-      "src": "course/en/images/pexels-markus-winkler-1430818-18498317.jpg",
+      "src": "course/de/images/pexels-markus-winkler-1430818-18498317.jpg",
       "alt": "Markus Winkler @ Pexels.com",
       "attribution": "Ekaterina Bolovtsova @ Pexels.com"
     },
@@ -61,7 +61,7 @@
     "pageBody": "",
     "instruction": "{{_globals._learnerInfo.firstname}}, bitte scrolle nach unten, um zu beginnen.",
     "_graphic": {
-      "src": "course/en/images/pexels-ekaterina-bolovtsova-6077797.jpg",
+      "src": "course/de/images/pexels-ekaterina-bolovtsova-6077797.jpg",
       "alt": "Ekaterina Bolovtsova @ Pexels.com",
       "attribution": "Ekaterina Bolovtsova @ Pexels.com"
     },
@@ -86,7 +86,7 @@
     "pageBody": "",
     "instruction": "{{_globals._learnerInfo.firstname}}, bitte scrolle nach unten, um zu beginnen.",
     "_graphic": {
-      "src": "course/en/images/pexels-marco-288924445-13153479.jpg",
+      "src": "course/de/images/pexels-marco-288924445-13153479.jpg",
       "alt": "Marco @ Pexels.com",
       "attribution": "Marco @ Pexels.com"
     },
@@ -111,7 +111,7 @@
     "pageBody": "",
     "instruction": "{{_globals._learnerInfo.firstname}}, bitte scrolle nach unten, um zu beginnen.",
     "_graphic": {
-      "src": "course/en/images/christian-lue-MZWBMNP7Nro-unsplash.jpg",
+      "src": "course/de/images/christian-lue-MZWBMNP7Nro-unsplash.jpg",
       "alt": "Christian Lue @ Unsplash.com",
       "attribution": "Christian Lue @ Unsplash.com"
     },

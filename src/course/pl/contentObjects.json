@@ -1,0 +1,127 @@
+[
+  {
+    "_id": "co-100",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "Wprowadzenie",
+    "displayTitle": "Wprowadzenie",
+    "body": "W tym module poznasz podstawowe koncepcje sztucznej inteligencji (AI). Omówimy, co oznacza inteligencja maszynowa i jak komputery są w stanie uczyć się z danych.",
+    "pageBody": "",
+    "instruction": "{{_globals._learnerInfo.firstname}}, przewiń w dół, aby rozpocząć.",
+    "_graphic": {
+      "src": "course/pl/images/pexels-tara-winstead-8386440.jpg",
+      "alt": "Tara Winstead @ Pexels.com",
+      "attribution": "Tara Winstead @ Pexels.com"
+    },
+    "linkText": "Zobacz",
+    "duration": "5 minut",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "co-101",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "Zniekształcenia i rozważania etyczne",
+    "displayTitle": "Zniekształcenia i rozważania etyczne",
+    "body": "Ten moduł przedstawia największe wyzwania etyczne w rozwoju i wykorzystaniu sztucznej inteligencji. Omówimy zniekształcenia w danych treningowych i potencjalną dyskryminację.",
+    "pageBody": "",
+    "instruction": "{{_globals._learnerInfo.firstname}}, przewiń w dół, aby rozpocząć.",
+    "_graphic": {
+      "src": "course/pl/images/pexels-markus-winkler-1430818-18498317.jpg",
+      "alt": "Markus Winkler @ Pexels.com",
+      "attribution": "Ekaterina Bolovtsova @ Pexels.com"
+    },
+    "linkText": "Zobacz",
+    "duration": "5 minut",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "co-103",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "Sztuczna Inteligencja i Prawo Autorskie",
+    "displayTitle": "Sztuczna Inteligencja i Prawo Autorskie",
+    "body": "Ten moduł bada złożone skrzyżowanie sztucznej inteligencji i prawa autorskiego. Omówimy kwestie własności treści generowanych przez AI, potencjalne naruszenia praw autorskich przez modele AI oraz rozwijające się ramy prawne wokół nowej technologii.",
+    "pageBody": "",
+    "instruction": "{{_globals._learnerInfo.firstname}}, przewiń w dół, aby rozpocząć.",
+    "_graphic": {
+      "src": "course/pl/images/pexels-ekaterina-bolovtsova-6077797.jpg",
+      "alt": "Ekaterina Bolovtsova @ Pexels.com",
+      "attribution": "Ekaterina Bolovtsova @ Pexels.com"
+    },
+    "linkText": "Zobacz",
+    "duration": "5 minut",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "co-104",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "Sztuczna Inteligencja i RODO",
+    "displayTitle": "Sztuczna Inteligencja i RODO",
+    "body": "W tym module zbadamy centralny związek między sztuczną inteligencją a ochroną danych. Zbadamy, jak systemy AI przetwarzają dane osobowe, jakie ryzyka dla prywatności to niesie i jakie przepisy prawne (np. RODO) definiują wykorzystanie danych w AI.",
+    "pageBody": "",
+    "instruction": "{{_globals._learnerInfo.firstname}}, przewiń w dół, aby rozpocząć.",
+    "_graphic": {
+      "src": "course/pl/images/pexels-marco-288924445-13153479.jpg",
+      "alt": "Marco @ Pexels.com",
+      "attribution": "Marco @ Pexels.com"
+    },
+    "linkText": "Zobacz",
+    "duration": "4 minuty",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "co-105",
+    "_parentId": "course",
+    "_type": "page",
+    "_classes": "",
+    "_htmlClasses": "",
+    "title": "Rozporządzenie UE w sprawie AI",
+    "displayTitle": "Rozporządzenie UE w sprawie AI",
+    "body": "W tym module szczegółowo omówimy wymagania rozporządzenia UE w sprawie AI (EU AI Act) oraz omówimy ważne pułapki i zalecenia dla użytkowników.",
+    "pageBody": "",
+    "instruction": "{{_globals._learnerInfo.firstname}}, przewiń w dół, aby rozpocząć.",
+    "_graphic": {
+      "src": "course/pl/images/christian-lue-MZWBMNP7Nro-unsplash.jpg",
+      "alt": "Christian Lue @ Unsplash.com",
+      "attribution": "Christian Lue @ Unsplash.com"
+    },
+    "linkText": "Zobacz",
+    "duration": "5 minut",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_excludeAssessments": false,
+      "_isCompletionIndicatorEnabled": true
+    }
+  }
+]

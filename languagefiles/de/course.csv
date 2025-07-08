@@ -67,3 +67,5 @@
 "course/course/_pageIncompletePrompt/_buttons/no/","Nein"
 "course/course/_pageIncompletePrompt/title/","Seite unvollständig"
 "course/course/_pageIncompletePrompt/message/","{{_globals._learnerInfo.firstname}}, es scheint, als hättest du diese Seite nicht beendet. Möchtest du wirklich gehen?"
+"course/course/_notifyOnComplete/title/","Kurs abgeschlossen!"
+"course/course/_notifyOnComplete/body/","Gut gemacht, {{_globals._learnerInfo.firstname}}! Du hast alle Inhalte durchgearbeitet und kannst das Fenster schließen."

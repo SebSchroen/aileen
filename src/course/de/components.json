@@ -33,8 +33,8 @@
         "_graphic": {
           "alt": "Matterhorn 2",
           "attribution": "",
-          "large": "course/en/images/matterhorn_1.jpg",
-          "small": "course/en/images/matterhorn_1.jpg"
+          "large": "course/de/images/matterhorn_1.jpg",
+          "small": "course/de/images/matterhorn_1.jpg"
         }
       },
       {
@@ -45,8 +45,8 @@
         "_graphic": {
           "alt": "Matterhorn 2",
           "attribution": "",
-          "large": "course/en/images/matterhorn_ai.jpg",
-          "small": "course/en/images/matterhorn_ai.jpg"
+          "large": "course/de/images/matterhorn_ai.jpg",
+          "small": "course/de/images/matterhorn_ai.jpg"
         }
       }
     ],
@@ -111,14 +111,14 @@
         "name": "",
         "_graphic": {
           "alt": "Benutzer-Avatar",
-          "src": "course/en/images/user_avatar.jpg"
+          "src": "course/de/images/user_avatar.jpg"
         }
       },
       {
         "name": "Alan",
         "_graphic": {
           "alt": "Alan Turing Porträt",
-          "src": "course/en/images/alan_avatar.png"
+          "src": "course/de/images/alan_avatar.png"
         }
       }
     ],
@@ -165,7 +165,7 @@
       },
       {
         "_character": 2,
-        "text": "Ja, in deinem Bildtest warst du der Richter und versuchtest zu entscheiden, ob die 'Ausgabe' (das Bild) von Menschen oder Maschinen erstellt wurde. Der Turing-Test erweitert diese Idee einfach auf <em>Konversation</em>. Kann ein Computer <em>konversationelle Ausgaben</em> erstellen, die von denen eines Menschen nicht zu unterscheiden sind?",
+        "text": "Ja, in deinem Bildtest warst du der Richter und versuchtest zu entscheiden, ob die <em>Ausgabe</em> (das Bild) von Menschen oder Maschinen erstellt wurde. Der Turing-Test erweitert diese Idee einfach auf <em>Konversation</em>. Kann ein Computer <em>konversationelle Ausgaben</em> erstellen, die von denen eines Menschen nicht zu unterscheiden sind?",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -273,7 +273,7 @@
         "title": "Überwachtes Lernen: Lernen mit einer Lehrperson",
         "body": "Überwachtes Lernen ist wie das Lernen mit einem Lehrer oder einer Lehrerin. Dem Algorithmus – der KI – werden Beispiele mit richtigen Antworten gegeben, auch <strong>gelabelte Daten</strong> genannt. <br> <br> Zum Beispiel könnten ihm Tausende von Bildern von Äpfeln gezeigt werden, jedes mit 'Apfel' beschriftet, und Bilder von Bananen, mit 'Banane' beschriftet. Das Ziel ist, dass die KI die Muster lernt, damit sie Äpfel oder Bananen in neuen, ungesehenen Bildern korrekt identifizieren kann. Frühe Spamfilter sind ein gängiges Beispiel für überwachtes Lernen.",
         "_graphic": {
-          "src": "course/en/images/supervised_learning.jpg",
+          "src": "course/de/images/supervised_learning.jpg",
           "attribution": "Generiert mit Google Imagen 4",
           "alt": "Diagramm, das überwachtes Lernen mit gelabelten Daten zeigt, die zu einem Vorhersagemodell führen."
         },
@@ -283,17 +283,17 @@
         "title": "Unüberwachtes Lernen: Muster selbst finden",
         "body": "Unüberwachtes Lernen ist, als würde man dem KI-System eine große Kiste mit durcheinandergewürfelten Gegenständen geben und es bitten, diese zu sortieren, ohne ihm zu sagen, wie. Die KI sucht selbst nach Ähnlichkeiten und Unterschieden, um die Gegenstände zu gruppieren. In diesem Fall haben die Gegenstände keine Beschriftung, aus der Schlüsse gezogen werden könnten. <br> <br> Das KI-System könnte sie nach Farbe, Größe oder Form gruppieren. Dies wird verwendet, um <strong>verborgene Muster oder Strukturen</strong> in Daten zu entdecken, wie zum Beispiel die Kundensegmentierung. Empfehlungen auf Netflix oder Spotify sind gängige Beispiele.",
         "_graphic": {
-          "src": "course/en/images/unsupervised_learning.jpg",
+          "src": "course/de/images/unsupervised_learning.jpg",
           "attribution": "Generiert mit Google Imagen 4",
           "alt": "Diagramm, das unüberwachtes Lernen beim Finden von Mustern in ungelabelten Daten zeigt."
         },
         "strapline": "Verborgene Strukturen entdecken"
       },
       {
-        "title": "Deep Learning: Mehr Schichten hinzufügen",
+        "title": "Deep Learning: Mehrere Schichten",
         "body": "Deep Learning ist eine fortgeschrittenere Version, die komplexere Aufgaben und höhere Leistung ermöglicht. Stell dir vor, du versuchst, einem Computer beizubringen, eine Katze auf einem Bild zu erkennen. Beim regulären maschinellen Lernen müsstest du dem Computer möglicherweise manuell sagen, wonach er suchen soll – spitze Ohren und Schnurrhaare. Deep Learning lernt diese Merkmale von allein, indem es sie über mehrere Schichten hinweg erkennt. <br> <br> <strong>Deep Learning</strong> wird oft für die <strong>Bilderkennung</strong> verwendet. Betrachte die Schichten im Bild: In der ersten Schicht erkennt das Netzwerk möglicherweise nur Kanten und Ecken. Die nächste Schicht kombiniert diese Kanten, um Formen zu bilden. Und die nächste Schicht kombiniert die Formen, um Katzenmerkmale zu erkennen. Schließlich fügt die letzte Schicht alles zusammen und sagt: 'Das ist eine Katze!'",
         "_graphic": {
-          "src": "course/en/images/deep_learning.jpg",
+          "src": "course/de/images/deep_learning.jpg",
           "attribution": "Generiert mit Google Imagen 4",
           "alt": "Diagramm, das Deep Learning mit einer Katze zeigt."
         },
@@ -465,14 +465,14 @@
       {
         "type": "0",
         "_graphic": {
-          "src": "course/en/images/pilot_1.png",
+          "src": "course/de/images/pilot_1.png",
           "alt": "Platzhaltergrafik"
         }
       },
       {
         "type": "0",
         "_graphic": {
-          "src": "course/en/images/pilot_1.png",
+          "src": "course/de/images/pilot_1.png",
           "alt": ""
         },
         "_classes": ""
@@ -480,7 +480,7 @@
       {
         "type": "1",
         "_graphic": {
-          "src": "course/en/images/pilot_2.png",
+          "src": "course/de/images/pilot_2.png",
           "alt": ""
         },
         "_classes": ""
@@ -488,7 +488,7 @@
       {
         "type": "1",
         "_graphic": {
-          "src": "course/en/images/pilot_2.png",
+          "src": "course/de/images/pilot_2.png",
           "alt": ""
         },
         "_classes": ""
@@ -496,7 +496,7 @@
       {
         "type": "2",
         "_graphic": {
-          "src": "course/en/images/pilot_3.png",
+          "src": "course/de/images/pilot_3.png",
           "alt": ""
         },
         "_classes": ""
@@ -504,7 +504,7 @@
       {
         "type": "2",
         "_graphic": {
-          "src": "course/en/images/pilot_3.png",
+          "src": "course/de/images/pilot_3.png",
           "alt": ""
         },
         "_classes": ""
@@ -598,7 +598,7 @@
         "title": "<p> der 30 generierten Bilder von Piloten zeigen männliche Merkmale.</p>",
         "body": "",
         "_graphic": {
-          "src": "course/en/images/pilot_1.png",
+          "src": "course/de/images/pilot_1.png",
           "alt": "Grafik 1"
         },
         "_countStart": 0,
@@ -610,7 +610,7 @@
         "title": "<p> der 30 generierten Flugbegleiter sind Frauen mit sehr ähnlichen Merkmalen.</p>",
         "body": "",
         "_graphic": {
-          "src": "course/en/images/flight_attendant_1.png",
+          "src": "course/de/images/flight_attendant_1.png",
           "alt": "Grafik 2"
         },
         "_countStart": 0,
@@ -622,7 +622,7 @@
         "title": "<p> der generierten Klempnerbilder sind Männer, einige von ihnen ähneln sogar einem berühmten Videospielcharakter.</p>",
         "body": "",
         "_graphic": {
-          "src": "course/en/images/plumber_1.png",
+          "src": "course/de/images/plumber_1.png",
           "alt": "Grafik 3"
         },
         "_countStart": 0,
@@ -634,7 +634,7 @@
         "title": "<p> der generierten Krankenpflegerbilder sind Frauen eines sehr ähnlichen Phänotyps.</p>",
         "body": "",
         "_graphic": {
-          "src": "course/en/images/nurse_1.png",
+          "src": "course/de/images/nurse_1.png",
           "alt": "Grafik 3"
         },
         "_countStart": 0,
@@ -662,8 +662,8 @@
     "_graphic": {
       "alt": "",
       "longdescription": "",
-      "large": "course/en/images/embeddings_and_gender.png",
-      "small": "course/en/images/embeddings_and_gender.png",
+      "large": "course/de/images/gender_bias_plot_de.png",
+      "small": "course/de/images/gender_bias_plot_de.png",
       "_url": "",
       "_target": "_blank"
     },
@@ -693,7 +693,7 @@
       },
       {
         "title": "So liest du die Grafik",
-        "body": "Jeder Balken zeigt die Geschlechterzuordnung eines Berufs. Der hellblaue Bereich zeigt die 'männliche' Zuordnung, und der dunkelblaue zeigt die 'weibliche' Zuordnung. Zusammen ergeben sie immer 100%.",
+        "body": "Jeder Balken zeigt die Geschlechterzuordnung eines Berufs. Der hellblaue Bereich zeigt die männliche Zuordnung, und der dunkelblaue zeigt die weibliche Zuordnung. Zusammen ergeben sie immer 100%.",
         "instruction": "Weiter »"
       },
       {
@@ -718,7 +718,7 @@
       },
       {
         "title": "Warum das wichtig ist",
-        "body": "Wenn Sprachmodelle diese Verzerrungen erben, können sie in realen Anwendungen, wie der Lebenslaufprüfung oder der Inhaltserstellung, zu unfairen oder verzerrten Ergebnissen führen.",
+        "body": "Wenn Sprachmodelle diese Verzerrungen erben, können sie in realen Anwendungen, wie der Lebenslaufprüfung oder der Textgenerierung, zu unfairen oder verzerrten Ergebnissen führen.",
         "instruction": "Weiter »"
       },
       {
@@ -840,7 +840,7 @@
       {
         "front": "Daten sind nicht repräsentativ",
         "back": {
-          "body": "Dieses Problem tritt auf, wenn ein maschinelles Lernsystem auf Daten trainiert wird, die die Population, auf die das System angewendet werden soll, <b>nicht vollständig repräsentieren</b>. KI-Systeme können dann diese Repräsentationsverzerrung widerspiegeln, wenn sie realen Daten ausgesetzt sind, die sich erheblich von den Trainingsdaten unterscheiden, was zu <b>verzerrten oder unfairen Ergebnissen</b> führt."
+          "body": "Dieses Problem tritt auf, wenn ein maschinelles Lernsystem auf Daten trainiert wird, die die Population, auf die das System angewendet werden soll, <b>nicht vollständig repräsentieren</b>. KI-Systeme können dann diese Repräsentationsverzerrung widerspiegeln, wenn sie realen Daten ausgesetzt sind, die sich erheblich von den Trainingsdaten unterscheiden und <b>verzerrte oder unfairen Ergebnisse</b> liefern."
         }
       }
     ],
@@ -873,7 +873,7 @@
       {
         "tabTitle": "Fall 2: Bewährungsentscheidungen",
         "title": "Fall 2: KI-Verzerrung bei Bewährungsentscheidungen",
-        "body": "Ein Gefangener namens Glenn Rodríguez, der eine <b>vorbildliche Rehabilitationsakte</b> hatte, beantragte eine vorzeitige Entlassung, die jedoch abgelehnt wurde. Die Entscheidung des Bewährungsausschusses basierte auf einer <b>\"Hochrisiko\"-Prognose</b> eines KI-Systems namens COMPAS. Der Ausschuss <b>wusste nicht, wie der Algorithmus der KI funktionierte</b>, da es sich um ein Geschäftsgeheimnis handelte. Rodríguez entdeckte später, dass seine hohe Punktzahl auf <b>subjektiven und potenziell rassistisch voreingenommenen Ansichten</b> von Gefängniswärtern beruhte. Obwohl er schließlich freigelassen wurde, wurde seine Freilassung doch stark verzägert <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(siehe Stahl et al. 2023).</a>",
+        "body": "Ein Gefangener namens Glenn Rodríguez, der eine <b>vorbildliche Rehabilitationsakte</b> hatte, beantragte eine vorzeitige Entlassung, die jedoch abgelehnt wurde. Die Entscheidung des Bewährungsausschusses basierte auf der Prognose eines KI-Systems namens COMPAS. Der Ausschuss <b>wusste nicht, wie der Algorithmus der KI funktionierte</b>, da es sich um ein Geschäftsgeheimnis handelte. Rodríguez entdeckte später, dass seine hohe Punktzahl auf <b>subjektiven und potenziell rassistisch voreingenommenen Ansichten</b> von Gefängniswärtern beruhte. Obwohl er schließlich freigelassen wurde, wurde seine Freilassung doch stark verzögert <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(siehe Stahl et al. 2023).</a>",
         "_classes": ""
       },
       {
@@ -910,7 +910,7 @@
         "_titleIcon": "",
         "_imageAlignment": "left",
         "_graphic": {
-          "src": "course/en/images/pexels-lilartsy-8730085.jpg",
+          "src": "course/de/images/pexels-lilartsy-8730085.jpg",
           "attribution": "<a href=\"https://www.pexels.com/photo/woman-blindfolded-8730085/\" target=\"_blank\" style=\"color: white;\">Lil Artsy auf www.pexels.com</a>",
           "alt": ""
         },
@@ -922,7 +922,7 @@
         "_titleIcon": "",
         "_imageAlignment": "right",
         "_graphic": {
-          "src": "course/en/images/guardrails_1.jpg",
+          "src": "course/de/images/guardrails_1.jpg",
           "attribution": "Generiert mit Google Imagen 4",
           "alt": ""
         },
@@ -930,11 +930,11 @@
       },
       {
         "title": "Neue Modelle sind tendenziell besser",
-        "body": "Moderne KI-Modelle zeigen tendenziell eine <b>Reduzierung der Voreingenommenheit</b>, was auf zwei Hauptfaktoren zurückzuführen ist: die <b>Implementierung expliziter Sicherheitsmechanishmen</b> und ein <b>ausgefeilteres sprachliches Verständnis</b>, das über die vereinfachten Geschlechterrollen-Korrelationen früherer Modelle hinausgeht. <br> <br> Zum Beispiel führen die in ChatGPT integrierten Spracheinbettungen zu <b>deutlich gerechteren Assoziationen</b> zwischen Geschlecht und Berufen im Gegensatz zur obigen Grafik. <br> <br> Ebenso demonstriert Googles Imagen 4 diesen Fortschritt, indem es eine <b>größere demografische Vielfalt</b> erzeugt; eine Aufforderung für ein 'realistisches Foto eines Krankenpflegers' führt zu Bildern, die Männer und Frauen in etwa gleichem Maße zeigen. Betrachte das Bild links.",
+        "body": "Moderne KI-Modelle zeigen tendenziell eine <b>Reduzierung der Voreingenommenheit</b>, was auf zwei Hauptfaktoren zurückzuführen ist: die <b>Implementierung expliziter Sicherheitsmechanishmen</b> und ein <b>ausgefeilteres sprachliches Verständnis</b>, das über die vereinfachten Geschlechterrollen-Korrelationen früherer Modelle hinausgeht. <br> <br> Zum Beispiel führen die in ChatGPT integrierten Spracheinbettungen zu <b>deutlich gerechteren Assoziationen</b> zwischen Geschlecht und Berufen im Gegensatz zur obigen Grafik. <br> <br> Ebenso demonstriert Googles Imagen 4 diesen Fortschritt, indem es eine <b>größere demografische Vielfalt</b> erzeugt; der Prompt 'realistisches Foto eines Krankenpflegers' generiert nun Bilder, die Männer und Frauen in etwa gleichem Maße zeigen. Betrachte das Bild links.",
         "_titleIcon": "",
         "_imageAlignment": "left",
         "_graphic": {
-          "src": "course/en/images/nurse_2.png",
+          "src": "course/de/images/nurse_2.png",
           "attribution": "Generiert mit Google Imagen 4",
           "alt": ""
         },
@@ -1055,7 +1055,7 @@
     "_layout": "full",
     "title": "Urheberrecht im Allgemeinen",
     "displayTitle": "Was ist Urheberrecht?",
-    "body": "Das Urheberrecht ist ein <b>Recht</b>, das Urhebern die <b>ausschließliche Kontrolle</b> über ihre originellen literarischen und künstlerischen Werke gewährt. Als Teil des Gesetzes über geistiges Eigentum (IP) schützt es 'Werke der Urheberschaft', indem es Urhebern ermöglicht, die Nutzung und Verbreitung ihrer Kreationen zu verwalten.",
+    "body": "Das Urheberrecht ist ein <b>Recht</b>, das Urhebern die <b>ausschließliche Kontrolle</b> über ihre originellen literarischen und künstlerischen Werke gewährt. Als Teil des Gesetzes über geistiges Eigentum (IP) schützt es 'Werke der Urheberschaft', indem es Urheber*innen ermöglicht, die Nutzung und Verbreitung ihrer Kreationen zu verwalten.",
     "instruction": "Klicke auf die Felder unten, um mehr über das Urheberrecht zu erfahren.",
     "_columns": 3,
     "_animationType": "shrink",
@@ -1063,7 +1063,7 @@
       {
         "front": "Was ist geschützt?",
         "back": {
-          "body": "Das Urheberrecht schützt den <b><em>konkreten Ausdruck</em> einer Idee</b>, nicht die Idee selbst. Es gilt für greifbare literarische und künstlerische Werke wie Romane, Lieder, Gemälde und Software und gibt Urhebern die <b>Kontrolle über ihre spezifischen Manifestationen</b>."
+          "body": "Das Urheberrecht schützt den <b><em>konkreten Ausdruck</em> einer Idee</b>, nicht die Idee selbst. Es gilt für greifbare literarische und künstlerische Werke wie Romane, Lieder, Gemälde und Software und gibt Urheber*innen die <b>Kontrolle über ihre spezifischen Manifestationen</b>."
         }
       },
       {
@@ -1160,7 +1160,7 @@
       },
       {
         "title": "Während des Trainings ist dies eine fortlaufende Debatte",
-        "body": "KI-Modelle werden auf riesigen Datenmengen trainiert, oft einschließlich urheberrechtlich geschützter Materialien, die aus dem Internet gescrapt wurden. Die Verwendung dieser Daten ohne ausdrückliche Genehmigung kann als Urheberrechtsverletzung angesehen werden. In den USA argumentieren Befürworter oft, dass dies unter 'Fair Use' fällt. In Deutschland und der EU existieren spezifische Ausnahmen für 'Text- und Data Mining' (TDM), die TDM unter bestimmten Bedingungen wie wissenschaftlicher Forschung erlauben."
+        "body": "KI-Modelle werden auf riesigen Datenmengen trainiert, oft einschließlich urheberrechtlich geschützter Materialien, die aus dem Internet gescrapt wurden. Die Verwendung dieser Daten ohne ausdrückliche Genehmigung kann als Urheberrechtsverletzung angesehen werden. In den USA argumentieren Befürworter oft, dass dies unter 'Fair Use' fällt. In Deutschland und der EU existieren spezifische Ausnahmen wie wissenschaftliche Forschung."
       }
     ],
     "_pageLevelProgress": {
@@ -1177,7 +1177,7 @@
     "_layout": "full",
     "title": "Laufende Urheberrechtsfälle",
     "displayTitle": "...insbesondere nach Ansicht der Urheberrechtsinhaber",
-    "body": "Lassen wir uns wichtige laufende Gerichtsverfahren untersuchen, die die Schnittstelle von KI-Training und Urheberrecht prägen.",
+    "body": "Schauen wir auf wichtige laufende Gerichtsverfahren zur Schnittstelle von KI-Training und Urheberrecht.",
     "instruction": "Wähle die Tabs aus, um mehr zu erfahren.",
     "_tabLayout": "horizontal",
     "_minHeight": "200px",
@@ -1186,7 +1186,7 @@
       {
         "tabTitle": "NYT vs. OpenAI",
         "title": "NYT vs. OpenAI & Microsoft",
-        "body": "Die New York Times verklagte OpenAI und Microsoft mit der Behauptung, OpenAI habe Millionen ihrer Artikel ohne Genehmigung oder Bezahlung kopiert, um seine großen Sprachmodelle zu trainieren. Die Verteidigung von OpenAI stützt sich auf die Fair-Use-Doktrin. Ein Bundesrichter erlaubte kürzlich, die Hauptansprüche wegen Urheberrechtsverletzung weiterzuverfolgen und lehnte den Antrag von OpenAI auf Abweisung ab. Dieser hochkarätige Fall ist entscheidend für die Definition der Beziehung zwischen generativer KI und Urheberrecht.",
+        "body": "Die New York Times verklagte OpenAI und Microsoft mit der Behauptung, OpenAI habe Millionen ihrer Artikel ohne Genehmigung oder Bezahlung kopiert, um seine großen Sprachmodelle (bspw. ChatGPT) zu trainieren. Die Verteidigung von OpenAI stützt sich auf die Fair-Use-Doktrin. Ein Bundesrichter erlaubte kürzlich, die Hauptansprüche wegen Urheberrechtsverletzung weiterzuverfolgen und lehnte den Antrag von OpenAI auf Abweisung ab. Dieser hochkarätige Fall ist entscheidend für die Definition der Beziehung zwischen generativer KI und Urheberrecht.",
         "_classes": ""
       },
       {
@@ -1216,7 +1216,7 @@
     "_layout": "full",
     "title": "Verletzung durch KI-Ausgabe",
     "displayTitle": "Ja, KI-Ausgabe kann Urheberrechte verletzen",
-    "body": "Auch wenn ein KI-Modell legal trainiert wird, kann der <b>von ihm generierte Inhalt dennoch zu Urheberrechtsverletzungen führen</b>. Dies geschieht, wenn die Ausgabe der KI einem bestehenden urheberrechtlich geschützten Werk <b>zu ähnlich ist</b> und somit die Rechte des ursprünglichen Urhebers verletzt.",
+    "body": "Auch wenn ein KI-Modell legal trainiert wird, kann der <b>von ihm generierte Inhalt dennoch zu Urheberrechtsverletzungen führen</b>. Dies geschieht, wenn die Ausgabe der KI einem bestehenden urheberrechtlich geschützten Werk <b>zu ähnlich ist</b> und somit Urheberrechte verletzt.",
     "instruction": "Verwende die Pfeile unten, um zu erkunden, wie KI-generierte Inhalte Urheberrechte verletzen können.",
     "mobileInstruction": "Wähle das Plus-Symbol und dann den nächsten Pfeil, um mehr zu erfahren.",
     "_hasNavigationInTextArea": false,
@@ -1230,7 +1230,7 @@
         "body": "Wenn KI-generierte Inhalte (wie ein Bild, Text oder Musik) einem bestehenden urheberrechtlich geschützten Werk <b>so ähnlich sind</b>, dass eine durchschnittliche Person es als Kopie erkennen würde, kann es als <b>verletzend angesehen werden</b>. Das bedeutet, die KI-Ausgabe hat <b>genügend kreative Elemente des Originals erfasst</b>, um eine rechtliche Schwelle zu überschreiten.",
         "strapline": "Zu nah für Komfort",
         "_graphic": {
-          "src": "course/en/images/getty.png",
+          "src": "course/de/images/getty.png",
           "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
           "alt": "Diagramm, das überwachtes Lernen mit gelabelten Daten zeigt, die zu einem Vorhersagemodell führen."
         }
@@ -1240,7 +1240,7 @@
         "body": "Urheberrechtsinhaber haben das <b>ausschließliche Recht, 'abgeleitete Werke' zu erstellen</b> – neue Werke, die auf ihren Originalkreationen basieren. Wenn ein Benutzer eine KI auffordert, Inhalte zu generieren, die eindeutig auf einem urheberrechtlich geschützten Charakter, einer Umgebung oder einem spezifischen künstlerischen Stil <b>ohne Genehmigung aufbauen</b> (z. B. eine neue Geschichte mit einer berühmten Zeichentrickfigur), könnte die Ausgabe der KI als <b>unautorisiertes abgeleitetes Werk</b> angesehen werden.",
         "strapline": "Auf den Kreationen anderer aufbauen",
         "_graphic": {
-          "src": "course/en/images/banksy.png",
+          "src": "course/de/images/banksy.png",
           "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
           "alt": "Diagramm, das überwachtes Lernen mit gelabelten Daten zeigt, die zu einem Vorhersagemodell führen."
         }
@@ -1250,7 +1250,7 @@
         "body": "Dies zeigt, wie KI Elemente aus ihren Trainingsdaten erlernen und dann in ihrer Ausgabe reproduzieren kann. Je unverwechselbarer und häufiger ein Charakter oder visueller Identifikator in den Trainingsdaten dargestellt wird, <b>desto wahrscheinlicher ist es, dass die KI ihn reproduziert</b>, wenn sie dazu aufgefordert wird. Zum Beispiel kann KI <b>sehr ähnliche Darstellungen</b> bekannter Charaktere wie Snoopy oder Mickey Mouse generieren oder unverwechselbare künstlerische Stile reproduzieren. Dies geschieht, weil die KI konsistente Merkmale lernt, was es leicht macht, eine <b>verletzende Ausgabe hervorzurufen</b>, auch wenn es keine exakte Kopie eines einzelnen Originalwerks ist.",
         "strapline": "Wenn KI 'sich erinnert'",
         "_graphic": {
-          "src": "course/en/images/snoopy_problem.png",
+          "src": "course/de/images/snoopy_problem.png",
           "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
           "alt": "Diagramm, das überwachtes Lernen mit gelabelten Daten zeigt, die zu einem Vorhersagemodell führen."
         }
@@ -1270,7 +1270,7 @@
     "_layout": "full",
     "title": "KI-Ausgabe ist nicht urheberrechtlich schützbar",
     "displayTitle": "Nein, KI-Ergebnisse sind nicht direkt urheberrechtlich schützbar",
-    "body": "Das derzeitige Verständnis und der Rahmen des Urheberrechts erlauben im Allgemeinen nicht die Urheberrechtsschutz von Ausgaben direkt durch KI-Modelle, da KI-Systeme selbst nicht als Urheber oder juristische Personen angesehen werden können.",
+    "body": "Das derzeitige Verständnis und der Rahmen des Urheberrechts erlauben im Allgemeinen keinen Urheberrechtsschutz von Ausgaben direkt durch KI-Modelle, da KI-Systeme selbst nicht als Urheber*innen oder juristische Personen angesehen werden können.",
     "instruction": "Klicke auf die Felder unten, um die Nuancen des Urheberrechts für mit KI erstellte Inhalte zu erkunden.",
     "_columns": 3,
     "_animationType": "shrink",
@@ -1278,7 +1278,7 @@
       {
         "front": "Menschliche Urheberschaft ist erforderlich",
         "back": {
-          "body": "Das Urheberrecht erfordert grundsätzlich <b>menschlichen Urheber*innen</b>. Dies beinhaltet einen '<b>persönlichen Stempel</b>' und '<b>freie, bewusste Entscheidungen</b>', die menschliche Persönlichkeit und Kreativität widerspiegeln. KI-Systeme, denen der <b>Status einer juristischen Person</b> fehlt, können keine Persönlichkeit ausdrücken oder Rechte innehaben, wodurch sie als Urheber*innen disqualifiziert werden."
+          "body": "Das Urheberrecht erfordert grundsätzlich <b>menschliche Urheber*innen</b>. Dies beinhaltet einen '<b>persönlichen Stempel</b>' und '<b>freie, bewusste Entscheidungen</b>', die menschliche Persönlichkeit und Kreativität widerspiegeln. KI-Systeme, denen der <b>Status einer juristischen Person</b> fehlt, können keine Persönlichkeit ausdrücken oder Rechte innehaben, wodurch sie als Urheber*innen disqualifiziert werden."
         }
       },
       {
@@ -1290,7 +1290,7 @@
       {
         "front": "Unzureichender menschlicher Input",
         "back": {
-          "body": "Wenn der menschliche Input bei '<b>freien und kreativen Entscheidungen</b>' '<b>unzureichend</b>' ist, fehlt KI-generierten Inhalten möglicherweise die notwendige '<b>Urheberschaft</b>' für den Urheberrechtsschutz. Der Schutz hängt vollständig vom Grad und der Art des <b>menschlichen kreativen Inputs</b> ab."
+          "body": "Wenn der menschliche Input bei '<b>freien und kreativen Entscheidungen</b>' <b>unzureichend</b> ist, fehlt KI-generierten Inhalten möglicherweise die notwendige <b>Urheberschaft</b> für den Urheberrechtsschutz. Der Schutz hängt vollständig vom Grad und der Art des <b>menschlichen kreativen Inputs</b> ab."
         }
       }
     ],
@@ -1306,8 +1306,8 @@
     "_component": "list",
     "_classes": "",
     "_layout": "full",
-    "title": "Wichtige Empfehlungen",
-    "displayTitle": "Wichtige Empfehlungen",
+    "title": "Wichtige Leitlinien",
+    "displayTitle": "Wichtige Leitlinien",
     "body": "Zum Abschluss dieses Moduls findest du hier drei wichtige Empfehlungen für den Umgang mit der komplexen Landschaft des Urheberrechts und der Künstlichen Intelligenz:",
     "instruction": "",
     "_columns": 0,
@@ -1330,8 +1330,8 @@
         "body": "Um das Urheberrecht für KI-unterstützte Werke zu sichern, stelle eine signifikante menschliche Intervention, kreative Leitung oder Modifikation der KI-Ausgabe sicher, da KI allein keine Urheberin sein kann."
       },
       {
-        "title": "Im Zweifelsfall Rechtsberater hinzuziehen",
-        "body": "Wenn du dir nicht sicher bist, ob dein neuer Inhalt das Urheberrecht verletzt, ziehe immer Rechtsexperten hinzu, z. B. das Rechtsteam deines Unternehmens."
+        "title": "Im Zweifelsfall Rechtsberatung hinzuziehen",
+        "body": "Wenn du dir nicht sicher bist, ob dein neuer Inhalt das Urheberrecht verletzt, ziehe immer Rechtsberatung hinzu, z. B. das Rechtsteam deines Unternehmens."
       }
     ],
     "bodyAfter": "",
@@ -1392,14 +1392,14 @@
     "_feedback": {
       "title": "Erklärung der Urheberrechtsbedingungen",
       "altTitle": "Feedback on your answer about copyright conditions.",
-      "correct": "Das ist richtig! Das Feld 'Was sind die Bedingungen?' besagt ausdrücklich, dass ein Werk ein 'konkreter Ausdruck' und eine 'intellektuelle Schöpfung eines menschlichen Urhebers' sein muss, um urheberrechtlich geschützt zu sein, wobei insbesondere die menschliche Urheberschaft im deutschen und EU-Recht als grundlegend hervorgehoben wird.",
+      "correct": "Das ist richtig! Das Feld 'Was sind die Bedingungen?' besagt ausdrücklich, dass ein Werk ein 'konkreter Ausdruck' und eine 'intellektuelle Schöpfung menschlicher Urheber*innen' sein muss, um urheberrechtlich geschützt zu sein, wobei insbesondere die menschliche Urheberschaft im deutschen und EU-Recht als grundlegend hervorgehoben wird.",
       "_incorrect": {
         "notFinal": "Nicht ganz. Überprüfe das Feld 'Was sind die Bedingungen?' im Abschnitt 'Urheberrecht im Allgemeinen'. Achte genau darauf, was als 'originell' gilt.",
-        "final": "Die richtige Antwort ist: Es muss ein konkreter Ausdruck einer Idee und eine intellektuelle Schöpfung eines menschlichen Urhebers sein. Das Urheberrecht schützt den Ausdruck einer Idee, nicht die Idee selbst, und erfordert menschliche Kreativität und einen 'persönlichen Stempel' für den Schutz unter vielen rechtlichen Rahmenbedingungen."
+        "final": "Die richtige Antwort ist: Es muss ein konkreter Ausdruck einer Idee und eine intellektuelle Schöpfung menschlicher Urheber*innen sein. Das Urheberrecht schützt den Ausdruck einer Idee, nicht die Idee selbst, und erfordert menschliche Kreativität und einen 'persönlichen Stempel' für den Schutz unter vielen rechtlichen Rahmenbedingungen."
       },
       "_partlyCorrect": {
         "notFinal": "Diese Frage hat nur eine richtige Antwort. Bitte überprüfe deine Wahl anhand des Inhalts.",
-        "final": "Diese Frage hat nur eine richtige Antwort. Die richtige Antwort ist, dass ein Werk ein konkreter Ausdruck einer Idee und eine intellektuelle Schöpfung eines menschlichen Urhebers sein muss, um urheberrechtlich geschützt zu sein."
+        "final": "Diese Frage hat nur eine richtige Antwort. Die richtige Antwort ist, dass ein Werk ein konkreter Ausdruck einer Idee und eine intellektuelle Schöpfung menschlicher Urheber*innen sein muss, um urheberrechtlich geschützt zu sein."
       }
     },
     "_buttons": {
@@ -1589,7 +1589,7 @@
       {
         "tabTitle": "Datenerfassung & Training",
         "title": "Phase 1: Datenerfassung & Ersttraining",
-        "body": "KI-Systeme basieren auf einem <b>'enormen Datenhunger'</b>. Diese Anfangsphase beinhaltet das Sammeln riesiger Datenmengen, um Algorithmen zum Erkennen von Mustern und zum Treffen von Vorhersagen zu trainieren. Wenn die Daten ausreichend granular sind, können sie die <b>Wiedererkennung von Personen</b> ermöglichen, was bedeutet, dass personenbezogene Daten von Anfang an involviert sind. Diese Ansammlung relevanter Daten ist ein Schlüsselfaktor für KI-bezogene Probleme, da sie oft zur Erstellung von <em>Persönlichkeitsprofilen oder für individualisierte Dienste verwendet wird.</em>",
+        "body": "KI-Systeme basieren auf einem <b>'enormen Datenhunger'</b>. Diese Anfangsphase beinhaltet das Sammeln riesiger Datenmengen, um Algorithmen zur Mustererkennung oder Vorhersagen zu trainieren. Wenn die Daten ausreichend granular sind, können sie die <b>Wiedererkennung von Personen</b> ermöglichen, was bedeutet, dass personenbezogene Daten von Anfang an involviert sind. Diese Ansammlung relevanter Daten ist ein Schlüsselfaktor für KI-bezogene Probleme, da sie oft zur Erstellung von <em>Persönlichkeitsprofilen oder für individualisierte Dienste verwendet wird.</em>",
         "_classes": ""
       },
       {
@@ -1652,7 +1652,7 @@
     "_classes": "",
     "_layout": "full",
     "title": "Wichtige Empfehlungen",
-    "displayTitle": "Empfehlungen für Benutzer",
+    "displayTitle": "Leitlnien im Umgang mit personenbezogenen Daten",
     "body": "Als Endbenutzer*in können deine Handlungen den Datenschutz innerhalb von Unternehmens-KI-Systemen erheblich beeinflussen.",
     "instruction": "Erkunde diese Empfehlungen, um zu verstehen, wie du personenbezogene Daten schützen kannst.",
     "_columns": 3,
@@ -1667,13 +1667,13 @@
       {
         "front": "Daten anonymisieren",
         "back": {
-          "body": "Wenn deine Rolle die Handhabung oder Eingabe von Daten beinhaltet, die zu KI-Systemen beitragen, <b>priorisiere die Verwendung von Anonymisierungs- oder Pseudonymisierungstechniken</b>, um persönliche Identifikatoren zu entfernen oder zu verschleiern. Diese Methoden sind entscheidend, um das Risiko der <em>Wiedererkennung zu reduzieren und stimmen mit dem Prinzip der Datenminimierung überein.</em>"
+          "body": "Wenn deine Rolle die Handhabung oder Eingabe von Daten beinhaltet, die zu KI-Systemen beitragen, <b>priorisiere die Verwendung von Anonymisierungs- oder Pseudonymisierungstechniken</b>, um persönliche Identifikatoren zu entfernen oder zu verschleiern."
         }
       },
       {
         "front": "Deine Einwilligung überprüfen",
         "back": {
-          "body": "Als Einzelperson, die ihre eigenen Daten bereitstellt, <b>prüfe sorgfältig Anfragen nach deiner Einwilligung,</b> insbesondere wenn sie vage, implizit oder als Standard-Opt-out dargestellt werden. Die DSGVO verlangt, dass die Einwilligung <b>'freiwillig, spezifisch, informiert und unmissverständlich'</b> erteilt wird, was hervorhebt, dass <em>weite oder implizite Vereinbarungen oft unzureichend sind.</em>"
+          "body": "Als Einzelperson, die ihre eigenen Daten bereitstellt, <b>prüfe sorgfältig Anfragen nach deiner Einwilligung,</b> insbesondere wenn sie vage, implizit oder als Standard-Opt-out dargestellt werden. Die DSGVO verlangt, dass die Einwilligung <b>'freiwillig, spezifisch, informiert und unmissverständlich'</b> erteilt wird."
         }
       }
     ],
@@ -1994,8 +1994,8 @@
     "_graphic": {
       "alt": "",
       "longdescription": "",
-      "large": "course/en/images/erwan-hesry-IqB5MPcQp6k-unsplash.jpg",
-      "small": "course/en/images/erwan-hesry-IqB5MPcQp6k-unsplash.jpg",
+      "large": "course/de/images/erwan-hesry-IqB5MPcQp6k-unsplash.jpg",
+      "small": "course/de/images/erwan-hesry-IqB5MPcQp6k-unsplash.jpg",
       "_url": "",
       "_target": "_blank",
       "attribution": "<a href=\"https://unsplash.com/photos/traffic-light-in-red-IqB5MPcQp6k\" target=\"_blank\" style=\"color: white;\">Erwan Hesry auf www.unsplash.com</a>"
@@ -2079,8 +2079,8 @@
     "_graphic": {
       "alt": "",
       "longdescription": "",
-      "large": "course/en/images/yellow_light_imagen.jpg",
-      "small": "course/en/images/yellow_light_imagen.jpg",
+      "large": "course/de/images/yellow_light_imagen.jpg",
+      "small": "course/de/images/yellow_light_imagen.jpg",
       "_url": "",
       "_target": "_blank",
       "attribution": "Generiert mit Google Imagen 4"
@@ -2147,7 +2147,7 @@
       {
         "title": "Justizverwaltung & Demokratie",
         "body": "KI-Systeme, die dazu bestimmt sind, <b>Justizbehörden zu unterstützen</b> oder das <b>Ergebnis von Wahlen</b> oder Referenden zu beeinflussen.",
-        "instruction": "Abschließen ✔"
+        "instruction": "Abgeschlossen ✔"
       }
     ],
     "_pageLevelProgress": {
@@ -2296,7 +2296,7 @@
       "correct": "Ausgezeichnet! Du hast diese KI-Praktiken gemäß ihren Risikostufen unter der EU KI-VO im Unternehmens-/Arbeitsplatzkontext korrekt klassifiziert. Dieses Verständnis ist entscheidend für die Einhaltung der Vorschriften.",
       "_incorrect": {
         "notFinal": "Nicht ganz. Überprüfe die Abschnitte 'Verbotene Anwendungen' und 'Beispiele für Hochrisiko-Systeme' erneut und achte genau darauf, wie diese auf spezifische Aktionen am Arbeitsplatz zutreffen.",
-        "final": "Lassen wir uns die korrekten Klassifizierungen für KI-Praktiken überprüfen: 'Verbotene KI-Praktiken' sind solche, die ein inakzeptables Risiko für Grundrechte darstellen, wie die Verwendung von KI zur Ableitung von Emotionen von Mitarbeitern oder zur Erstellung von Verhaltens-Scores aus sozialen Medien. 'Hochrisiko-KI-Praktiken' sind solche, die erhebliche Risiken bergen, aber nicht gänzlich verboten sind, wie die Verwendung von KI bei der Personalbeschaffung oder der Leistungsbewertung von Arbeitnehmern."
+        "final": "Lass uns die korrekten Klassifizierungen für KI-Praktiken überprüfen: 'Verbotene KI-Praktiken' sind solche, die ein inakzeptables Risiko für Grundrechte darstellen, wie die Verwendung von KI zur Ableitung von Emotionen von Mitarbeitern oder zur Erstellung von Verhaltens-Scores aus sozialen Medien. 'Hochrisiko-KI-Praktiken' sind solche, die erhebliche Risiken bergen, aber nicht gänzlich verboten sind, wie die Verwendung von KI bei der Personalbeschaffung oder der Leistungsbewertung von Arbeitnehmern."
       },
       "_partlyCorrect": {
         "notFinal": "Du hast einige der Kategorien korrekt identifiziert, aber nicht alle. Überprüfe die relevanten Abschnitte für die, die du verpasst hast.",

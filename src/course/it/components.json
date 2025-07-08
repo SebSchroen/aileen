@@ -1,0 +1,2435 @@
+[
+  {
+    "_id": "c-100",
+    "_parentId": "b-100",
+    "_type": "component",
+    "_component": "gmcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Riconosci il Matterhorn generato dall'IA?",
+    "displayTitle": "Riconosci il Matterhorn generato dall'IA?",
+    "body": "Iniziamo con una piccola sfida. Una di queste immagini è stata creata con il modello di generazione di immagini Google Imagen 4, un esempio attuale di modelli di IA generativa. L'altra è una fotografia scattata da un essere umano. Riesci a riconoscere quale sia?",
+    "instruction": "Scegli l'immagine che ritieni sia stata generata dall'IA. Non preoccuparti, <strong> non sarai (ancora) valutato </strong>.",
+    "ariaQuestion": "Quale di queste è il Matterhorn?",
+    "_attempts": 2,
+    "_shouldDisplayAttempts": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 0,
+    "_isRandom": true,
+    "_selectable": 1,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_columns": 2,
+    "_isRound": false,
+    "_items": [
+      {
+        "text": "",
+        "altText": "Matterhorn 1",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "_graphic": {
+          "alt": "Matterhorn 2",
+          "attribution": "",
+          "large": "course/it/images/matterhorn_1.jpg",
+          "small": "course/it/images/matterhorn_1.jpg"
+        }
+      },
+      {
+        "text": "",
+        "altText": "Matterhorn 2",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "_graphic": {
+          "alt": "Matterhorn 2",
+          "attribution": "",
+          "large": "course/it/images/matterhorn_ai.jpg",
+          "small": "course/it/images/matterhorn_ai.jpg"
+        }
+      }
+    ],
+    "_feedback": {
+      "title": "Feedback",
+      "altTitle": "Alt feedback text",
+      "correct": "<strong> Esatto! </strong> Congratulazioni, hai identificato il Matterhorn generato dall'IA! Questa immagine è stata generata con Google Imagen 4, mentre l'altra è una foto reale da <a href=\"https://www.pexels.com/photo/white-mountain-under-gray-sky-267104/\" target=\"_blank\">www.pexels.com</a>.",
+      "_incorrect": {
+        "notFinal": "Non è del tutto corretto. Riprova!",
+        "final": "<strong>Sbagliato </strong>. Sembra che il modello ti abbia ingannato, e l'immagine che hai selezionato è una fotografia reale, proveniente da pexels.com (nessun credito personale). Ma devo ammettere che era piuttosto difficile a causa delle dimensioni ridotte delle immagini."
+      },
+      "_partlyCorrect": {
+        "notFinal": "",
+        "final": ""
+      }
+    },
+    "_comment": "You only need to include _buttons if you want to override the button labels that are set in course.json",
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Invia",
+        "ariaLabel": "Seleziona qui per inviare la tua risposta."
+      },
+      "_reset": {
+        "buttonText": "Reimposta",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Risposta corretta",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "La mia risposta",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "Mostra feedback",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "Tentativi rimanenti",
+      "remainingAttemptText": "ultimo tentativo"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-101",
+    "_parentId": "b-101",
+    "_type": "component",
+    "_component": "talk",
+    "_classes": "",
+    "_layout": "full",
+    "displayTitle": "Il test di Turing: Un primo test del QI per computer",
+    "body": "Sviluppato da <a href=\"https://it.wikipedia.org/wiki/Alan_Turing\" target=\"_blank\">Alan Turing (1912-1954)</a>, un matematico britannico e il padre dell'informatica.",
+    "instruction": "Scorri il dialogo per saperne di più.",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    },
+    "_characters": [
+      {
+        "name": "",
+        "_graphic": {
+          "alt": "Avatar utente",
+          "src": "course/it/images/user_avatar.jpg"
+        }
+      },
+      {
+        "name": "Alan",
+        "_graphic": {
+          "alt": "Ritratto di Alan Turing",
+          "src": "course/it/images/alan_avatar.png"
+        }
+      }
+    ],
+    "_items": [
+      {
+        "_character": 1,
+        "text": "Allora, Alan, abbiamo appena cercato di distinguere tra una foto reale e una generata dall'IA. Cosa c'entra questo con l'intelligenza?",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "_character": 2,
+        "text": "Questa è un'ottima domanda! Colpisce il cuore di ciò che Turing chiese nel 1950: Può una macchina essere così brava a <em>imitare</em> l'intelligenza umana da non riuscire a distinguere la differenza?",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "_character": 1,
+        "text": "Quindi ha sviluppato un test per questo?",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "_character": 2,
+        "text": "Sì, oggi è conosciuto come il test di Turing. L'idea di base è questa: se un computer può condurre un dialogo con un essere umano senza essere riconosciuto come un computer, possiamo dire che possiede un certo grado di intelligenza.",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "_character": 1,
+        "text": "Quindi, invece di immagini, si tratta di conversazione?",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "_character": 2,
+        "text": "Sì, nel tuo test di immagini eri il giudice e cercavi di decidere se l'<em>output</em> (l'immagine) fosse stato creato da esseri umani o macchine. Il test di Turing estende semplicemente questa idea alla <em>conversazione</em>. Può un computer creare <em>output conversazionali</em> che siano indistinguibili da quelli di un essere umano?",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "_character": 1,
+        "text": "Ok, credo di capire. L'obiettivo è quindi creare un computer che possa <em>imitare</em> in modo convincente l'intelligenza umana?",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "_character": 2,
+        "text": "Esatto! E più l'IA diventa avanzata, più diventa difficile identificare immagini, testi e video generati dall'IA. Naturalmente, sai che questa conversazione è pre-scritta, ma nuovi modelli come ChatGPT sono così convincenti che superano il test di Turing con facilità.",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      },
+      {
+        "_character": 1,
+        "text": "Grazie!",
+        "_graphic": {
+          "alt": "",
+          "src": ""
+        }
+      }
+    ]
+  },
+  {
+    "_id": "c-103",
+    "_parentId": "b-102",
+    "_type": "component",
+    "_component": "list",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Cos'è l'IA?",
+    "displayTitle": "",
+    "body": "Il test di Turing è un'analogia molto utile, ma l'<strong>Intelligenza Artificiale</strong> è più che solo l'<strong>imitazione degli esseri umani</strong>.",
+    "instruction": "",
+    "_columns": 0,
+    "_orderedList": false,
+    "_animateList": true,
+    "_percentInviewVertical": 10,
+    "_itemHorizontalAlignment": "start",
+    "_bulletAlignment": "start",
+    "_items": [
+      {
+        "title": "Applicabile in modo flessibile a diversi problemi",
+        "body": "In sostanza, l'IA mira a creare macchine in grado di eseguire compiti che tipicamente richiedono intelligenza umana. Questi includono cose come la <strong>comprensione del linguaggio, il riconoscimento di modelli, la risoluzione di problemi e il processo decisionale.</strong>",
+        "_classes": "",
+        "_graphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Apprendimento e sviluppo continuo",
+        "body": "L'IA moderna si concentra sulla capacità delle macchine di <strong>imparare dai dati e dalle esperienze</strong>, in modo simile al nostro cervello. Ciò include la scrittura di algoritmi che consentono all'IA di migliorare le sue prestazioni nel tempo attraverso il contatto con i dati e il feedback.",
+        "_classes": "",
+        "_graphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Autonomia",
+        "body": "L'IA mira a creare sistemi intelligenti che possano agire con un certo grado di <strong>indipendenza dagli esseri umani</strong>. Ciò significa che l'IA può prendere decisioni e intraprendere azioni senza istruzioni esplicite per ogni situazione.",
+        "_classes": "",
+        "_graphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      }
+    ],
+    "bodyAfter": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-104",
+    "_parentId": "b-103",
+    "_type": "component",
+    "_component": "narrative",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Come imparano le macchine?",
+    "displayTitle": "E come imparano le macchine?",
+    "body": "L'<strong>Intelligenza Artificiale</strong> è il campo generale che mira a sviluppare macchine intelligenti. Se consideriamo l'IA come il \"cervello\", l'<strong>apprendimento automatico</strong> può essere visto come il processo attraverso il quale l'IA acquisisce le <strong>competenze necessarie</strong>. Ma come imparano le macchine?",
+    "instruction": "Usa le frecce qui sotto per esplorare diversi tipi di apprendimento automatico.",
+    "mobileInstruction": "Seleziona il simbolo più e poi la freccia successiva per saperne di più.",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_isTextBelowImage": false,
+    "_isMobileTextBelowImage": false,
+    "_isStackedOnMobile": false,
+    "_items": [
+      {
+        "title": "Apprendimento supervisionato: Imparare con un insegnante",
+        "body": "L'apprendimento supervisionato è come imparare con un insegnante. All'algoritmo – l'IA – vengono forniti esempi con risposte corrette, chiamati anche <strong>dati etichettati</strong>. <br> <br> Ad esempio, gli potrebbero essere mostrate migliaia di immagini di mele, ognuna etichettata come 'mela', e immagini di banane, etichettate come 'banana'. L'obiettivo è che l'IA impari i modelli in modo da poter identificare correttamente mele o banane in nuove immagini non viste. I primi filtri antispam sono un esempio comune di apprendimento supervisionato.",
+        "_graphic": {
+          "src": "course/it/images/supervised_learning.jpg",
+          "attribution": "Generato con Google Imagen 4",
+          "alt": "Diagramma che mostra l'apprendimento supervisionato con dati etichettati che portano a un modello predittivo."
+        },
+        "strapline": "Imparare da dati etichettati"
+      },
+      {
+        "title": "Apprendimento non supervisionato: Trovare i modelli da soli",
+        "body": "L'apprendimento non supervisionato è come dare al sistema di IA una grande scatola di oggetti mescolati e chiedergli di ordinarli senza dirgli come. L'IA cerca da sola somiglianze e differenze per raggruppare gli oggetti. In questo caso, gli oggetti non hanno etichette da cui trarre conclusioni. <br> <br> Il sistema di IA potrebbe raggrupparli per colore, dimensione o forma. Questo viene utilizzato per scoprire <strong>modelli o strutture nascoste</strong> nei dati, come la segmentazione dei clienti. I consigli su Netflix o Spotify sono esempi comuni.",
+        "_graphic": {
+          "src": "course/it/images/unsupervised_learning.jpg",
+          "attribution": "Generato con Google Imagen 4",
+          "alt": "Diagramma che mostra l'apprendimento non supervisionato nella ricerca di modelli in dati non etichettati."
+        },
+        "strapline": "Scoprire strutture nascoste"
+      },
+      {
+        "title": "Deep Learning: Più strati",
+        "body": "Il Deep Learning è una versione più avanzata che consente compiti più complessi e prestazioni più elevate. Immagina di cercare di insegnare a un computer a riconoscere un gatto in un'immagine. Con l'apprendimento automatico regolare, potresti dover dire manualmente al computer cosa cercare – orecchie a punta e baffi. Il Deep Learning impara queste caratteristiche da solo, riconoscendole attraverso più strati. <br> <br> Il <strong>Deep Learning</strong> è spesso utilizzato per il <strong>riconoscimento delle immagini</strong>. Considera gli strati nell'immagine: Nel primo strato, la rete potrebbe riconoscere solo bordi e angoli. Lo strato successivo combina questi bordi per formare forme. E lo strato successivo combina le forme per riconoscere le caratteristiche del gatto. Infine, l'ultimo strato mette tutto insieme e dice: 'Questo è un gatto!'",
+        "_graphic": {
+          "src": "course/it/images/deep_learning.jpg",
+          "attribution": "Generato con Google Imagen 4",
+          "alt": "Diagramma che mostra il Deep Learning con un gatto."
+        },
+        "strapline": "Apprendimento attraverso più strati."
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-105",
+    "_parentId": "b-104",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Quiz: Tipi di apprendimento",
+    "displayTitle": "Metti alla prova le tue conoscenze: Tipi di apprendimento",
+    "body": "Un sistema di IA ha il compito di identificare prodotti difettosi su una linea di produzione. Viene addestrato con un ampio set di dati in cui ogni immagine del prodotto è già etichettata come 'difettoso' o 'non difettoso'. Che tipo di apprendimento automatico viene utilizzato qui?",
+    "instruction": "Seleziona {{#if _isRadio}}un'opzione{{else}}una o più opzioni{{/if}} che si applicano, quindi clicca su Invia.",
+    "ariaQuestion": "Un sistema di IA viene addestrato per identificare prodotti difettosi da immagini etichettate come 'difettoso' o 'non difettoso'. Che tipo di apprendimento automatico è questo?",
+    "_attempts": 3,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_items": [
+      {
+        "text": "Apprendimento supervisionato",
+        "altText": "Opzione: Apprendimento supervisionato",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Apprendimento non supervisionato",
+        "altText": "Opzione: Apprendimento non supervisionato",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Deep Learning",
+        "altText": "Opzione: Deep Learning",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Trading algoritmico",
+        "altText": "Opzione: Trading algoritmico",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      }
+    ],
+    "_feedback": {
+      "title": "Spiegazione dei tipi di apprendimento",
+      "altTitle": "Feedback on your answer about machine learning types.",
+      "correct": "Esatto! Questo scenario descrive l'<strong>Apprendimento supervisionato</strong>. L'IA è 'supervisionata' perché impara da un set di dati in cui ogni esempio (immagine del prodotto) è già fornito della risposta o etichetta corretta ('difettoso' o 'non difettoso').",
+      "_incorrect": {
+        "notFinal": "Non del tutto. Considera quale tipo di apprendimento implica la comunicazione esplicita della risposta corretta per ogni set di dati di addestramento.",
+        "final": "La risposta corretta è l'<strong>Apprendimento supervisionato</strong>. Questo metodo viene utilizzato quando si dispone di un set di dati con risultati o etichette noti. L'apprendimento non supervisionato verrebbe utilizzato se l'IA dovesse trovare modelli in immagini di prodotti non etichettate (ad esempio, raggruppare difetti simili senza sapere cosa siano). L'apprendimento per rinforzo significherebbe che l'IA esegue azioni (come la classificazione di un prodotto) e riceve ricompense o penalità per imparare la migliore strategia di classificazione nel tempo. Il trading algoritmico è un'applicazione di varie tecniche, inclusa l'IA, ma non un tipo fondamentale di apprendimento in questo contesto."
+      },
+      "_partlyCorrect": {
+        "notFinal": "Questa opzione è per domande con più risposte corrette, il che non è il caso qui. Si prega di controllare il feedback per le risposte errate.",
+        "final": "Questa opzione è per domande con più risposte corrette, il che non è il caso qui. La risposta corretta è l'<strong>Apprendimento supervisionato</strong>. Questo metodo viene utilizzato quando si dispone di un set di dati con risultati o etichette noti."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Invia",
+        "ariaLabel": "Seleziona qui per inviare la tua risposta."
+      },
+      "_reset": {
+        "buttonText": "Reimposta",
+        "ariaLabel": "Seleziona qui per reimpostare la tua risposta."
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Mostra risposta corretta",
+        "ariaLabel": "Seleziona qui per mostrare la risposta corretta."
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Mostra la mia risposta",
+        "ariaLabel": "Seleziona qui per mostrare la tua risposta."
+      },
+      "_showFeedback": {
+        "buttonText": "Mostra feedback",
+        "ariaLabel": "Seleziona qui per mostrare il feedback."
+      },
+      "remainingAttemptsText": "Tentativi rimanenti",
+      "remainingAttemptText": "ultimo tentativo"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-106",
+    "_parentId": "b-105",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Dati di addestramento",
+    "displayTitle": "Dati di addestramento: Il carburante per l'apprendimento automatico",
+    "body": "Ora sai cos'è l'intelligenza artificiale e come le macchine possono imparare dai dati. Manca però una parte importante: i <strong>dati di addestramento</strong>. Dati reali, spesso prodotti da esseri umani, vengono poi passati agli algoritmi di apprendimento automatico. Quali sono le tre considerazioni principali sui dati di addestramento?",
+    "instruction": "",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_percentInviewVertical": 10,
+    "_itemHorizontalAlignment": "start",
+    "_items": [
+      {
+        "front": "Qualità dei dati",
+        "back": {
+          "body": "La qualità dei dati di addestramento è cruciale. Se i dati sono <strong>rumorosi, incompleti o distorti</strong>, il modello imparerà queste imperfezioni e si comporterà male su nuovi dati."
+        },
+        "_classes": ""
+      },
+      {
+        "front": "Quantità di dati",
+        "back": {
+          "body": "Anche la quantità di dati di addestramento è importante. <strong>Più dati</strong> generalmente portano a un modello più accurato, soprattutto per compiti complessi."
+        },
+        "_classes": ""
+      },
+      {
+        "front": "Rappresentatività dei dati",
+        "back": {
+          "body": "I dati di addestramento dovrebbero essere <strong>rappresentativi</strong> dei dati reali su cui il modello verrà utilizzato. Se i dati di addestramento differiscono significativamente dai dati reali, il modello potrebbe non generalizzare bene."
+        },
+        "_classes": ""
+      }
+    ],
+    "bodyAfter": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-107",
+    "_parentId": "b-106",
+    "_type": "component",
+    "_component": "text",
+    "body": "Fonti: <br> <br> Legg, Shane; Hutter, Marcus (2007): Universal Intelligence: A Definition of Machine Intelligence. DOI: <a href=\"https://doi.org/10.48550/arXiv.0712.3329\" target=\"_blank\">https://doi.org/10.48550/arXiv.0712.3329</a> <br> <br> Sousa Antunes et al. (2024): Multidisciplinary Perspectives on Artificial Intelligence and the Law, DOI: <a href=\"https://doi.org/10.1007/978-3-031-41264-6\" target=\"_blank\">https://doi.org/10.1007/978-3-031-41264-6</a> <br> <br> Huawei Technologies (2023): Artificial Intelligence Technogoly, DOI: <a href=\"https://doi.org/10.1007/978-981-19-2879-6\" target=\"_blank\">https://doi.org/10.1007/978-981-19-2879-6</a> ",
+    "_classes": "",
+    "_isOptional": true
+  },
+  {
+    "_id": "c-201",
+    "_parentId": "b-201",
+    "_type": "component",
+    "_component": "memory",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Un giro di Memory veloce",
+    "displayTitle": "Iniziamo con un piccolo giro di Memory...",
+    "body": "",
+    "instruction": "Gira le carte per trovare le coppie corrispondenti.",
+    "status": "Hai trovato {{guesses}} su {{total}} corrispondenze.",
+    "_items": [
+      {
+        "type": "0",
+        "_graphic": {
+          "src": "course/it/images/pilot_1.png",
+          "alt": "Grafico segnaposto"
+        }
+      },
+      {
+        "type": "0",
+        "_graphic": {
+          "src": "course/it/images/pilot_1.png",
+          "alt": ""
+        },
+        "_classes": ""
+      },
+      {
+        "type": "1",
+        "_graphic": {
+          "src": "course/it/images/pilot_2.png",
+          "alt": ""
+        },
+        "_classes": ""
+      },
+      {
+        "type": "1",
+        "_graphic": {
+          "src": "course/it/images/pilot_2.png",
+          "alt": ""
+        },
+        "_classes": ""
+      },
+      {
+        "type": "2",
+        "_graphic": {
+          "src": "course/it/images/pilot_3.png",
+          "alt": ""
+        },
+        "_classes": ""
+      },
+      {
+        "type": "2",
+        "_graphic": {
+          "src": "course/it/images/pilot_3.png",
+          "alt": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "feedback": "Ottimo, hai trovato tutte le carte corrispondenti, le immagini hanno qualcosa in comune?",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-202",
+    "_parentId": "b-202",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Stereotipi di genere nella generazione di immagini",
+    "displayTitle": "...ma è stato solo un caso, vero?",
+    "body": "",
+    "typingSpeed": 100,
+    "erasingSpeed": 50,
+    "delayBetweenWords": 1000,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-203",
+    "_parentId": "b-202",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "",
+    "_layout": "left",
+    "title": "",
+    "displayTitle": "",
+    "body": "Non c'è bisogno di essere un detective per riconoscere il modello nelle immagini sopra – sono tutti uomini bianchi. Questo accade perché i modelli di IA imparano dal nostro mondo e possono <b>assorbire e riprodurre le distorsioni strutturali</b> nei loro dati di addestramento. <br> <br> Per testare questo, ho condotto un semplice esperimento con il modello Imagen 3 di Google. Per quattro diverse professioni, ho generato 30 immagini ciascuna con i prompt che vedi a destra. I prompt erano originariamente in inglese, dove le professioni non hanno genere grammaticale.",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c-204",
+    "_parentId": "b-202",
+    "_type": "component",
+    "_component": "typewriter",
+    "_classes": "",
+    "_layout": "right",
+    "title": "",
+    "displayTitle": "",
+    "body": " <br> <br> <br> <b> Foto realistica di un/una ... </b>",
+    "instruction": "",
+    "words": [
+      "Infermiera/e",
+      "Idraulico",
+      "Pilota",
+      "Assistente di volo"
+    ],
+    "typingSpeed": 75,
+    "erasingSpeed": 25,
+    "delayBetweenWords": 1000,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c-205",
+    "_parentId": "b-202",
+    "_type": "component",
+    "_component": "counters",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Scoprire modelli nella generazione di immagini",
+    "displayTitle": "No, c'è un modello...",
+    "body": "",
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_transitionSpeed": 1000000,
+    "_columns": {
+      "small": 0,
+      "medium": 2,
+      "large": 4,
+      "xlarge": 4
+    },
+    "_items": [
+      {
+        "title": "<p> delle 30 immagini generate di piloti mostrano caratteristiche maschili.</p>",
+        "body": "",
+        "_graphic": {
+          "src": "course/it/images/pilot_1.png",
+          "alt": "Grafico 1"
+        },
+        "_countStart": 0,
+        "_countEnd": 100,
+        "counterLabel": "%",
+        "_classes": ""
+      },
+      {
+        "title": "<p> delle 30 assistenti di volo generate sono donne con caratteristiche molto simili.</p>",
+        "body": "",
+        "_graphic": {
+          "src": "course/it/images/flight_attendant_1.png",
+          "alt": "Grafico 2"
+        },
+        "_countStart": 0,
+        "_countEnd": 100,
+        "counterLabel": "%",
+        "_classes": ""
+      },
+      {
+        "title": "<p> delle immagini generate di idraulici sono uomini, alcuni di loro assomigliano persino a un famoso personaggio dei videogiochi.</p>",
+        "body": "",
+        "_graphic": {
+          "src": "course/it/images/plumber_1.png",
+          "alt": "Grafico 3"
+        },
+        "_countStart": 0,
+        "_countEnd": 100,
+        "counterLabel": "%",
+        "_classes": ""
+      },
+      {
+        "title": "<p> delle immagini generate di infermiere sono donne di un fenotipo molto simile.</p>",
+        "body": "",
+        "_graphic": {
+          "src": "course/it/images/nurse_1.png",
+          "alt": "Grafico 3"
+        },
+        "_countStart": 0,
+        "_countEnd": 100,
+        "counterLabel": "%",
+        "_classes": ""
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-206",
+    "_parentId": "b-203",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "left",
+    "title": "Distorsioni nei dati testuali",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "longdescription": "",
+      "large": "course/it/images/gender_bias_plot_it.png",
+      "small": "course/it/images/gender_bias_plot_it.png",
+      "_url": "",
+      "_target": "_blank"
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c-207",
+    "_parentId": "b-203",
+    "_type": "component",
+    "_component": "flipper",
+    "_classes": "",
+    "_layout": "right",
+    "title": "Scoprire distorsioni nascoste",
+    "displayTitle": "",
+    "body": "",
+    "width": 320,
+    "_items": [
+      {
+        "title": "",
+        "body": "Questo grafico rivela gli stereotipi nascosti che un modello linguistico reale ha imparato su professioni e generi. Clicca per saperne di più...",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Come leggere il grafico",
+        "body": "Ogni barra mostra l'associazione di genere di una professione. L'area azzurra mostra l'associazione maschile, e quella blu scuro mostra l'associazione femminile. Insieme, danno sempre il 100%.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Cosa significa 'Associato a'",
+        "body": "Il modello linguistico ha notato che certe parole ricorrono spesso insieme. Se una parola appare spesso vicino a 'lei' o 'lui', il modello le associa strettamente. Questo riflette modelli nei dati, non necessariamente la verità oggettiva.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Uno sguardo a 'Infermiera/e'",
+        "body": "Iniziamo dal centro. Il modello linguistico associa 'Infermiera/e' nel 57% dei casi a 'femminile'. Questo mostra uno stereotipo comune che il modello ha imparato dal testo.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Ora, diamo un'occhiata a 'Idraulico'",
+        "body": "Al contrario, il modello associa 'Idraulico' nel 52% di tutti i casi a 'maschile'. Sebbene sia una leggera distorsione, il modello riflette costantemente gli stereotipi sociali.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Un esempio estremo",
+        "body": "Considera ora un caso estremo come 'Finanziere'. Il modello linguistico mostra un'associazione maschile molto forte del 77%. Al contrario, il modello associa 'Stilista' con una probabilità del 70% a femminile.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Perché è importante",
+        "body": "Se i modelli linguistici ereditano queste distorsioni, possono portare a risultati ingiusti o distorti in applicazioni reali, come la revisione dei curriculum o la generazione di testo.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "La conclusione",
+        "body": "Visualizzando queste distorsioni, possiamo comprenderle meglio e lavorare per creare modelli linguistici più equi e responsabili.",
+        "instruction": "Completato ✔"
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-208",
+    "_parentId": "b-203",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Quiz: Comprendere le associazioni dell'IA",
+    "displayTitle": "",
+    "body": "Secondo il grafico fornito, il modello linguistico associa 'Receptionist' con una frequenza del 66% a 'femminile'. Cosa dice questa 'associazione' principalmente sul modello?",
+    "instruction": "Seleziona un'opzione che si applica, quindi clicca su Invia.",
+    "ariaQuestion": "Cosa dice principalmente l'associazione del modello linguistico di 'Receptionist' con 'femminile'?",
+    "_attempts": 2,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_items": [
+      {
+        "text": "Il modello crede che le donne siano intrinsecamente più adatte alla professione di receptionist.",
+        "altText": "Opzione: Il modello crede che le donne siano più adatte per i receptionist.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Il modello ha notato che la parola 'Receptionist' ricorre frequentemente vicino a pronomi o contesti associati al femminile nei suoi dati di addestramento.",
+        "altText": "Opzione: La parola 'Receptionist' ricorre spesso con pronomi/contesti femminili.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      }
+    ],
+    "_feedback": {
+      "title": "Comprendere le associazioni dell'IA",
+      "altTitle": "Feedback on your answer about AI's gender associations.",
+      "correct": "Esatto! Le 'associazioni' del modello riflettono modelli nelle enormi quantità di dati testuali su cui è stato addestrato. Non 'crede' nulla; identifica semplicemente relazioni statistiche tra parole come 'Receptionist' e pronomi come 'lei' o 'sua' in base alla frequenza con cui ricorrono insieme nei dati.",
+      "_incorrect": {
+        "notFinal": "Non del tutto. Rivedi la sezione 'Scoprire le distorsioni nascoste dell'IA', in particolare la spiegazione di 'Cosa significa 'Associato a''. Considera come imparano i modelli linguistici.",
+        "final": "La risposta corretta è: Il modello ha notato che la parola 'Receptionist' ricorre frequentemente vicino a pronomi o contesti associati al femminile nei suoi dati di addestramento. I modelli di IA imparano trovando modelli statistici nei loro dati di addestramento. Le loro 'associazioni' sono un riflesso di questi modelli, non un giudizio o una convinzione sull'idoneità. Se 'Receptionist' nei dati di addestramento ricorreva spesso in frasi con 'lei' o 'sua', il modello lo assocerà maggiormente al femminile."
+      },
+      "_partlyCorrect": {
+        "notFinal": "Questa opzione è per domande con più risposte corrette, il che non è il caso qui. Si prega di controllare il feedback per le risposte errate.",
+        "final": "Questa opzione è per domande con più risposte corrette, il che non è il caso qui. La risposta corretta è che il modello ha notato modelli statistici nei suoi dati di addestramento che collegano 'Receptionist' a termini associati al femminile."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Invia",
+        "ariaLabel": "Seleziona qui per inviare la tua risposta."
+      },
+      "_reset": {
+        "buttonText": "Reimposta",
+        "ariaLabel": "Seleziona qui per reimpostare la tua risposta."
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Mostra risposta corretta",
+        "ariaLabel": "Seleziona qui per mostrare la risposta corretta."
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Mostra la mia risposta",
+        "ariaLabel": "Seleziona qui per mostrare la tua risposta."
+      },
+      "_showFeedback": {
+        "buttonText": "Mostra feedback",
+        "ariaLabel": "Seleziona qui per mostrare il feedback."
+      },
+      "remainingAttemptsText": "Tentativi rimanenti",
+      "remainingAttemptText": "ultimo tentativo"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-209",
+    "_parentId": "b-204",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Da dove provengono le distorsioni?",
+    "displayTitle": "Ciò significa che <em>ogni</em> IA è distorta e discriminatoria?",
+    "body": "È un malinteso comune che la distorsione dell'IA implichi una <b>distorsione del modello stesso</b>. In questo contesto, 'distorsione' si riferisce semplicemente a modelli sistemici che l'IA impara e riproduce dai suoi dati di addestramento. Come mostrano gli esempi precedenti, l'output di un'IA è un <b>riflesso diretto delle informazioni su cui è stata addestrata</b>. I risultati non sono intenzionali, sono un'eco delle distorsioni sociali incorporate nei dati di origine. In definitiva, i sistemi di IA sono <b>solo buoni quanto i dati che gli vengono forniti</b> e le persone che li costruiscono e li guidano.",
+    "instruction": "<b>Quindi, da dove provengono le distorsioni?</b> Clicca sui campi qui sotto per saperne di più.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+      {
+        "front": "Dati raccolti per altri scopi",
+        "back": {
+          "body": "I sistemi di IA spesso analizzano dati esistenti che sono stati <b>raccolti per altri scopi</b> rispetto a quelli perseguiti dal sistema di IA. Ciò significa che i dati non sono stati raccolti con l'intenzione di essere utilizzati, ad esempio, per il reclutamento, quindi le caratteristiche dei dati che <b>potrebbero favorire risultati ingiusti non vengono prese in considerazione</b>."
+        }
+      },
+      {
+        "front": "I dati sono storici",
+        "back": {
+          "body": "I dati storici <b>riflettono spesso passate distorsioni sociali</b> e pratiche discriminatorie. Se i sistemi di IA vengono addestrati su questi dati, possono <b>perpetuare e amplificare queste distorsioni</b>."
+        }
+      },
+      {
+        "front": "I dati non sono rappresentativi",
+        "back": {
+          "body": "Questo problema si verifica quando un sistema di apprendimento automatico viene addestrato su dati che <b>non rappresentano completamente</b> la popolazione a cui il sistema deve essere applicato. I sistemi di IA possono quindi riflettere questa distorsione di rappresentazione quando sono esposti a dati reali che differiscono significativamente dai dati di addestramento e forniscono <b>risultati distorti o ingiusti</b>."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-210",
+    "_parentId": "b-205",
+    "_type": "component",
+    "_component": "tabs",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Impatto nella vita reale",
+    "displayTitle": "Impatto reale dei dati di addestramento distorti",
+    "body": "Gli esperimenti mentali precedenti sono in gran parte di natura teorica, quindi diamo un'occhiata a <b>esempi reali</b> in cui le distorsioni nei dati di addestramento hanno portato a risultati <b>subottimali e discriminatori</b> in applicazioni reali.",
+    "instruction": "Seleziona le schede per saperne di più.",
+    "_tabLayout": "horizontal",
+    "_minHeight": "250px",
+    "_comment": "Only set min height if you want to uniform the content container size across tab items. By default, the container will display at the height of each item's content",
+    "_items": [
+      {
+        "tabTitle": "Caso 1: Distorsione nel reclutamento",
+        "title": "Caso 1: Distorsione di genere nel reclutamento",
+        "body": "Amazon ha sviluppato un programma di IA per <b>automatizzare la preselezione</b> dei candidati esaminando i curriculum. Lo strumento è stato addestrato con curriculum di un periodo di dieci anni, un set di dati in cui <b>la maggior parte dei candidati di successo erano uomini</b>. Di conseguenza, l'IA ha imparato a essere <b>distorta contro le candidate donne</b>, penalizzando i curriculum che contenevano frasi come \"presidente del club di scacchi femminile\". Nonostante i tentativi di correggere la distorsione di genere, <b>Amazon ha infine abbandonato il programma</b>, poiché non era in linea con l'impegno dell'azienda per la diversità e l'uguaglianza sul posto di lavoro <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(vedi Stahl et al. 2023).</a>",
+        "_classes": ""
+      },
+      {
+        "tabTitle": "Caso 2: Decisioni sulla libertà vigilata",
+        "title": "Caso 2: Distorsione dell'IA nelle decisioni sulla libertà vigilata",
+        "body": "Un prigioniero di nome Glenn Rodríguez, che aveva una <b>fedina penale esemplare</b>, ha richiesto il rilascio anticipato, ma la sua richiesta è stata respinta. La decisione del comitato per la libertà vigilata si basava sulla previsione di un sistema di IA chiamato COMPAS. Il comitato <b>non sapeva come funzionasse l'algoritmo dell'IA</b>, poiché era un segreto commerciale. Rodríguez ha scoperto in seguito che il suo punteggio elevato si basava su <b>opinioni soggettive e potenzialmente razzialmente distorte</b> delle guardie carcerarie. Sebbene sia stato infine rilasciato, il suo rilascio è stato comunque fortemente ritardato <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(vedi Stahl et al. 2023).</a>",
+        "_classes": ""
+      },
+      {
+        "tabTitle": "Caso 3: Riconoscimento facciale",
+        "title": "Caso 3: Distorsione nel riconoscimento facciale",
+        "body": "La foto del passaporto di uno studente di ingegneria di origine asiatica in Nuova Zelanda è stata rifiutata da un sistema automatizzato perché <b>sosteneva erroneamente che i suoi occhi fossero chiusi</b>. Questo incidente indica un problema più ampio di <b>errori etnicamente correlati</b> nella tecnologia di riconoscimento facciale. Sistemi simili hanno mostrato <b>distorsioni verso altri gruppi</b>; ad esempio, le foto di donne di colore nel Regno Unito sono state <b>classificate quattro volte più spesso come di scarsa qualità</b>, con la foto di una studentessa nera rifiutata perché il sistema ha erroneamente riconosciuto la sua bocca come aperta <a href='https://link.springer.com/book/10.1007/978-3-031-17040-9' target='_blank'>(vedi Stahl et al. 2023)</a>.",
+        "_classes": ""
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-211",
+    "_parentId": "b-206",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Possibili soluzioni",
+    "displayTitle": "Affrontare le sfide",
+    "body": "Mentre le discussioni precedenti potrebbero aver evidenziato gli aspetti più preoccupanti dell'IA e dell'apprendimento automatico, questa sezione esamina le <b>soluzioni proattive e i progressi</b> che <b>affrontano efficacemente questi problemi</b>.",
+    "instruction": "Seleziona le intestazioni per saperne di più.",
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false,
+    "_setCompletionOn": "allItems",
+    "_isCenterAligned": false,
+    "_items": [
+      {
+        "title": "Rimani critico",
+        "body": "Potresti aver notato che questo corso <b>utilizza intenzionalmente materiali di diversi modelli di IA</b>, come Google Imagen 3 e 4 per le immagini e un modello linguistico più vecchio per il grafico della distorsione di genere. Questo è intenzionale. <br> <br> Queste decisioni dimostrano punti importanti nella storia dell'apprendimento automatico e servono a ricordare di <b>mettere in discussione criticamente due cose: l'output dei sistemi di IA</b> in applicazioni sensibili e, altrettanto importante, le <b>motivazioni delle organizzazioni</b> che li forniscono. <br> <br> Nell'implementare qualsiasi tipo di sistema di IA, è utile tenere a mente gli esempi precedenti per <b>evitare risultati indesiderati</b>.",
+        "_titleIcon": "",
+        "_imageAlignment": "left",
+        "_graphic": {
+          "src": "course/it/images/pexels-lilartsy-8730085.jpg",
+          "attribution": "<a href=\"https://www.pexels.com/photo/woman-blindfolded-8730085/\" target=\"_blank\" style=\"color: white;\">Lil Artsy su www.pexels.com</a>",
+          "alt": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Meccanismi di sicurezza",
+        "body": "Gli esempi precedenti hanno mostrato come <b>dati di addestramento difettosi possano portare a risultati distorti o dannosi</b>, una preoccupazione sia per gli sviluppatori che per le autorità di regolamentazione. In risposta, gli sviluppatori di modelli implementano <b>filtri di sicurezza e 'guardrail' per prevenire comportamenti indesiderati</b>. <br> <br> Questi guardrail possono variare dalla moderazione dell'output e dalla mitigazione delle distorsioni a meccanismi che assicurano che le risposte siano conformi alle norme sociali o a una specifica identità aziendale. <br> <br> Per garantire che il confine tra comportamento accettabile e inaccettabile non sia tracciato esclusivamente dalle grandi aziende tecnologiche, iniziative come Guardrails.AI offrono standard aperti e guidati dalla comunità per i modelli di IA.",
+        "_titleIcon": "",
+        "_imageAlignment": "right",
+        "_graphic": {
+          "src": "course/it/images/guardrails_1.jpg",
+          "attribution": "Generato con Google Imagen 4",
+          "alt": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "I nuovi modelli tendono a essere migliori",
+        "body": "I modelli di IA moderni tendono a mostrare una <b>riduzione della distorsione</b>, il che è dovuto a due fattori principali: l'<b>implementazione di meccanismi di sicurezza espliciti</b> e una <b>comprensione linguistica più sofisticata</b> che va oltre le correlazioni semplificate dei ruoli di genere dei modelli precedenti. <br> <br> Ad esempio, gli embedding linguistici integrati in ChatGPT portano a <b>associazioni significativamente più eque</b> tra genere e professioni rispetto al grafico precedente. <br> <br> Allo stesso modo, Imagen 4 di Google dimostra questo progresso generando una <b>maggiore diversità demografica</b>; il prompt 'foto realistica di un infermiere' ora genera immagini che mostrano uomini e donne in egual misura. Considera l'immagine a sinistra.",
+        "_titleIcon": "",
+        "_imageAlignment": "left",
+        "_graphic": {
+          "src": "course/it/images/nurse_2.png",
+          "attribution": "Generato con Google Imagen 4",
+          "alt": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-213",
+    "_parentId": "b-207",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Quiz: Reclutamento Amazon",
+    "displayTitle": "Metti alla prova le tue conoscenze: L'IA di Amazon",
+    "body": "Nel caso di studio sul reclutamento di Amazon, qual è stata la ragione principale per cui il sistema di IA ha sviluppato una distorsione nei confronti delle candidate donne?",
+    "instruction": "Seleziona un'opzione che si applica, quindi clicca su Invia.",
+    "ariaQuestion": "Qual è stata la ragione principale per cui il sistema di IA di Amazon ha sviluppato una distorsione nei confronti delle candidate donne?",
+    "_attempts": 3,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_items": [
+      {
+        "text": "È stato addestrato su curriculum di un periodo in cui la maggior parte dei candidati di successo erano uomini, il che ha portato a penalizzare i termini associati al femminile.",
+        "altText": "Opzione: Dati di addestramento distorti verso gli uomini.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Gli sviluppatori di Amazon hanno intenzionalmente programmato l'IA per preferire i candidati maschi per determinati ruoli.",
+        "altText": "Opzione: Distorsione di programmazione intenzionale.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Al sistema di IA mancava la capacità di elaborare il linguaggio neutro rispetto al genere, il che ha portato a errori.",
+        "altText": "Opzione: Mancanza di elaborazione del linguaggio neutro rispetto al genere.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Le candidate donne presentavano spesso curriculum incompleti, che l'IA classificava come di qualità inferiore.",
+        "altText": "Opzione: Curriculum femminili incompleti.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      }
+    ],
+    "_feedback": {
+      "title": "Spiegazione della distorsione nel reclutamento di Amazon",
+      "altTitle": "Feedback on your answer about Amazon's AI recruitment bias.",
+      "correct": "Esatto! L'IA ha imparato da dati storici che mostravano prevalentemente uomini in ruoli di successo. Di conseguenza, ha purtroppo imparato ad associare determinati termini comuni nei curriculum delle donne (come 'presidente del club di scacchi femminile') a una minore attrattiva, il che ha portato a distorsioni.",
+      "_incorrect": {
+        "notFinal": "Non del tutto. Rivedi il Caso 1 nella sezione 'Impatto nella vita reale'. Concentrati su come i dati di addestramento hanno influenzato i risultati dell'IA.",
+        "final": "La risposta corretta è: È stato addestrato su curriculum di un periodo in cui la maggior parte dei candidati di successo erano uomini, il che ha portato a penalizzare i termini associati al femminile. L'IA ha riflettuto le distorsioni presenti nei suoi dati di addestramento, che riflettevano i modelli di assunzione passati di Amazon, anziché essere intenzionalmente programmata per la distorsione o a causa di problemi di elaborazione del linguaggio."
+      },
+      "_partlyCorrect": {
+        "notFinal": "Questa opzione è per domande con più risposte corrette, il che non è il caso qui. Si prega di controllare il feedback per le risposte errate.",
+        "final": "Questa opzione è per domande con più risposte corrette, il che non è il caso qui. La risposta corretta è che l'IA è stata addestrata su dati storici che favorivano i candidati maschi."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Invia",
+        "ariaLabel": "Seleziona qui per inviare la tua risposta."
+      },
+      "_reset": {
+        "buttonText": "Reimposta",
+        "ariaLabel": "Seleziona qui per reimpostare la tua risposta."
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Mostra risposta corretta",
+        "ariaLabel": "Seleziona qui per mostrare la risposta corretta."
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Mostra la mia risposta",
+        "ariaLabel": "Seleziona qui per mostrare la tua risposta."
+      },
+      "_showFeedback": {
+        "buttonText": "Mostra feedback",
+        "ariaLabel": "Seleziona qui per mostrare il feedback."
+      },
+      "remainingAttemptsText": "Tentativi rimanenti",
+      "remainingAttemptText": "ultimo tentativo"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-214",
+    "_parentId": "b-208",
+    "_type": "component",
+    "_component": "text",
+    "body": "Fonti: <br> <br> Stahl, Bernd; Schroeder, Doris & Rodrigues, Rowena (2023):  Ethics of Artificial Intelligence. DOI: <a href=\"https://doi.org/10.1007/978-3-031-17040-9\" target=\"_blank\">https://doi.org/10.1007/978-3-031-17040-9</a> <br> <br> Bolukbasi et al. (2016): Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings, DOI: <a href=\"https://doi.org/10.48550/arXiv.1607.06520\" target=\"_blank\">https://doi.org/10.48550/arXiv.1607.06520</a> <br> <br> Huawei Technologies (2023): Artificial Intelligence Technogoly, DOI: <a href=\"https://doi.org/10.1007/978-981-19-2879-6\" target=\"_blank\">https://doi.org/10.1007/978-981-19-2879-6</a> ",
+    "_classes": "",
+    "_isOptional": true
+  },
+  {
+    "_id": "c-301",
+    "_parentId": "b-301",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Diritto d'autore in generale",
+    "displayTitle": "Cos'è il diritto d'autore?",
+    "body": "Il diritto d'autore è un <b>diritto</b> che concede agli autori il <b>controllo esclusivo</b> sulle loro opere letterarie e artistiche originali. Come parte della legge sulla proprietà intellettuale (IP), protegge le 'opere d'autore' consentendo agli autori di gestire l'uso e la distribuzione delle loro creazioni.",
+    "instruction": "Clicca sui campi qui sotto per saperne di più sul diritto d'autore.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+      {
+        "front": "Cosa è protetto?",
+        "back": {
+          "body": "Il diritto d'autore protegge l'<b><em>espressione concreta</em> di un'idea</b>, non l'idea stessa. Si applica a opere letterarie e artistiche tangibili come romanzi, canzoni, dipinti e software e conferisce agli autori il <b>controllo sulle loro specifiche manifestazioni</b>."
+        }
+      },
+      {
+        "front": "A quali condizioni?",
+        "back": {
+          "body": "Per essere protetta dal diritto d'autore, un'opera deve essere espressa in modo <b><em>concreto</em></b> (non idee astratte) ed essere <b><em>originale</em></b>. Originalità significa che è una <b>creazione intellettuale di un essere umano</b> che riflette la sua personalità e le sue scelte creative. Questa <b>paternità umana è fondamentale</b>, in particolare nel diritto tedesco e dell'UE."
+        }
+      },
+      {
+        "front": "Quali sono i diritti del proprietario?</b>",
+        "back": {
+          "body": "I proprietari ottengono <b>diritti esclusivi di riproduzione, distribuzione e comunicazione al pubblico</b> della loro opera. Possiedono anche <b>diritti morali</b>, inclusi divulgazione, integrità e attribuzione, che garantiscono il controllo. Il diritto d'autore dura negli Stati membri dell'UE generalmente per la <b>vita degli autori più 70 anni</b>."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-302",
+    "_parentId": "b-302",
+    "_type": "component",
+    "_component": "list",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Diritto d'autore e IA",
+    "displayTitle": "E perché è importante per l'IA?",
+    "body": "Ricorda il test di Turing dalla prima parte di questo corso: l'output dei sistemi di IA è diventato così buono che gran parte di esso è difficile da distinguere dai contenuti umani. E gran parte dei contenuti umani su Internet è protetta dalle leggi sul diritto d'autore. In questa lezione tratteremo tre domande:",
+    "instruction": "",
+    "_columns": 0,
+    "_orderedList": true,
+    "_animateList": true,
+    "_percentInviewVertical": 10,
+    "_itemHorizontalAlignment": "start",
+    "_bulletAlignment": "start",
+    "_items": [
+      {
+        "title": "L'addestramento dell'IA viola il diritto d'autore?",
+        "body": "",
+        "_classes": "",
+        "_graphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "I risultati dei sistemi di IA possono violare il diritto d'autore?",
+        "body": "",
+        "_classes": "",
+        "_graphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "I risultati dell'IA sono protetti dal diritto d'autore?",
+        "body": "",
+        "_classes": "",
+        "_graphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      }
+    ],
+    "bodyAfter": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-303",
+    "_parentId": "b-303",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Addestramento dell'IA e diritto d'autore",
+    "displayTitle": "L'addestramento dell'IA <em> potrebbe </em> violare il diritto d'autore",
+    "body": "La questione se l'addestramento dei modelli di IA con materiale protetto da copyright costituisca una violazione è un tema legale centrale e molto dibattuto. Implica interpretazioni complesse delle leggi sul diritto d'autore esistenti e l'emergere di nuove normative, in particolare nell'UE. La comprensione di questo settore richiede l'esame sia della natura tecnica dei modelli di IA che dei quadri giuridici per l'uso dei dati.",
+    "instruction": "Clicca sui campi qui sotto per saperne di più su questo argomento complesso.",
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false,
+    "_setCompletionOn": "allItems",
+    "_isCenterAligned": false,
+    "_items": [
+      {
+        "title": "I modelli non <em>memorizzano</em> dati protetti da copyright",
+        "body": "I modelli di IA tipicamente non memorizzano copie esatte di opere protette da copyright. Invece, imparano estraendo concetti astratti e codificandoli in rappresentazioni numeriche. Questo processo di scomposizione e astrazione significa che il modello addestrato stesso non è una copia diretta e quindi tipicamente non viola il diritto d'autore."
+      },
+      {
+        "title": "Durante l'addestramento, questo è un dibattito in corso",
+        "body": "I modelli di IA vengono addestrati su enormi quantità di dati, spesso inclusi materiali protetti da copyright, che sono stati 'scraped' da Internet. L'uso di questi dati senza autorizzazione esplicita può essere considerato una violazione del diritto d'autore. Negli Stati Uniti, i sostenitori spesso sostengono che ciò rientra nel 'Fair Use'. In Germania e nell'UE esistono eccezioni specifiche come la ricerca scientifica."
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-304",
+    "_parentId": "b-303",
+    "_type": "component",
+    "_component": "tabs",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Casi di diritto d'autore in corso",
+    "displayTitle": "...in particolare secondo i titolari del diritto d'autore",
+    "body": "Diamo un'occhiata a importanti procedimenti giudiziari in corso all'intersezione tra addestramento dell'IA e diritto d'autore.",
+    "instruction": "Seleziona le schede per saperne di più.",
+    "_tabLayout": "horizontal",
+    "_minHeight": "200px",
+    "_comment": "Only set min height if you want to uniform the content container size across tab items. By default, the container will display at the height of each item's content",
+    "_items": [
+      {
+        "tabTitle": "NYT vs. OpenAI",
+        "title": "NYT vs. OpenAI & Microsoft",
+        "body": "Il New York Times ha citato in giudizio OpenAI e Microsoft sostenendo che OpenAI ha copiato milioni dei suoi articoli senza autorizzazione o pagamento per addestrare i suoi grandi modelli linguistici (ad esempio ChatGPT). La difesa di OpenAI si basa sulla dottrina del Fair Use. Un giudice federale ha recentemente permesso di proseguire le principali rivendicazioni di violazione del diritto d'autore e ha respinto la mozione di OpenAI per il rigetto. Questo caso di alto profilo è cruciale per definire la relazione tra IA generativa e diritto d'autore.",
+        "_classes": ""
+      },
+      {
+        "tabTitle": "Getty vs. Stability AI",
+        "title": "Getty Images vs. Stability AI",
+        "body": "Getty Images ha citato in giudizio Stability AI, lo sviluppatore del modello di IA da testo a immagine Stable Diffusion. Getty sostiene che Stability AI ha utilizzato milioni delle sue immagini protette da copyright senza autorizzazione per addestrare il suo modello. La causa sostiene la violazione del diritto d'autore e del marchio e rileva che l'IA a volte riproduce la filigrana di Getty o contenuti visivamente simili.",
+        "_classes": ""
+      },
+      {
+        "tabTitle": "Kneschke vs. LAION",
+        "title": "Kneschke vs. LAION",
+        "body": "L'artista Christopher Kneschke (e altri in una causa collettiva correlata) hanno citato in giudizio LAION, un'organizzazione senza scopo di lucro che raccoglie enormi set di dati immagine-testo da Internet. Questi set di dati vengono utilizzati per addestrare grandi modelli di IA. La causa sostiene che i set di dati di LAION contengono immagini protette da copyright senza il consenso degli artisti e quindi facilitano la violazione del diritto d'autore da parte dei modelli addestrati su di essi.",
+        "_classes": ""
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-305",
+    "_parentId": "b-304",
+    "_type": "component",
+    "_component": "narrative",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Violazione tramite output dell'IA",
+    "displayTitle": "Sì, l'output dell'IA può violare il diritto d'autore",
+    "body": "Anche se un modello di IA viene addestrato legalmente, il <b>contenuto generato da esso può comunque portare a violazioni del diritto d'autore</b>. Ciò accade quando l'output dell'IA è <b>troppo simile</b> a un'opera esistente protetta da copyright e quindi viola il diritto d'autore.",
+    "instruction": "Usa le frecce qui sotto per esplorare come i contenuti generati dall'IA possono violare il diritto d'autore.",
+    "mobileInstruction": "Seleziona il simbolo più e poi la freccia successiva per saperne di più.",
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_isTextBelowImage": false,
+    "_isMobileTextBelowImage": false,
+    "_isStackedOnMobile": false,
+    "_items": [
+      {
+        "title": "Somiglianza sostanziale",
+        "body": "Se i contenuti generati dall'IA (come un'immagine, un testo o una musica) sono <b>così simili</b> a un'opera esistente protetta da copyright che una persona media la riconoscerebbe come una copia, può essere considerata <b>violante</b>. Ciò significa che l'output dell'IA ha <b>catturato abbastanza elementi creativi dell'originale</b> da superare una soglia legale.",
+        "strapline": "Troppo vicino per essere comodo",
+        "_graphic": {
+          "src": "course/it/images/getty.png",
+          "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
+          "alt": "Diagramma che mostra l'apprendimento supervisionato con dati etichettati che portano a un modello predittivo."
+        }
+      },
+      {
+        "title": "Opere derivate non autorizzate",
+        "body": "I titolari del diritto d'autore hanno il <b>diritto esclusivo di creare 'opere derivate'</b> – nuove opere basate sulle loro creazioni originali. Se un utente chiede a un'IA di generare contenuti che si basano chiaramente su un personaggio, un ambiente o uno stile artistico specifico protetto da copyright <b>senza autorizzazione</b> (ad esempio, una nuova storia con un famoso personaggio dei cartoni animati), l'output dell'IA potrebbe essere considerato un'<b>opera derivata non autorizzata</b>.",
+        "strapline": "Basarsi sulle creazioni altrui",
+        "_graphic": {
+          "src": "course/it/images/banksy.png",
+          "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
+          "alt": "Diagramma che mostra l'apprendimento supervisionato con dati etichettati che portano a un modello predittivo."
+        }
+      },
+      {
+        "title": "Il problema di Snoopy",
+        "body": "Questo mostra come l'IA possa imparare elementi dai suoi dati di addestramento e poi riprodurli nel suo output. Più un personaggio o un identificatore visivo è distintivo e frequente nei dati di addestramento, <b>più è probabile che l'IA lo riproduca</b> quando le viene richiesto. Ad esempio, l'IA può generare <b>rappresentazioni molto simili</b> di personaggi noti come Snoopy o Topolino o riprodurre stili artistici distintivi. Questo accade perché l'IA impara caratteristiche coerenti, il che rende facile <b>evocare un output violante</b>, anche se non è una copia esatta di una singola opera originale.",
+        "strapline": "Quando l'IA 'ricorda'",
+        "_graphic": {
+          "src": "course/it/images/snoopy_problem.png",
+          "attribution": "<a href=\"https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai\" target=\"_blank\" style=\"color: white;\">Sag (2023)</a>",
+          "alt": "Diagramma che mostra l'apprendimento supervisionato con dati etichettati che portano a un modello predittivo."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-306",
+    "_parentId": "b-305",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "L'output dell'IA non è protetto da copyright",
+    "displayTitle": "No, i risultati dell'IA non sono direttamente protetti da copyright",
+    "body": "L'attuale comprensione e il quadro del diritto d'autore generalmente non consentono la protezione del diritto d'autore degli output direttamente dai modelli di IA, poiché i sistemi di IA stessi non possono essere considerati autori o persone giuridiche.",
+    "instruction": "Clicca sui campi qui sotto per esplorare le sfumature del diritto d'autore per i contenuti creati con l'IA.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+      {
+        "front": "È richiesta la paternità umana",
+        "back": {
+          "body": "Il diritto d'autore richiede fondamentalmente <b>autori umani</b>. Ciò include un '<b>tocco personale</b>' e '<b>decisioni libere e consapevoli</b>' che riflettono la personalità e la creatività umana. I sistemi di IA, a cui manca lo <b>status di persona giuridica</b>, non possono esprimere personalità o detenere diritti, il che li squalifica come autori."
+        }
+      },
+      {
+        "front": "L'IA come strumento, non come autrice",
+        "back": {
+          "body": "Mentre l'IA può produrre opere che <em>potrebbero essere protette</em>, la protezione del diritto d'autore dipende da un'<b>intervento umano sufficiente</b>. Le persone che programmano, addestrano, modificano l'IA o selezionano l'output dell'IA possono rivendicare il diritto d'autore, poiché l'IA è considerata uno <b>strumento</b>, come un pennello o un elaboratore di testi."
+        }
+      },
+      {
+        "front": "Input umano insufficiente",
+        "back": {
+          "body": "Se l'input umano nelle '<b>decisioni libere e creative</b>' è <b>insufficiente</b>, ai contenuti generati dall'IA potrebbe mancare la necessaria <b>paternità</b> per la protezione del diritto d'autore. La protezione dipende interamente dal grado e dal tipo di <b>input creativo umano</b>."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-307",
+    "_parentId": "b-306",
+    "_type": "component",
+    "_component": "list",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Linee guida importanti",
+    "displayTitle": "Linee guida importanti",
+    "body": "Per concludere questo modulo, ecco tre importanti raccomandazioni per affrontare il complesso panorama del diritto d'autore e dell'Intelligenza Artificiale:",
+    "instruction": "",
+    "_columns": 0,
+    "_orderedList": true,
+    "_animateList": true,
+    "_percentInviewVertical": 10,
+    "_itemHorizontalAlignment": "start",
+    "_bulletAlignment": "start",
+    "_items": [
+      {
+        "title": "Non caricare informazioni protette da copyright",
+        "body": "Assicurati di possedere i diritti su qualsiasi materiale che fornisci a un sistema di IA per l'addestramento o il miglioramento del contesto."
+      },
+      {
+        "title": "Controlla attentamente tutti gli output generati dall'IA per possibili violazioni",
+        "body": "Esamina i contenuti generati dall'IA per somiglianze con opere esistenti protette da copyright ed esegui una due diligence prima di pubblicarli o commercializzarli, poiché gli output dell'IA possono violare il diritto d'autore."
+      },
+      {
+        "title": "Assicurati un input creativo umano sufficiente per la protezione del diritto d'autore delle opere assistite dall'IA",
+        "body": "Per garantire il diritto d'autore per le opere assistite dall'IA, assicurati un intervento umano significativo, una direzione creativa o una modifica dell'output dell'IA, poiché l'IA da sola non può essere un autore."
+      },
+      {
+        "title": "In caso di dubbio, consulta un legale",
+        "body": "Se non sei sicuro che il tuo nuovo contenuto violi il diritto d'autore, consulta sempre un legale, ad esempio il team legale della tua azienda."
+      }
+    ],
+    "bodyAfter": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-308",
+    "_parentId": "b-307",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Quiz: Condizioni del diritto d'autore",
+    "displayTitle": "Metti alla prova le tue conoscenze: Diritto d'autore",
+    "body": "Qual è una condizione fondamentale per la protezione del diritto d'autore di un'opera, che viene particolarmente sottolineata nel diritto tedesco e dell'UE?",
+    "instruction": "Seleziona un'opzione che si applica, quindi clicca su Invia.",
+    "ariaQuestion": "Qual è una condizione fondamentale per la protezione del diritto d'autore di un'opera secondo il testo?",
+    "_attempts": 3,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_items": [
+      {
+        "text": "Deve essere pubblicato commercialmente.",
+        "altText": "Opzione: Pubblicazione commerciale richiesta.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Deve essere un'espressione concreta di un'idea e una creazione intellettuale di autori umani.",
+        "altText": "Opzione: Espressione concreta e paternità umana.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Deve essere registrato presso un ufficio statale del diritto d'autore.",
+        "altText": "Opzione: Registrazione statale richiesta.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Deve essere un'idea completamente nuova che non è mai stata concepita prima.",
+        "altText": "Opzione: Idea completamente nuova richiesta.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      }
+    ],
+    "_feedback": {
+      "title": "Spiegazione delle condizioni del diritto d'autore",
+      "altTitle": "Feedback on your answer about copyright conditions.",
+      "correct": "Esatto! Il campo 'Quali sono le condizioni?' afferma esplicitamente che un'opera deve essere un'espressione concreta e una creazione intellettuale di autori umani per essere protetta dal diritto d'autore, sottolineando in particolare la paternità umana come fondamentale nel diritto tedesco e dell'UE.",
+      "_incorrect": {
+        "notFinal": "Non del tutto. Rivedi il campo 'Quali sono le condizioni?' nella sezione 'Diritto d'autore in generale'. Presta molta attenzione a ciò che è considerato 'originale'.",
+        "final": "La risposta corretta è: Deve essere un'espressione concreta di un'idea e una creazione intellettuale di autori umani. Il diritto d'autore protegge l'espressione di un'idea, non l'idea stessa, e richiede creatività umana e un 'tocco personale' per la protezione in molti quadri giuridici."
+      },
+      "_partlyCorrect": {
+        "notFinal": "Questa domanda ha solo una risposta corretta. Si prega di controllare la propria scelta in base al contenuto.",
+        "final": "Questa domanda ha solo una risposta corretta. La risposta corretta è che un'opera deve essere un'espressione concreta di un'idea e una creazione intellettuale di autori umani per essere protetta dal diritto d'autore."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Invia",
+        "ariaLabel": "Seleziona qui per inviare la tua risposta."
+      },
+      "_reset": {
+        "buttonText": "Reimposta",
+        "ariaLabel": "Seleziona qui per reimpostare la tua risposta."
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Mostra risposta corretta",
+        "ariaLabel": "Seleziona qui per mostrare la risposta corretta."
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Mostra la mia risposta",
+        "ariaLabel": "Seleziona qui per mostrare la tua risposta."
+      },
+      "_showFeedback": {
+        "buttonText": "Mostra feedback",
+        "ariaLabel": "Seleziona qui per mostrare il feedback."
+      },
+      "remainingAttemptsText": "Tentativi rimanenti",
+      "remainingAttemptText": "ultimo tentativo"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-309",
+    "_parentId": "b-307",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Quiz: Checklist del diritto d'autore",
+    "displayTitle": "Cose da fare prima di pubblicare opere assistite dall'IA",
+    "body": "Hai utilizzato uno strumento di IA per aiutare nella creazione di un nuovo prodotto (ad esempio, generazione di elementi di design, testo di marketing o parti di codice software). Quali controlli cruciali dovresti eseguire prima di pubblicare pubblicamente questo prodotto per affrontare le preoccupazioni sul diritto d'autore secondo le raccomandazioni in questo modulo?",
+    "instruction": "Seleziona una o più opzioni che si applicano, quindi clicca su Invia.",
+    "ariaQuestion": "Quali controlli cruciali dovresti eseguire prima di pubblicare opere assistite dall'IA?",
+    "_attempts": 3,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": "multiple",
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_items": [
+      {
+        "text": "Verifica che tutte le informazioni che hai fornito al sistema di IA per l'addestramento o il miglioramento del contesto fossero libere da copyright o che tu avessi i diritti necessari per utilizzarle.",
+        "altText": "Opzione: Controlla il copyright dei dati di input.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Controlla attentamente tutti gli output generati dall'IA integrati nel prodotto per possibili somiglianze con opere esistenti protette da copyright.",
+        "altText": "Opzione: Controlla l'output dell'IA per violazioni.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Assicurati che nel prodotto finale ci sia stato un input creativo umano sufficiente per stabilire la paternità umana per la protezione del diritto d'autore.",
+        "altText": "Opzione: Assicurati un input umano sufficiente.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Verifica che il modello di IA stesso sia stato registrato presso le autorità competenti per la protezione del diritto d'autore.",
+        "altText": "Opzione: Controlla la registrazione del copyright del modello di IA.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      }
+    ],
+    "_feedback": {
+      "title": "Spiegazione della checklist del diritto d'autore",
+      "altTitle": "Feedback on your answer about AI product release.",
+      "correct": "Eccellente! Tutti e tre i punti (A, B e C) sono passaggi cruciali dalle raccomandazioni del modulo. Assicurarsi che i dati di input siano chiari, controllare attentamente l'output generato dall'IA per possibili violazioni e mantenere un controllo creativo umano sufficiente sono essenziali per navigare nel diritto d'autore nei prodotti assistiti dall'IA.",
+      "_incorrect": {
+        "notFinal": "Non del tutto. Rivedi la sezione 'Raccomandazioni importanti'. Ricorda che le preoccupazioni sul diritto d'autore si applicano sia all'input nell'IA che al suo output generato, nonché al contributo umano complessivo.",
+        "final": "Le risposte corrette sono A, B e C. Le raccomandazioni sottolineano l'importanza di: 1) Assicurarsi di avere i diritti su tutti i dati che si forniscono all'IA; 2) controllare attentamente i contenuti generati dall'IA per somiglianze con opere esistenti protette da copyright; e 3) assicurarsi che ci sia un input creativo umano sufficiente per rivendicare il diritto d'autore sull'opera finale. Il diritto d'autore del modello di IA stesso non è una preoccupazione primaria per i controlli di rilascio del prodotto da parte di un utente."
+      },
+      "_partlyCorrect": {
+        "notFinal": "Hai identificato alcuni passaggi cruciali, ma non tutti. Rivedi le sezioni pertinenti per quelli che hai perso.",
+        "final": "Hai identificato alcuni passaggi cruciali, ma non tutti. Le risposte corrette sono A, B e C. Le raccomandazioni sottolineano l'importanza di: 1) Assicurarsi di avere i diritti su tutti i dati che si forniscono all'IA; 2) controllare attentamente i contenuti generati dall'IA per somiglianze con opere esistenti protette da copyright; e 3) assicurarsi che ci sia un input creativo umano sufficiente per rivendicare il diritto d'autore sull'opera finale. Il diritto d'autore del modello di IA stesso non è una preoccupazione primaria per i controlli di rilascio del prodotto da parte di un utente."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Invia",
+        "ariaLabel": "Seleziona qui per inviare la tua risposta."
+      },
+      "_reset": {
+        "buttonText": "Reimposta",
+        "ariaLabel": "Seleziona qui per reimpostare la tua risposta."
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Mostra risposta corretta",
+        "ariaLabel": "Seleziona qui per mostrare la risposta corretta."
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Mostra la mia risposta",
+        "ariaLabel": "Seleziona qui per mostrare la tua risposta."
+      },
+      "_showFeedback": {
+        "buttonText": "Mostra feedback",
+        "ariaLabel": "Seleziona qui per mostrare il feedback."
+      },
+      "remainingAttemptsText": "Tentativi rimanenti",
+      "remainingAttemptText": "ultimo tentativo"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-399",
+    "_parentId": "b-308",
+    "_type": "component",
+    "_component": "text",
+    "body": "Fonti: <br> <br> Guadamuz, Andres (2025):  The EU's Artificial Intelligence Act and copyright, The Journal of World Intellectual Property Vol. 28(1), DOI: <a href=\"https://doi.org/10.1111/jwip.12330\" target=\"_blank\">https://doi.org/10.1111/jwip.12330</a> <br> <br> Sag, Matthew (2023): Copyright Safety for Generative AI, Houston Law Review, Vol. 61(2),  DOI (pre-print): <a href=\"https://dx.doi.org/10.2139/ssrn.4438593\" target=\"_blank\">https://dx.doi.org/10.2139/ssrn.4438593</a> <br> <br> Smuha, Nathalie A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence, DOI: <a href=\"https://doi.org/10.1017/9781009367783\" target=\"_blank\">https://doi.org/10.1017/9781009367783</a> ",
+    "_classes": "",
+    "_isOptional": true
+  },
+  {
+    "_id": "c-401",
+    "_parentId": "b-401",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Definizioni importanti del GDPR",
+    "displayTitle": "Definizioni fondamentali del GDPR",
+    "body": "Prima di esaminare l'applicazione del Regolamento Generale sulla Protezione dei Dati (GDPR) all'IA, è necessario comprenderne la terminologia fondamentale. Il GDPR stabilisce il suo quadro normativo attraverso definizioni precise. I seguenti tre concetti sono centrali per le discussioni sull'IA:",
+    "instruction": "Esplora ogni termine qui sotto per comprenderne il significato.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+      {
+        "front": "Dati personali",
+        "back": {
+          "body": "I dati personali si riferiscono a <b>tutte le informazioni che possono identificare una persona vivente</b>, direttamente o indirettamente. Esempi includono <em>nomi, numeri di identificazione, dati di localizzazione o qualsiasi dato che possa essere utilizzato per stabilire l'identità di una persona.</em>"
+        }
+      },
+      {
+        "front": "Trattamento",
+        "back": {
+          "body": "Il trattamento dei dati significa <b>qualsiasi</b> operazione eseguita su dati personali. Ciò include <em>la raccolta, la memorizzazione, l'uso, la condivisione, la modifica o persino la cancellazione.</em> Tale trattamento può essere manuale o tramite sistemi automatizzati."
+        }
+      },
+      {
+        "front": "Consenso",
+        "back": {
+          "body": "Il consenso significa un'<b>autorizzazione chiara, volontaria, specifica e informata</b> di una persona all'uso dei suoi dati personali. Richiede un'<em>azione affermativa inequivocabile</em> e non può essere implicito."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-402",
+    "_parentId": "b-402",
+    "_type": "component",
+    "_component": "tabs",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Come l'IA elabora i dati personali",
+    "displayTitle": "Come l'IA elabora i dati personali",
+    "body": "I sistemi di Intelligenza Artificiale dipendono fortemente dai dati per la loro funzionalità. Comprendere come i dati personali vengono gestiti nelle diverse fasi dello sviluppo e della distribuzione dell'IA è cruciale per la conformità al GDPR.",
+    "instruction": "Seleziona le schede per saperne di più.",
+    "_tabLayout": "horizontal",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    },
+    "_items": [
+      {
+        "tabTitle": "Raccolta dati e addestramento",
+        "title": "Fase 1: Raccolta dati e addestramento iniziale",
+        "body": "I sistemi di IA si basano su una <b>'enorme fame di dati'</b>. Questa fase iniziale comporta la raccolta di enormi quantità di dati per addestrare algoritmi per il riconoscimento di modelli o le previsioni. Se i dati sono sufficientemente granulari, possono consentire il <b>riconoscimento delle persone</b>, il che significa che i dati personali sono coinvolti fin dall'inizio. Questo accumulo di dati rilevanti è un fattore chiave per i problemi legati all'IA, poiché viene spesso utilizzato per la creazione di <em>profili di personalità o per servizi individualizzati.</em>",
+        "_classes": ""
+      },
+      {
+        "tabTitle": "Sviluppo del modello e rischi",
+        "title": "Fase 2: Sviluppo del modello di IA e fughe di dati",
+        "body": "Durante la fase di sviluppo, i modelli di IA vengono creati dai dati di addestramento raccolti. Anche dopo che un modello è stato addestrato, potrebbe inavvertitamente '<b>perdere</b>' alcuni dei dati personali su cui è stato addestrato, attraverso metodi come l'<em>inversione del modello o gli attacchi di inferenza di appartenenza</em>. Ciò significa che il modello addestrato stesso può contenere informazioni personali, e la sua divulgazione o trasferimento a terzi è considerata '<b>trattamento</b>' ai sensi del GDPR, indipendentemente dal fatto che i dati originali fossero grezzi o pseudonimizzati.",
+        "_classes": ""
+      },
+      {
+        "tabTitle": "Applicazione",
+        "title": "Fase 3: Applicazioni dell'IA",
+        "body": "L'ultima fase prevede la distribuzione del modello di IA addestrato per effettuare previsioni e decisioni reali. Questa <b>'fase di inferenza'</b> elabora i dati personali per derivare nuove informazioni, ad esempio una banca che utilizza un'IA per prevedere il rischio di inadempienza dei prestiti. Questa applicazione dell'IA ai dati personali costituisce un '<b>ulteriore trattamento</b>' e deve essere conforme ai principi del GDPR, poiché riguarda direttamente gli individui attraverso <em>decisioni e raccomandazioni automatizzate</em>.",
+        "_classes": ""
+      }
+    ]
+  },
+  {
+    "_id": "c-403",
+    "_parentId": "b-403",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Punti di attrito tra IA e GDPR",
+    "displayTitle": "Punti di attrito tra IA e GDPR",
+    "body": "Quando le aziende utilizzano l'Intelligenza Artificiale, spesso si basa sulle tue informazioni personali. Mentre il GDPR mira a proteggerti, le caratteristiche uniche dell'IA possono creare sfide specifiche per le persone che interagiscono con questi sistemi all'interno di un'azienda.",
+    "instruction": "Clicca sui campi qui sotto per saperne di più.",
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false,
+    "_setCompletionOn": "allItems",
+    "_isCenterAligned": false,
+    "_items": [
+      {
+        "title": "Limitazione della finalità",
+        "body": "I sistemi di IA spesso utilizzano le tue informazioni in un modo che <b>non era originariamente spiegato o concordato.</b>"
+      },
+      {
+        "title": "Trasparenza",
+        "body": "Le decisioni prese dall'IA possono essere difficili da capire. È difficile per un'azienda spiegare <em>perché</em> un'IA è giunta a una certa conclusione su di te, il che rende difficile sapere come vengono prese le sue decisioni."
+      },
+      {
+        "title": "Minimizzazione dei dati e limitazione della conservazione",
+        "body": "L'IA vive di grandi quantità di dati, il che spesso significa che <b>vengono raccolte più informazioni di quelle strettamente necessarie.</b> Questo rende anche difficile sapere quando o se i tuoi dati verranno mai cancellati."
+      },
+      {
+        "title": "Accuratezza",
+        "body": "I dati devono essere accurati e aggiornati. La <b>natura 'black-box'</b> dell'IA, tuttavia, rende difficile rilevare e correggere informazioni imprecise. Una sfumatura importante è che, mentre i dati di input devono essere accurati, gli output dell'IA sono spesso <b>previsioni probabilistiche</b>, il che complica l'applicazione di questo principio."
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-404",
+    "_parentId": "b-404",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Raccomandazioni importanti",
+    "displayTitle": "Linee guida per la gestione dei dati personali",
+    "body": "Come utente finale, le tue azioni possono influenzare significativamente la protezione dei dati all'interno dei sistemi di IA aziendali.",
+    "instruction": "Esplora queste raccomandazioni per capire come puoi proteggere i dati personali.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+      {
+        "front": "Nessun dato personale senza consenso",
+        "back": {
+          "body": "<b>Non inserire mai dati personali di altri</b> in un sistema di IA senza una base giuridica chiara ed esplicita, come il loro <em>consenso specifico e informato.</em>"
+        }
+      },
+      {
+        "front": "Anonimizzare i dati",
+        "back": {
+          "body": "Se il tuo ruolo comporta la gestione o l'inserimento di dati che contribuiscono ai sistemi di IA, <b>dai priorità all'uso di tecniche di anonimizzazione o pseudonimizzazione</b> per rimuovere o oscurare gli identificatori personali."
+        }
+      },
+      {
+        "front": "Rivedere il tuo consenso",
+        "back": {
+          "body": "Come individuo che fornisce i propri dati, <b>esamina attentamente le richieste di consenso,</b> in particolare se sono vaghe, implicite o presentate come opt-out predefinito. Il GDPR richiede che il consenso sia <b>'libero, specifico, informato e inequivocabile'</b>."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-405",
+    "_parentId": "b-405",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Quiz: Definizioni GDPR",
+    "displayTitle": "Metti alla prova le tue conoscenze: Terminologia GDPR",
+    "body": "Secondo le 'Definizioni GDPR' sopra, quale tipo di informazioni è classificato come 'Dati personali'?",
+    "instruction": "Seleziona un'opzione che si applica, quindi clicca su Invia.",
+    "ariaQuestion": "Cosa è classificato come 'Dati personali' secondo le definizioni GDPR?",
+    "_attempts": 3,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_items": [
+      {
+        "text": "Tutte le informazioni sulla performance finanziaria di un'azienda.",
+        "altText": "Opzione: Dati finanziari dell'azienda.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Informazioni che sono state completamente anonimizzate e non possono essere associate a nessuna persona.",
+        "altText": "Opzione: Dati completamente anonimizzati.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Tutte le informazioni che possono identificare una persona vivente direttamente o indirettamente.",
+        "altText": "Opzione: Informazioni identificabili di persone viventi.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Dati che si riferiscono solo alla cronologia di navigazione online di una persona.",
+        "altText": "Opzione: Dati della cronologia di navigazione online.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      }
+    ],
+    "_feedback": {
+      "title": "Spiegazione della definizione di dati personali",
+      "altTitle": "Feedback on your answer about Personal Data.",
+      "correct": "Esatto! La sezione 'Definizioni importanti del GDPR' afferma chiaramente che i dati personali si riferiscono a 'tutte le informazioni che possono identificare una persona vivente direttamente o indirettamente'. Questo è un concetto fondamentale del GDPR.",
+      "_incorrect": {
+        "notFinal": "Non del tutto. Rivedi il campo 'Dati personali' nella sezione 'Definizioni importanti del GDPR'. Considera cosa rende le informazioni veramente 'personali' nel contesto del GDPR.",
+        "final": "La risposta corretta è: Tutte le informazioni che possono identificare una persona vivente direttamente o indirettamente. Questa ampia definizione assicura che vari tipi di dati, anche se non immediatamente ovvi, siano protetti dal GDPR se possono essere collegati a una persona."
+      },
+      "_partlyCorrect": {
+        "notFinal": "Questa domanda ha solo una risposta corretta. Si prega di controllare la propria scelta in base al contenuto.",
+        "final": "Questa domanda ha solo una risposta corretta. La risposta corretta è che i dati personali includono tutte le informazioni che possono identificare una persona vivente direttamente o indirettamente."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Invia",
+        "ariaLabel": "Seleziona qui per inviare la tua risposta."
+      },
+      "_reset": {
+        "buttonText": "Reimposta",
+        "ariaLabel": "Seleziona qui per reimpostare la tua risposta."
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Mostra risposta corretta",
+        "ariaLabel": "Seleziona qui per mostrare la risposta corretta."
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Mostra la mia risposta",
+        "ariaLabel": "Seleziona qui per mostrare la tua risposta."
+      },
+      "_showFeedback": {
+        "buttonText": "Mostra feedback",
+        "ariaLabel": "Seleziona qui per mostrare il feedback."
+      },
+      "remainingAttemptsText": "Tentativi rimanenti",
+      "remainingAttemptText": "ultimo tentativo"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-406",
+    "_parentId": "b-406",
+    "_type": "component",
+    "_component": "text",
+    "body": "Fonti: <br> <br> Paal, Boris P. (2022): Artificial Intelligence as a Challenge for Data Protection Law And Vice Versa. In: The Cambridge Handbook of Responsible Artificial Intelligence, <a href=\"https://doi.org/10.1017/9781009207898.023\" target=\"_blank\">https://doi.org/10.1017/9781009207898.023</a> <br> <br> Dewitte, Pierre (2025): AI Meets the GDPR. In: Smuha, N. A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence. DOI: <a href=\"https://doi.org/10.1017/9781009367783.010\" target=\"_blank\">https://doi.org/10.1017/9781009367783.010</a>",
+    "_classes": "",
+    "_isOptional": true
+  },
+  {
+    "_id": "c-501",
+    "_parentId": "b-501",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Introduzione al Regolamento UE sull'IA",
+    "displayTitle": "Conosci il Regolamento UE sull'IA",
+    "body": "Prima di iniziare con i requisiti normativi più importanti, vorremmo darti una breve introduzione al Regolamento UE sull'IA (EU AI Act).",
+    "instruction": "Clicca sui campi qui sotto per esplorare le domande fondamentali sul Regolamento UE sull'IA.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+      {
+        "front": "Perché regolare l'IA?",
+        "back": {
+          "body": "Il Regolamento UE sull'IA mira a garantire che lo sviluppo e l'uso dell'IA siano sicuri e affidabili e rispettino i diritti fondamentali. Cerca di bilanciare l'innovazione con la protezione dei cittadini e di costruire fiducia nell'IA."
+        }
+      },
+      {
+        "front": "Cosa viene regolamentato?",
+        "back": {
+          "body": "Qualsiasi sistema basato su macchine immesso sul mercato dell'UE che opera con diversi gradi di autonomia e potenziale adattabilità, che deriva da input per generare output virtuali o fisici (previsioni, contenuti, raccomandazioni o decisioni)."
+        }
+      },
+      {
+        "front": "Chi è interessato?",
+        "back": {
+          "body": "Il Regolamento UE sull'IA riguarda una varietà di entità e individui, ognuno con ruoli e responsabilità specifici per garantire la conformità e la responsabilità. Discuteremo i ruoli in dettaglio in seguito."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-502",
+    "_parentId": "b-502",
+    "_type": "component",
+    "_component": "sliderItems",
+    "_classes": "is-vertical has-markers",
+    "_layout": "full",
+    "title": "Il Regolamento UE sull'IA: Tappe importanti",
+    "displayTitle": "La tempistica del Regolamento sull'IA",
+    "body": "Ora che abbiamo chiarito il perché, il cosa e il chi, rimane la domanda: 'Quando?'",
+    "instruction": "Scorri o clicca per visualizzare la tempistica delle tappe più importanti.",
+    "_setCompletionOn": "allItems",
+    "_startValue": 0,
+    "_label": "",
+    "_items": [
+      {
+        "title": "Febbraio 2025",
+        "body": "Le regole più severe entrano in vigore e vietano determinati sistemi di IA con rischi inaccettabili, come il social scoring da parte delle autorità e l'identificazione biometrica remota in tempo reale in luoghi pubblici.",
+        "_graphic": {
+          "large": "",
+          "small": "",
+          "alt": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Agosto 2025",
+        "body": "Le regole per i modelli di IA per scopi generali (GPAI), che sono sistemi di IA ampi come i grandi modelli linguistici, diventano attive. Inoltre, gli Stati membri devono aver istituito le loro autorità nazionali per l'applicazione del regolamento e aver stabilito sanzioni per la non conformità.",
+        "_graphic": {
+          "large": "",
+          "small": "",
+          "alt": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Agosto 2026",
+        "body": "La maggior parte delle disposizioni del Regolamento sull'IA inizia ad applicarsi. Ciò include i requisiti per i sistemi di IA ad alto rischio.",
+        "_graphic": {
+          "large": "",
+          "small": "",
+          "alt": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Agosto 2027",
+        "body": "Obblighi specifici per tutti i nuovi sistemi di IA ad alto rischio (come quelli utilizzati in infrastrutture critiche o dispositivi medici) entrano pienamente in vigore. Anche i fornitori di modelli GPAI introdotti prima di agosto 2025 devono essere pienamente conformi entro questa data.",
+        "_graphic": {
+          "large": "",
+          "small": "",
+          "alt": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-503",
+    "_parentId": "b-503",
+    "_type": "component",
+    "_component": "list",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Diritto d'autore e IA",
+    "displayTitle": "Quali sono i requisiti normativi?",
+    "body": "Come accennato in precedenza, l'IA riguarda una vasta gamma di persone e autorità. Le responsabilità normative dipendono da due domande principali:",
+    "instruction": "",
+    "_columns": 0,
+    "_orderedList": true,
+    "_animateList": true,
+    "_percentInviewVertical": 10,
+    "_itemHorizontalAlignment": "start",
+    "_bulletAlignment": "start",
+    "_items": [
+      {
+        "title": "Qual è il tuo ruolo?",
+        "body": "",
+        "_classes": "",
+        "_graphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      },
+      {
+        "title": "Qual è il rischio del sistema di IA?",
+        "body": "",
+        "_classes": "",
+        "_graphic": {
+          "src": "",
+          "alt": "",
+          "attribution": ""
+        }
+      }
+    ],
+    "bodyAfter": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true
+    }
+  },
+  {
+    "_id": "c-505",
+    "_parentId": "b-504",
+    "_type": "component",
+    "_component": "expose",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Ruoli chiave nell'ecosistema del Regolamento UE sull'IA",
+    "displayTitle": "Conosci il tuo ruolo",
+    "body": "L'articolo 3 (2-8) del Regolamento sull'IA definisce diversi ruoli chiave, ognuno con responsabilità specifiche in relazione ai sistemi di IA e ai modelli di IA per scopi generali. Comprendere questi ruoli è cruciale per la conformità alle normative.",
+    "instruction": "Clicca su ogni campo per saperne di più su ogni ruolo chiave.",
+    "_columns": 3,
+    "_animationType": "shrink",
+    "_items": [
+      {
+        "front": "Fornitore",
+        "back": {
+          "body": "Questa è l'azienda o la persona che <b>crea</b> (o fa creare) un sistema di IA o un modello di IA per scopi generali e lo <b>vende o lo rende disponibile</b> sotto il proprio nome, sia a pagamento che gratuitamente."
+        }
+      },
+      {
+        "front": "Utente",
+        "back": {
+          "body": "Questa è qualsiasi persona (un individuo, un'azienda o un'autorità governativa) che <b>utilizza</b> un sistema di IA per le proprie operazioni o servizi. Ciò <i>non include le persone</i> che utilizzano l'IA esclusivamente per attività personali."
+        }
+      },
+      {
+        "front": "Distributore e Importatore",
+        "back": {
+          "body": "Un <b>distributore</b> è un'azienda o una persona nella catena di approvvigionamento (come un rivenditore) che offre un sistema di IA in vendita nell'UE, ma non è il produttore originale. Se il sistema viene introdotto da fuori dell'UE, l'azienda o la persona agisce come <b>importatore</b>."
+        }
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-506",
+    "_parentId": "b-505",
+    "_type": "component",
+    "_component": "text",
+    "_classes": "text-warning",
+    "_layout": "full",
+    "title": "Pubblico di riferimento",
+    "displayTitle": "",
+    "body": "Per mantenere lo status di utente, evita di rinominare il sistema di IA che intendi utilizzare. Inoltre, assicurati di utilizzare il sistema solo per lo scopo originariamente previsto. Se non sei sicuro del tuo ruolo, utilizza il EU AI Act Compliance Checker, collegato nelle fonti alla fine di questa lezione.",
+    "instruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_isOptional": false
+  },
+  {
+    "_id": "c-507",
+    "_parentId": "b-506",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "left",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "longdescription": "",
+      "large": "course/it/images/erwan-hesry-IqB5MPcQp6k-unsplash.jpg",
+      "small": "course/it/images/erwan-hesry-IqB5MPcQp6k-unsplash.jpg",
+      "_url": "",
+      "_target": "_blank",
+      "attribution": "<a href=\"https://unsplash.com/photos/traffic-light-in-red-IqB5MPcQp6k\" target=\"_blank\" style=\"color: white;\">Erwan Hesry su www.unsplash.com</a>"
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c-508",
+    "_parentId": "b-506",
+    "_type": "component",
+    "_component": "flipper",
+    "_classes": "",
+    "_layout": "right",
+    "title": "Esempi di usi proibiti",
+    "displayTitle": "",
+    "body": "",
+    "width": 400,
+    "_items": [
+      {
+        "title": "Manipolazione dannosa",
+        "body": "Sistemi di IA che utilizzano <b>tecniche subliminali, manipolative o ingannevoli</b> con l'obiettivo o l'effetto di <b>distorcere il comportamento</b>, che causano o sono suscettibili di causare <b>danni significativi</b>.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Sfruttamento delle vulnerabilità",
+        "body": "Sistemi di IA che <b>sfruttano le vulnerabilità</b> in relazione a <b>età, disabilità o situazioni sociali/economiche specifiche</b>, con l'obiettivo o l'effetto di <b>distorcere il comportamento</b>, che causano o sono suscettibili di causare <b>danni significativi</b>.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Social Scoring",
+        "body": "Sistemi che <b>valutano o classificano le persone in base al loro comportamento sociale</b>, portando a un <b>trattamento sfavorevole o svantaggioso</b> in contesti sociali non correlati alla raccolta dati originale, o che è <b>ingiustificato o sproporzionato</b>.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Polizia predittiva",
+        "body": "Sistemi di IA progettati per <b>prevedere il rischio di una persona</b> di commettere un <b>reato</b>.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Scraping non mirato per il riconoscimento facciale",
+        "body": "<b>Scraping non mirato</b> di Internet o di filmati CCTV allo scopo di <b>creare o espandere database di riconoscimento facciale</b>.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Riconoscimento delle emozioni in contesti specifici",
+        "body": "Sistemi di IA utilizzati per la <b>derivazione delle emozioni</b> in <b>luoghi di lavoro e istituzioni educative</b>.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Categorizzazione biometrica di caratteristiche protette",
+        "body": "<b>Categorizzazione biometrica</b> utilizzata per <b>derivare determinate caratteristiche protette</b> (ad esempio, opinioni politiche, orientamento sessuale, razza, convinzioni religiose).",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Identificazione biometrica remota in tempo reale",
+        "body": "<b>Identificazione biometrica remota in tempo reale</b> per <b>scopi di applicazione della legge</b> in <b>spazi accessibili al pubblico</b> (con eccezioni limitate e rigorose per reati gravi).",
+        "instruction": "Completato ✔"
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-509",
+    "_parentId": "b-507",
+    "_type": "component",
+    "_component": "graphic",
+    "_classes": "",
+    "_layout": "right",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "longdescription": "",
+      "large": "course/it/images/yellow_light_imagen.jpg",
+      "small": "course/it/images/yellow_light_imagen.jpg",
+      "_url": "",
+      "_target": "_blank",
+      "attribution": "Generato con Google Imagen 4"
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0,
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "c-510",
+    "_parentId": "b-507",
+    "_type": "component",
+    "_component": "flipper",
+    "_classes": "",
+    "_layout": "left",
+    "title": "Esempi di sistemi ad alto rischio",
+    "displayTitle": "",
+    "body": "",
+    "width": 400,
+    "_items": [
+      {
+        "title": "Componenti di sicurezza dei prodotti",
+        "body": "Sistemi di IA utilizzati come <b>componenti di sicurezza nei prodotti</b> che sono già soggetti a <b>normative di sicurezza dell'UE</b> (ad esempio, dispositivi medici, aviazione, automobili).",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Sistemi di identificazione biometrica",
+        "body": "IA utilizzata per l'<b>identificazione biometrica remota</b> di persone fisiche (escluso l'uso in tempo reale da parte delle forze dell'ordine in pubblico, che è <b>generalmente proibito</b>).",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Gestione delle infrastrutture critiche",
+        "body": "Sistemi di IA che fungono da <b>componenti di sicurezza</b> nella <b>gestione di servizi essenziali</b> come acqua, gas, elettricità o controllo del traffico.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Istruzione e formazione professionale",
+        "body": "IA utilizzata per la <b>determinazione dell'accesso</b> alle istituzioni educative, per l'<b>assegnazione di persone</b> o per la <b>valutazione dei risultati dell'apprendimento</b> (ad esempio, valutazione degli esami).",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Occupazione e gestione del personale",
+        "body": "Sistemi di IA utilizzati per il <b>reclutamento, la selezione dei candidati, la valutazione</b> dei candidati, l'<b>assegnazione dei compiti, il monitoraggio o la valutazione delle prestazioni</b> dei dipendenti.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Accesso ai servizi essenziali",
+        "body": "IA utilizzata per la <b>valutazione dell'affidabilità creditizia</b>, per l'<b>invio di servizi di emergenza</b> o per la <b>valutazione dell'idoneità ai benefici sociali pubblici</b> (ad esempio, assistenza sociale, assistenza sanitaria).",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Applicazioni delle forze dell'ordine",
+        "body": "Sistemi di IA utilizzati dalle forze dell'ordine per scopi come la <b>valutazione del rischio criminale</b>, i <b>rilevatori di bugie</b> o la <b>valutazione dell'affidabilità delle prove</b>.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Migrazione, asilo e controllo delle frontiere",
+        "body": "Sistemi di IA utilizzati per la <b>valutazione dell'idoneità all'asilo, ai visti o ai permessi di soggiorno</b> o per la <b>verifica dell'autenticità dei documenti di viaggio</b>.",
+        "instruction": "Avanti »"
+      },
+      {
+        "title": "Amministrazione della giustizia e democrazia",
+        "body": "Sistemi di IA destinati a <b>supportare le autorità giudiziarie</b> o a influenzare il <b>risultato delle elezioni</b> o dei referendum.",
+        "instruction": "Completato ✔"
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-511",
+    "_parentId": "b-508",
+    "_type": "component",
+    "_component": "accordion",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Requisiti legali per i sistemi ad alto rischio",
+    "displayTitle": "Requisiti legali per i sistemi ad alto rischio",
+    "body": "Prima di implementare un sistema ad alto rischio, ad esempio una revisione automatizzata dei curriculum nel reclutamento, assicurati di soddisfare i seguenti requisiti legali.",
+    "instruction": "Seleziona le intestazioni per saperne di più.",
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false,
+    "_setCompletionOn": "allItems",
+    "_isCenterAligned": false,
+    "_items": [
+      {
+        "title": "Governance e gestione dei dati",
+        "body": "Gli utenti devono assicurarsi che il sistema di IA sia utilizzato secondo le istruzioni. Se controllano i dati di input, questi devono essere <strong>rilevanti e sufficientemente rappresentativi</strong> per lo scopo previsto del sistema. Devono essere eseguite <strong>valutazioni d'impatto sulla protezione dei dati (DPIA)</strong> applicabili, ed è richiesta una <strong>registrazione nel database dell'UE</strong>, se specificato.",
+        "_titleIcon": "",
+        "_imageAlignment": "left",
+        "_classes": ""
+      },
+      {
+        "title": "Trasparenza e notifica",
+        "body": "Prima dell'uso o della messa in servizio di sistemi di IA ad alto rischio sul posto di lavoro, gli utenti devono <strong>informare i lavoratori interessati e i loro rappresentanti</strong>. Inoltre, le persone fisiche devono essere <strong>informate sull'uso dell'IA ad alto rischio nelle decisioni</strong> a cui sono soggette.",
+        "_titleIcon": "",
+        "_imageAlignment": "left",
+        "_classes": ""
+      },
+      {
+        "title": "Gestione del rischio e supervisione umana",
+        "body": "Gli utenti sono obbligati a <strong>monitorare il sistema di IA ad alto rischio</strong> e il rischio che ne deriva. Devono <strong>informare immediatamente il fornitore, il distributore e l'autorità di vigilanza del mercato competente</strong> se l'uso potrebbe comportare un rischio per la salute e la sicurezza o i diritti fondamentali, e <strong>sospendere l'uso del sistema in tali casi</strong>. La <strong>supervisione umana</strong> deve essere garantita da persone con la formazione e il supporto necessari. Gli utenti devono inoltre conservare <strong>registri generati automaticamente</strong> dell'uso del sistema (se sotto il loro controllo) per almeno sei mesi e <strong>collaborare con le autorità competenti pertinenti</strong>.",
+        "_titleIcon": "",
+        "_imageAlignment": "left",
+        "_classes": ""
+      },
+      {
+        "title": "Diritto alla spiegazione",
+        "body": "Su richiesta di una persona, gli utenti devono fornire una <strong>spiegazione dettagliata del ruolo dell'IA</strong> in qualsiasi processo decisionale che abbia un <strong>effetto legale o simile significativo</strong> su tale persona, in particolare se ha un <strong>effetto negativo sulla sua salute e sicurezza o sui diritti fondamentali</strong>. La spiegazione deve anche esporre gli elementi principali della decisione.",
+        "_titleIcon": "",
+        "_imageAlignment": "left",
+        "_classes": ""
+      }
+    ],
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-513",
+    "_parentId": "b-509",
+    "_type": "component",
+    "_component": "matching",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Categorizzare le pratiche di IA sul posto di lavoro",
+    "displayTitle": "Metti alla prova le tue conoscenze: Classificazione del rischio",
+    "body": "Seleziona la categoria di rischio corretta dal menu a discesa per ogni pratica di IA, in base agli scenari tipici aziendali e sul posto di lavoro.",
+    "instruction": "Seleziona un'opzione da ogni elenco a discesa e clicca su Invia.",
+    "ariaQuestion": "Seleziona la categoria di rischio per ogni pratica di IA.",
+    "_attempts": 3,
+    "_shouldDisplayAttempts": true,
+    "_shouldResetAllAnswers": false,
+    "_isRandom": false,
+    "_isRandomQuestionOrder": true,
+    "_questionWeight": 1,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "placeholder": "Seleziona categoria...",
+    "_allowOnlyUniqueAnswers": false,
+    "_hasItemScoring": true,
+    "_items": [
+      {
+        "text": "Utilizzo di uno strumento di IA per analizzare i feed video dei dipendenti e segnalare il loro stato emotivo durante le riunioni interne.",
+        "_options": [
+          {
+            "text": "Pratica di IA proibita",
+            "_isCorrect": true,
+            "_score": 1
+          },
+          {
+            "text": "Pratica di IA ad alto rischio",
+            "_isCorrect": false,
+            "_score": 0
+          }
+        ]
+      },
+      {
+        "text": "Implementazione di una piattaforma basata su IA per la revisione automatica delle domande di lavoro e la classificazione dei candidati per i colloqui in base alle loro competenze ed esperienze.",
+        "_options": [
+          {
+            "text": "Pratica di IA proibita",
+            "_isCorrect": false,
+            "_score": 0
+          },
+          {
+            "text": "Pratica di IA ad alto rischio",
+            "_isCorrect": true,
+            "_score": 1
+          }
+        ]
+      },
+      {
+        "text": "Scansione automatica dei post sui social media personali dei dipendenti per creare un 'punteggio comportamentale' che influenzi promozioni o azioni disciplinari all'interno dell'azienda.",
+        "_options": [
+          {
+            "text": "Pratica di IA proibita",
+            "_isCorrect": true,
+            "_score": 1
+          },
+          {
+            "text": "Pratica di IA ad alto rischio",
+            "_isCorrect": false,
+            "_score": 0
+          }
+        ]
+      }
+    ],
+    "_groups": [
+      {
+        "title": "Prohibited AI Practice",
+        "altTitle": "Prohibited AI Practice category.",
+        "_id": "prohibited"
+      },
+      {
+        "title": "High-Risk AI Practice",
+        "altTitle": "High-Risk AI Practice category.",
+        "_id": "high-risk"
+      }
+    ],
+    "_feedback": {
+      "title": "Classificazione del rischio spiegata",
+      "altTitle": "Feedback on your risk classification.",
+      "correct": "Eccellente! Hai classificato correttamente queste pratiche di IA in base ai loro livelli di rischio ai sensi del Regolamento UE sull'IA nel contesto aziendale/lavorativo. Questa comprensione è cruciale per la conformità alle normative.",
+      "_incorrect": {
+        "notFinal": "Non del tutto. Rivedi le sezioni 'Applicazioni proibite' ed 'Esempi di sistemi ad alto rischio' e presta molta attenzione a come queste si applicano ad azioni specifiche sul posto di lavoro.",
+        "final": "Rivediamo le classificazioni corrette per le pratiche di IA: le 'Pratiche di IA proibite' sono quelle che presentano un rischio inaccettabile per i diritti fondamentali, come l'uso dell'IA per derivare le emozioni dei dipendenti o per creare punteggi comportamentali dai social media. Le 'Pratiche di IA ad alto rischio' sono quelle che comportano rischi significativi ma non sono del tutto proibite, come l'uso dell'IA nel reclutamento o nella valutazione delle prestazioni dei dipendenti."
+      },
+      "_partlyCorrect": {
+        "notFinal": "Hai identificato alcune delle categorie correttamente, ma non tutte. Rivedi le sezioni pertinenti per quelle che hai perso.",
+        "final": "Hai identificato alcune delle categorie correttamente, ma non tutte. Rivedi le sezioni pertinenti per quelle che hai perso. Le 'Pratiche di IA proibite' sono quelle che presentano un rischio inaccettabile per i diritti fondamentali. Le 'Pratiche di IA ad alto rischio' sono quelle che comportano rischi significativi ma non sono del tutto proibite."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Invia",
+        "ariaLabel": "Seleziona qui per inviare la tua risposta."
+      },
+      "_reset": {
+        "buttonText": "Reimposta",
+        "ariaLabel": "Seleziona qui per reimpostare la tua risposta."
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Mostra risposta corretta",
+        "ariaLabel": "Seleziona qui per mostrare la risposta corretta."
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Mostra la mia risposta",
+        "ariaLabel": "Seleziona qui per mostrare la tua risposta."
+      },
+      "_showFeedback": {
+        "buttonText": "Mostra feedback",
+        "ariaLabel": "Seleziona qui per mostrare il feedback."
+      },
+      "remainingAttemptsText": "Tentativi rimanenti",
+      "remainingAttemptText": "ultimo tentativo"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-514",
+    "_parentId": "b-510",
+    "_type": "component",
+    "_component": "mcq",
+    "_classes": "",
+    "_layout": "full",
+    "title": "Quiz: Comprendere i ruoli del Regolamento UE sull'IA",
+    "displayTitle": "Metti alla prova le tue conoscenze: Chi è chi?",
+    "body": "L'azienda X, un'azienda con sede nell'UE, integra uno strumento basato sull'IA per l'analisi del sentiment dei clienti, sviluppato da un fornitore terzo, nelle sue operazioni interne di assistenza clienti per comprendere meglio il feedback dei clienti.",
+    "instruction": "Seleziona l'opzione che descrive meglio il ruolo primario dell'azienda X.",
+    "ariaQuestion": "Quale ruolo primario assume l'azienda X utilizzando questo strumento di IA?",
+    "_attempts": 3,
+    "_shouldDisplayAttempts": true,
+    "_isRandom": false,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_canShowModelAnswer": true,
+    "_canShowCorrectness": true,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_recordInteraction": true,
+    "_items": [
+      {
+        "text": "Fornitore",
+        "altText": "Opzione: Ruolo del fornitore.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Utente",
+        "altText": "Opzione: Ruolo dell'utente.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Distributore",
+        "altText": "Opzione: Ruolo del distributore.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      },
+      {
+        "text": "Importatore",
+        "altText": "Opzione: Ruolo dell'importatore.",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false
+      }
+    ],
+    "_feedback": {
+      "title": "Comprendere i ruoli nel Regolamento UE sull'IA",
+      "altTitle": "Feedback on your answer about EU AI Act roles.",
+      "correct": "Esatto! L'azienda X agisce come utente, poiché utilizza il sistema di IA per le proprie operazioni e servizi, anziché crearlo, venderlo o importarlo per la distribuzione commerciale.",
+      "_incorrect": {
+        "notFinal": "Non del tutto. Rivedi la sezione 'Ruoli chiave nell'ecosistema del Regolamento UE sull'IA'. Considera se l'azienda X crea, vende o semplicemente utilizza lo strumento di IA.",
+        "final": "La risposta corretta è Utente. Un fornitore crea o rende disponibile un sistema di IA sotto il proprio nome. Un distributore offre un sistema di IA in vendita senza essere il produttore originale. Un importatore introduce un sistema da fuori dell'UE per la vendita all'interno dell'UE. L'azienda X utilizza semplicemente lo strumento di IA per i propri scopi aziendali interni, il che definisce il ruolo dell'utente."
+      },
+      "_partlyCorrect": {
+        "notFinal": "Questa domanda ha solo una risposta corretta. Si prega di controllare la propria scelta in base al contenuto.",
+        "final": "Questa domanda ha solo una risposta corretta. La risposta corretta è Utente, poiché l'azienda X utilizza il sistema di IA per le proprie operazioni."
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "Submit",
+        "ariaLabel": "Select here to submit your answer."
+      },
+      "_reset": {
+        "buttonText": "Reset",
+        "ariaLabel": "Select here to reset your answer."
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "Show Correct Answer",
+        "ariaLabel": "Select here to show the correct answer."
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "Show My Answer",
+        "ariaLabel": "Select here to show your answer."
+      },
+      "_showFeedback": {
+        "buttonText": "Show Feedback",
+        "ariaLabel": "Select here to show feedback."
+      },
+      "remainingAttemptsText": "attempts remaining",
+      "remainingAttemptText": "final attempt"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "c-515",
+    "_parentId": "b-511",
+    "_type": "component",
+    "_component": "text",
+    "body": "Fonti: <br> <br> High-level summary of the EU AI Act, last accessed on 29.06.2025, URL:  <a href=\"https://artificialintelligenceact.eu/high-level-summary/\" target=\"_blank\">https://artificialintelligenceact.eu/high-level-summary/</a> <br> <br> EU AI Act Compliance Checker, last accessed on 29.06.2025, URL:  <a href=\"https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/\" target=\"_blank\">https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/</a> <br> <br> The AI Act Explorer, last accessed on 29.06.2025, URL:  <a href=\"https://artificialintelligenceact.eu/ai-act-explorer/\" target=\"_blank\">https://artificialintelligenceact.eu/ai-act-explorer/</a>",
+    "_classes": "",
+    "_isOptional": true
+  }
+]

@@ -1,0 +1,212 @@
+{
+  "_id": "course",
+  "_type": "course",
+  "_classes": "",
+  "_htmlClasses": "",
+  "title": "Sztuczna Inteligencja",
+  "displayTitle": "Sztuczna Inteligencja",
+  "description": "Ten kurs wprowadzi Cię w podstawowe koncepcje sztucznej inteligencji (AI) i jej zastosowania, dostarczając wiedzy niezbędnej do zrozumienia i interakcji z technologiami AI.",
+  "body": "Ten kurs wprowadzi Cię w podstawowe koncepcje sztucznej inteligencji (AI) i jej zastosowania, dostarczając wiedzy niezbędnej do zrozumienia i interakcji z technologiami AI.",
+  "instruction": "Wybierz moduły poniżej, aby rozpocząć.",
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Wyślij",
+      "ariaLabel": "Wyślij"
+    },
+    "_reset": {
+      "buttonText": "Resetuj",
+      "ariaLabel": "Resetuj"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Pokaż poprawną odpowiedź",
+      "ariaLabel": "Pokaż poprawną odpowiedź"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Pokaż swoją odpowiedź",
+      "ariaLabel": "Pokaż swoją odpowiedź"
+    },
+    "_showFeedback": {
+      "buttonText": "Pokaż informację zwrotną",
+      "ariaLabel": "Pokaż informację zwrotną"
+    },
+    "remainingAttemptsText": "Pozostałe próby",
+    "remainingAttemptText": "ostatnia próba",
+    "disabledAriaLabel": "Ten przycisk jest obecnie wyłączony"
+  },
+  "_globals": {
+    "_learnerInfo": {
+      "id": "student.name@example.org",
+      "name": "Name, Student",
+      "firstname": "Student",
+      "lastname": "Name"
+    },
+    "_accessibility": {
+      "skipNavigationText": "Pomiń nawigację",
+      "_ariaLabels": {
+        "answeredIncorrectly": "Odpowiedziałeś błędnie",
+        "answeredPartlyCorrect": "You answered partly correct",
+        "answeredCorrectly": "Odpowiedziałeś poprawnie",
+        "selectedAnswer": "wybrano",
+        "unselectedAnswer": "nie wybrano",
+        "skipNavigation": "Pomiń nawigację",
+        "previous": "Poprzedni",
+        "navigationDrawer": "Otwórz zasoby kursu.",
+        "close": "Zamknij",
+        "closeDrawer": "Zamknij panel boczny",
+        "closeResources": "Zamknij zasoby",
+        "drawer": "Góra panelu bocznego",
+        "closePopup": "Zamknij wyskakujące okienko",
+        "next": "Dalej",
+        "done": "Gotowe",
+        "complete": "Ukończono",
+        "incomplete": "Niekompletne",
+        "incorrect": "Niepoprawne",
+        "partlyCorrect": "Partly correct",
+        "correct": "Poprawne",
+        "locked": "Zablokowane",
+        "visited": "Odwiedzone",
+        "required": "Wymagane",
+        "optional": "Opcjonalne"
+      }
+    },
+    "_extensions": {
+      "_drawer": {
+        "_navOrder": 100
+      },
+      "_navigation": {
+        "_skipButton": {
+          "_navOrder": -100
+        },
+        "_backButton": {
+          "_navOrder": 0
+        },
+        "_spacers": [
+          {
+            "_navOrder": 0
+          }
+        ]
+      }
+    },
+    "_menu": {
+      "_gridMenu": {
+        "durationLabel": "Czas trwania:"
+      }
+    }
+  },
+  "_latestTrackingId": 57,
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": true,
+    "_isCompletionIndicatorEnabled": true,
+    "_isShownInNavigationBar": true,
+    "_showAtCourseLevel": true
+  },
+  "_resources": {
+    "_isEnabled": false,
+    "_drawerOrder": 1,
+    "title": "Zasoby",
+    "description": "Wyświetl zasoby dla tego kursu, klikając tutaj.",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_filterButtons": {
+      "all": "Wszystkie",
+      "document": "Dokument",
+      "media": "Media",
+      "link": "Link"
+    },
+    "_filterAria": {
+      "allAria": "Pokaż wszystkie zasoby",
+      "documentAria": "Pokaż zasoby dokumentów",
+      "mediaAria": "Pokaż zasoby multimedialne",
+      "linkAria": "Pokaż linki do zasobów"
+    },
+    "_resourcesItems": [
+      {
+        "_type": "document",
+        "title": "Wzornik kolorów motywu Vanilla",
+        "description": "Zobacz wzornik kolorów motywu Vanilla, klikając tutaj.",
+        "_link": "course/en/images/vanilla-swatch.jpg",
+        "filename": "adapt-vanilla.jpg",
+        "_forceDownload": true
+      },
+      {
+        "_type": "media",
+        "title": "Kanał YouTube Adapt Learning",
+        "description": "Chcesz dowiedzieć się więcej o materiałach Adapt? Kliknij tutaj.",
+        "_link": "https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ"
+      },
+      {
+        "_type": "link",
+        "title": "Strona projektu Adapt",
+        "description": "Zobacz stronę internetową projektu, klikając tutaj.",
+        "_link": "https://www.adaptlearning.org/"
+      },
+      {
+        "_type": "link",
+        "title": "Czat Framework",
+        "description": "Dołącz do czatu Framework, klikając tutaj.",
+        "_link": "https://gitter.im/adaptlearning/adapt_framework"
+      }
+    ]
+  },
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [
+      {
+        "_id": "co-05",
+        "_skipIfComplete": true,
+        "_className": ""
+      }
+    ],
+    "_force": false,
+    "_isMenuDisabled": true
+  },
+  "_assessment": {
+    "_isPercentageBased": true,
+    "_scoreToPass": 50,
+    "_correctToPass": 50
+  },
+  "_bookmarking": {
+    "_isEnabled": true,
+    "_level": "component",
+    "_showPrompt": true,
+    "title": "Kontynuować?",
+    "body": "Czy chcesz kontynuować kurs od miejsca, w którym ostatnio skończyłeś?",
+    "_buttons": {
+      "yes": "Tak",
+      "no": "Nie"
+    }
+  },
+  "_navigation": {
+    "_isDefaultNavigationDisabled": false,
+    "_navigationAlignment": "top",
+    "_isBottomOnTouchDevices": false,
+    "_showLabel": false,
+    "_showLabelAtWidth": "medium",
+    "_labelPosition": "auto"
+  },
+  "_tooltips": {
+    "_isEnabled": true
+  },
+  "_vanilla": {
+    "_favIcon": {
+      "_src": ""
+    }
+  },
+  "_notifyOnComplete": {
+    "_isEnabled": true,
+    "title": "Kurs ukończony!",
+    "body": "Świetna robota, {{_globals._learnerInfo.firstname}}! Przeszedłeś przez całą zawartość i możesz zamknąć okno."
+  },
+  "_pageIncompletePrompt": {
+    "_isEnabled": true,
+    "_buttons": {
+      "yes": "Tak",
+      "no": "Nie"
+    },
+    "title": "Strona niekompletna",
+    "message": "{{_globals._learnerInfo.firstname}}, wygląda na to, że nie ukończyłeś tej strony. Czy na pewno chcesz wyjść?",
+    "_classes": ""
+  }
+}

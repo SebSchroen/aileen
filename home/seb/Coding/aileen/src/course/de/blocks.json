@@ -19,6 +19,7 @@
       "_button": {
         "_isEnabled": true,
         "startText": "Continue",
+        "text": "Continue",
         "_showEndOfPage": true
       }
     }

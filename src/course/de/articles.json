@@ -15,6 +15,7 @@
       "_button": {
         "_isEnabled": true,
         "startText": "Weiter",
+        "text": "Weiter",
         "_showEndOfPage": true
       }
     },
@@ -66,7 +67,8 @@
       "_button": {
         "_isEnabled": true,
         "startText": "Weiter",
-        "_showEndOfPage": true
+        "_showEndOfPage": true,
+        "text": "Weiter"
       }
     },
     "_assessment": {
@@ -117,7 +119,8 @@
       "_button": {
         "_isEnabled": true,
         "startText": "Weiter",
-        "_showEndOfPage": true
+        "_showEndOfPage": true,
+        "text": "Weiter"
       }
     },
     "_assessment": {
@@ -168,6 +171,7 @@
       "_button": {
         "_isEnabled": true,
         "startText": "Weiter",
+        "text": "Weiter",
         "_showEndOfPage": true
       }
     },
@@ -219,7 +223,8 @@
       "_button": {
         "_isEnabled": true,
         "startText": "Weiter",
-        "_showEndOfPage": true
+        "_showEndOfPage": true,
+        "text": "Weiter"
       }
     },
     "_assessment": {

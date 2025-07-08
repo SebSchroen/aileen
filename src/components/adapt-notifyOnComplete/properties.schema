@@ -27,7 +27,8 @@
                             "title": "Title",
                             "inputType": "Text",
                             "validators": [],
-                            "help": "The title for the notification popup"
+                            "help": "The title for the notification popup",
+                            "translatable": true
                         },
                         "body": {
                             "type": "string",
@@ -35,7 +36,8 @@
                             "title": "Body",
                             "inputType": "TextArea",
                             "validators": [],
-                            "help": "The body text for the notification popup"
+                            "help": "The body text for the notification popup",
+                            "translatable": true
                         }
                     }
                 },
@@ -55,7 +57,8 @@
                             "title": "Text",
                             "inputType": "Text",
                             "validators": [],
-                            "help": "The title for the push notification"
+                            "help": "The title for the push notification",
+                            "translatable": true
                         },
                         "body": {
                             "type": "string",
@@ -63,7 +66,8 @@
                             "title": "Body",
                             "inputType": "TextArea",
                             "validators": [],
-                            "help": "The body text for the push notification"
+                            "help": "The body text for the push notification",
+                            "translatable": true
                         }
                     }
                 },

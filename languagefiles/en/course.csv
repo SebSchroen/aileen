@@ -67,3 +67,9 @@
 "course/course/_pageIncompletePrompt/_buttons/no/","No"
 "course/course/_pageIncompletePrompt/title/","Page incomplete"
 "course/course/_pageIncompletePrompt/message/","{{_globals._learnerInfo.firstname}}, it seems like you did not finish this page. Are you sure you would like to leave?"
+"course/course/_notifyOnComplete/title/","Course complete!"
+"course/course/_notifyOnComplete/body/","Well done, {{_globals._learnerInfo.firstname}}! You have completed the course and may now close this window."
+
+
+
+
