@@ -130,28 +130,6 @@
                     "yes": "Ja",
                     "no": "Nein"
                 }
-            },
-            {
-                "_language": "pl",
-                "_direction": "ltr",
-                "displayName": "Polski",
-                "warningTitle": "Zmienić język?",
-                "warningMessage": "Zmiana języka spowoduje zresetowanie postępów kursu.<br><br>Czy chcesz kontynuować?",
-                "_buttons": {
-                    "yes": "Tak",
-                    "no": "Nie"
-                }
-            },
-            {
-                "_language": "it",
-                "_direction": "ltr",
-                "displayName": "Italiano",
-                "warningTitle": "Cambiare lingua?",
-                "warningMessage": "Il cambio di lingua azzererà i progressi del corso.<br><br>Vuoi procedere?",
-                "_buttons": {
-                    "yes": "Sì",
-                    "no": "No"
-                }
             }
         ]
     }

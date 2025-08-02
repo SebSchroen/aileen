@@ -133,7 +133,7 @@
       },
       {
         "_character": 2,
-        "text": "Das ist eine ausgezeichnete Frage! Sie trifft den Kern dessen, was Turing 1950 fragte: Kann eine Maschine so gut darin sein, menschliche Intelligenz zu <em>imitieren</em>, dass wir den Unterschied nicht erkennen können?",
+        "text": "Spannende Frage! Sie trifft den Kern dessen, was Turing 1950 fragte: Kann eine Maschine so gut darin sein, menschliche Intelligenz zu <em>imitieren</em>, dass wir den Unterschied nicht erkennen können?",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -165,7 +165,7 @@
       },
       {
         "_character": 2,
-        "text": "Ja, in deinem Bildtest warst du der Richter und versuchtest zu entscheiden, ob die <em>Ausgabe</em> (das Bild) von Menschen oder Maschinen erstellt wurde. Der Turing-Test erweitert diese Idee einfach auf <em>Konversation</em>. Kann ein Computer <em>konversationelle Ausgaben</em> erstellen, die von denen eines Menschen nicht zu unterscheiden sind?",
+        "text": "Ja, in deinem Bildtest eben hast du versucht zu entscheiden, ob die <em>Ausgabe</em> (das Bild) von Menschen oder Maschinen erstellt wurde. Der Turing-Test erweitert diese Idee einfach auf <em>Konversation</em>. Kann ein Computer <em>konversationelle Ausgaben</em> erstellen, die von denen eines Menschen nicht zu unterscheiden sind?",
         "_graphic": {
           "alt": "",
           "src": ""
@@ -217,7 +217,7 @@
     "_items": [
       {
         "title": "Flexibel anwendbar auf verschiedene Probleme",
-        "body": "Im Kern zielt KI darauf ab, Maschinen zu schaffen, die Aufgaben ausführen können, die typischerweise menschliche Intelligenz erfordern. Dazu gehören Dinge wie <strong>Sprachverständnis, Mustererkennung, Problemlösung und Entscheidungsfindung.</strong>",
+        "body": "KI soll Aufgaben ausführen, die typischerweise menschliche Intelligenz erfordern. Dazu gehören Dinge wie <strong>Sprachverständnis, Mustererkennung, Problemlösung und Entscheidungsfindung.</strong>",
         "_classes": "",
         "_graphic": {
           "src": "",
@@ -227,7 +227,7 @@
       },
       {
         "title": "Lernen und Weiterentwickeln",
-        "body": "Moderne KI legt den Schwerpunkt darauf, Maschinen zu befähigen, <strong>aus Daten und Erfahrungen zu lernen</strong>, ähnlich unserem Gehirn. Dies beinhaltet das Schreiben von Algorithmen, die es der KI ermöglichen, ihre Leistung im Laufe der Zeit durch den Kontakt mit Daten und Feedback zu verbessern.",
+        "body": "Moderne KI lernt <strong>aus Daten und Erfahrungen</strong>, ähnlich unserem Gehirn. Dies setzt Algorithmen voraus, die ihre Leistung im Laufe der Zeit durch den Kontakt mit Daten und Feedback verbessern.",
         "_classes": "",
         "_graphic": {
           "src": "",
@@ -237,7 +237,7 @@
       },
       {
         "title": "Autonomie",
-        "body": "KI zielt darauf ab, intelligente Systeme zu schaffen, die mit einem gewissen Grad an <strong>Unabhängigkeit von Menschen</strong> agieren können. Das bedeutet, die KI kann Entscheidungen treffen und Maßnahmen ergreifen, ohne explizite Anweisungen für jede Situation.",
+        "body": "KI sollte mit einer gewissen <strong>Unabhängigkeit von Menschen</strong> agieren können. Das bedeutet, die KI kann Entscheidungen treffen und Maßnahmen ergreifen, ohne explizite Anweisungen für jede Situation.",
         "_classes": "",
         "_graphic": {
           "src": "",
@@ -260,7 +260,7 @@
     "_layout": "full",
     "title": "Wie lernen Maschinen?",
     "displayTitle": "Und wie lernen Maschinen?",
-    "body": "<strong>Künstliche Intelligenz</strong> ist das übergeordnete Feld, das darauf abzielt, intelligente Maschinen zu entwickeln. Wenn wir KI als das \"Gehirn\" betrachten, kann <strong>maschinelles Lernen</strong> als der Prozess angesehen werden, durch den die KI die <strong>notwendigen Fähigkeiten</strong> erwirbt. Aber wie lernen Maschinen?",
+    "body": "<strong>Künstliche Intelligenz</strong> ist ein übergeordnetes Forschungsfeld, das intelligente Maschinen entwickelt. Wenn wir KI als das \"Gehirn\" betrachten, kann <strong>maschinelles Lernen</strong> als der Prozess angesehen werden, durch den die KI die <strong>notwendigen Fähigkeiten</strong> erwirbt. Aber wie lernen Maschinen?",
     "instruction": "Verwende die Pfeile unten, um verschiedene Arten des maschinellen Lernens zu erkunden.",
     "mobileInstruction": "Wähle das Plus-Symbol und dann den nächsten Pfeil, um mehr zu erfahren.",
     "_hasNavigationInTextArea": false,
@@ -281,7 +281,7 @@
       },
       {
         "title": "Unüberwachtes Lernen: Muster selbst finden",
-        "body": "Unüberwachtes Lernen ist, als würde man dem KI-System eine große Kiste mit durcheinandergewürfelten Gegenständen geben und es bitten, diese zu sortieren, ohne ihm zu sagen, wie. Die KI sucht selbst nach Ähnlichkeiten und Unterschieden, um die Gegenstände zu gruppieren. In diesem Fall haben die Gegenstände keine Beschriftung, aus der Schlüsse gezogen werden könnten. <br> <br> Das KI-System könnte sie nach Farbe, Größe oder Form gruppieren. Dies wird verwendet, um <strong>verborgene Muster oder Strukturen</strong> in Daten zu entdecken, wie zum Beispiel die Kundensegmentierung. Empfehlungen auf Netflix oder Spotify sind gängige Beispiele.",
+        "body": "Unüberwachtes Lernen ist, als würde man dem KI-System eine große Kiste mit durcheinandergewürfelten Gegenständen geben und es bitten, diese zu sortieren, ohne weitere Anweisungen. Die KI sucht selbst nach Ähnlichkeiten und Unterschieden, um die Gegenstände zu gruppieren. In diesem Fall haben die Gegenstände keine Kennzeichnungen bzw. Label, aus denen Schlüsse über die tatsächliche Gruppe gezogen werden könnten. <br> <br> Das KI-System könnte sie nach Farbe, Größe oder Form gruppieren. Dies wird verwendet, um <strong>verborgene Muster oder Strukturen</strong> in Daten zu entdecken, wie zum Beispiel die Kundensegmentierung. Empfehlungen auf Netflix oder Spotify sind gängige Beispiele.",
         "_graphic": {
           "src": "course/de/images/unsupervised_learning.jpg",
           "attribution": "Generiert mit Google Imagen 4",
@@ -697,7 +697,7 @@
         "instruction": "Weiter »"
       },
       {
-        "title": "Was 'Assoziiert mit' bedeutet",
+        "title": "Was 'Assoziation' bedeutet",
         "body": "Das Sprachmodell hat bemerkt, dass bestimmte Wörter oft zusammen vorkommen. Wenn ein Wort oft in der Nähe von 'sie' oder 'er' erscheint, verknüpft das Modell sie eng miteinander. Dies spiegelt Muster in Daten wider, nicht unbedingt die objektive Wahrheit.",
         "instruction": "Weiter »"
       },
@@ -722,7 +722,7 @@
         "instruction": "Weiter »"
       },
       {
-        "title": "Die Quintessenz",
+        "title": "Das Fazit",
         "body": "Indem wir diese Verzerrungen visualisieren, können wir sie besser verstehen und daran arbeiten, fairere und verantwortungsvollere Sprachmodelle zu schaffen.",
         "instruction": "Abgeschlossen ✔"
       }
@@ -828,7 +828,7 @@
       {
         "front": "Daten wurden für andere Zwecke gesammelt",
         "back": {
-          "body": "KI-Systeme analysieren oft vorhandene Daten, die <b>für andere Zwecke gesammelt wurden</b> als die, die das KI-System verfolgt. Das bedeutet, die Daten wurden nicht mit der Absicht gesammelt, beispielsweise für die Personalbeschaffung verwendet zu werden, sodass Eigenschaften der Daten, die <b>unfaire Ergebnisse begünstigen könnten, nicht berücksichtigt werden</b>."
+          "body": "KI-Systeme analysieren oft vorhandene Daten, die <b>für andere Zwecke gesammelt wurden</b> als die, die das KI-System verfolgt. Das bedeutet, die Daten wurden nicht explizit für, beispielsweise, die Personalbeschaffung gesammelt, sodass Eigenschaften der Daten, die <b>unfaire Ergebnisse begünstigen könnten, nicht berücksichtigt werden</b>."
         }
       },
       {
@@ -955,9 +955,9 @@
     "_layout": "full",
     "title": "Quiz: Amazon Recruiting",
     "displayTitle": "Teste dein Wissen: Amazons KI",
-    "body": "Was war im Fallbeispiel zur Amazon-Rekrutierung der Hauptgrund, warum das KI-System eine Voreingenommenheit gegenüber weiblichen Bewerbern entwickelte?",
+    "body": "Was war im Fallbeispiel zur Amazon-Rekrutierung der Hauptgrund, warum das KI-System eine Voreingenommenheit gegenüber weiblichen Bewerberinnen entwickelte?",
     "instruction": "Wähle eine Option aus, die zutrifft, und klicke dann auf Senden.",
-    "ariaQuestion": "Was war der Hauptgrund, warum das Amazon KI-System eine Voreingenommenheit gegenüber weiblichen Bewerbern entwickelte?",
+    "ariaQuestion": "Was war der Hauptgrund, warum das Amazon KI-System eine Voreingenommenheit gegenüber weiblichen Bewerberinnen entwickelte?",
     "_attempts": 3,
     "_shouldDisplayAttempts": true,
     "_isRandom": false,
@@ -971,13 +971,13 @@
     "_recordInteraction": true,
     "_items": [
       {
-        "text": "Es wurde auf Lebensläufe aus einer Zeit trainiert, in der die meisten erfolgreichen Bewerber Männer waren, was dazu führte, dass es weiblich-assoziierte Begriffe benachteiligte.",
+        "text": "Es wurde auf Lebensläufe aus einer Zeit trainiert, in der die meisten erfolgreichen Bewerber*innen Männer waren, was dazu führte, dass es weiblich-assoziierte Begriffe benachteiligte.",
         "altText": "Option: Trainingsdaten voreingenommen gegenüber Männern.",
         "_shouldBeSelected": true,
         "_isPartlyCorrect": false
       },
       {
-        "text": "Amazon-Entwickler haben die KI absichtlich so programmiert, dass sie männliche Kandidaten für bestimmte Rollen bevorzugt.",
+        "text": "Amazon hat die KI absichtlich so programmiert, dass sie männliche Kandidaten für bestimmte Rollen bevorzugt.",
         "altText": "Option: Absichtliche Programmierverzerrung.",
         "_shouldBeSelected": false,
         "_isPartlyCorrect": false
@@ -1001,7 +1001,7 @@
       "correct": "Das ist richtig! Die KI lernte aus historischen Daten, die überwiegend Männer in erfolgreichen Rollen zeigten. Infolgedessen lernte sie leider, bestimmte Begriffe, die in Lebensläufen von Frauen üblich sind (wie 'Vorsitzende des Frauenschachclubs'), mit geringerer Attraktivität zu assoziieren, was zu Voreingenommenheit führte.",
       "_incorrect": {
         "notFinal": "Nicht ganz. Überprüfe Fall 1 im Abschnitt 'Auswirkungen im realen Leben'. Konzentriere dich darauf, wie die Trainingsdaten die Ergebnisse der KI beeinflussten.",
-        "final": "Die richtige Antwort ist: Es wurde auf Lebensläufe aus einer Zeit trainiert, in der die meisten erfolgreichen Bewerber Männer waren, was dazu führte, dass es weiblich-assoziierte Begriffe benachteiligte. Die KI spiegelte die in ihren Trainingsdaten vorhandenen Verzerrungen wider, die vergangene Einstellungsmuster bei Amazon widerspiegelten, anstatt absichtlich für Voreingenommenheit programmiert zu werden oder aufgrund von Sprachverarbeitungsproblemen."
+        "final": "Die richtige Antwort ist: Es wurde auf Lebensläufe aus einer Zeit trainiert, in der die meisten erfolgreichen Bewerber*innen Männer waren, was dazu führte, dass es weiblich-assoziierte Begriffe benachteiligte. Die KI spiegelte die in ihren Trainingsdaten vorhandenen Verzerrungen wider, die vergangene Einstellungsmuster bei Amazon widerspiegelten, anstatt absichtlich für Voreingenommenheit programmiert zu werden oder aufgrund von Sprachverarbeitungsproblemen."
       },
       "_partlyCorrect": {
         "notFinal": "Diese Option ist für Fragen mit mehreren richtigen Antworten, was hier nicht der Fall ist. Bitte überprüfe das Feedback für falsche Antworten.",
@@ -1063,19 +1063,19 @@
       {
         "front": "Was ist geschützt?",
         "back": {
-          "body": "Das Urheberrecht schützt den <b><em>konkreten Ausdruck</em> einer Idee</b>, nicht die Idee selbst. Es gilt für greifbare literarische und künstlerische Werke wie Romane, Lieder, Gemälde und Software und gibt Urheber*innen die <b>Kontrolle über ihre spezifischen Manifestationen</b>."
+          "body": "Das Urheberrecht schützt den <b> konkreten Ausdruck einer Idee</b>, nicht die Idee selbst. Es gilt für greifbare literarische und künstlerische Werke wie Romane, Lieder, Gemälde und Software und gibt Urheber*innen die <b>Kontrolle über ihre spezifischen Manifestationen</b>."
         }
       },
       {
         "front": "Unter welchen Bedingungen?",
         "back": {
-          "body": "Um urheberrechtlich geschützt zu sein, muss ein Werk in einer <b><em>konkreten Weise</em></b> (nicht abstrakte Ideen) ausgedrückt und <b><em>originell</em></b> sein. Originalität bedeutet, dass es eine <b>intellektuelle Schöpfung durch einen Menschen</b> ist, die dessen Persönlichkeit und kreative Entscheidungen widerspiegelt. Diese <b>menschliche Urheberschaft ist grundlegend</b>, insbesondere im deutschen und EU-Recht."
+          "body": "Um urheberrechtlich geschützt zu sein, muss ein Werk in einer <b><em>konkreten Weise</em></b> (nicht abstrakte Ideen) ausgedrückt und <b><em>originell</em></b> sein. Originalität bedeutet, dass es eine <b>intellektuelle Schöpfung durch einen Menschen</b> ist, die dessen Persönlichkeit und kreative Entscheidungen widerspiegelt."
         }
       },
       {
-        "front": "Was sind die Rechte des Eigentümers?</b>",
+        "front": "Was sind die Rechte von Urheber*innen?</b>",
         "back": {
-          "body": "Eigentümer erhalten <b>ausschließliche Rechte zur Vervielfältigung, Verbreitung und öffentlichen Wiedergabe</b> ihres Werkes. Sie besitzen auch <b>Urheberpersönlichkeitsrechte</b>, einschließlich Offenlegung, Integrität und Namensnennung, die die Kontrolle gewährleisten. Das Urheberrecht dauert in den EU-Mitgliedstaaten in der Regel für die <b>Lebenszeit der Urheber*innen plus 70 Jahre</b>."
+          "body": "<b>Ausschließliche Rechte zur Vervielfältigung, Verbreitung und öffentlichen Wiedergabe</b> ihres Werkes. Das Urheberrecht gilt in der EU üblicherweise  bis 70 nach dem Tod der Urheber*innen."
         }
       }
     ],
@@ -1093,7 +1093,7 @@
     "_layout": "full",
     "title": "Urheberrecht und KI",
     "displayTitle": "Und warum ist das für KI wichtig?",
-    "body": "Erinnere dich an den Turing-Test aus dem ersten Teil dieses Kurses: Die Ausgabe von KI-Systemen ist so gut geworden, dass vieles davon schwer von menschlichen Inhalten zu unterscheiden ist. Und ein Großteil der menschlichen Inhalte im Internet ist durch Urheberrechtsgesetze geschützt. In dieser Lektion werden wir drei Fragen behandeln:",
+    "body": "Hier kommen zwei Aspekte aus dem ersten Kapitel ins Spiel: Moderne KI-Systeme werden mit riesigen Datenmengen trainiert, oft aus dem Internet. Ein Großteil dieser Inhalte ist urheberrechtlich geschützt. Zudem hat der Turing-Test gezeigt, dass die Ausgabe von KI-Systemen mittlerweile schwer von menschlichen Inhalten zu unterscheiden ist. In dieser Lektion werden wir drei Fragen behandeln:",
     "instruction": "",
     "_columns": 0,
     "_orderedList": true,
@@ -1147,7 +1147,7 @@
     "_layout": "full",
     "title": "KI-Training und Urheberrecht",
     "displayTitle": "KI-Training <em> könnte </em> das Urheberrecht verletzen",
-    "body": "Die Frage, ob das Training von KI-Modellen mit urheberrechtlich geschütztem Material eine Verletzung darstellt, ist ein zentrales und stark diskutiertes rechtliches Thema. Es beinhaltet komplexe Interpretationen bestehender Urheberrechtsgesetze und die Entstehung neuer Vorschriften, insbesondere in der EU. Das Verständnis dieses Bereichs erfordert die Untersuchung sowohl der technischen Natur von KI-Modellen als auch der rechtlichen Rahmenbedingungen für die Datennutzung.",
+    "body": "Es ist umstritten, ob das Training von KI-Modellen mit urheberrechtlich geschütztem Material rechtlich zulässig ist. Dies erfordert die Auslegung bestehender Urheberrechtsgesetze und die Entwicklung neuer Vorschriften, besonders in der EU. Man muss sowohl die technischen Aspekte von KI-Modellen als auch die rechtlichen Rahmenbedingungen für die Datennutzung berücksichtigen.",
     "instruction": "Klicke auf die Felder unten, um mehr über dieses komplexe Thema zu erfahren.",
     "_shouldCollapseItems": true,
     "_shouldExpandFirstItem": false,
@@ -1159,8 +1159,8 @@
         "body": "KI-Modelle speichern typischerweise keine exakten Kopien urheberrechtlich geschützter Werke. Stattdessen lernen sie, indem sie abstrakte Konzepte extrahieren und in numerische Darstellungen kodieren. Dieser Prozess der Zerlegung und Abstraktion bedeutet, dass das trainierte Modell selbst keine direkte Kopie ist und somit typischerweise das Urheberrecht nicht verletzt."
       },
       {
-        "title": "Während des Trainings ist dies eine fortlaufende Debatte",
-        "body": "KI-Modelle werden auf riesigen Datenmengen trainiert, oft einschließlich urheberrechtlich geschützter Materialien, die aus dem Internet gescrapt wurden. Die Verwendung dieser Daten ohne ausdrückliche Genehmigung kann als Urheberrechtsverletzung angesehen werden. In den USA argumentieren Befürworter oft, dass dies unter 'Fair Use' fällt. In Deutschland und der EU existieren spezifische Ausnahmen wie wissenschaftliche Forschung."
+        "title": "Ob das KI-Training das Urheberrecht verletzt, ist dies eine fortlaufende Debatte",
+        "body": "KI-Modelle werden auf riesigen Datenmengen trainiert, oft einschließlich urheberrechtlich geschützter Materialien, die aus dem Internet gescrapt wurden. Die Verwendung dieser Daten ohne ausdrückliche Genehmigung kann als Urheberrechtsverletzung angesehen werden."
       }
     ],
     "_pageLevelProgress": {
@@ -1237,7 +1237,7 @@
       },
       {
         "title": "Unautorisierte abgeleitete Werke",
-        "body": "Urheberrechtsinhaber haben das <b>ausschließliche Recht, 'abgeleitete Werke' zu erstellen</b> – neue Werke, die auf ihren Originalkreationen basieren. Wenn ein Benutzer eine KI auffordert, Inhalte zu generieren, die eindeutig auf einem urheberrechtlich geschützten Charakter, einer Umgebung oder einem spezifischen künstlerischen Stil <b>ohne Genehmigung aufbauen</b> (z. B. eine neue Geschichte mit einer berühmten Zeichentrickfigur), könnte die Ausgabe der KI als <b>unautorisiertes abgeleitetes Werk</b> angesehen werden.",
+        "body": "Urheberrechtsinhaber haben das <b>ausschließliche Recht, 'abgeleitete Werke' zu erstellen</b> – neue Werke, die auf ihren Originalkreationen basieren. Wenn ein Benutzer eine KI auffordert, Inhalte zu generieren, die eindeutig auf einem urheberrechtlich geschützten Werk <b>ohne Genehmigung aufbauen</b> (z. B. eine neue Geschichte mit einer berühmten Zeichentrickfigur), könnte die Ausgabe der KI als <b>unautorisiertes abgeleitetes Werk</b> angesehen werden.",
         "strapline": "Auf den Kreationen anderer aufbauen",
         "_graphic": {
           "src": "course/de/images/banksy.png",
@@ -1278,17 +1278,17 @@
       {
         "front": "Menschliche Urheberschaft ist erforderlich",
         "back": {
-          "body": "Das Urheberrecht erfordert grundsätzlich <b>menschliche Urheber*innen</b>. Dies beinhaltet einen '<b>persönlichen Stempel</b>' und '<b>freie, bewusste Entscheidungen</b>', die menschliche Persönlichkeit und Kreativität widerspiegeln. KI-Systeme, denen der <b>Status einer juristischen Person</b> fehlt, können keine Persönlichkeit ausdrücken oder Rechte innehaben, wodurch sie als Urheber*innen disqualifiziert werden."
+          "body": "Das Urheberrecht erfordert grundsätzlich <b>menschliche Urheber*innen</b>. Dies beinhaltet einen '<b>persönlichen Stempel</b>' und '<b>freie, bewusste Entscheidungen</b>', die menschliche Persönlichkeit und Kreativität widerspiegeln. KI-Systemen fehlt der <b>Status einer juristischen Person</b>, wodurch sie als Urheberinnen disqualifiziert werden."
         }
       },
       {
         "front": "KI als Werkzeug, nicht als Urheberin",
         "back": {
-          "body": "Während KI Werke produzieren kann, die <em>geschützt werden könnten</em>, hängt der Urheberrechtsschutz von <b>ausreichender menschlicher Intervention</b> ab. Menschen, die KI programmieren, trainieren, modifizieren oder die KI-Ausgabe auswählen, können Urheberrechte beanspruchen, da die KI als <b>Werkzeug</b> betrachtet wird, wie ein Pinsel oder eine Textverarbeitung."
+          "body": "Der  Urheberrechtsschutz hängt von <b>ausreichender menschlicher Intervention</b> ab. Wenn der Mensch die KI-Ausgabe hinreichend modifiziert und damit seinen kreativen Stempel aufdrückt, dient die KI als <b>Werkzeug</b>, wie ein Pinsel oder eine Textverarbeitung."
         }
       },
       {
-        "front": "Unzureichender menschlicher Input",
+        "front": "Fazit",
         "back": {
           "body": "Wenn der menschliche Input bei '<b>freien und kreativen Entscheidungen</b>' <b>unzureichend</b> ist, fehlt KI-generierten Inhalten möglicherweise die notwendige <b>Urheberschaft</b> für den Urheberrechtsschutz. Der Schutz hängt vollständig vom Grad und der Art des <b>menschlichen kreativen Inputs</b> ab."
         }
@@ -1589,7 +1589,7 @@
       {
         "tabTitle": "Datenerfassung & Training",
         "title": "Phase 1: Datenerfassung & Ersttraining",
-        "body": "KI-Systeme basieren auf einem <b>'enormen Datenhunger'</b>. Diese Anfangsphase beinhaltet das Sammeln riesiger Datenmengen, um Algorithmen zur Mustererkennung oder Vorhersagen zu trainieren. Wenn die Daten ausreichend granular sind, können sie die <b>Wiedererkennung von Personen</b> ermöglichen, was bedeutet, dass personenbezogene Daten von Anfang an involviert sind. Diese Ansammlung relevanter Daten ist ein Schlüsselfaktor für KI-bezogene Probleme, da sie oft zur Erstellung von <em>Persönlichkeitsprofilen oder für individualisierte Dienste verwendet wird.</em>",
+        "body": "KI-Systeme basieren auf einem <b>'enormen Datenhunger'</b>. Diese Anfangsphase beinhaltet das Sammeln riesiger Datenmengen, um Algorithmen zur Mustererkennung oder Vorhersagen zu trainieren. Wenn die Daten ausreichend granular sind, können sie die <b>Wiedererkennung von Personen</b> ermöglichen, was bedeutet, dass personenbezogene Daten von Anfang an involviert sind. Diese Ansammlung relevanter Daten ist ein Schlüsselfaktor für KI-bezogene Probleme.</em>",
         "_classes": ""
       },
       {
@@ -1673,7 +1673,7 @@
       {
         "front": "Deine Einwilligung überprüfen",
         "back": {
-          "body": "Als Einzelperson, die ihre eigenen Daten bereitstellt, <b>prüfe sorgfältig Anfragen nach deiner Einwilligung,</b> insbesondere wenn sie vage, implizit oder als Standard-Opt-out dargestellt werden. Die DSGVO verlangt, dass die Einwilligung <b>'freiwillig, spezifisch, informiert und unmissverständlich'</b> erteilt wird."
+          "body": "Als Einzelperson, die ihre eigenen Daten bereitstellt, <b>prüfe sorgfältig Anfragen nach deiner Einwilligung,</b> insbesondere wenn vage oder implizit sind. Die DSGVO verlangt, dass die Einwilligung <b>'freiwillig, spezifisch, informiert und unmissverständlich'</b> erteilt wird."
         }
       }
     ],
@@ -1799,13 +1799,13 @@
       {
         "front": "Warum KI regulieren?",
         "back": {
-          "body": "Die EU KI-VO zielt darauf ab, sicherzustellen, dass die Entwicklung und Nutzung von KI sicher und vertrauenswürdig sind und Grundrechte respektieren. Sie versucht, Innovation mit dem Schutz der Bürger in Einklang zu bringen und Vertrauen in KI aufzubauen."
+          "body": "Die EU KI-VO zielt darauf ab, sicherzustellen, dass die Entwicklung und Nutzung von KI <b> sicher und vertrauenswürdig </b> sind und Grundrechte respektieren. Sie versucht, Innovation mit dem Schutz der Bürger in Einklang zu bringen und Vertrauen in KI aufzubauen."
         }
       },
       {
         "front": "Was wird reguliert?",
         "back": {
-          "body": "Jedes maschinenbasierte System, das auf dem EU-Markt in Verkehr gebracht wird und mit unterschiedlicher Autonomie und potenzieller Anpassungsfähigkeit arbeitet, das aus Eingaben ableitet, um virtuelle oder physische Ausgaben (Vorhersagen, Inhalte, Empfehlungen oder Entscheidungen) zu generieren."
+          "body": "Jedes maschinenbasierte System auf dem EU-Markt, das eigenständig und anpassungsfähig aus Eingaben virtuelle oder physische Ausgaben (wie Vorhersagen, Inhalte, Empfehlungen oder Entscheidungen) erzeugt."
         }
       },
       {
@@ -1847,7 +1847,7 @@
       },
       {
         "title": "August 2025",
-        "body": "Regeln für KI-Modelle für allgemeine Zwecke (GPAI), die breite KI-Systeme wie große Sprachmodelle sind, werden aktiv. Zusätzlich müssen die Mitgliedstaaten ihre nationalen Behörden zur Durchsetzung der Verordnung eingerichtet und Strafen für die Nichteinhaltung festgelegt haben.",
+        "body": "Regeln für KI-Modelle für allgemeine Zwecke (GPAI), wie zum Beispiel große Sprachmodelle (ChatGPT, Gemini) werden aktiv. Zusätzlich müssen die Mitgliedstaaten ihre nationalen Behörden zur Durchsetzung der Verordnung eingerichtet und Strafen für die Nichteinhaltung festgelegt haben.",
         "_graphic": {
           "large": "",
           "small": "",
@@ -1857,7 +1857,7 @@
       },
       {
         "title": "August 2026",
-        "body": "Die Mehrheit der Bestimmungen der KI-Verordnung beginnt zu gelten. Dies umfasst Anforderungen für Hochrisiko-KI-Systeme.",
+        "body": "Die Mehrheit der Bestimmungen der KI-VO tritt in Kraft. Dies umfasst Anforderungen für Hochrisiko-KI-Systeme.",
         "_graphic": {
           "large": "",
           "small": "",
@@ -1934,7 +1934,7 @@
     "_layout": "full",
     "title": "Schlüsselrollen im Ökosystem der EU KI-VO",
     "displayTitle": "Kenne deine Rolle",
-    "body": "Artikel 3 (2-8) der KI-Verordnung definiert mehrere Schlüsselrollen, jede mit spezifischen Verantwortlichkeiten in Bezug auf KI-Systeme und KI-Modelle für allgemeine Zwecke. Das Verständnis dieser Rollen ist entscheidend für die Einhaltung der Vorschriften.",
+    "body": "Artikel 3 (2-8) der KI-VO definiert mehrere Schlüsselrollen, jede mit spezifischen Verantwortlichkeiten in Bezug auf KI-Systeme und KI-Modelle für allgemeine Zwecke. Das Verständnis dieser Rollen ist entscheidend für die Einhaltung der Vorschriften.",
     "instruction": "Klicke auf jedes Feld, um mehr über jede Schlüsselrolle zu erfahren.",
     "_columns": 3,
     "_animationType": "shrink",
@@ -1954,7 +1954,7 @@
       {
         "front": "Händler & Importeur",
         "back": {
-          "body": "Ein <b>Händler</b> ist ein Unternehmen oder eine Person in der Lieferkette (wie ein Wiederverkäufer), die ein KI-System zum Verkauf in der EU anbietet, aber nicht der ursprüngliche Hersteller ist. Wenn das System von außerhalb der EU eingeführt wird, fungiert das Unternehmen oder die Person als <b>Importeur</b>."
+          "body": "Ein <b>Händler</b> ist ein Unternehmen oder eine Person in der Lieferkette (z.B. Wiederverkäufer), die ein KI-System zum Verkauf in der EU anbietet, aber nicht der ursprüngliche Hersteller ist. Wenn das System von außerhalb der EU eingeführt wird, fungiert das Unternehmen oder die Person als <b>Importeur</b>."
         }
       }
     ],
@@ -2021,7 +2021,7 @@
     "_items": [
       {
         "title": "Schädliche Manipulation",
-        "body": "KI-Systeme, die <b>unterschwellige, manipulative oder täuschende Techniken</b> mit dem Ziel oder der Wirkung der <b>Verhaltensverzerrung</b> verwenden, die <b>erheblichen Schaden</b> verursachen oder wahrscheinlich verursachen.",
+        "body": "KI-Systeme, die <b>unterschwellige, manipulative oder täuschende Techniken</b> mit dem Ziel oder der Wirkung der <b>Verhaltensverzerrung</b> verwenden, die (wahrscheinlich) <b>erheblichen Schaden</b> verursachen.",
         "instruction": "Weiter »"
       },
       {

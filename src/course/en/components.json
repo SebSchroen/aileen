@@ -663,8 +663,8 @@
         "_graphic": {
             "alt": "",
             "longdescription": "",
-            "large": "course/en/images/embeddings_and_gender.png",
-            "small": "course/en/images/embeddings_and_gender.png",
+            "large": "course/en/images/gender_bias_plot_en.png",
+            "small": "course/en/images/gender_bias_plot_en.png",
 
             "_url": "",
             "_target": "_blank"

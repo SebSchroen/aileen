@@ -7,7 +7,7 @@
     "_htmlClasses": "",
     "title": "Einführung",
     "displayTitle": "Einführung",
-    "body": "In diesem Modul erhalten Sie eine Einführung in die grundlegenden Konzepte der Künstlichen Intelligenz (KI). Wir erörtern, was Maschinenintelligenz bedeutet und wie Computer in der Lage sind, aus Daten zu lernen.",
+    "body": "Das erste Modul gibt eine Einführung in die grundlegenden Konzepte der Künstlichen Intelligenz (KI). Wir erörtern, was Maschinenintelligenz bedeutet und wie Computer in der Lage sind, aus Daten zu lernen.",
     "pageBody": "",
     "instruction": "{{_globals._learnerInfo.firstname}}, bitte scrolle nach unten, um zu beginnen.",
     "_graphic": {
