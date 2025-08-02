@@ -3,8 +3,8 @@
   "_type": "course",
   "_classes": "",
   "_htmlClasses": "",
-  "title": "Künstliche Intelligenz",
-  "displayTitle": "Künstliche Intelligenz",
+  "title": "Künstliche Intelligenz: Ethik und Compliance",
+  "displayTitle": "Künstliche Intelligenz: Ethik und Compliance",
   "description": "Dieser Kurs führt dich in die grundlegenden Konzepte der Künstlichen Intelligenz (KI) und ihre Anwendungen ein und vermittelt dir das Wissen, um KI-Technologien zu verstehen und dich mit ihnen auseinanderzusetzen.",
   "body": "Dieser Kurs führt dich in die grundlegenden Konzepte der Künstlichen Intelligenz (KI) und ihre Anwendungen ein und vermittelt dir das Wissen, um KI-Technologien zu verstehen und dich mit ihnen auseinanderzusetzen.",
   "instruction": "Wähle zum Start die Module unten aus.",
@@ -208,5 +208,35 @@
     "title": "Seite unvollständig",
     "message": "{{_globals._learnerInfo.firstname}}, es scheint, als hättest du diese Seite nicht beendet. Möchtest du wirklich gehen?",
     "_classes": ""
+  },
+  "_aboutUs": {
+    "_isEnabled": true,
+    "title": "Über den Kurs",
+    "description": "Get to know us better",
+    "_graphic": {
+      "src": "course/de/images/copyright.jpg",
+      "alt": ""
+    },
+    "headline": "",
+    "_aboutUsItems": [
+      {
+        "title": "Über den Autor",
+        "description": "Sebastian Schrön ist Data Scientist und hat bereits während seiner Promotion zu KI und Machine Learning geforscht."
+      },
+            {
+        "title": "Kurs Repository",
+        "description": "Alle weiteren Informationen zum Kurs gibt es auf GitHub: <a href=\"https://github.com/SebSchroen/aileen\" target=\"_blank\">SebSchroen/aileen</a>"
+      },
+      {
+        "title": "Lizenz",
+        "description": "Dieser Kurs ist unter einer Creative Commons Lizenz frei nutzbar und teilbar, erfordert aber stets die Nennung des Urhebers und und die weitere Verbreitung unter dieser Lizenz, wobei keinerlei Haftung oder Gewährleistung vom Lizenzgeber übernommen wird."
+      }
+    ],
+    "_socialLinks": [
+      {
+        "_service": "LinkedIn",
+        "_link": "https://de.linkedin.com/in/sebastian-schroen"
+      }
+    ]
   }
 }

@@ -10,9 +10,9 @@
     </metadata>
     <organizations default="adapt_scorm">
         <organization identifier="adapt_scorm" adlseq:objectivesGlobalToSystem="false">
-            <title><![CDATA[Artificial Intelligence]]></title>
+            <title><![CDATA[Artificial Intelligence: Ethics & Compliance]]></title>
             <item identifier="I_A001" identifierref="A001">
-                <title><![CDATA[Artificial Intelligence]]></title>
+                <title><![CDATA[Artificial Intelligence: Ethics & Compliance]]></title>
                 <imsss:sequencing>
                     <imsss:deliveryControls completionSetByContent="true" objectiveSetByContent="true" />
                 </imsss:sequencing>

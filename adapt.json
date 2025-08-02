@@ -35,6 +35,7 @@
     "adapt-contrib-triggered": "*",
     "adapt-notifyOnComplete": "*",
     "adapt-pageIncompletePrompt": "*",
-    "adapt-aboutUs": "*"
+    "adapt-aboutUs": "*",
+    "adapt-component-icon": "*"
   }
 }
