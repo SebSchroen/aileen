@@ -1,9 +1,73 @@
+<p align="center">
+  <img src="img/logo_small.png" alt="AILEEN Logo" width="200"/>
+</p>
+
 # AILEEN: AI Literacy & Education (for) Everyone, Now
 
-## Sources
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+[![Version](https://img.shields.io/badge/version-5.48.1-blue.svg)](package.json)
 
+## About this course
 
-*   [Alan Turing](https://en.wikipedia.org/wiki/Alan_Turing)
+This course provides a comprehensive exploration of Artificial Intelligence, with a primary focus on its ethical implications and compliance requirements. It begins by establishing foundational AI concepts, including how models learn and the critical role of training data. Building on this, the course delves into significant ethical challenges such as AI bias, demonstrating how systems can inadvertently perpetuate societal stereotypes present in their training data.
+
+The compliance segment thoroughly examines the intricate relationship between AI and intellectual property, covering copyright issues related to AI training, output, and authorship. Furthermore, it addresses data protection concerns by detailing how AI processes personal data under regulations like GDPR, highlighting challenges in transparency and consent. The course culminates with an in-depth look at the EU AI Act, categorizing AI risks, defining key roles, and outlining essential legal requirements and prohibited uses for responsible AI deployment. This comprehensive approach equips learners to navigate the complex landscape of AI safely and legally.
+## Table of Contents
+
+- [How to use this course](#how-to-use-this-course)
+- [Tested Learn Management Platforms](#tested-learn-management-platforms)
+- [Customizations](#customizations)
+- [Acknowledgements](#acknowledgements)
+- [License](#license)
+- [Sources](#sources)
+- [Image Credits](#image-credits)
+
+## How to use this course
+
+This course is available as a SCORM2004 learning module, one of the (still) most widely adopted standards in corporate e-learning. However, SCORM is also the most opinionated framework I ever worked with, so it might not work out of the box.
+
+You can download the SCORM module here:
+
+[scorm2004.zip](https://github.com/SebSchroen/aileen/raw/refs/heads/main/scorm2004.zip)
+
+After downloading, you can upload it to your Learn Management Systems. You find a selection of tested systems below.
+
+## Tested Learn Management Platforms
+
+| Platform         | SCORM 1.2 | SCORM 2004 |
+|------------------|-----------|------------|
+| Knowledge Worker | ⛔️        | ✅         |
+| Moodle           |           | ✅         |
+| SCORM Cloud      | ✅        | ✅         |
+
+## Customizations
+
+As stated above, SCORM is highly opinionated and also outtated. Current LMS favor xAPI content. Since the adapt framework is highly customizable, contact me through the contact form on my homepage for customization requests, including additional languages.
+
+## Acknowledgements
+
+* In creating this course, I used the brilliant work of [Ignacio Cinalli ](https://github.com/nachocinalli). If you work with adapt, I really recommend his custom components. I will donate 10% of any revenue made with this course to him.
+
+## License
+
+This project is licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE).
+
+In short, this means you are free to:
+* **Share** — copy and redistribute the material in any medium or format
+* **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
+
+Under the following terms:
+* **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+* **ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+
+### Disclaimer of Warranties and Limitation of Liability
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+<details>
+<summary>Sources</summary>
+
+*   [Alan Turing Wikipedia](https://en.wikipedia.org/wiki/Alan_Turing)
 *   Bolukbasi et al. (2016): Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings. DOI: [https://doi.org/10.48550/arXiv.1607.06520](https://doi.org/10.48550/arXiv.1607.06520)
 *   Dewitte, Pierre (2025): AI Meets the GDPR. In: Smuha, N. A. (editor) (2025): The Cambridge Handbook of the Law, Ethics and Policy of Artificial Intelligence. DOI: [https://doi.org/10.1017/9781009367783.010](https://doi.org/10.1017/9781009367783.010)
 *   EU AI Act Compliance Checker: [https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/](https://artificialintelligenceact.eu/assessment/eu-ai-act-compliance-checker/) (Last accessed on 29.06.2025)
@@ -18,9 +82,10 @@
 *   Stahl, Bernd; Schroeder, Doris & Rodrigues, Rowena (2023): Ethics of Artificial Intelligence. DOI: [https://doi.org/10.1007/978-3-031-17040-9](https://doi.org/10.1007/978-3-031-17040-9)
 *   The AI Act Explorer: [https://artificialintelligenceact.eu/ai-act-explorer/](https://artificialintelligenceact.eu/ai-act-explorer/) (Last accessed on 29.06.2025)
 
+</details>
 
-
-## Image Credits
+<details>
+<summary>Image Credits</summary>
 
 *   **Images from Pexels.com:**
     *   Matterhorn photograph: [https://www.pexels.com/photo/white-mountain-under-gray-sky-267104/](https://www.pexels.com/photo/white-mountain-under-gray-sky-267104/)
@@ -39,3 +104,4 @@
     *   Diagram for "Unauthorized Derivative Works" ("Building on Others' Creations")
     *   Diagram for "The Snoopy Problem" ("When AI 'Remembers'")
     *   Source: Sag, Matthew (2023): Copyright Safety for Generative AI, Houston Law Review. [https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai](https://houstonlawreview.org/article/92126-copyright-safety-for-generative-ai)
+</details>
