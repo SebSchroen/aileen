@@ -32,6 +32,10 @@ You can download the SCORM module here:
 
 After downloading, you can upload it to your Learn Management Systems. You find a selection of tested systems below.
 
+A preview is available here:
+
+[https://sebschroen.github.io/aileen/](https://sebschroen.github.io/aileen/)
+
 ## Tested Learn Management Platforms
 
 | Platform         | SCORM 1.2 | SCORM 2004 |
