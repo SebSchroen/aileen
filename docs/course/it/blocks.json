@@ -1,1 +1,476 @@
-[{"_id":"b-100","_parentId":"a-100","_type":"block","_classes":"","title":"b-100","displayTitle":"","body":"","instruction":"","_trackingId":0,"_trickle":{"_isEnabled":true,"_onChildren":true,"_autoScroll":true,"_scrollDuration":0,"_scrollTo":"@block +0","_completionAttribute":"_isComplete","_button":{"_isEnabled":true,"startText":"Avanti","_showEndOfPage":true,"text":"Avanti"}}},{"_id":"b-101","_parentId":"a-100","_type":"block","_classes":"","title":"Il test di Turing","displayTitle":"","body":"","instruction":"","_trackingId":1},{"_id":"b-102","_parentId":"a-100","_type":"block","_classes":"","title":"Cos'è l'IA?","displayTitle":"Cos'è esattamente l'Intelligenza Artificiale?","body":"","instruction":"","_pageLevelProgress":{"_isEnabled":true,"_isCompletionIndicatorEnabled":true},"_trackingId":2},{"_id":"b-103","_parentId":"a-100","_type":"block","_classes":"","title":"b-200","displayTitle":"","body":"","instruction":"","_trackingId":3},{"_id":"b-104","_parentId":"a-100","_type":"block","_classes":"","title":"b-205","displayTitle":"","body":"","instruction":"","_trackingId":4},{"_id":"b-105","_parentId":"a-100","_type":"block","_classes":"","title":"b-205","displayTitle":"","body":"","instruction":"","_trackingId":5},{"_id":"b-106","_parentId":"a-100","_type":"block","_classes":"","title":"Grazie","displayTitle":"Questo è tutto, {{_globals._learnerInfo.firstname}}! Ora puoi tornare al menu principale.","body":"","instruction":"","_trackingId":6},{"_id":"b-201","_parentId":"a-101","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":7},{"_id":"b-202","_parentId":"a-101","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":8},{"_id":"b-203","_parentId":"a-101","_type":"block","_classes":"","title":"Distorsioni nei dati testuali","displayTitle":"...e non sono solo dati di immagini.","body":"Il principio della distorsione ereditata si estende dalla generazione di immagini ai dati testuali, che costituiscono la base di addestramento per grandi modelli linguistici come ChatGPT. <br> <br> I seguenti dati lo illustrano con GloVe, un modello fondamentale addestrato su Wikipedia e testi web pubblici, ad esempio Twitter. Il modello è stato sviluppato per mappare le relazioni tra le parole in base alla loro vicinanza e alla loro co-occorrenza all'interno di questi dati. Anche qui la lingua di partenza è l'inglese, i termini sono stati tradotti successivamente.","instruction":"Gira le carte sulla destra per saperne di più sul grafico a sinistra.","_trackingId":9,"_pageLevelProgress":{"_isEnabled":true,"_isCompletionIndicatorEnabled":true}},{"_id":"b-204","_parentId":"a-101","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":10},{"_id":"b-205","_parentId":"a-101","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":11},{"_id":"b-206","_parentId":"a-101","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":12},{"_id":"b-207","_parentId":"a-101","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":13},{"_id":"b-208","_parentId":"a-101","_type":"block","_classes":"","title":"Grazie","displayTitle":"Questo è tutto, {{_globals._learnerInfo.firstname}}! Ora puoi tornare al menu principale.","body":"","instruction":"","_trackingId":14},{"_id":"b-301","_parentId":"a-102","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":15},{"_id":"b-302","_parentId":"a-102","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":16},{"_id":"b-303","_parentId":"a-102","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":17},{"_id":"b-304","_parentId":"a-102","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":18},{"_id":"b-305","_parentId":"a-102","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":19},{"_id":"b-306","_parentId":"a-102","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":20},{"_id":"b-307","_parentId":"a-102","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":21},{"_id":"b-308","_parentId":"a-102","_type":"block","_classes":"","title":"Grazie","displayTitle":"Per ora è tutto, {{_globals._learnerInfo.firstname}}! Ora puoi tornare al menu principale.","body":"","instruction":"","_trackingId":22},{"_id":"b-401","_parentId":"a-103","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":23},{"_id":"b-402","_parentId":"a-103","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":24},{"_id":"b-403","_parentId":"a-103","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":25},{"_id":"b-404","_parentId":"a-103","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":26},{"_id":"b-405","_parentId":"a-103","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":27},{"_id":"b-406","_parentId":"a-103","_type":"block","_classes":"","title":"Grazie","displayTitle":"Per ora è tutto, {{_globals._learnerInfo.firstname}}! Ora puoi tornare al menu principale.","body":"","instruction":"","_trackingId":28},{"_id":"b-501","_parentId":"a-104","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":29},{"_id":"b-502","_parentId":"a-104","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":30},{"_id":"b-503","_parentId":"a-104","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":31},{"_id":"b-504","_parentId":"a-104","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":32},{"_id":"b-505","_parentId":"a-104","_type":"block","_classes":"","title":"Pubblico di riferimento","displayTitle":"Pubblico di riferimento di questo corso","body":"I requisiti di questo corso si concentrano sugli utenti ai sensi dell'articolo 3 (4) del Regolamento UE sull'IA. Se tu o la tua azienda soddisfate i criteri di sviluppatori o distributori, si applicano requisiti aggiuntivi.","instruction":"","_trackingId":33,"_pageLevelProgress":{"_isEnabled":true,"_isCompletionIndicatorEnabled":true}},{"_id":"b-506","_parentId":"a-104","_type":"block","_classes":"","title":"Applicazioni proibite","displayTitle":"Rischio inaccettabile: Applicazioni proibite","body":"L'articolo 5 del Regolamento UE sull'IA vieta rigorosamente determinati sistemi e pratiche di IA che presentano un rischio inaccettabile per i diritti fondamentali e la sicurezza.","instruction":"Gira le carte sulla destra per saperne di più sul grafico a sinistra.","_trackingId":34,"_pageLevelProgress":{"_isEnabled":true,"_isCompletionIndicatorEnabled":true}},{"_id":"b-507","_parentId":"a-104","_type":"block","_classes":"","title":"Sistemi di IA ad alto rischio","displayTitle":"Alto rischio: Applicazioni regolamentate","body":"A differenza dei sistemi di IA proibiti, che sono completamente vietati a causa del loro rischio inaccettabile, i sistemi di IA ad alto rischio, come discusso nell'articolo 6 del Regolamento, non sono proibiti. Al contrario, sono soggetti a requisiti e obblighi legali molto severi prima di poter essere immessi sul mercato o messi in servizio nell'UE.","instruction":"Gira le carte sulla sinistra per saperne di più sul grafico a sinistra.","_trackingId":35,"_pageLevelProgress":{"_isEnabled":true,"_isCompletionIndicatorEnabled":true}},{"_id":"b-508","_parentId":"a-104","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":36},{"_id":"b-509","_parentId":"a-104","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":37},{"_id":"b-510","_parentId":"a-104","_type":"block","_classes":"","title":"","displayTitle":"","body":"","instruction":"","_trackingId":38},{"_id":"b-511","_parentId":"a-104","_type":"block","_classes":"","title":"Grazie","displayTitle":"Per ora è tutto, {{_globals._learnerInfo.firstname}}! Ora puoi tornare al menu principale.","body":"","instruction":"","_trackingId":39}]
+[
+  {
+    "_id": "b-100",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "b-100",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 0,
+    "_trickle": {
+      "_isEnabled": true,
+      "_onChildren": true,
+      "_autoScroll": true,
+      "_scrollDuration": 0,
+      "_scrollTo": "@block +0",
+      "_completionAttribute": "_isComplete",
+      "_button": {
+        "_isEnabled": true,
+        "startText": "Avanti",
+        "_showEndOfPage": true,
+        "text": "Avanti"
+      }
+    }
+  },
+  {
+    "_id": "b-101",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "Il test di Turing",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 1
+  },
+  {
+    "_id": "b-102",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "Cos'è l'IA?",
+    "displayTitle": "Cos'è esattamente l'Intelligenza Artificiale?",
+    "body": "",
+    "instruction": "",
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    },
+    "_trackingId": 2
+  },
+  {
+    "_id": "b-103",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "b-200",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 3
+  },
+  {
+    "_id": "b-104",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "b-205",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 4
+  },
+  {
+    "_id": "b-105",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "b-205",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 5
+  },
+  {
+    "_id": "b-106",
+    "_parentId": "a-100",
+    "_type": "block",
+    "_classes": "",
+    "title": "Grazie",
+    "displayTitle": "Questo è tutto, {{_globals._learnerInfo.firstname}}! Ora puoi tornare al menu principale.",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 6
+  },
+  {
+    "_id": "b-201",
+    "_parentId": "a-101",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 7
+  },
+  {
+    "_id": "b-202",
+    "_parentId": "a-101",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 8
+  },
+  {
+    "_id": "b-203",
+    "_parentId": "a-101",
+    "_type": "block",
+    "_classes": "",
+    "title": "Distorsioni nei dati testuali",
+    "displayTitle": "...e non sono solo dati di immagini.",
+    "body": "Il principio della distorsione ereditata si estende dalla generazione di immagini ai dati testuali, che costituiscono la base di addestramento per grandi modelli linguistici come ChatGPT. <br> <br> I seguenti dati lo illustrano con GloVe, un modello fondamentale addestrato su Wikipedia e testi web pubblici, ad esempio Twitter. Il modello è stato sviluppato per mappare le relazioni tra le parole in base alla loro vicinanza e alla loro co-occorrenza all'interno di questi dati. Anche qui la lingua di partenza è l'inglese, i termini sono stati tradotti successivamente.",
+    "instruction": "Gira le carte sulla destra per saperne di più sul grafico a sinistra.",
+    "_trackingId": 9,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "b-204",
+    "_parentId": "a-101",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 10
+  },
+  {
+    "_id": "b-205",
+    "_parentId": "a-101",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 11
+  },
+  {
+    "_id": "b-206",
+    "_parentId": "a-101",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 12
+  },
+  {
+    "_id": "b-207",
+    "_parentId": "a-101",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 13
+  },
+  {
+    "_id": "b-208",
+    "_parentId": "a-101",
+    "_type": "block",
+    "_classes": "",
+    "title": "Grazie",
+    "displayTitle": "Questo è tutto, {{_globals._learnerInfo.firstname}}! Ora puoi tornare al menu principale.",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 14
+  },
+  {
+    "_id": "b-301",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 15
+  },
+  {
+    "_id": "b-302",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 16
+  },
+  {
+    "_id": "b-303",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 17
+  },
+  {
+    "_id": "b-304",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 18
+  },
+  {
+    "_id": "b-305",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 19
+  },
+  {
+    "_id": "b-306",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 20
+  },
+  {
+    "_id": "b-307",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 21
+  },
+  {
+    "_id": "b-308",
+    "_parentId": "a-102",
+    "_type": "block",
+    "_classes": "",
+    "title": "Grazie",
+    "displayTitle": "Per ora è tutto, {{_globals._learnerInfo.firstname}}! Ora puoi tornare al menu principale.",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 22
+  },
+  {
+    "_id": "b-401",
+    "_parentId": "a-103",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 23
+  },
+  {
+    "_id": "b-402",
+    "_parentId": "a-103",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 24
+  },
+  {
+    "_id": "b-403",
+    "_parentId": "a-103",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 25
+  },
+  {
+    "_id": "b-404",
+    "_parentId": "a-103",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 26
+  },
+  {
+    "_id": "b-405",
+    "_parentId": "a-103",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 27
+  },
+  {
+    "_id": "b-406",
+    "_parentId": "a-103",
+    "_type": "block",
+    "_classes": "",
+    "title": "Grazie",
+    "displayTitle": "Per ora è tutto, {{_globals._learnerInfo.firstname}}! Ora puoi tornare al menu principale.",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 28
+  },
+  {
+    "_id": "b-501",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 29
+  },
+  {
+    "_id": "b-502",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 30
+  },
+  {
+    "_id": "b-503",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 31
+  },
+  {
+    "_id": "b-504",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 32
+  },
+  {
+    "_id": "b-505",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "Pubblico di riferimento",
+    "displayTitle": "Pubblico di riferimento di questo corso",
+    "body": "I requisiti di questo corso si concentrano sugli utenti ai sensi dell'articolo 3 (4) del Regolamento UE sull'IA. Se tu o la tua azienda soddisfate i criteri di sviluppatori o distributori, si applicano requisiti aggiuntivi.",
+    "instruction": "",
+    "_trackingId": 33,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "b-506",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "Applicazioni proibite",
+    "displayTitle": "Rischio inaccettabile: Applicazioni proibite",
+    "body": "L'articolo 5 del Regolamento UE sull'IA vieta rigorosamente determinati sistemi e pratiche di IA che presentano un rischio inaccettabile per i diritti fondamentali e la sicurezza.",
+    "instruction": "Gira le carte sulla destra per saperne di più sul grafico a sinistra.",
+    "_trackingId": 34,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "b-507",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "Sistemi di IA ad alto rischio",
+    "displayTitle": "Alto rischio: Applicazioni regolamentate",
+    "body": "A differenza dei sistemi di IA proibiti, che sono completamente vietati a causa del loro rischio inaccettabile, i sistemi di IA ad alto rischio, come discusso nell'articolo 6 del Regolamento, non sono proibiti. Al contrario, sono soggetti a requisiti e obblighi legali molto severi prima di poter essere immessi sul mercato o messi in servizio nell'UE.",
+    "instruction": "Gira le carte sulla sinistra per saperne di più sul grafico a sinistra.",
+    "_trackingId": 35,
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": true
+    }
+  },
+  {
+    "_id": "b-508",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 36
+  },
+  {
+    "_id": "b-509",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 37
+  },
+  {
+    "_id": "b-510",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 38
+  },
+  {
+    "_id": "b-511",
+    "_parentId": "a-104",
+    "_type": "block",
+    "_classes": "",
+    "title": "Grazie",
+    "displayTitle": "Per ora è tutto, {{_globals._learnerInfo.firstname}}! Ora puoi tornare al menu principale.",
+    "body": "",
+    "instruction": "",
+    "_trackingId": 39
+  }
+]

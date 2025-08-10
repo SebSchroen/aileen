@@ -5,13 +5,13 @@
 # AILEEN: AI Literacy & Education (for) Everyone, Now
 
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
-[![Version](https://img.shields.io/badge/version-5.48.1-blue.svg)](package.json)
+[![Adapt Version](https://img.shields.io/badge/version-5.48.1-blue.svg)](package.json)
 
 ## About this course
 
-This course provides a comprehensive exploration of Artificial Intelligence, with a primary focus on its ethical implications and compliance requirements. It begins by establishing foundational AI concepts, including how models learn and the critical role of training data. Building on this, the course delves into significant ethical challenges such as AI bias, demonstrating how systems can inadvertently perpetuate societal stereotypes present in their training data.
+This course provides a comprehensive guide on Artificial Intelligence, with a primary focus on its ethical implications and compliance requirements. The contents fully cover the requlatory requirements of the EU AI Act with respect to AI Literacy. The course starts off by establishing foundational AI concepts, including how models learn and the critical role of training data. Building on this, the course illustrates significant ethical challenges such as AI bias, demonstrating how systems can inadvertently perpetuate societal stereotypes present in their training data.
 
-The compliance segment thoroughly examines the intricate relationship between AI and intellectual property, covering copyright issues related to AI training, output, and authorship. Furthermore, it addresses data protection concerns by detailing how AI processes personal data under regulations like GDPR, highlighting challenges in transparency and consent. The course culminates with an in-depth look at the EU AI Act, categorizing AI risks, defining key roles, and outlining essential legal requirements and prohibited uses for responsible AI deployment. This comprehensive approach equips learners to navigate the complex landscape of AI safely and legally.
+The compliance segment thoroughly examines the relationship between AI and intellectual property, covering copyright issues related to AI training, output, and authorship. Furthermore, it addresses data protection concerns by detailing how AI processes personal data under regulations like GDPR, highlighting challenges in transparency and consent. The course culminates with an in-depth look at the EU AI Act, categorizing AI risks, defining key roles, and outlining essential legal requirements and prohibited uses for responsible AI deployment.
 ## Table of Contents
 
 - [How to use this course](#how-to-use-this-course)

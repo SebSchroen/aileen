@@ -1,1 +1,421 @@
-{"_id":"course","_type":"course","_classes":"","_htmlClasses":"","title":"Künstliche Intelligenz: Ethik und Compliance","displayTitle":"Künstliche Intelligenz: Ethik und Compliance","description":"Dieser Kurs führt dich in die grundlegenden Konzepte der Künstlichen Intelligenz (KI) und ihre Anwendungen ein und vermittelt dir das Wissen, um KI-Technologien zu verstehen und dich mit ihnen auseinanderzusetzen.","body":"Dieser Kurs führt dich in die grundlegenden Konzepte der Künstlichen Intelligenz (KI) und ihre Anwendungen ein und vermittelt dir das Wissen, um KI-Technologien zu verstehen und dich mit ihnen auseinanderzusetzen.","instruction":"Wähle zum Start die Module unten aus.","_buttons":{"_submit":{"buttonText":"Senden","ariaLabel":"Senden"},"_reset":{"buttonText":"Zurücksetzen","ariaLabel":"Zurücksetzen"},"_showCorrectAnswer":{"buttonText":"Richtige Antwort anzeigen","ariaLabel":"Richtige Antwort anzeigen"},"_hideCorrectAnswer":{"buttonText":"Deine Antwort anzeigen","ariaLabel":"Deine Antwort anzeigen"},"_showFeedback":{"buttonText":"Feedback anzeigen","ariaLabel":"Feedback anzeigen"},"remainingAttemptsText":"Versuche verbleibend","remainingAttemptText":"letzter Versuch","disabledAriaLabel":"Dieser Button ist momentan deaktiviert"},"_globals":{"_learnerInfo":{"id":"student.name@example.org","name":"Name, Student","firstname":"Student","lastname":"Name"},"_accessibility":{"skipNavigationText":"Navigation überspringen","_ariaLabels":{"answeredIncorrectly":"Du hast falsch geantwortet","answeredPartlyCorrect":"You answered partly correct","answeredCorrectly":"Du hast richtig geantwortet","selectedAnswer":"ausgewählt","unselectedAnswer":"nicht ausgewählt","skipNavigation":"Navigation überspringen","previous":"Zurück","navigationDrawer":"Kursressourcen öffnen.","close":"Schließen","closeDrawer":"Seitenleiste schließen","closeResources":"Ressourcen schließen","drawer":"Oberseite der Seitenleiste","closePopup":"Popup schließen","next":"Weiter","done":"Fertig","complete":"Abgeschlossen","incomplete":"Unvollständig","incorrect":"Falsch","partlyCorrect":"Partly correct","correct":"Richtig","locked":"Gesperrt","visited":"Besucht","required":"Erforderlich","optional":"Optional","topOfContentObject":"{{type}} {{displayTitle}}","course":"Main menu","menu":"Sub menu","page":"Page"},"altFeedbackTitle":"Feedback"},"_extensions":{"_drawer":{"_navOrder":100,"_navTooltip":{"_isEnabled":true,"text":"{{ariaLabel}}"}},"_navigation":{"_skipButton":{"_navOrder":-100},"_backButton":{"_navOrder":0},"_spacers":[{"_navOrder":0}],"_backNavTooltip":{"_isEnabled":true,"text":"{{ariaLabel}}"}},"_bookmarking":{"resumeButtonText":"Resume","resumeButtonAriaLabel":"Navigate to your furthest point of progress."},"_languagePicker":{"languageSelector":"Language selector","_navOrder":0,"_navTooltip":{"_isEnabled":true,"text":"Language selector"},"_showLabel":true,"navigationBarLabel":"Select course language","_drawerPosition":"auto"},"_pageLevelProgress":{"pageLevelProgress":"List of page sections and completion status. Select incomplete sections to jump directly to the content.","pageLevelProgressIndicatorBar":"Page progress. {{percentageComplete}}%. Open page sections.","pageLevelProgressMenuBar":"Page completion {{percentageComplete}}%","optionalContent":"Optional content","_navOrder":90,"_navTooltip":{"_isEnabled":true,"text":"Page progress"},"_showLabel":true,"navLabel":"Page progress","_drawerPosition":"auto"},"_resources":{"ariaRegion":"","resources":"Additional resources."},"_trickle":{"incompleteContent":"There is incomplete content above. You must complete this before you can proceed through the course."},"_tutor":{"hideFeedback":"Hide feedback"}},"_menu":{"_gridMenu":{"durationLabel":"Dauer:","itemCount":"Item {{_nthChild}} of {{_totalChild}}"},"_boxMenu":{"itemCount":"Item {{_nthChild}} of {{_totalChild}}","durationLabel":"Duration:"}},"_components":{"_cards":{"ariaRegion":"Cards. Select open button to expand the content."},"_accordion":{"ariaRegion":"List of expandable sections. Select each button to expand the content."},"_assessmentResults":{"ariaRegion":"Assessment results.","retryText":"Retry"},"_gmcq":{"ariaRegion":"Multiple choice question","ariaCorrectAnswer":"The correct answer is {{{correctAnswer}}}","ariaCorrectAnswers":"The correct answers are {{{correctAnswer}}}","ariaUserAnswer":"The answer you chose was {{{userAnswer}}}","ariaUserAnswers":"The answers you chose were {{{userAnswer}}}"},"_graphic":{"ariaRegion":"","scrollAriaLabel":"Use the scrollbar to pan the image left and right. {{#if _graphic.alt}}{{_graphic.alt}}{{/if}}"},"_hotgraphic":{"ariaRegion":"Image with selectable areas. Select each button to show more information.","item":"Item {{itemNumber}} of {{totalItems}}","previous":"{{#if title}}Back to {{{title}}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}}","next":"{{#if title}}Forward to {{{title}}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}}","popupPagination":"{{itemNumber}} / {{totalItems}}"},"_matching":{"ariaRegion":"Matching. Select from lists and then submit.","ariaCorrectAnswer":"The correct answer for {{{itemText}}} is {{{correctAnswer}}}","ariaUserAnswer":"The answer you chose for {{{itemText}}} was {{{userAnswer}}}","correctAnswerPrefix":"The correct answer is","correctAnswersPrefix":"The correct answers are"},"_mcq":{"ariaRegion":"Multiple choice question","ariaCorrectAnswer":"The correct answer is {{{correctAnswer}}}","ariaCorrectAnswers":"The correct answers are {{{correctAnswer}}}","ariaUserAnswer":"The answer you chose was {{{userAnswer}}}","ariaUserAnswers":"The answers you chose were {{{userAnswer}}}"},"_media":{"ariaRegion":"Media player{{#any _transcript._inlineTranscript _transcript._externalTranscript}} and transcript{{/any}}.","skipToTranscript":"Skip to transcript","playText":"Play","pauseText":"Pause","stopText":"Stop","audioPlayerText":"Audio Player","videoPlayerText":"Video Player","tracksText":"Captions/Subtitles","timeSliderText":"Time Slider","muteText":"Mute Toggle","unmuteStatusText":"Unmute","muteStatusText":"Mute","volumeSliderText":"Volume Slider","fullscreenText":"Fullscreen","goFullscreenText":"Go Fullscreen","turnOffFullscreenText":"Turn off Fullscreen","noneText":"None","skipBackText":"Skip back %1 seconds","allyVolumeControlText":"Use Up/Down Arrow keys to increase or decrease volume.","progessHelpText":"Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds."},"_narrative":{"ariaRegion":"Slide show. Select the next button to progress.","previous":"{{#if isAtStart}}{{_globals._accessibility._ariaLabels.previous}}{{else}}{{#if title}}Back to {{{title}}}{{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}} (item {{itemNumber}} of {{totalItems}}){{/if}}","next":"{{#if isAtEnd}}{{_globals._accessibility._ariaLabels.next}}{{else}}{{#if title}}Forward to {{{title}}}{{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}} (item {{itemNumber}} of {{totalItems}}){{/if}}","titleDialog":"Item {{itemNumber}} of {{totalItems}}","titleStrapline":"Find out more"},"_slider":{"ariaRegion":"Slider. Respond to the question by selecting a value on the scale and then submit.","ariaCorrectAnswer":"The correct answer is {{{correctAnswer}}}","ariaCorrectAnswerRange":"The correct answer is any value from {{{bottom}}} to {{{top}}}","ariaUserAnswer":"The answer you chose was {{{userAnswer}}}","labelStart":"Start of the scale","labelEnd":"End of the scale"},"_text":{"ariaRegion":""},"_textinput":{"ariaRegion":"Text input. Type your answer and then submit.","correctAnswerPrefix":"The correct answer is","correctAnswersPrefix":"Accepted correct answers include"},"_counters":{"ariaRegion":""},"_expose":{"ariaRegion":""},"_flipper":{"ariaRegion":""},"_flowItems":{"ariaRegion":"This component is an flow items."},"_list":{"ariaRegion":""},"_memory":{"ariaRegion":""},"_sliderItems":{"ariaRegion":"This component is an slider items."},"_tabs":{"ariaRegion":"A tabbed content container. Content can be text, graphic or both."},"_talk":{"ariaRegion":"This component is a talk."},"_typewriter":{"ariaRegion":""},"_verticalItems":{"ariaRegion":"This component is an vertical items."}}},"_latestTrackingId":57,"_pageLevelProgress":{"_isEnabled":true,"_showPageCompletion":true,"_isCompletionIndicatorEnabled":true,"_isShownInNavigationBar":true,"_showAtCourseLevel":true},"_resources":{"_isEnabled":false,"_drawerOrder":1,"title":"Ressourcen","description":"Ressourcen für diesen Kurs anzeigen, indem du hier klickst.","displayTitle":"","body":"","instruction":"","_filterButtons":{"all":"Alle","document":"Dokument","media":"Medien","link":"Link"},"_filterAria":{"allAria":"Alle Ressourcen anzeigen","documentAria":"Dokumentressourcen anzeigen","mediaAria":"Medienressourcen anzeigen","linkAria":"Ressourcenlinks anzeigen"},"_resourcesItems":[{"_type":"document","title":"Vanilla Theme Farbmuster","description":"Sehen Sie sich das Farbmuster für das Vanilla-Theme an, indem du hier klickst.","_link":"course/en/images/vanilla-swatch.jpg","filename":"adapt-vanilla.jpg","_forceDownload":true},{"_type":"media","title":"Adapt Learning YouTube Kanal","description":"Möchtest du dich über Adapt-Materialien informieren? Klicke hier.","_link":"https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ"},{"_type":"link","title":"Adapt Projektseite","description":"Sehen Sie sich die Webseite des Projekts an, indem du hier klickst.","_link":"https://www.adaptlearning.org/"},{"_type":"link","title":"Framework Chat","description":"Trete dem Framework-Chatroom bei, indem du hier klickst.","_link":"https://gitter.im/adaptlearning/adapt_framework"}]},"_start":{"_isEnabled":false,"_startIds":[{"_id":"co-05","_skipIfComplete":true,"_className":""}],"_force":false,"_isMenuDisabled":true},"_assessment":{"_isPercentageBased":true,"_scoreToPass":50,"_correctToPass":50},"_bookmarking":{"_isEnabled":true,"_level":"component","_showPrompt":true,"title":"Fortsetzen?","body":"Möchtest du den Kurs an der Stelle fortsetzen, an der du zuletzt warst?","_buttons":{"yes":"Ja","no":"Nein"}},"_navigation":{"_isDefaultNavigationDisabled":false,"_navigationAlignment":"top","_isBottomOnTouchDevices":false,"_showLabel":false,"_showLabelAtWidth":"medium","_labelPosition":"auto"},"_tooltips":{"_isEnabled":true},"_vanilla":{"_favIcon":{"_src":""}},"_notifyOnComplete":{"_isEnabled":true,"title":"Kurs abgeschlossen!","body":"Gut gemacht, {{_globals._learnerInfo.firstname}}! Du hast alle Inhalte durchgearbeitet und kannst das Fenster schließen."},"_pageIncompletePrompt":{"_isEnabled":true,"_buttons":{"yes":"Ja","no":"Nein"},"title":"Seite unvollständig","message":"{{_globals._learnerInfo.firstname}}, es scheint, als hättest du diese Seite nicht beendet. Möchtest du wirklich gehen?","_classes":""},"_aboutUs":{"_isEnabled":true,"title":"Über den Kurs","description":"Get to know us better","_graphic":{"src":"course/de/images/copyright.jpg","alt":""},"headline":"","_aboutUsItems":[{"title":"Über den Autor","description":"Sebastian Schrön ist Data Scientist und hat bereits während seiner Promotion zu KI und Machine Learning geforscht."},{"title":"Kurs Repository","description":"Alle weiteren Informationen zum Kurs gibt es auf GitHub: <a href=\"https://github.com/SebSchroen/aileen\" target=\"_blank\">SebSchroen/aileen</a>"},{"title":"Lizenz","description":"Dieser Kurs ist unter einer Creative Commons Lizenz frei nutzbar und teilbar, erfordert aber stets die Nennung des Urhebers und und die weitere Verbreitung unter dieser Lizenz, wobei keinerlei Haftung oder Gewährleistung vom Lizenzgeber übernommen wird."}],"_socialLinks":[{"_service":"LinkedIn","_link":"https://de.linkedin.com/in/sebastian-schroen"}]}}
+{
+  "_id": "course",
+  "_type": "course",
+  "_classes": "",
+  "_htmlClasses": "",
+  "title": "Künstliche Intelligenz: Ethik und Compliance",
+  "displayTitle": "Künstliche Intelligenz: Ethik und Compliance",
+  "description": "Dieser Kurs führt dich in die grundlegenden Konzepte der Künstlichen Intelligenz (KI) und ihre Anwendungen ein und vermittelt dir das Wissen, um KI-Technologien zu verstehen und dich mit ihnen auseinanderzusetzen.",
+  "body": "Dieser Kurs führt dich in die grundlegenden Konzepte der Künstlichen Intelligenz (KI) und ihre Anwendungen ein und vermittelt dir das Wissen, um KI-Technologien zu verstehen und dich mit ihnen auseinanderzusetzen.",
+  "instruction": "Wähle zum Start die Module unten aus.",
+  "_buttons": {
+    "_submit": {
+      "buttonText": "Senden",
+      "ariaLabel": "Senden"
+    },
+    "_reset": {
+      "buttonText": "Zurücksetzen",
+      "ariaLabel": "Zurücksetzen"
+    },
+    "_showCorrectAnswer": {
+      "buttonText": "Richtige Antwort anzeigen",
+      "ariaLabel": "Richtige Antwort anzeigen"
+    },
+    "_hideCorrectAnswer": {
+      "buttonText": "Deine Antwort anzeigen",
+      "ariaLabel": "Deine Antwort anzeigen"
+    },
+    "_showFeedback": {
+      "buttonText": "Feedback anzeigen",
+      "ariaLabel": "Feedback anzeigen"
+    },
+    "remainingAttemptsText": "Versuche verbleibend",
+    "remainingAttemptText": "letzter Versuch",
+    "disabledAriaLabel": "Dieser Button ist momentan deaktiviert"
+  },
+  "_globals": {
+    "_learnerInfo": {
+      "id": "student.name@example.org",
+      "name": "Name, Student",
+      "firstname": "Student",
+      "lastname": "Name"
+    },
+    "_accessibility": {
+      "skipNavigationText": "Navigation überspringen",
+      "_ariaLabels": {
+        "answeredIncorrectly": "Du hast falsch geantwortet",
+        "answeredPartlyCorrect": "You answered partly correct",
+        "answeredCorrectly": "Du hast richtig geantwortet",
+        "selectedAnswer": "ausgewählt",
+        "unselectedAnswer": "nicht ausgewählt",
+        "skipNavigation": "Navigation überspringen",
+        "previous": "Zurück",
+        "navigationDrawer": "Kursressourcen öffnen.",
+        "close": "Schließen",
+        "closeDrawer": "Seitenleiste schließen",
+        "closeResources": "Ressourcen schließen",
+        "drawer": "Oberseite der Seitenleiste",
+        "closePopup": "Popup schließen",
+        "next": "Weiter",
+        "done": "Fertig",
+        "complete": "Abgeschlossen",
+        "incomplete": "Unvollständig",
+        "incorrect": "Falsch",
+        "partlyCorrect": "Partly correct",
+        "correct": "Richtig",
+        "locked": "Gesperrt",
+        "visited": "Besucht",
+        "required": "Erforderlich",
+        "optional": "Optional",
+        "topOfContentObject": "{{type}} {{displayTitle}}",
+        "course": "Main menu",
+        "menu": "Sub menu",
+        "page": "Page"
+      },
+      "altFeedbackTitle": "Feedback"
+    },
+    "_extensions": {
+      "_drawer": {
+        "_navOrder": 100,
+        "_navTooltip": {
+          "_isEnabled": true,
+          "text": "{{ariaLabel}}"
+        }
+      },
+      "_navigation": {
+        "_skipButton": {
+          "_navOrder": -100
+        },
+        "_backButton": {
+          "_navOrder": 0
+        },
+        "_spacers": [
+          {
+            "_navOrder": 0
+          }
+        ],
+        "_backNavTooltip": {
+          "_isEnabled": true,
+          "text": "{{ariaLabel}}"
+        }
+      },
+      "_bookmarking": {
+        "resumeButtonText": "Resume",
+        "resumeButtonAriaLabel": "Navigate to your furthest point of progress."
+      },
+      "_languagePicker": {
+        "languageSelector": "Language selector",
+        "_navOrder": 0,
+        "_navTooltip": {
+          "_isEnabled": true,
+          "text": "Language selector"
+        },
+        "_showLabel": true,
+        "navigationBarLabel": "Select course language",
+        "_drawerPosition": "auto"
+      },
+      "_pageLevelProgress": {
+        "pageLevelProgress": "List of page sections and completion status. Select incomplete sections to jump directly to the content.",
+        "pageLevelProgressIndicatorBar": "Page progress. {{percentageComplete}}%. Open page sections.",
+        "pageLevelProgressMenuBar": "Page completion {{percentageComplete}}%",
+        "optionalContent": "Optional content",
+        "_navOrder": 90,
+        "_navTooltip": {
+          "_isEnabled": true,
+          "text": "Page progress"
+        },
+        "_showLabel": true,
+        "navLabel": "Page progress",
+        "_drawerPosition": "auto"
+      },
+      "_resources": {
+        "ariaRegion": "",
+        "resources": "Additional resources."
+      },
+      "_trickle": {
+        "incompleteContent": "There is incomplete content above. You must complete this before you can proceed through the course."
+      },
+      "_tutor": {
+        "hideFeedback": "Hide feedback"
+      }
+    },
+    "_menu": {
+      "_gridMenu": {
+        "durationLabel": "Dauer:",
+        "itemCount": "Item {{_nthChild}} of {{_totalChild}}"
+      },
+      "_boxMenu": {
+        "itemCount": "Item {{_nthChild}} of {{_totalChild}}",
+        "durationLabel": "Duration:"
+      }
+    },
+    "_components": {
+      "_cards": {
+        "ariaRegion": "Cards. Select open button to expand the content."
+      },
+      "_accordion": {
+        "ariaRegion": "List of expandable sections. Select each button to expand the content."
+      },
+      "_assessmentResults": {
+        "ariaRegion": "Assessment results.",
+        "retryText": "Retry"
+      },
+      "_gmcq": {
+        "ariaRegion": "Multiple choice question",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
+      },
+      "_graphic": {
+        "ariaRegion": "",
+        "scrollAriaLabel": "Use the scrollbar to pan the image left and right. {{#if _graphic.alt}}{{_graphic.alt}}{{/if}}"
+      },
+      "_hotgraphic": {
+        "ariaRegion": "Image with selectable areas. Select each button to show more information.",
+        "item": "Item {{itemNumber}} of {{totalItems}}",
+        "previous": "{{#if title}}Back to {{{title}}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}}",
+        "next": "{{#if title}}Forward to {{{title}}} (item {{itemNumber}} of {{totalItems}}){{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}}",
+        "popupPagination": "{{itemNumber}} / {{totalItems}}"
+      },
+      "_matching": {
+        "ariaRegion": "Matching. Select from lists and then submit.",
+        "ariaCorrectAnswer": "The correct answer for {{{itemText}}} is {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose for {{{itemText}}} was {{{userAnswer}}}",
+        "correctAnswerPrefix": "The correct answer is",
+        "correctAnswersPrefix": "The correct answers are"
+      },
+      "_mcq": {
+        "ariaRegion": "Multiple choice question",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswers": "The correct answers are {{{correctAnswer}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "ariaUserAnswers": "The answers you chose were {{{userAnswer}}}"
+      },
+      "_media": {
+        "ariaRegion": "Media player{{#any _transcript._inlineTranscript _transcript._externalTranscript}} and transcript{{/any}}.",
+        "skipToTranscript": "Skip to transcript",
+        "playText": "Play",
+        "pauseText": "Pause",
+        "stopText": "Stop",
+        "audioPlayerText": "Audio Player",
+        "videoPlayerText": "Video Player",
+        "tracksText": "Captions/Subtitles",
+        "timeSliderText": "Time Slider",
+        "muteText": "Mute Toggle",
+        "unmuteStatusText": "Unmute",
+        "muteStatusText": "Mute",
+        "volumeSliderText": "Volume Slider",
+        "fullscreenText": "Fullscreen",
+        "goFullscreenText": "Go Fullscreen",
+        "turnOffFullscreenText": "Turn off Fullscreen",
+        "noneText": "None",
+        "skipBackText": "Skip back %1 seconds",
+        "allyVolumeControlText": "Use Up/Down Arrow keys to increase or decrease volume.",
+        "progessHelpText": "Use Left/Right Arrow keys to advance one second, Up/Down arrows to advance ten seconds."
+      },
+      "_narrative": {
+        "ariaRegion": "Slide show. Select the next button to progress.",
+        "previous": "{{#if isAtStart}}{{_globals._accessibility._ariaLabels.previous}}{{else}}{{#if title}}Back to {{{title}}}{{else}}{{_globals._accessibility._ariaLabels.previous}}{{/if}} (item {{itemNumber}} of {{totalItems}}){{/if}}",
+        "next": "{{#if isAtEnd}}{{_globals._accessibility._ariaLabels.next}}{{else}}{{#if title}}Forward to {{{title}}}{{else}}{{_globals._accessibility._ariaLabels.next}}{{/if}} (item {{itemNumber}} of {{totalItems}}){{/if}}",
+        "titleDialog": "Item {{itemNumber}} of {{totalItems}}",
+        "titleStrapline": "Find out more"
+      },
+      "_slider": {
+        "ariaRegion": "Slider. Respond to the question by selecting a value on the scale and then submit.",
+        "ariaCorrectAnswer": "The correct answer is {{{correctAnswer}}}",
+        "ariaCorrectAnswerRange": "The correct answer is any value from {{{bottom}}} to {{{top}}}",
+        "ariaUserAnswer": "The answer you chose was {{{userAnswer}}}",
+        "labelStart": "Start of the scale",
+        "labelEnd": "End of the scale"
+      },
+      "_text": {
+        "ariaRegion": ""
+      },
+      "_textinput": {
+        "ariaRegion": "Text input. Type your answer and then submit.",
+        "correctAnswerPrefix": "The correct answer is",
+        "correctAnswersPrefix": "Accepted correct answers include"
+      },
+      "_counters": {
+        "ariaRegion": ""
+      },
+      "_expose": {
+        "ariaRegion": ""
+      },
+      "_flipper": {
+        "ariaRegion": ""
+      },
+      "_flowItems": {
+        "ariaRegion": "This component is an flow items."
+      },
+      "_list": {
+        "ariaRegion": ""
+      },
+      "_memory": {
+        "ariaRegion": ""
+      },
+      "_sliderItems": {
+        "ariaRegion": "This component is an slider items."
+      },
+      "_tabs": {
+        "ariaRegion": "A tabbed content container. Content can be text, graphic or both."
+      },
+      "_talk": {
+        "ariaRegion": "This component is a talk."
+      },
+      "_typewriter": {
+        "ariaRegion": ""
+      },
+      "_verticalItems": {
+        "ariaRegion": "This component is an vertical items."
+      }
+    }
+  },
+  "_latestTrackingId": 57,
+  "_pageLevelProgress": {
+    "_isEnabled": true,
+    "_showPageCompletion": true,
+    "_isCompletionIndicatorEnabled": true,
+    "_isShownInNavigationBar": true,
+    "_showAtCourseLevel": true
+  },
+  "_resources": {
+    "_isEnabled": false,
+    "_drawerOrder": 1,
+    "title": "Ressourcen",
+    "description": "Ressourcen für diesen Kurs anzeigen, indem du hier klickst.",
+    "displayTitle": "",
+    "body": "",
+    "instruction": "",
+    "_filterButtons": {
+      "all": "Alle",
+      "document": "Dokument",
+      "media": "Medien",
+      "link": "Link"
+    },
+    "_filterAria": {
+      "allAria": "Alle Ressourcen anzeigen",
+      "documentAria": "Dokumentressourcen anzeigen",
+      "mediaAria": "Medienressourcen anzeigen",
+      "linkAria": "Ressourcenlinks anzeigen"
+    },
+    "_resourcesItems": [
+      {
+        "_type": "document",
+        "title": "Vanilla Theme Farbmuster",
+        "description": "Sehen Sie sich das Farbmuster für das Vanilla-Theme an, indem du hier klickst.",
+        "_link": "course/en/images/vanilla-swatch.jpg",
+        "filename": "adapt-vanilla.jpg",
+        "_forceDownload": true
+      },
+      {
+        "_type": "media",
+        "title": "Adapt Learning YouTube Kanal",
+        "description": "Möchtest du dich über Adapt-Materialien informieren? Klicke hier.",
+        "_link": "https://www.youtube.com/channel/UCW8SlSFuCc--B66Gf9fAEcQ"
+      },
+      {
+        "_type": "link",
+        "title": "Adapt Projektseite",
+        "description": "Sehen Sie sich die Webseite des Projekts an, indem du hier klickst.",
+        "_link": "https://www.adaptlearning.org/"
+      },
+      {
+        "_type": "link",
+        "title": "Framework Chat",
+        "description": "Trete dem Framework-Chatroom bei, indem du hier klickst.",
+        "_link": "https://gitter.im/adaptlearning/adapt_framework"
+      }
+    ]
+  },
+  "_start": {
+    "_isEnabled": false,
+    "_startIds": [
+      {
+        "_id": "co-05",
+        "_skipIfComplete": true,
+        "_className": ""
+      }
+    ],
+    "_force": false,
+    "_isMenuDisabled": true
+  },
+  "_assessment": {
+    "_isPercentageBased": true,
+    "_scoreToPass": 50,
+    "_correctToPass": 50
+  },
+  "_bookmarking": {
+    "_isEnabled": true,
+    "_level": "component",
+    "_showPrompt": true,
+    "title": "Fortsetzen?",
+    "body": "Möchtest du den Kurs an der Stelle fortsetzen, an der du zuletzt warst?",
+    "_buttons": {
+      "yes": "Ja",
+      "no": "Nein"
+    }
+  },
+  "_navigation": {
+    "_isDefaultNavigationDisabled": false,
+    "_navigationAlignment": "top",
+    "_isBottomOnTouchDevices": false,
+    "_showLabel": false,
+    "_showLabelAtWidth": "medium",
+    "_labelPosition": "auto"
+  },
+  "_tooltips": {
+    "_isEnabled": true
+  },
+  "_vanilla": {
+    "_favIcon": {
+      "_src": ""
+    }
+  },
+  "_notifyOnComplete": {
+    "_isEnabled": true,
+    "title": "Kurs abgeschlossen!",
+    "body": "Gut gemacht, {{_globals._learnerInfo.firstname}}! Du hast alle Inhalte durchgearbeitet und kannst das Fenster schließen."
+  },
+  "_pageIncompletePrompt": {
+    "_isEnabled": true,
+    "_buttons": {
+      "yes": "Ja",
+      "no": "Nein"
+    },
+    "title": "Seite unvollständig",
+    "message": "{{_globals._learnerInfo.firstname}}, es scheint, als hättest du diese Seite nicht beendet. Möchtest du wirklich gehen?",
+    "_classes": ""
+  },
+  "_aboutUs": {
+    "_isEnabled": true,
+    "title": "Über den Kurs",
+    "description": "Get to know us better",
+    "_graphic": {
+      "src": "course/de/images/copyright.jpg",
+      "alt": ""
+    },
+    "headline": "",
+    "_aboutUsItems": [
+      {
+        "title": "Über den Autor",
+        "description": "Sebastian Schrön ist Data Scientist und hat bereits während seiner Promotion zu KI und Machine Learning geforscht."
+      },
+      {
+        "title": "Kurs Repository",
+        "description": "Alle weiteren Informationen zum Kurs gibt es auf GitHub: <a href=\"https://github.com/SebSchroen/aileen\" target=\"_blank\">SebSchroen/aileen</a>"
+      },
+      {
+        "title": "Lizenz",
+        "description": "Dieser Kurs ist unter einer Creative Commons Lizenz frei nutzbar und teilbar, erfordert aber stets die Nennung des Urhebers und und die weitere Verbreitung unter dieser Lizenz, wobei keinerlei Haftung oder Gewährleistung vom Lizenzgeber übernommen wird."
+      }
+    ],
+    "_socialLinks": [
+      {
+        "_service": "LinkedIn",
+        "_link": "https://de.linkedin.com/in/sebastian-schroen"
+      }
+    ]
+  }
+}
